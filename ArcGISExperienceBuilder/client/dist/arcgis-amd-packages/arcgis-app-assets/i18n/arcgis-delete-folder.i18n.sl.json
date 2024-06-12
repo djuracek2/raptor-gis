@@ -1,0 +1,21 @@
+{
+  "deleteFolder": "Izbriši mapo",
+  "delete": "Izbriši",
+  "permanentlyDelete": "Trajno iz",
+  "back": "Nazaj",
+  "cancel": "Prekliči",
+  "success": "Mapa '${title}' je bila uspešno izbrisana",
+  "deleteProtectedItemsInFolder": "Mape ni mogoče izbrisati, saj so nekateri elementi zaščiteni pred brisanjem ali imajo odvisne elemente.",
+  "message": {
+    "empty": "Ali ste prepričani, da želite izbrisati to mapo, <strong style='font-weight: 500'>${title}</strong>?",
+    "mustBeEmpty": "Mapa <strong style='font-weight: 500'>${title}</strong> mora biti prazna, če jo želite izbrisati.",
+    "aFewCannotBeDeleted": "Nekaj elementov ni mogoče izbrisati. Ali ste prepričani, da želite nadaljevati z brisanjem preostalih elementov?",
+    "mustBeEmptyProceed": "Mapa <strong style='font-weight: 500'>${title}</strong> mora biti prazna, če jo želite izbrisati. Ali ste prepričani, da želite nadaljevati z brisanjem teh elementov?",
+    "cannotBeDeleted": "Mape <strong style='font-weight: 500'>${title}</strong> ni mogoče izbrisati, ker ni mogoče izbrisati njenih elementov."
+  },
+  "disabledMessage": {
+    "single": "V tej mapi je <span style='color:red'>1 element</span>, ${label}. <br/></br/>Ali ste prepričani, da želite izbrisati to mapo in njen element?",
+    "multiple": "V tej mapi <span style='color:red'>${number} je </span> elementov, ${label}.<br/></br/>Ali ste prepričani, da želite izbrisati to mapo in vse njene elemente?",
+    "unknown": "Ali ste prepričani, da želite izbrisati to mapo, ${label}?"
+  }
+}

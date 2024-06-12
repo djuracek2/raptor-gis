@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"ทิศทาง",_action_DirectionsFrom_label:"ทิศทางจาก",_action_DirectionsTo_label:"ทิศทางถึง",outOfCredit:"ไม่สามารถโหลดบริการเส้นทางได้ อาจเกิดขึ้นเนื่องจากไม่สามารถเข้าถึงบริการได้",namedInvalidUtilMsg:"{label} ไม่พร้อมใช้งาน",namedNeedLoginUtilMsg:"ขออภัย คุณไม่มีสิทธิ์เข้าถึง {label}"})}}}));

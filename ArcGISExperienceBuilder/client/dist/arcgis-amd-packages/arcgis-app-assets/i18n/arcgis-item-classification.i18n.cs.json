@@ -1,0 +1,16 @@
+{
+  "cancel": "Storno",
+  "reset": "Obnovit",
+  "resetting": "Resetování...",
+  "save": "Uložit",
+  "saving": "Ukládání…",
+  "itemClassificationLabel": "Klasifikace",
+  "itemClassificationCategoryLabel": "Popisek kategorie klasifikace položek",
+  "itemClassificationEditLabel": "Upravit klasifikaci",
+  "itemClassificationValidateError": "Ověření selhalo, hodnota klasifikace položky se nevyplní! Upravte a uložte novou.",
+  "classificationValueSaved": "Hodnota klasifikace byla uložena",
+  "classificationNotificationHandler": "Obslužná rutina oznámení o klasifikaci",
+  "openModal": "Otevřít modální okno",
+  "currentSelections": "Aktuální výběry",
+  "searchForCategory": "Vyhledat kategorii"
+}

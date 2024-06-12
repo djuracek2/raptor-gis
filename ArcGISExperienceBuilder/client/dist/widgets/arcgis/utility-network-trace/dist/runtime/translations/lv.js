@@ -1,0 +1,1 @@
+System.register([],(function(t){return{execute:function(){t({_widgetLabel:"Utility Network trasēšana",_widgetDescription:"Logrīks ArcGIS Utility Network trasēšanai",_action_filter_label:"Filtrs"})}}}));

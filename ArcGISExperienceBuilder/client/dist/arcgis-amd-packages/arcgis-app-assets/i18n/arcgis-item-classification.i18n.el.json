@@ -1,0 +1,16 @@
+{
+  "cancel": "Ακύρωση",
+  "reset": "Επαναφορά",
+  "resetting": "Επαναφορά...",
+  "save": "Αποθήκευση",
+  "saving": "Αποθήκευση...",
+  "itemClassificationLabel": "Ταξινόμηση",
+  "itemClassificationCategoryLabel": "Ετικέτα κατηγορίας ταξινόμησης αντικειμένου",
+  "itemClassificationEditLabel": "Επεξεργασία ταξινόμησης",
+  "itemClassificationValidateError": "Η επικύρωση απέτυχε, η τιμή ταξινόμησης του αντικειμένου δεν θα συμπληρωθεί! Επεξεργαστείτε και αποθηκεύστε μια νέα.",
+  "classificationValueSaved": "Η τιμή ταξινόμησης αποθηκεύτηκε",
+  "classificationNotificationHandler": "Χειρισμός ειδοποίησης ταξινόμησης",
+  "openModal": "Άνοιγμα βοηθητικού παραθύρου",
+  "currentSelections": "Τρέχουσες επιλογές",
+  "searchForCategory": "Αναζήτηση κατηγορίας"
+}

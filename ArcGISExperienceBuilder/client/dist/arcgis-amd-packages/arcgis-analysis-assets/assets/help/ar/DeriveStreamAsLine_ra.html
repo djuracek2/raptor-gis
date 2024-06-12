@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>تقوم أداة اشتقاق التدفق في شكل خط بإنشاء معالم خط التدفق من البيانات النقطية لسطح الإدخال دون الحاجة إلى ملء الحوض أو المنخفض مسبقًا.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputSurfaceRaster">
+        <div>
+            <p>البيانات النقطية للارتفاع المراد استخدامها في عملية الحساب.
+            </p>
+        </div>
+    </div>
+    <div id="inputDepressionsData">
+        <div>
+            <p>البيانات المدخلة التي تحدد مواقع الانخفاضات الحقيقية أو البالوعات، حيث يمكن للماء أن يتدفق إليها ولكن لا يمكن أن يتدفق خارجها.
+            </p>
+        </div>
+    </div>
+    <div id="inputWeightRaster">
+        <div>
+            <p>طبقة البيانات النقطية التي تحدد كسور التدفق الذي يساهم في تراكم التدفق عند كل خلية.
+            </p>
+        </div>
+    </div>
+    <div id="accumulationThreshold">
+        <div>
+            <p>الحد لتحديد ما إذا كانت الخلية المعطاة جزءًا من التدفق من حيث المساحة الإجمالية التي تتدفق إليها مثل هذه الخلية.
+            </p>
+        </div>
+    </div>
+    <div id="streamDesignationMethod">
+        <div>
+            <p>يُحدد ما إذا كانت شرائح التدفق في المخرجات ستحتوي على قيمة ثابتة، أم قيم فريدة، أم مرتبة.
+            </p>
+        </div>
+    </div>
+    <div id="simplify">
+        <div>
+            <p>تُحدد ما إذا كانت خطوط التدفق الناتجة ستتم تسويتها إلى أشكال أكثر بساطة.
+            </p>
+            <p>إذا تم التحديد، سيتم تبسيط معالم خطوط التدفق باستخدام خوارزمية Douglas-Peucker بسماحية تساوي sqrt(0.5) * حجم الخلية. هذا هو الوضع الافتراضي. إذا لم يتم التحديد، فلن تتم تسوية معالم خطوط التدفق.
+            </p>
+        </div>
+    </div>
+    <div id="outputStreamFeaturesName">
+        <div>
+            <p>اسم طبقة معالم خطوط التدفق التي سيتم إنشاؤها وإضافتها إلى الخريطة.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>اسم المجلد الموجود في  <b>المحتوى الخاص بي</b> حيث سيتم حفظ النتيجة.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

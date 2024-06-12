@@ -1,0 +1,19 @@
+{
+  "backLabel": "Назад",
+  "cannotReopenTool": "Инструмент невозможно повторно открыть. Параметры инструмента были возвращены к значениям по умолчанию.",
+  "cannotReopenWebTool": "Невозможно открыть веб-инструмент. <calcite-link target='_blank' href='${ docLink }'>Подробнее</calcite-link>",
+  "creditThresholdModal": {
+    "cancelRun": "Отмена",
+    "confirmationPrompt": "Вы хотите продолжить?",
+    "continueRun": "Продолжить",
+    "creditEstimate": "Предполагаемые кредиты: ${cost}",
+    "creditThreshold": "Пороговое количество кредитов: ${threshold}",
+    "heading": "Достигнуто пороговое количество кредитов",
+    "learnMore": "Подробнее",
+    "thresholdExceeded": "Предполагаемая стоимость этого анализа больше вашего порогового количества кредитов."
+  },
+  "failedToExecuteEstimate": "Отправка не выполнена. Не удалось выполнить EstimateRasterAnalysisCost",
+  "missingPermissionForWebTool": "Доступ к этому инструменту невозможен. Убедитесь, что инструмент существует и что у пользователя есть разрешение на доступ к нему.",
+  "runAnalysisLabel": "Запустить",
+  "webToolJSONChanged": "Один или несколько параметров были обновлены. Некоторые параметры не могут быть повторно заполнены из истории."
+}

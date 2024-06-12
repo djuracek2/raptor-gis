@@ -1,0 +1,10 @@
+{
+  "select": "Izberi element: ${title}",
+  "lastUpdated": "Element je posodobljen: ${date}",
+  "viewItemDetails": "Več podrobnosti o ${title}",
+  "preview": "Več podrobnosti",
+  "hidePreview": "Manj podrobnosti",
+  "closeDetails": "Plošča za zapiranje podrobnosti elementa",
+  "openDetails": "Plošča za odpiranje podrobnosti elementa",
+  "moreOptions": "Več možnosti"
+}

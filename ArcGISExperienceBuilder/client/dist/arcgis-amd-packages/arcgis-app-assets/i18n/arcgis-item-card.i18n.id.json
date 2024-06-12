@@ -1,0 +1,10 @@
+{
+  "select": "Pilih item: ${title}",
+  "lastUpdated": "Item diperbarui: ${date}",
+  "viewItemDetails": "Tampilkan detail selengkapnya tentang ${title}",
+  "preview": "Detail selengkapnya",
+  "hidePreview": "Sembunyikan detail",
+  "closeDetails": "Tutup panel detail item",
+  "openDetails": "Buka panel detail item",
+  "moreOptions": "Opsi lainnya"
+}

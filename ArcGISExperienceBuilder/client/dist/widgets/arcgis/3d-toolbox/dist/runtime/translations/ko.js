@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"3D 도구상자",select3DScene:"이 위젯을 활성화하려면 3D 씬을 선택하세요.",clearEffect:"효과 지우기",clearAnalysis:"분석 지우기",showDevelopmentLayer:"개발 레이어 표시",showDevLayer:"개발 레이어 표시",allowTiltOnSlice:"슬라이스 평면에서 기울기 허용",excludedLayer:"제외된 레이어",resetSlice:"슬라이스 평면 재설정",clearSlice:"슬라이스 지우기"})}}}));

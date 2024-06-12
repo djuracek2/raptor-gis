@@ -1,0 +1,11 @@
+{
+  "addRaster": "Legg til rastervariabel",
+  "addScalar": "Legg til konstant",
+  "raster": "Raster",
+  "scalar": "Skalar",
+  "defaultModelName": "Rasterfunksjonsmal",
+  "defaultRasterName": "Raster",
+  "invalidRFTMessage": "Rasterfunksjonsmalen er ikke gyldig.",
+  "deprecated": "Foreldet",
+  "deprecatedHoverText": "Denne rasterfunksjonen er utdatert og blir fjernet i en fremtidig utgivelse."
+}

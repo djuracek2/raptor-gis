@@ -1,0 +1,10 @@
+{
+  "select": "Öge seç: ${title}",
+  "lastUpdated": "Güncellenen öge: ${date}",
+  "viewItemDetails": "${title} hakkında daha fazla ayrıntı görüntüle",
+  "preview": "Daha fazla ayrıntı",
+  "hidePreview": "Daha az ayrıntı",
+  "closeDetails": "Öge ayrıntı bölmesini kapat",
+  "openDetails": "Öge ayrıntı bölmesini aç",
+  "moreOptions": "Daha fazla seçenek"
+}

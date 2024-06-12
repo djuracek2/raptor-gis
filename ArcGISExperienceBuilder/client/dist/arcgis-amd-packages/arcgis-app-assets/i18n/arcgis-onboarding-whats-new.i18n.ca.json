@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "Més informació",
+    "title": "Noves funcions de l'ArcGIS Online",
+    "description": "L'actualització del mes de febrer del 2024 inclou noves funcions i millores al lloc web de l'ArcGIS Online."
+  },
+  "pipelines": {
+    "learnMore": "Més informació",
+    "title": "Importeu, netegeu i transformeu dades sense programació.",
+    "description": "Eines visuals d'arrossegar i deixar anar per ingressar dades des de l'Amazon S3, el Google BigQuery i més.",
+    "link": "Proveu l'ArcGIS Data Pipelines"
+  },
+  "title": "Novetats de l'ArcGIS Online"
+}

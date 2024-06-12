@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>Opcija Izvedi tok kao raster generi&scaron;e raster toka iz rastera ulazne povr&scaron;ine bez prethodnog popunjavanja udubljenja.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputSurfaceRaster">
+        <div>
+            <p>Raster nadmorske visine koji će se koristiti za proračun.
+            </p>
+        </div>
+    </div>
+    <div id="inputDepressionsData">
+        <div>
+            <p>Ulaz koji defini&scaron;e lokacije stvarnih udubljenja, u koje voda može da teče, ali ne i da iz njih otiče.
+            </p>
+        </div>
+    </div>
+    <div id="inputWeightRaster">
+        <div>
+            <p>Rasterski sloj koji defini&scaron;e deo protoka koji doprinosi akumulaciji protoka u svakoj ćeliji.
+            </p>
+        </div>
+    </div>
+    <div id="accumulationThreshold">
+        <div>
+            <p>Prag za određivanje da li je data ćelija deo toka u smislu ukupne povr&scaron;ine koja se uliva u takvu ćeliju.
+            </p>
+        </div>
+    </div>
+    <div id="streamDesignationMethod">
+        <div>
+            <p>Određuje da li će segmenti toka u izlazu imati konstantnu vrednost, jedinstvene vrednosti ili su poređani.
+            </p>
+        </div>
+    </div>
+    <div id="forceFlow">
+        <div>
+            <p>Određuje da li će tok na ivičnim ćelijama pratiti normalna pravila toka ili će uvek teći ka spolja.
+            </p>
+            <p>Ako se ne označi, tok će biti ka unutra&scaron;njoj ćeliji sa najstrmijim padom z-vrednosti. Međutim, ako je pad manji ili jednak nuli, ćelija će teći napolje iz povr&scaron;inskog rastera. Ako je označeno, smer protoka će biti od povr&scaron;inskog rastera prema spolja.
+            </p>
+        </div>
+    </div>
+    <div id="outputStreamRasterName">
+        <div>
+            <p>Naziv strima sloja rastera koji će biti kreiran i dodat mapi.
+            </p>
+        </div>
+    </div>
+    <div id="resultType">
+        <div>
+            <p>Tip izlaza koji će biti kreiran. Izlaz može biti sloj sa popločanim snimcima ili sloj dinamičkih snimaka.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>Ime fascikle u  <b>Moj sadržaj</b> gde će rezultati biti sačuvani.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

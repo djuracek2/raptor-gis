@@ -1,0 +1,10 @@
+{
+  "select": "选择项目：${title}",
+  "lastUpdated": "项目更新日期：${date}",
+  "viewItemDetails": "查看更多有关 ${title} 的详细信息",
+  "preview": "更多详细信息",
+  "hidePreview": "更少详细信息",
+  "closeDetails": "关闭项目详细信息窗格",
+  "openDetails": "打开项目详细信息窗格",
+  "moreOptions": "更多选项"
+}

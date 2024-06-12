@@ -1,0 +1,12 @@
+{
+  "value": "Väärtus",
+  "classname": "ClassName",
+  "color": "Värv",
+  "raster": "Raster",
+  "generate": "Genereeri tabel",
+  "minValue": "Miinimumväärtus",
+  "maxValue": "Maksimumväärtus",
+  "classBaseName": "Klassi baasnimi",
+  "colorscheme": "Värviskeem",
+  "defaultClassName": "Märgis_"
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>Az &Aacute;ramlat sz&aacute;rmaztat&aacute;sa vonalk&eacute;nt eszk&ouml;z &aacute;raml&aacute;si vonal vektoros elemeket hoz l&eacute;tre bemeneti fel&uuml;leti raszterből, előzetes helyi er&oacute;zi&oacute;b&aacute;zis vagy depresszi&oacute;felt&ouml;lt&eacute;s ig&eacute;nye n&eacute;lk&uuml;l.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputSurfaceRaster">
+        <div>
+            <p>A sz&aacute;m&iacute;t&aacute;shoz haszn&aacute;lt magass&aacute;gi raszter.
+            </p>
+        </div>
+    </div>
+    <div id="inputDepressionsData">
+        <div>
+            <p>Az a bemenet, amely azoknak a val&oacute;di m&eacute;lyed&eacute;seknek vagy helyi er&oacute;zi&oacute;b&aacute;zisokat hat&aacute;roz meg, ahov&aacute; a v&iacute;z be tud &aacute;ramlani, de onnan ki nem.
+            </p>
+        </div>
+    </div>
+    <div id="inputWeightRaster">
+        <div>
+            <p>Az a raszteres r&eacute;teg, amely meghat&aacute;rozza az egyes cell&aacute;kban az &aacute;raml&aacute;s felhalmoz&oacute;d&aacute;s&aacute;hoz hozz&aacute;j&aacute;rul&oacute; &aacute;raml&aacute;si h&aacute;nyadot.
+            </p>
+        </div>
+    </div>
+    <div id="accumulationThreshold">
+        <div>
+            <p>K&uuml;sz&ouml;b&eacute;rt&eacute;k annak meghat&aacute;roz&aacute;s&aacute;hoz, hogy egy adott cella az ilyen cell&aacute;ba &aacute;raml&oacute; teljes ter&uuml;let alapj&aacute;n egy &aacute;ramlat r&eacute;sze-e.
+            </p>
+        </div>
+    </div>
+    <div id="streamDesignationMethod">
+        <div>
+            <p>Meghat&aacute;rozza, hogy a kimeneti &aacute;ramlatszegmensek &aacute;lland&oacute; &eacute;rt&eacute;kkel, egyedi &eacute;rt&eacute;kekkel vagy rendezett &eacute;rt&eacute;kekkel rendelkezzenek.
+            </p>
+        </div>
+    </div>
+    <div id="simplify">
+        <div>
+            <p>Meghat&aacute;rozza, hogy a kimeneti &aacute;ramlatvonalakat egyszerűbb form&aacute;kk&aacute; kell-e sim&iacute;tani.
+            </p>
+            <p>Ha be van jel&ouml;lve, akkor az &aacute;raml&aacute;si vonal vektoros elemek jellemzői a Douglas&ndash;Peucker-algoritmus seg&iacute;ts&eacute;g&eacute;vel egyszerűs&ouml;dnek, n&eacute;gyzetgy&ouml;k 0,5 * cellam&eacute;ret tűr&eacute;shat&aacute;rral. Ez az alap&eacute;rtelmez&eacute;s. Ha nincs bejel&ouml;lve, akkor az &aacute;raml&aacute;si vonal vektoros elemek nem lesznek sim&iacute;tva.
+            </p>
+        </div>
+    </div>
+    <div id="outputStreamFeaturesName">
+        <div>
+            <p>A l&eacute;trehozni &eacute;s a t&eacute;rk&eacute;phez hozz&aacute;adni k&iacute;v&aacute;nt, &aacute;raml&aacute;si vonalakat tartalmaz&oacute; vektoroselem-r&eacute;teg neve.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>A  <b>Saj&aacute;t tartalom</b> azon mapp&aacute;j&aacute;nak neve, ahov&aacute; az eredm&eacute;nyek ment&eacute;se t&ouml;rt&eacute;nik.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

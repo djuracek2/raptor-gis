@@ -1,0 +1,10 @@
+{
+  "outputRaster": "OutputRaster",
+  "rfxVariable": "Rastra funkcijas mainīgais",
+  "selectLayer": "Izvēlieties slāni",
+  "allowScalar": "Izvēlēties slāni vai ievadīt konstanti",
+  "browseLayer": "Pārlūkot slāņus",
+  "loading": "Ielādē...",
+  "layerMissing": "Šeit nav norādīts viens vai vairāki kartes slāņi, jo tie neļauj veikt analīzi. Uzzināt vairāk.",
+  "layerFailedToLoad": "Neizdevās ielādēt slāni."
+}

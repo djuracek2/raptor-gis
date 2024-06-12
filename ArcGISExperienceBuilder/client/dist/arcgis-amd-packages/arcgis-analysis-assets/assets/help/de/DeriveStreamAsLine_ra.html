@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>Mit dem Werkzeug &quot;Wasserlauf als Linie ableiten&quot; werden Wasserlauf-Linien-Features aus einem Eingabe-Oberfl&auml;chen-Raster erstellt, ohne dass daf&uuml;r zuerst Senken oder Mulden gef&uuml;llt werden m&uuml;ssen.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputSurfaceRaster">
+        <div>
+            <p>Das H&ouml;hen-Raster, das f&uuml;r die Berechnung verwendet wird.
+            </p>
+        </div>
+    </div>
+    <div id="inputDepressionsData">
+        <div>
+            <p>Die Eingabe, die die Positionen echter Mulden oder Senken definiert, in denen Wasser hinein- aber nicht herausflie&szlig;en kann.
+            </p>
+        </div>
+    </div>
+    <div id="inputWeightRaster">
+        <div>
+            <p>Der Raster-Layer, der den Teil des Flusses definiert, der bei den einzelnen Zellen zur Abflussakkumulation beitr&auml;gt.
+            </p>
+        </div>
+    </div>
+    <div id="accumulationThreshold">
+        <div>
+            <p>Der Schwellenwert, mit dem bestimmt werden kann, ob eine bestimmte Zelle Teil eines Wasserlaufs ist, und zwar in Bezug auf die Gesamtfl&auml;che, die in eine solche Zelle flie&szlig;t.
+            </p>
+        </div>
+    </div>
+    <div id="streamDesignationMethod">
+        <div>
+            <p>Gibt an, ob die Wasserlaufsegmente in der Ausgabe einen konstanten Wert oder Einzelwerte haben oder geordnet sind.
+            </p>
+        </div>
+    </div>
+    <div id="simplify">
+        <div>
+            <p>Gibt an, ob die Ausgabe-Wasserlauf-Linien in einfachere Shapes &uuml;berf&uuml;hrt werden.
+            </p>
+            <p>Wenn diese Option aktiviert ist, werden die Wasserlauf-Linien-Features mithilfe des Douglas-Peucker-Algorithmus vereinfacht, wobei eine Toleranz von sqrt(0,5) * Zellengr&ouml;&szlig;e angewendet wird. Dies ist die Standardeinstellung. Wenn diese Option deaktiviert ist, werden die Wasserlauf-Linien-Features nicht gegl&auml;ttet.
+            </p>
+        </div>
+    </div>
+    <div id="outputStreamFeaturesName">
+        <div>
+            <p>Der Name des Wasserlauf-Linien-Feature-Layers, der erstellt und der Karte hinzugef&uuml;gt wird.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>Der Name des Ordners in  <b>Eigene Inhalte</b>, in dem die Ergebnisse gespeichert werden sollen.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

@@ -1,0 +1,10 @@
+{
+  "outputRaster": "Raster en sortie",
+  "rfxVariable": "RasterFunctionVariable",
+  "selectLayer": "Sélectionner une couche",
+  "allowScalar": "Sélectionner une couche ou saisir une constante",
+  "browseLayer": "Rechercher des couches",
+  "loading": "Chargement...",
+  "layerMissing": "Une ou plusieurs couches de la carte ne sont pas répertoriées ici car elles n’autorisent pas l’analyse. En savoir plus.",
+  "layerFailedToLoad": "Échec du chargement de la couche."
+}

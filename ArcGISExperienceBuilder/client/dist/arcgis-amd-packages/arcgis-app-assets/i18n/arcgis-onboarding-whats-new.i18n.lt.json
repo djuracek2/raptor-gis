@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "Sužinokite daugiau",
+    "title": "Nauji ArcGIS Online elementai",
+    "description": "2024 m. vasario mėn. atnaujinime yra ArcGIS Online svetainės naujos galimybės ir patobulinimai."
+  },
+  "pipelines": {
+    "learnMore": "Sužinokite daugiau",
+    "title": "Importuokite, tvarkykite ir transformuokite duomenis be jokio programavimo.",
+    "description": "Vizualiniai vilkimo įrankiai, skirti duomenims iš Amazon S3, Google BigQuery ir kt.",
+    "link": "Išbandykite ArcGIS Data Pipelines"
+  },
+  "title": "ArcGIS naujienos"
+}

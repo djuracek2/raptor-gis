@@ -1,0 +1,16 @@
+{
+  "cancel": "Annuler",
+  "reset": "Réinitialiser",
+  "resetting": "Réinitialisation...",
+  "save": "Enregistrer",
+  "saving": "Enregistrement...",
+  "itemClassificationLabel": "Classification",
+  "itemClassificationCategoryLabel": "Étiquette de catégorie de classification des éléments",
+  "itemClassificationEditLabel": "Modifier la classification",
+  "itemClassificationValidateError": "La validation a échoué. La valeur de classification des éléments ne sera pas renseignée. Appliquez des modifications et enregistrez une nouvelle valeur de classification.",
+  "classificationValueSaved": "La valeur de classification a été enregistrée",
+  "classificationNotificationHandler": "Gestionnaire de notifications pour la classification",
+  "openModal": "Ouvrir la fenêtre modale",
+  "currentSelections": "Sélections actuelles",
+  "searchForCategory": "Rechercher une catégorie"
+}

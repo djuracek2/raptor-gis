@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>A ferramenta Derivar fluxo como linha gera elementos de linha de fluxo a partir de um raster de superf&iacute;cie de entrada, sem necessidade de preenchimento pr&eacute;vio de depress&atilde;o ou coletor.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputSurfaceRaster">
+        <div>
+            <p>O raster de eleva&ccedil;&atilde;o que ser&aacute; utilizado para os c&aacute;lculos.
+            </p>
+        </div>
+    </div>
+    <div id="inputDepressionsData">
+        <div>
+            <p>A entrada que define as localiza&ccedil;&otilde;es de depress&otilde;es ou coletores reais, para onde a &aacute;gua pode entrar, mas n&atilde;o sair.
+            </p>
+        </div>
+    </div>
+    <div id="inputWeightRaster">
+        <div>
+            <p>A camada de raster que define a fra&ccedil;&atilde;o de fluxo que contribui para a acumula&ccedil;&atilde;o de fluxo em cada c&eacute;lula.
+            </p>
+        </div>
+    </div>
+    <div id="accumulationThreshold">
+        <div>
+            <p>O limite para determinar se uma determinada c&eacute;lula faz parte de um fluxo em termos da &aacute;rea total que flui para essa c&eacute;lula.
+            </p>
+        </div>
+    </div>
+    <div id="streamDesignationMethod">
+        <div>
+            <p>Especifica se os segmentos de fluxo na sa&iacute;da ter&atilde;o um valor constante, valores &uacute;nicos ou se est&atilde;o ordenados.
+            </p>
+        </div>
+    </div>
+    <div id="simplify">
+        <div>
+            <p>Especifica se as linhas de fluxo de sa&iacute;da ser&atilde;o suavizadas para formas simples.
+            </p>
+            <p>Se estiver selecionada, os elementos da linha de fluxo ser&atilde;o simplificados atrav&eacute;s do algoritmo de Douglas-Peucker com uma toler&acirc;ncia de sqrt(0.5) * tamanho da c&eacute;lula. Isto &eacute; por omiss&atilde;o. Se desselecionada, os elementos da linha de fluxo n&atilde;o ser&atilde;o suavizados.
+            </p>
+        </div>
+    </div>
+    <div id="outputStreamFeaturesName">
+        <div>
+            <p>O nome da camada de elementos da linha de fluxo que ser&aacute; criada e adicionada ao mapa.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>O nome da pasta em  <b>O Meu Conte&uacute;do</b> onde os resultados ser&atilde;o guardados.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

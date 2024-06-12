@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"3D 工具箱",select3DScene:"請選擇 3D 場景以啟動此 widget",clearEffect:"清除效果",clearAnalysis:"清除分析",showDevelopmentLayer:"顯示開發圖層",showDevLayer:"顯示開發圖層",allowTiltOnSlice:"允許在切片平面上傾斜",excludedLayer:"已排除圖層",resetSlice:"重設切片平面",clearSlice:"清除切片"})}}}));

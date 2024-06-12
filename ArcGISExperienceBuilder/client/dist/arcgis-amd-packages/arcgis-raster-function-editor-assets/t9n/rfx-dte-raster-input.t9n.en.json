@@ -1,0 +1,10 @@
+{
+  "outputRaster": "OutputRaster",
+  "rfxVariable": "RasterFunctionVariable",
+  "selectLayer": "Select Layer",
+  "allowScalar": "Select a layer or enter a constant",
+  "browseLayer": "Browse layers",
+  "loading": "Loading...",
+  "layerMissing": "One or more layers from the map aren't listed here because they do not allow analysis. Learn more.",
+  "layerFailedToLoad": "Failed to load layer."
+}

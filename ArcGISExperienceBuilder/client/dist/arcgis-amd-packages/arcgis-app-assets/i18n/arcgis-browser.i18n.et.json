@@ -1,0 +1,72 @@
+{
+  "browser": {
+    "refineContent": "Täpsusta sisu",
+    "filters": "Filtrid",
+    "pageRange": "${start}–${end}, kokku: ${total}",
+    "pageRangeAria": "${start}–${end}, üksusi kokku: ${total}",
+    "pageRangeWithRecycleBin": "${start}-${end}, kokku: ${total} (${recycleBinSize}) prügikastis",
+    "pageRangeAriaWithRecycleBin": "${start}-${end}, kokku sisuüksusi: ${total} (${recycleBinSize}) prügikastis",
+    "loading": "Laadimise tulemused",
+    "close": "Sule"
+  },
+  "actions": {
+    "more": "Rohkem"
+  },
+  "filter": {
+    "clear": "Tühista"
+  },
+  "filterDate": {
+    "today": "Täna",
+    "yesterday": "Eile",
+    "last7": "Viimased 7 päeva",
+    "last30": "Viimased 30 päeva",
+    "custom": "Kohandatud vahemik...",
+    "title": {
+      "created": "Loomise kuupäev",
+      "modified": "Muutmise kuupäev"
+    },
+    "created": "Loodud: ${date}",
+    "modified": "Muudetud: ${date}"
+  },
+  "pagination": {
+    "next": "Järgmine lehekülg",
+    "prev": "Eelmine lehekülg"
+  },
+  "search": {
+    "label": "Otsi gruppe",
+    "search": "Otsing",
+    "clear": "Eemalda otsingusõna",
+    "wildcard": "Metamärkidega otsinguid ei toetata"
+  },
+  "sort": {
+    "sortDirection": "Sortimise alus",
+    "title": "Pealkiri",
+    "relevance": "Asjakohasus",
+    "modified": "Muutmise kuupäev",
+    "deleted": "Kuupäev on kustutatud",
+    "created": "Loomise kuupäev",
+    "size": "Suurus",
+    "owner": "Omanik",
+    "sizeAsc": "Vähimast suurimani",
+    "sizeDesc": "Suurimast vähimani",
+    "numviews": "Vaatamiste arv",
+    "numAsc": "Vähimast suurimani",
+    "numDesc": "Suurimast vähimani",
+    "alphabeticalAsc": "Tähestikuline",
+    "alphabeticalDesc": "Pöördtähestikuline",
+    "recentAsc": "Kõige vanem",
+    "recentDesc": "Kõige uuem",
+    "sort": "Sordi",
+    "sortBy": "Sortimisalus",
+    "sortByColon": "Sortimine:"
+  },
+  "topBar": {
+    "filter": "Filtreeri"
+  },
+  "filterStatus": {
+    "clear": "Tühista",
+    "filters": "Filtrid:",
+    "additional": "Täiendavad aktiivsed filtrid",
+    "clearAllFilters": "Eemalda kõik filtrid"
+  }
+}

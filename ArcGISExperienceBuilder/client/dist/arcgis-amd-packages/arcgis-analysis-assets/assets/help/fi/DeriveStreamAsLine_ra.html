@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>Johda virta viivana -ty&ouml;kalu luo Virtauta viiva -kohteet l&auml;ht&ouml;aineiston pintarasterista. Aiempaa vajoamaa tai laskut&auml;ytt&ouml;&auml; ei vaadita.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputSurfaceRaster">
+        <div>
+            <p>Laskentaan k&auml;ytett&auml;v&auml; korkeusrasteri.
+            </p>
+        </div>
+    </div>
+    <div id="inputDepressionsData">
+        <div>
+            <p>L&auml;ht&ouml;aineisto, joka m&auml;&auml;ritt&auml;&auml; niiden todellisten laskujen tai vajoamien sijainnit, joihin vesi voi virrata mutta joista vesi ei p&auml;&auml;se virtaamaan pois.
+            </p>
+        </div>
+    </div>
+    <div id="inputWeightRaster">
+        <div>
+            <p>Rasterikarttataso, joka m&auml;&auml;ritt&auml;&auml; kunkin solun virtauskertym&auml;&auml;n vaikuttavan virtauksen murtoluvun.
+            </p>
+        </div>
+    </div>
+    <div id="accumulationThreshold">
+        <div>
+            <p>Kynnysarvo sen m&auml;&auml;ritt&auml;miselle, onko tietty solu osa virtaa. Kynnysarvo m&auml;&auml;r&auml;ytyy t&auml;llaiseen soluun virtaavan kokonaispinta-alan mukaan.
+            </p>
+        </div>
+    </div>
+    <div id="streamDesignationMethod">
+        <div>
+            <p>M&auml;&auml;ritt&auml;&auml;, onko l&auml;ht&ouml;aineiston virran segmenteill&auml; vakioarvo, yksil&ouml;llisi&auml; arvoja vai onko ne j&auml;rjestetty tiettyyn j&auml;rjestykseen.
+            </p>
+        </div>
+    </div>
+    <div id="simplify">
+        <div>
+            <p>M&auml;&auml;ritt&auml;&auml;, pehmennet&auml;&auml;nk&ouml; tulosaineiston virtautusviivat yksinkertaisemmiksi muodoiksi.
+            </p>
+            <p>Jos t&auml;m&auml; valitaan, Virtauta viiva -kohteet yksinkertaistetaan k&auml;ytt&auml;en Douglas-Peucker-algoritmia toleranssilla neli&ouml;juuri(0,5) * solun koko. T&auml;m&auml; on oletusarvo. Jos t&auml;t&auml; ei valita, Virtauta viiva -kohteita ei pehmennet&auml;.
+            </p>
+        </div>
+    </div>
+    <div id="outputStreamFeaturesName">
+        <div>
+            <p>Karttaan luotavan ja lis&auml;tt&auml;v&auml;n Virtauta viiva -kohdekarttatason nimi.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>Nimi  <b>Oma sis&auml;lt&ouml;</b> -kansiossa, jonne tulokset tallennetaan.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

@@ -1,0 +1,16 @@
+{
+  "cancel": "Hủy",
+  "reset": "Thiết lập lại",
+  "resetting": "Đang thiết lập lại...",
+  "save": "Lưu",
+  "saving": "Đang lưu...",
+  "itemClassificationLabel": "Phân loại",
+  "itemClassificationCategoryLabel": "Nhãn thể loại phân loại mục",
+  "itemClassificationEditLabel": "Chỉnh sửa Phân loại",
+  "itemClassificationValidateError": "Không thể xác minh, không thể điền giá trị phân loại mục! Vui lòng chỉnh sửa và lưu giá trị mới.",
+  "classificationValueSaved": "Giá trị phân loại đã được lưu",
+  "classificationNotificationHandler": "Trình xử lý thông báo phân loại",
+  "openModal": "Mở phương thức",
+  "currentSelections": "Các lựa chọn Hiện tại",
+  "searchForCategory": "Tìm kiếm danh mục"
+}

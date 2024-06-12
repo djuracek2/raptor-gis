@@ -1,0 +1,21 @@
+{
+  "deleteFolder": "Suprimeix la carpeta",
+  "delete": "Suprimeix",
+  "permanentlyDelete": "Suprimeix definitivament",
+  "back": "Enrere",
+  "cancel": "Cancel·la",
+  "success": "La carpeta \"${title}\" s'ha suprimit correctament",
+  "deleteProtectedItemsInFolder": "La carpeta no es pot suprimir perquè alguns dels elements estan protegits contra la supressió o tenen elements dependents.",
+  "message": {
+    "empty": "Segur que voleu suprimir aquesta carpeta, <strong style='font-weight: 500'>${title}</strong>?",
+    "mustBeEmpty": "La carpeta <strong style='font-weight: 500'>${title}</strong> ha d'estar buida per poder-la eliminar.",
+    "aFewCannotBeDeleted": "Alguns elements no es poden eliminar. Segur que voleu continuar amb la supressió de la resta?",
+    "mustBeEmptyProceed": "La carpeta <strong style='font-weight: 500'>${title}</strong> ha d'estar buida per poder-la eliminar. Segur que voleu continuar amb la supressió d'aquests elements?",
+    "cannotBeDeleted": "La carpeta <strong style='font-weight: 500'>${title}</strong> no es pot eliminar perquè els elements que conté no es poden eliminar."
+  },
+  "disabledMessage": {
+    "single": "Hi ha <span style='color:red'>1 element</span> a la carpeta ${label}.<br/></br/>Segur que voleu eliminar aquesta carpeta i l'element que conté?",
+    "multiple": "Hi ha <span style='color:red'>${number} elements</span> a la carpeta ${label}.<br/></br/>Segur que voleu eliminar aquesta carpeta i els elements que conté?",
+    "unknown": "Segur que voleu suprimir la carpeta ${label}?"
+  }
+}

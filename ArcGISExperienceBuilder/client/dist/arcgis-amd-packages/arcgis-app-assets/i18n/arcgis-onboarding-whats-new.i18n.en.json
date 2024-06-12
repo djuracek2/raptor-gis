@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "Learn more",
+    "title": "New features in ArcGIS Online",
+    "description": "The February 2024 update includes new capabilities and enhancements throughout the ArcGIS Online website."
+  },
+  "pipelines": {
+    "learnMore": "Learn more",
+    "title": "Import, clean, and transform data without any coding.",
+    "description": "Visual drag and drop tools to ingest data from Amazon S3, Google BigQuery, and more.",
+    "link": "Try ArcGIS Data Pipelines"
+  },
+  "title": "New in ArcGIS Online"
+}

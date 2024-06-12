@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>Alat Dapatkan Aliran sebagai Garis menghasilkan fitur garis aliran dari raster permukaan input tanpa memerlukan pengisian titik temu atau penurunan sebelumnya.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputSurfaceRaster">
+        <div>
+            <p>Raster elevasi yang akan digunakan untuk kalkulasi.
+            </p>
+        </div>
+    </div>
+    <div id="inputDepressionsData">
+        <div>
+            <p>Input yang menentukan lokasi penurunan atau titik temunyata, tempat air dapat mengalir masuk namun tidak dapat mengalir keluar.
+            </p>
+        </div>
+    </div>
+    <div id="inputWeightRaster">
+        <div>
+            <p>Layer raster yang menentukan patahan aliran yang berkontribusi ke akumulasi aliran pada tiap sel.
+            </p>
+        </div>
+    </div>
+    <div id="accumulationThreshold">
+        <div>
+            <p>Ambang batas untuk menentukan apakah suatu sel tertentu merupakan bagian dari suatu aliran dalam kaitannya dengan total luas yang mengalir ke dalam sel tersebut.
+            </p>
+        </div>
+    </div>
+    <div id="streamDesignationMethod">
+        <div>
+            <p>Menentukan apakah segmen aliran dalam output akan memiliki nilai konstan, nilai unik, atau diurutkan.
+            </p>
+        </div>
+    </div>
+    <div id="simplify">
+        <div>
+            <p>Menentukan apakah garis aliran outputa akan diperhalus menjadi bentuk yang lebih sederhana.
+            </p>
+            <p>Jika dicentang, fitur garis aliran akan disederhanakan menggunakan algoritma Douglas-Peucker dengan toleransi ukuran sel sqrt(0,5) *. Ini adalah default. Jika tidak dicentang, fitur garis aliran tidak akan diperhalus.
+            </p>
+        </div>
+    </div>
+    <div id="outputStreamFeaturesName">
+        <div>
+            <p>Nama layer fitur garis aliran yang akan dibuat dan ditambahkan ke peta.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>Nama folder di  <b>Konten Saya</b> tempat penyimpanan hasil.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

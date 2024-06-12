@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"מעקב אחר רשת תשתית",_widgetDescription:"וידג'ט למעקב ArcGIS Utility Network",_action_filter_label:"מסנן"})}}}));

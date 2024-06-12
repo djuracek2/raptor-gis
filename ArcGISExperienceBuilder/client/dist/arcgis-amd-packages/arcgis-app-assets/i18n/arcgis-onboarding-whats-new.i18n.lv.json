@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "Uzzināt vairāk",
+    "title": "Jauni ArcGIS Online elementi",
+    "description": "2024. gada februāra atjauninājumā ir iekļautas jaunas iespējas un uzlabojumi visā ArcGIS Online tīmekļa vietnē."
+  },
+  "pipelines": {
+    "learnMore": "Uzzināt vairāk",
+    "title": "Importējiet, notīriet un pārveidojiet datus bez kodēšanas.",
+    "description": "Vizuālie vilkšanas un nomešanas rīki, lai paņemtu datus no Amazon S3, Google BigQuery un citām vietām.",
+    "link": "Izmēģināt ArcGIS Data Pipelines"
+  },
+  "title": "ArcGIS Online jaunumi"
+}

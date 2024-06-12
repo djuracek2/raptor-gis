@@ -1,0 +1,149 @@
+{
+  "deleteItem": "Excluir Item",
+  "deleteItems": "Excluir itens",
+  "deleteFolder": "Excluir pasta",
+  "recycleBin": "Lixeira de reciclagem",
+  "delete": "Excluir",
+  "permanentlyDelete": "Excluir permanentemente",
+  "back": "Voltar",
+  "cancel": "Cancelar",
+  "item": "item",
+  "items": "itens",
+  "cantDelete": "Os seguintes itens não podem ser excluídos, pois estão protegidos contra exclusão ou têm itens dependentes.",
+  "proceed": "Continuar com a exclusão dos itens restantes?",
+  "moreOptions": "Mais opções",
+  "hideOptions": "Ocultar opções",
+  "deletePermanently": "Excluir permanentemente (Esta ação não pode ser desfeita)",
+  "learnMore": "Saiba mais",
+  "summary": {
+    "select": "Selecionar",
+    "deselect": "Cancelar Seleção",
+    "selectedItems": "Itens selecionados:",
+    "permanentlyDelete": "Excluir permanentemente:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "Este item não é suportado com a lixeira.",
+        "multiple": "Esses itens não são suportados pela lixeira."
+      },
+      "unsynchronized": "As edições não sincronizadas feitas nas camadas de feição em um grupo de colaboração distribuída serão perdidas.",
+      "notSupportedAndUnsynchronized": "Alguns tipos de itens não são suportados. As edições não sincronizadas feitas nas camadas de feição em um grupo de colaboração distribuída serão perdidas.",
+      "group": {
+        "notSupported": "Não suportado",
+        "distributedCollaboration": "Parte da colaboração distribuída"
+      }
+    },
+    "canBeRecovered": {
+      "single": "Este item pode ser recuperado em até ${days} dias.",
+      "multiple": "Estes itens podem ser recuperados em até ${days} dias.",
+      "unknown": "Estes itens podem ser recuperados em até ${days} dias."
+    },
+    "willBeRecycled": "Envie para a lixeira:",
+    "cannotBeDeleted": "Não é possível excluir:",
+    "deleteDiscouraged": "Excluir desencorajado:",
+    "hasDependentItems": "Tem itens dependentes:",
+    "someActionsMayNoLongerWork": {
+      "single": "Se você enviar este item para a lixeira, algumas ações que exigem acesso ao item de origem poderão não funcionar mais conforme esperado.",
+      "multiple": "Se você enviar esses itens para a lixeira, algumas ações que exigem acesso aos itens de origem poderão não funcionar mais conforme esperado."
+    },
+    "cannotDelete": {
+      "all": "Itens protegidos contra exclusão, que fazem parte de um grupo de colaboração distribuída ou que possuem itens dependentes não podem ser excluídos.",
+      "protectedAndCollaboration": "Itens protegidos contra exclusão ou que fazem parte de um grupo de colaboração distribuída não podem ser excluídos.",
+      "protectedAndDependent": "Itens protegidos contra exclusão ou com itens dependentes não podem ser excluídos.",
+      "collaborationAndDependent": "Os itens que fazem parte de um grupo de colaboração distribuído ou com itens dependentes não podem ser excluídos."
+    },
+    "deletePermanently": "Excluir permanentemente: ${count} (Esta ação não pode ser desfeita)",
+    "deleteAllPermanently": "Excluir todos os itens permanentemente: ${count} (Esta ação não pode ser desfeita)",
+    "deleteXPermanently": "Excluir ${subset} de ${total} itens permanentemente (Esta ação não pode ser desfeita)",
+    "protectedGroup": {
+      "deleteProtected": "Excluir protegido",
+      "deleteProtectedDescription": "Os itens protegidos contra exclusão não podem ser excluídos.",
+      "hasDependentItems": "Tem itens dependentes",
+      "itemUsedBy": "Este item foi usado por:",
+      "hasDependentItemsDescription": {
+        "single": "Este item tem um dependente. Eles devem ser excluídos juntos.",
+        "multiple": "Esses itens possuem outros itens dependentes deles. Eles devem ser excluídos juntos."
+      },
+      "distributedCollaboration": "Parte da colaboração distribuída",
+      "distributedCollaborationDescription": "Os itens que fazem parte de um grupo de colaboração distribuída não podem ser excluídos.",
+      "deleteDiscouraged": "Excluir desencorajado",
+      "deleteDiscouragedDescription": {
+        "single": "Se este item for excluído, os itens dependentes poderão perder algumas funcionalidades. Você pode excluir este item na página de detalhes do item.",
+        "multiple": "Se esses itens forem excluídos, os itens dependentes poderão perder algumas funcionalidades. Você pode excluir esses itens individualmente na página de detalhes do item."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "Este item será excluído permanentemente pois não é compatível com a lixeira.",
+    "multiple": "Esses itens serão excluídos permanentemente pois não são suportados pela lixeira.",
+    "unknown": "Esses itens serão excluídos permanentemente pois não são suportados pela lixeira."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "O item selecionado pertence a um grupo de colaboração distribuído e não pode ser movido para a lixeira. Ele será excluído permanentemente.",
+    "multiple": "Os itens selecionados pertencem a um grupo de colaboração distribuído e não podem ser movidos para a lixeira. Eles serão excluídos permanentemente.",
+    "unknown": "Os itens selecionados pertencem a um grupo de colaboração distribuído e não podem ser movidos para a lixeira. Eles serão excluídos permanentemente."
+  },
+  "areYouSure": {
+    "single": "Tem certeza que deseja excluir este item?",
+    "multiple": "Tem certeza que deseja excluir estes itens?",
+    "unknown": "Tem certeza que deseja excluir estes itens?"
+  },
+  "areYouSureRecycle": {
+    "single": "Este item permanecerá na lixeira por ${days} dias antes de ser excluído permanentemente.",
+    "multiple": "Esses itens permanecerão na lixeira por ${days} dias antes de serem excluídos permanentemente.",
+    "unknown": "Esses itens permanecerão na lixeira por ${days} dias antes de serem excluídos permanentemente."
+  },
+  "areYouSurePermanent": {
+    "single": "Tem certeza que deseja excluir este item ${number} permanentemente? Este item ${carrot} não pode ser recuperado depois de ter sido excluído permanentemente.",
+    "multiple": "Tem certeza que deseja excluir estes itens permanentemente? Esses itens não podem ser recuperados depois de terem sido excluídos permanentemente.",
+    "unknown": "Tem certeza que deseja excluir estes itens permanentemente? Esses itens não podem ser recuperados depois de terem sido excluídos permanentemente."
+  },
+  "folder": {
+    "mustBeEmpty": "A pasta <b>${folder}</b> deve estar vazia para ser excluída.",
+    "aFewCannotBeDeleted": "Alguns itens não podem ser excluídos. Tem certeza que deseja prosseguir com a exclusão do restante?",
+    "mustBeEmptyProceed": "A pasta <b>${folder}</b> deve estar vazia para ser excluída. Tem certeza que deseja prosseguir com a exclusão desses itens?",
+    "cannotBeDeleted": "A pasta <b>${folder}</b> não pode ser excluída, pois seus itens não podem ser excluídos."
+  },
+  "deletes": {
+    "single": "Exclui em ${days} dias",
+    "multiple": "Exclui em ${days} dias",
+    "unknown": "Dias até a exclusão: ${days}"
+  },
+  "deleteOverride": {
+    "single": "Tem certeza que deseja excluir permanentemente este item? Esta ação não pode ser desfeita.",
+    "multiple": "Tem certeza que deseja excluir permanentemente esses itens? Esta ação não pode ser desfeita."
+  },
+  "restore": {
+    "restore": "Restaurar",
+    "restoreTo": "Restaurar para",
+    "restoreItem": "Restaurar item",
+    "restoreItems": "Restaurar itens",
+    "noticeMessage": "Os itens restaurados não serão compartilhados. Revise seu conteúdo antes de compartilhá-lo novamente.",
+    "cannotBulkRestoreXItems": "Não é possível restaurar em massa mais de ${number} itens. Desmarque alguns itens.",
+    "cannotBulkRestoreMultipleOwners": "Não é possível restaurar em massa itens que pertencem a diferentes proprietários. Selecione itens de um único proprietário para restauração em massa.",
+    "toRestore": {
+      "single": "Item para Restaurar:",
+      "multiple": "Itens para Restaurar:"
+    },
+    "cannotRestore": "Não é possível restaurar:",
+    "dependentItems": {
+      "single": "Este item não pode ser restaurado, pois depende de<b>${parent}</b>. Restaure-os juntos.",
+      "multiple": "Esses itens não podem ser restaurados, pois dependem de outros itens da lixeira. Restaure-os juntos. "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "Precisa recuperar aquele item excluído acidentalmente? Confira a nova lixeira!",
+    "takeALook": "Dê uma olhada na nova lixeira!",
+    "learnMore": "Saiba mais sobre como restaurar itens excluídos",
+    "heldInRecycleBin": "Os itens na lixeira são retidos por até${days} dias.",
+    "goToUserRecycleBin": "Vá até sua caixa de ${linkStart}lixeira${linkEnd} para restaurar ou excluir itens permanentemente.",
+    "goToOrgRecycleBin": "Vá até a ${linkStart}lixeira da sua organização${linkEnd} para restaurar ou excluir itens permanentemente. O conteúdo na lixeira continua consumindo créditos."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "${start} - ${end} de ${total} (${size}) na lixeira",
+    "other": "${start} - ${end}, total: ${total} (${size}) na lixeira"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "${start} - ${end} de ${total} (>${size}) na lixeira",
+    "other": "${start} - ${end}, total: ${total} (>${size}) na lixeira"
+  }
+}

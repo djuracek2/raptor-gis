@@ -1,0 +1,21 @@
+{
+  "deleteFolder": "Ištrinti aplanką",
+  "delete": "Pašalinti",
+  "permanentlyDelete": "Ištrinti visam laikui",
+  "back": "Atgal",
+  "cancel": "Atšaukti",
+  "success": "Aplankas „${title}‟ ištrintas sėkmingai",
+  "deleteProtectedItemsInFolder": "Aplanko negalima panaikinti, kol jame yra nuo naikinimo apsaugotų arba priklausomų elementų.",
+  "message": {
+    "empty": "Ar tikrai norite ištrinti šį aplanką, <strong style='font-weight: 500'>${title}</strong>?",
+    "mustBeEmpty": "Aplankas <strong style='font-weight: 500'>${title}</strong> turi būti tuščias, kad jį būtų galima ištrinti.",
+    "aFewCannotBeDeleted": "Kelių elementų ištrinti negalima. Ar tikrai norite tęsti ir ištrinti likusius?",
+    "mustBeEmptyProceed": "Aplankas <strong style='font-weight: 500'>${title}</strong> turi būti tuščias, kad jį būtų galima ištrinti. Ar tikrai norite tęsti ir ištrinti šiuos elementus?",
+    "cannotBeDeleted": "Aplanko <strong style='font-weight: 500'>${title}</strong> negalima ištrinti, nes jo elementų negalima ištrinti."
+  },
+  "disabledMessage": {
+    "single": "Šiame aplanke yra <span style='color:red'>1 elementas</span>, ${label}.<br/></br/>Ar tikrai norite ištrinti šį aplanką ir jame esantį elementą?",
+    "multiple": "Šiame aplanke yra <span style='color:red'>${number} elementai (-ų)</span>, ${label}.<br/></br/>Ar tikrai norite ištrinti šį aplanką ir visus jame esančius elementus?",
+    "unknown": "Ar tikrai norite ištrinti šį aplanką, ${label}?"
+  }
+}

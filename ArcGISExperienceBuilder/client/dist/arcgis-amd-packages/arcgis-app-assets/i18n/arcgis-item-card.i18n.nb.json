@@ -1,0 +1,10 @@
+{
+  "select": "Velg element: ${title}",
+  "lastUpdated": "Element oppdatert: ${date}",
+  "viewItemDetails": "Vis flere detaljer om ${title}",
+  "preview": "Flere detaljer",
+  "hidePreview": "Færre detaljer",
+  "closeDetails": "Lukk panelet for elementdetaljer",
+  "openDetails": "Åpne panelet for elementdetaljer",
+  "moreOptions": "Flere alternativer"
+}

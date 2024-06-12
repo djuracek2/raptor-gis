@@ -1,0 +1,16 @@
+{
+  "cancel": "Atšaukti",
+  "reset": "Atkurti",
+  "resetting": "Nustatoma iš naujo...",
+  "save": "Įrašyti",
+  "saving": "Įrašoma...",
+  "itemClassificationLabel": "Klasifikacija",
+  "itemClassificationCategoryLabel": "Elementų klasifikacijos kategorijos žyma",
+  "itemClassificationEditLabel": "Redaguoti klasifikaciją",
+  "itemClassificationValidateError": "Patvirtinti nepavyko, elementų klasifikacijos reikšmė nebus užpildyta! Redaguokite ir įrašykite naują.",
+  "classificationValueSaved": "Klasifikacijos reikšmė įrašyta",
+  "classificationNotificationHandler": "Klasifikacijos pranešimų tvarkymo priemonė",
+  "openModal": "Atidaryti modalųjį dialogą",
+  "currentSelections": "Dabartiniai pasirinkimai",
+  "searchForCategory": "Ieškoti kategorijos"
+}

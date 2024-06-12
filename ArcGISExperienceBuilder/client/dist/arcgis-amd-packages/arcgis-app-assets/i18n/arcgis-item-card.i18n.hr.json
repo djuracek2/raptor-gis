@@ -1,0 +1,10 @@
+{
+  "select": "Odaberi stavku: ${title}",
+  "lastUpdated": "Stavka ažurirana: ${date}",
+  "viewItemDetails": "Pogledajte više pojedinosti o ${title}",
+  "preview": "Više pojedinosti",
+  "hidePreview": "Manje pojedinosti",
+  "closeDetails": "Zatvori ploču s pojedinostima o stavci",
+  "openDetails": "Otvori ploču s pojedinostima o stavci",
+  "moreOptions": "Više opcija"
+}

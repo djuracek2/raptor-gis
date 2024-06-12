@@ -1,0 +1,10 @@
+{
+  "outputRaster": "OutputRaster",
+  "rfxVariable": "RasterFunctionVariable",
+  "selectLayer": "Selecionar Camada",
+  "allowScalar": "Selecione uma camada ou introduza uma constante",
+  "browseLayer": "Procurar camadas",
+  "loading": "A carregar...",
+  "layerMissing": "Uma ou mais camadas do mapa não estão indicadas aqui porque não permitem análises. Saiba mais.",
+  "layerFailedToLoad": "Falha ao carregar camada."
+}

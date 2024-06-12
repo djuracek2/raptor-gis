@@ -1,0 +1,12 @@
+{
+  "value": "Valoare",
+  "classname": "Denumire clasă",
+  "color": "Culoare",
+  "raster": "Raster",
+  "generate": "Generați tabel",
+  "minValue": "Valoare minimă",
+  "maxValue": "Valoare maximă",
+  "classBaseName": "Denumire de bază clasă",
+  "colorscheme": "Schemă de culori",
+  "defaultClassName": "Etichetă_"
+}

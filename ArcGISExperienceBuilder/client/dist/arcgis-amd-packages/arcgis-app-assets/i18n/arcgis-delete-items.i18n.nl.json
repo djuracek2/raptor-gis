@@ -1,0 +1,149 @@
+{
+  "deleteItem": "Item verwijderen",
+  "deleteItems": "Items verwijderen",
+  "deleteFolder": "Map verwijderen",
+  "recycleBin": "Prullenbak",
+  "delete": "Verwijderen",
+  "permanentlyDelete": "Permanent verwijderen",
+  "back": "Terug",
+  "cancel": "Annuleren",
+  "item": "item",
+  "items": "items",
+  "cantDelete": "De volgende items konden niet worden verwijderd omdat ze beveiligd zijn tegen verwijderen of afhankelijke items bevatten.",
+  "proceed": "Doorgaan met het verwijderen van de resterende items?",
+  "moreOptions": "Meer opties",
+  "hideOptions": "Opties verbergen",
+  "deletePermanently": "Permanent verwijderen (de actie kan niet ongedaan worden gemaakt)",
+  "learnMore": "Meer informatie",
+  "summary": {
+    "select": "Selecteren",
+    "deselect": "Selectie opheffen",
+    "selectedItems": "Geselecteerde items:",
+    "permanentlyDelete": "Permanent verwijderen:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "Dit item wordt niet ondersteund door de prullenbak.",
+        "multiple": "Deze items worden niet ondersteund door de prullenbak."
+      },
+      "unsynchronized": "Niet-gesynchroniseerde bewerkingen die zijn uitgevoerd in feature layers in een gedistribueerde samenwerkingsgroep, zullen verloren gaan.",
+      "notSupportedAndUnsynchronized": "Sommige itemtypes worden niet ondersteund. Niet-gesynchroniseerde bewerkingen die zijn uitgevoerd in feature layers in een gedistribueerde samenwerkingsgroep, zullen verloren gaan.",
+      "group": {
+        "notSupported": "Niet ondersteund",
+        "distributedCollaboration": "Deel van gedistribueerde samenwerking"
+      }
+    },
+    "canBeRecovered": {
+      "single": "Dit item kan ${days} dagen hersteld worden.",
+      "multiple": "Deze items kunnen binnen ${days} dagen worden hersteld.",
+      "unknown": "Deze items kunnen binnen ${days} dagen worden hersteld."
+    },
+    "willBeRecycled": "Naar prullenbak versturen:",
+    "cannotBeDeleted": "Kan niet verwijderen:",
+    "deleteDiscouraged": "Verwijderen wordt afgeraden:",
+    "hasDependentItems": "Heeft afhankelijke items:",
+    "someActionsMayNoLongerWork": {
+      "single": "Als u dit item in de prullenbak gooit, werken bepaalde acties die toegang vereisen tot het bronitem mogelijk niet meer zoals verwacht.",
+      "multiple": "Als u deze items in de prullenbak gooit, werken bepaalde acties die toegang vereisen tot de bronitems mogelijk niet meer zoals verwacht."
+    },
+    "cannotDelete": {
+      "all": "U kunt geen items verwijderen die tegen verwijdering zijn beschermd, deel uitmaken van een gedistribueerde samenwerkingsgroep of afhankelijke items hebben.",
+      "protectedAndCollaboration": "U kunt geen items verwijderen die tegen verwijdering zijn beschermd of deel uitmaken van een gedistribueerde samenwerkingsgroep.",
+      "protectedAndDependent": "U kunt geen items verwijderen die tegen verwijdering zijn beschermd of afhankelijke items hebben.",
+      "collaborationAndDependent": "U kunt geen items verwijderen die deel uitmaken van een gedistribueerde samenwerkingsgroep of afhankelijke items hebben."
+    },
+    "deletePermanently": "Permanent verwijderen: ${count} (de actie kan niet ongedaan worden gemaakt)",
+    "deleteAllPermanently": "Permanent alle items verwijderen: ${count} (de actie kan niet ongedaan worden gemaakt)",
+    "deleteXPermanently": "Permanent ${subset} van ${total} items verwijderen (de actie kan niet ongedaan worden gemaakt)",
+    "protectedGroup": {
+      "deleteProtected": "Beschermd tegen verwijderen",
+      "deleteProtectedDescription": "Items met verwijderingsbescherming kunnen niet worden verwijderd.",
+      "hasDependentItems": "Heeft afhankelijke items",
+      "itemUsedBy": "Dit item is gebruikt door:",
+      "hasDependentItemsDescription": {
+        "single": "Het item heeft een afhankelijk item. Ze moeten samen worden verwijderd.",
+        "multiple": "Er zijn andere items die van dit item afhankelijk zijn. Ze moeten samen worden verwijderd."
+      },
+      "distributedCollaboration": "Deel van gedistribueerde samenwerking",
+      "distributedCollaborationDescription": "U die deel uitmaken van een gedistribueerde samenwerkingsgroep.",
+      "deleteDiscouraged": "Verwijderen wordt afgeraden",
+      "deleteDiscouragedDescription": {
+        "single": "Als dit item wordt verwijderd, kan functionaliteit verloren gaan voor afhankelijke items. U kunt dit item verwijderen via de itemdetailspagina.",
+        "multiple": "Als deze items worden verwijderd, kan functionaliteit verloren gaan voor afhankelijke items. U kunt deze items afzonderlijk verwijderen via de itemdetailspagina."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "Dit item wordt permanent verwijderd omdat het niet ondersteund wordt door de prullenbak.",
+    "multiple": "Deze items worden permanent verwijderd omdat ze niet ondersteund wordt door de prullenbak.",
+    "unknown": "Deze items worden permanent verwijderd omdat ze niet ondersteund wordt door de prullenbak."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "Het geselecteerde item hoort bij een gedistribueerde samenwerkingsgroep en kan niet naar de prullenbak worden verplaatst. Het wordt permanent verwijderd.",
+    "multiple": "De geselecteerde items horen bij een gedistribueerde samenwerkingsgroep en kunnen niet naar de prullenbak worden verplaatst. Ze worden permanent verwijderd.",
+    "unknown": "De geselecteerde items horen bij een gedistribueerde samenwerkingsgroep en kunnen niet naar de prullenbak worden verplaatst. Ze worden permanent verwijderd."
+  },
+  "areYouSure": {
+    "single": "Weet u zeker dat u dit item wilt verwijderen?",
+    "multiple": "Weet u zeker dat u deze items wilt verwijderen?",
+    "unknown": "Weet u zeker dat u deze items wilt verwijderen?"
+  },
+  "areYouSureRecycle": {
+    "single": "Dit item blijft ${days} dagen in de prullenbak voordat het permanent wordt verwijderd.",
+    "multiple": "Deze items blijven ${days} dagen in de prullenbak voordat ze permanent worden verwijderd.",
+    "unknown": "Deze items blijven ${days} dagen in de prullenbak voordat ze permanent worden verwijderd."
+  },
+  "areYouSurePermanent": {
+    "single": "Weet u zeker dat u dit ${number}-item permanent wilt verwijderen? Dit ${carrot}-item kan niet worden hersteld nadat het permanent is verwijderd.",
+    "multiple": "Weet u zeker dat u deze items permanent wilt verwijderen? Deze items kunnen niet worden hersteld nadat ze permanent zijn verwijderd.",
+    "unknown": "Weet u zeker dat u deze items permanent wilt verwijderen? Deze items kunnen niet worden hersteld nadat ze permanent zijn verwijderd."
+  },
+  "folder": {
+    "mustBeEmpty": "De map <b>${folder}</b> moet leeg zijn om te kunnen worden verwijderd.",
+    "aFewCannotBeDeleted": "Een paar items kunnen niet verwijderd worden. Weet u zeker dat u door wilt gaan met het verwijderen van de rest?",
+    "mustBeEmptyProceed": "De map <b>${folder}</b> moet leeg zijn om te kunnen worden verwijderd. Weet u zeker dat u door wilt gaan met het verwijderen van deze items?",
+    "cannotBeDeleted": "De map <b>${folder}</b> kan niet worden verwijderd omdat de items niet kunnen worden verwijderd."
+  },
+  "deletes": {
+    "single": "Wordt over ${days} dagen verwijderd",
+    "multiple": "Wordt over ${days} dagen verwijderd",
+    "unknown": "Dagen tot verwijdering: ${days}"
+  },
+  "deleteOverride": {
+    "single": "Weet u zeker dat u in plaats daarvan dit item permanent wilt verwijderen? Deze handeling kan niet ongedaan worden gemaakt.",
+    "multiple": "Weet u zeker dat u in plaats daarvan deze items permanent wilt verwijderen? Deze handeling kan niet ongedaan worden gemaakt."
+  },
+  "restore": {
+    "restore": "Herstellen",
+    "restoreTo": "Herstellen naar",
+    "restoreItem": "Item herstellen",
+    "restoreItems": "Items herstellen",
+    "noticeMessage": "Delen wordt ongedaan gemaakt voor herstelde items. Graag beoordelen voordat u de inhoud opnieuw deelt.",
+    "cannotBulkRestoreXItems": "U kunt niet meer dan ${number} items tegelijk herstellen, deselecteer een paar items.",
+    "cannotBulkRestoreMultipleOwners": "U kunt geen items in bulk herstellen die toebehoren aan verschillende eigenaars. Selecteer items van een enkele eigenaar om ze in bulk te herstellen.",
+    "toRestore": {
+      "single": "Item om te herstellen:",
+      "multiple": "Items om te herstellen:"
+    },
+    "cannotRestore": "Kan niet herstellen:",
+    "dependentItems": {
+      "single": "Dit item kan niet worden hersteld omdat het afhankelijk is van <b>${parent}</b>. Herstel ze samen.",
+      "multiple": "Deze items kunnen niet worden hersteld omdat ze afhankelijk zijn van andere items in de prullenbak. Herstel ze samen: "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "Moet u dat per ongeluk verwijderde item herstellen? Bekijk de nieuwe prullenbak!",
+    "takeALook": "Neem een kijkje in de nieuwe prullenbak!",
+    "learnMore": "Leer meer over het herstellen van verwijderde items",
+    "heldInRecycleBin": "Items in de prullenbak worden maximaal ${days} dagen bewaard.",
+    "goToUserRecycleBin": "Ga naar uw ${linkStart}prullenbak${linkEnd} om items te herstellen of definitief te verwijderen.",
+    "goToOrgRecycleBin": "Ga naar de ${linkStart}prullenbak van uw organisatie${linkEnd} om items te herstellen of definitief te verwijderen. Content in de prullenbak blijft credits verbruiken."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "${start} - ${end} van ${total} (${size}) in prullenbak",
+    "other": "${start} - ${end}, totaal: ${total} (${size}) in prullenbak"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "${start} - ${end} van ${total} (>${size}) in prullenbak",
+    "other": "${start} - ${end}, totaal: ${total} (>${size}) in prullenbak"
+  }
+}

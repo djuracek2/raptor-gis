@@ -1,0 +1,51 @@
+System.register(["jimu-core","jimu-ui","jimu-ui/advanced/setting-components","jimu-arcgis","jimu-ui/advanced/data-source-selector","jimu-layouts/layout-runtime","jimu-ui/basic/color-picker"],(function(e,t){var s={},o={},a={},i={},r={},n={},l={};return{setters:[function(e){s.FormattedMessage=e.FormattedMessage,s.Immutable=e.Immutable,s.React=e.React,s.css=e.css,s.getAppStore=e.getAppStore,s.jsx=e.jsx,s.polished=e.polished},function(e){o.FillType=e.FillType,o.Label=e.Label,o.Radio=e.Radio,o.Switch=e.Switch,o.defaultMessages=e.defaultMessages},function(e){a.MapWidgetSelector=e.MapWidgetSelector,a.SettingRow=e.SettingRow,a.SettingSection=e.SettingSection},function(e){i.DataSourceTypes=e.DataSourceTypes},function(){},function(e){n.defaultMessages=e.defaultMessages},function(e){l.ThemeColorPicker=e.ThemeColorPicker}],execute:function(){e((()=>{var e={38275:e=>{e.exports='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><path fill="#000" fill-rule="nonzero" d="m6.828.535 4.966 11.01A.323.323 0 0 1 11.5 12a.776.776 0 0 1-.707-.455L9.182 8H2.818l-1.611 3.545A.776.776 0 0 1 .5 12a.323.323 0 0 1-.294-.456L5.172.535a.909.909 0 0 1 1.656 0M6 1 3.272 7h5.456z"></path></svg>'},26826:e=>{"use strict";e.exports=i},48891:e=>{"use strict";e.exports=s},74758:e=>{"use strict";e.exports=n},30726:e=>{"use strict";e.exports=o},338:e=>{"use strict";e.exports=r},77756:e=>{"use strict";e.exports=a},41362:e=>{"use strict";e.exports=l}},t={};function d(s){var o=t[s];if(void 0!==o)return o.exports;var a=t[s]={exports:{}};return e[s](a,a.exports,d),a.exports}d.d=(e,t)=>{for(var s in t)d.o(t,s)&&!d.o(e,s)&&Object.defineProperty(e,s,{enumerable:!0,get:t[s]})},d.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),d.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},d.p="";var c={};return d.p=window.jimuConfig.baseUrl,(()=>{"use strict";d.r(c),d.d(c,{CardLayout:()=>l,__set_webpack_public_path__:()=>u,default:()=>g});var e=d(48891),t=d(30726),s=d(77756),o=d(26826),a=(d(338),d(74758)),i=d(41362);const r=d(38275),n=Object.assign({},{sourceLabel:"Source",sourceDescript:"A web map or web scene, or any combination of the two.",showBaseMap:"Show basemap legends",cardStyle:"Use card style"},t.defaultMessages);var l;!function(e){e.Auto="auto",e.SideBySide="side-by-side",e.Stack="stack"}(l||(l={}));class p extends e.React.PureComponent{constructor(s){super(s),this.supportedDsTypes=(0,e.Immutable)([o.DataSourceTypes.WebMap,o.DataSourceTypes.WebScene]),this.getPortUrl=()=>(0,e.getAppStore)().getState().portalUrl,this.onOptionsChanged=(e,t)=>{this.props.onSettingChange({id:this.props.id,config:this.props.config.set(t,e)}),"cardStyle"===t&&this.setState({cardStyle:e})},this.onRadioChange=e=>{this.props.onSettingChange({id:this.props.id,config:this.props.config.set("cardLayout",e)}),this.setState({cardLayoutValue:e})},this.onToggleUseDataEnabled=e=>{this.props.onSettingChange({id:this.props.id,useDataSourcesEnabled:e})},this.onDataSourceChange=e=>{e&&this.props.onSettingChange({id:this.props.id,useDataSources:e})},this.onMapWidgetSelected=e=>{this.props.onSettingChange({id:this.props.id,useMapWidgetIds:e})},this.onUseCustomStyleChanged=e=>{this.props.onSettingChange({id:this.props.id,config:this.props.config.setIn(["style","useCustom"],e)})},this.onFontStyleChanged=e=>{this.props.onSettingChange({id:this.props.id,config:this.props.config.setIn(["style","fontColor"],e)})},this.onBackgroundStyleChange=s=>{var o,a,i;const r={color:s,fillType:t.FillType.FILL};let n=(0,e.Immutable)(null!==(i=null===(a=null===(o=this.props.config)||void 0===o?void 0:o.style)||void 0===a?void 0:a.background)&&void 0!==i?i:{});for(const e in r)switch(e){case"fillType":n.fillType!==r[e]&&(n=n.set("fillType",r[e]));break;case"color":n=n.set("color",r[e]);break;case"image":n=n.set("image",r[e])}this.props.onSettingChange({id:this.props.id,config:this.props.config.setIn(["style","background"],n)})},this.state={cardStyle:this.props.config.cardStyle||!1,cardLayoutValue:this.props.config.cardLayout||l.Auto}}getDefaultStyleConfig(){return{useCustom:!1,background:{color:"",fillType:t.FillType.FILL},fontColor:""}}getStyleConfig(){return this.props.config.style&&this.props.config.style.useCustom?this.props.config.style:this.getDefaultStyleConfig()}render(){var o,d,c,p,g;let u,h=null;return this.state.cardStyle&&(h=(0,e.jsx)("div",{className:"card-layout-content pl-2",role:"radiogroup"},(0,e.jsx)("div",{className:"w-100 legend-tools"},(0,e.jsx)("div",{className:"legend-tools-item card-style-radio"},(0,e.jsx)(t.Radio,{id:"auto",style:{cursor:"pointer"},name:"card-style-type",onChange:e=>{this.onRadioChange(l.Auto)},checked:this.state.cardLayoutValue===l.Auto}),(0,e.jsx)(t.Label,{style:{cursor:"pointer"},for:"auto",className:"ml-1"},this.props.intl.formatMessage({id:"auto",defaultMessage:"Auto"})))),(0,e.jsx)("div",{className:"w-100 legend-tools"},(0,e.jsx)("div",{className:"legend-tools-item card-style-radio"},(0,e.jsx)(t.Radio,{id:"side-by-side",style:{cursor:"pointer"},name:"card-style-type",onChange:e=>{this.onRadioChange(l.SideBySide)},checked:this.state.cardLayoutValue===l.SideBySide}),(0,e.jsx)(t.Label,{style:{cursor:"pointer"},for:"side-by-side",className:"ml-1"},this.props.intl.formatMessage({id:"sideBySide",defaultMessage:n.sideBySide})))),(0,e.jsx)("div",{className:"w-100 legend-tools"},(0,e.jsx)("div",{className:"legend-tools-item card-style-radio"},(0,e.jsx)(t.Radio,{id:"stack",style:{cursor:"pointer"},name:"card-style-type",onChange:e=>{this.onRadioChange(l.Stack)},checked:this.state.cardLayoutValue===l.Stack}),(0,e.jsx)(t.Label,{style:{cursor:"pointer"},for:"stack",className:"ml-1"},this.props.intl.formatMessage({id:"stack",defaultMessage:a.defaultMessages.stack})))))),u=(null===(o=this.props.config.style)||void 0===o?void 0:o.useCustom)?"block":"none",(0,e.jsx)("div",{css:(f=this.props.theme,e.css`
+    .widget-setting-legend{
+      font-weight: lighter;
+      font-size: 13px;
+
+      .source-descript {
+        color: ${f.colors.palette.dark[600]};
+      }
+
+      .webmap-thumbnail{
+        cursor: auto;
+        width: 100%;
+        height: 120px;
+        overflow: hidden;
+        padding: 1px;
+        border: ${e.polished.rem(2)} solid initial;
+        img, div{
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .card-layout-content{
+        width: 100%;
+      }
+
+      .legend-tools{
+        .legend-tools-item{
+          display: flex;
+          margin-bottom: 8px;
+        }
+      }
+
+      .advanced-setting-row .jimu-widget-setting--row-label {
+        color: #c5c5c5;
+        font-size: 0.875rem;
+      }
+
+      .map-selector-section .component-map-selector .form-control{
+        width: 100%;
+      }
+
+      .jimu-builder--background-setting .background-image {
+        display: none;
+      }
+
+      .jimu-builder--background-setting .background-image-fill-type {
+        display: none;
+      }
+    }
+  `)},(0,e.jsx)("div",{className:"widget-setting-legend"},(0,e.jsx)(s.SettingSection,{className:"map-selector-section",title:this.props.intl.formatMessage({id:"sourceLabel",defaultMessage:n.sourceLabel}),role:"group","aria-label":this.props.intl.formatMessage({id:"sourceLabel",defaultMessage:n.sourceLabel})},(0,e.jsx)(s.SettingRow,{label:(0,e.jsx)(e.FormattedMessage,{id:"selectMapWidget",defaultMessage:n.selectMapWidget})}),(0,e.jsx)(s.SettingRow,null,(0,e.jsx)(s.MapWidgetSelector,{onSelect:this.onMapWidgetSelected,useMapWidgetIds:this.props.useMapWidgetIds}))),(0,e.jsx)(s.SettingSection,{title:this.props.intl.formatMessage({id:"options",defaultMessage:n.options}),role:"group","aria-label":this.props.intl.formatMessage({id:"options",defaultMessage:n.options})},(0,e.jsx)(s.SettingRow,{label:(0,e.jsx)(e.FormattedMessage,{id:"showBaseMap",defaultMessage:n.showBaseMap})},(0,e.jsx)(t.Switch,{className:"can-x-switch",checked:this.props.config&&this.props.config.showBaseMap||!1,"data-key":"showBaseMap",onChange:e=>{this.onOptionsChanged(e.target.checked,"showBaseMap")},"aria-label":this.props.intl.formatMessage({id:"showBaseMap",defaultMessage:n.showBaseMap})})),(0,e.jsx)(s.SettingRow,{label:(0,e.jsx)(e.FormattedMessage,{id:"cardStyle",defaultMessage:n.cardStyle})},(0,e.jsx)(t.Switch,{className:"can-x-switch",checked:this.props.config&&this.props.config.cardStyle||!1,"data-key":"cardStyle",onChange:e=>{this.onOptionsChanged(e.target.checked,"cardStyle")},"aria-label":this.props.intl.formatMessage({id:"cardStyle",defaultMessage:n.cardStyle})})),(0,e.jsx)(s.SettingRow,{flow:"wrap",role:"radiogroup"},h)),(0,e.jsx)(s.SettingSection,null,(0,e.jsx)(s.SettingRow,{className:"advanced-setting-row",label:(0,e.jsx)(e.FormattedMessage,{id:"advance",defaultMessage:"Advanced"})},(0,e.jsx)(t.Switch,{className:"can-x-switch",checked:this.getStyleConfig().useCustom||!1,"data-key":"showBaseMap",onChange:e=>{this.onUseCustomStyleChanged(e.target.checked)},"aria-label":this.props.intl.formatMessage({id:"advance",defaultMessage:n.advance})})),(0,e.jsx)("div",{className:"mt-4",style:{display:u}},(0,e.jsx)(s.SettingRow,{label:(0,e.jsx)(e.FormattedMessage,{id:"font",defaultMessage:"Font"})},(0,e.jsx)(i.ThemeColorPicker,{icon:r,type:"with-icon",specificTheme:this.props.theme2,value:this.getStyleConfig().fontColor||(null===(p=null===(c=null===(d=this.props.theme2.arcgis.widgets.legend.variants)||void 0===d?void 0:d.default)||void 0===c?void 0:c.root)||void 0===p?void 0:p.color)||"",onChange:this.onFontStyleChanged,"aria-label":this.props.intl.formatMessage({id:"fontColor",defaultMessage:n.fontColor})})),(0,e.jsx)(s.SettingRow,{label:(0,e.jsx)(e.FormattedMessage,{id:"background",defaultMessage:"Background"})},(0,e.jsx)(i.ThemeColorPicker,{specificTheme:this.props.theme2,value:(null===(g=this.getStyleConfig().background)||void 0===g?void 0:g.color)||this.props.theme2.surfaces[1].bg||"",onChange:this.onBackgroundStyleChange,"aria-label":this.props.intl.formatMessage({id:"backgroundColor",defaultMessage:n.backgroundColor})}))))));var f}}p.mapExtraStateProps=e=>({dsJsons:e.appStateInBuilder.appConfig.dataSources});const g=p;function u(e){d.p=e}})(),c})())}}}));

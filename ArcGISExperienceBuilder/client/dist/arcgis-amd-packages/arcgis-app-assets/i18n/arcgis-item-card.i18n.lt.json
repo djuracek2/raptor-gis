@@ -1,0 +1,10 @@
+{
+  "select": "Pasirinkti elementą: ${title}",
+  "lastUpdated": "Atnaujintas elementas: ${date}",
+  "viewItemDetails": "Peržiūrėti daugiau informacijos apie ${title}",
+  "preview": "Išsamiau",
+  "hidePreview": "Mažiau išsamios informacijos",
+  "closeDetails": "Uždaryti elemento informacijos skydelį",
+  "openDetails": "Atverti elemento informacijos skydelį",
+  "moreOptions": "Išplėstinės parinktys"
+}

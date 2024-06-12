@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "Lisainfo",
+    "title": "ArcGIS Online’i uued funktsioonid",
+    "description": "2024. a veebruari uuendus sisaldab uusi funktsioone ja täiendusi tervel ArcGIS Online’i veebilehel."
+  },
+  "pipelines": {
+    "learnMore": "Lisainfo",
+    "title": "Saate andmeid ilma kodeerimiseta importida, puhastada ja teisendada.",
+    "description": "Visuaalsed lohistamistööriistad võimaldavad andmeid valmendada teenustest Amazon S3, Google BigQuery jm.",
+    "link": "Proovige teenust ArcGIS Data Pipelines"
+  },
+  "title": "ArcGIS Online’i uuendused"
+}

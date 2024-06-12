@@ -1,0 +1,455 @@
+{
+  "rolePrivileges": "Hak istimewa peran",
+  "setFromExisting": "Atur dari peran yang ada",
+  "expandAll": "Bentangkan semua",
+  "generalPrivileges": "Hak istimewa umum",
+  "adminPrivileges": "Hak istimewa admin",
+  "enabledLabel": "Diaktifkan:",
+  "enableAll": "Aktifkan semua",
+  "disableAll": "Nonaktifkan semua",
+  "members": "Anggota",
+  "groups": "Grup",
+  "content": "Konten",
+  "sharing": "Berbagi",
+  "premiumContent": "Konten Premium",
+  "features": "Fitur",
+  "versionMgmt": "Manajemen Versi",
+  "webhooks": "Webhook",
+  "marketplaceSubscriptions": "Langganan ArcGIS Marketplace",
+  "orgSettings": "Pengaturan Organisasi",
+  "learnMore": "Pelajari selengkapnya",
+  "searchPrivileges": "Hak istimewa pencarian",
+  "notebooks": "Notebook",
+  "analysis": "Analisis",
+  "networkAnalysis": "Analisis jaringan",
+  "privileges": {
+    "portal:user:viewOrgUsers": {
+      "label": "Lihat",
+      "description": "Izinkan anggota melihat anggota organisasi.",
+      "descriptionPortal": "Izinkan anggota melihat anggota portal."
+    },
+    "portal:user:createGroup": {
+      "label": "Buat, perbarui, dan hapus",
+      "description": "Izinkan anggota membuat, mengedit, dan menghapus grup mereka sendiri."
+    },
+    "portal:user:joinGroup": {
+      "label": "Bergabung dengan grup organisasi",
+      "description": "Izinkan anggota bergabung dengan grup dalam organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota bergabung dengan grup dalam portal Anda."
+    },
+    "portal:user:joinNonOrgGroup": {
+      "label": "Bergabung dengan grup eksternal",
+      "description": "Izinkan anggota bergabung dengan grup di luar organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota bergabung dengan grup di luar portal Anda."
+    },
+    "portal:user:viewOrgGroups": {
+      "label": "Lihat grup yang dibagikan dengan organisasi",
+      "description": "Izinkan anggota melihat grup yang dibagikan dengan organisasi.",
+      "descriptionPortal": "Izinkan anggota melihat grup yang dibagikan dengan portal."
+    },
+    "portal:user:invitePartneredCollaborationMembers": {
+      "label": "Undang anggota organisasi mitra",
+      "description": "Memungkinkan anggota untuk mengundang anggota dari organisasi kolaborasi mitra ke grup."
+    },
+    "portal:user:addExternalMembersToGroup": {
+      "label": "Tambah anggota dari organisasi lain",
+      "description": "Memungkinkan anggota untuk membuat grup yang mengizinkan anggota dari organisasi lain serta mengundang anggota eksternal ke grup."
+    },
+    "portal:user:createItem": {
+      "label": "Buat, perbarui, dan hapus",
+      "description": "Izinkan anggota membuat, mengedit, dan menghapus konten mereka sendiri."
+    },
+    "portal:publisher:publishFeatures": {
+      "label": "Publikasikan feature layer yang di-host",
+      "description": "Izinkan anggota menerbitkan feature layer yang di-host dari shapefile, CSV, dll."
+    },
+    "portal:publisher:publishTiles": {
+      "label": "Terbitkan lapisan ubin yang di-host",
+      "description": "Izinkan anggota menerbitkan layer tile yang di-host dari paket ubin, fitur, dll."
+    },
+    "portal:publisher:publishScenes": {
+      "label": "Terbitkan layer scene yang di-host",
+      "description": "Izinkan anggota menerbitkan scene layer yang di-host."
+    },
+    "portal:publisher:publishTiledImagery": {
+      "label": "Terbitkan layer citra berubin yang dihosting",
+      "description": "Izinkan anggota untuk menerbitkan layer citra berubin yang di-host dari gambar tunggal atau kumpulan gambar. Memerlukan ekstensi jenis pengguna ArcGIS Image for ArcGIS Online.",
+      "descriptionPortal": "Izinkan anggota untuk menerbitkan layer citra berubin yang di-host dari gambar tunggal atau kumpulan gambar."
+    },
+    "portal:publisher:publishDynamicImagery": {
+      "label": "Terbitkan layer citra dinamis yang dihosting",
+      "description": "Izinkan anggota untuk menerbitkan layer citra dinamis yang dihosting dari gambar tunggal atau kumpulan gambar."
+    },
+    "portal:publisher:publishServerServices": {
+      "label": "Terbitkan layar berbasis server",
+      "description": "Hak istimewa ini memberikan kemampuan untuk menerbitkan layer yang didukung oleh layanan dari situs server terfederasi. Layanan ini sering kali merujuk pada data terdaftar dari geodatabase atau sumber data berbasis file."
+    },
+    "portal:publisher:publishKnowledgeGraph": {
+      "label": "Terbitkan grafik pengetahuan yang di-host",
+      "description": "Izinkan anggota menerbitkan grafik pengetahuan yang di-host."
+    },
+    "portal:user:viewOrgItems": {
+      "label": "Lihat konten yang dibagikan dengan organisasi",
+      "description": "Izinkan anggota melihat konten yang dibagikan kepada organisasi.",
+      "descriptionPortal": "Izinkan anggota melihat konten yang dibagikan ke portal."
+    },
+    "premium:publisher:createNotebooks": {
+      "label": "Buat dan edit notebook",
+      "description": "Memungkinkan anggota untuk membuat dan mengedit notebook interaktif."
+    },
+    "premium:publisher:scheduleNotebooks": {
+      "label": "Jadwalkan notebook",
+      "description": "Memungkinkan anggota untuk menjadwalkan penggunaan notebook secara otomatis di masa mendatang."
+    },
+    "portal:publisher:bulkPublishFromDataStores": {
+      "label": "Buat feature layer secara massal dari data store",
+      "description": "Hak istimewa ini memberikan kemampuan untuk menerbitkan layer web dari penyimpanan data terdaftar."
+    },
+    "portal:publisher:registerDataStores": {
+      "label": "Daftarkan data store",
+      "description": "privicanRegisterDataStorelege ini memberikan kemampuan untuk mendaftarkan penyimpanan data ke portal."
+    },
+    "portal:user:viewTracks": {
+      "label": "Lihat pelacakan lokasi",
+      "description": "Izinkan anggota melihat pelacakan lokasi anggota melalui tampilan pelacakan bersama saat berbagi lokasi diaktifkan."
+    },
+    "portal:user:reassignItems": {
+      "label": "Menetapkan kembali konten",
+      "description": "Izinkan anggota hanya untuk menetapkan kembali konten mereka ke anggota lain dengan hak istimewa untuk menerima konten."
+    },
+    "portal:user:receiveItems": {
+      "label": "Menerima konten",
+      "description": "Izinkan anggota untuk menerima konten yang ditetapkan kembali kepada mereka oleh anggota lain dengan hak istimewa untuk menetapkan kembali konten."
+    },
+    "portal:publisher:publishFeeds": {
+      "label": "Terbitkan umpan",
+      "description": "Hak istimewa ini memberikan kemampuan untuk menerbitkan umpan untuk mencerna dan menampilkan data waktu nyata menggunakan ArcGIS Velocity."
+    },
+    "portal:publisher:publishRealTimeAnalytics": {
+      "label": "Terbitkan analitik waktu nyata",
+      "description": "Hak istimewa ini memberikan kemampuan untuk menerbitkan analitik waktu nyata untuk menganalisis dan memproses data waktu nyata menggunakan ArcGIS Velocity."
+    },
+    "portal:publisher:publishBigDataAnalytics": {
+      "label": "Terbitkan analitik data besar",
+      "description": "Hak istimewa ini memberikan kemampuan untuk menerbitkan analitik data besar untuk menganalisis data pengamatan historis menggunakan ArcGIS Velocity."
+    },
+    "portal:publisher:createDataPipelines": {
+      "label": "Buat dan jalankan data pipeline",
+      "description": "Izinkan anggota membuat, mengedit, dan menjalankan data pipeline."
+    },
+    "portal:publisher:publishLivestreamVideo": {
+      "label": "Terbitkan video livestream",
+      "description": "Izinkan anggota untuk menerbitkan layer video livestream yang di-host yang bersumber dari streaming dan siaran video jaringan."
+    },
+    "portal:publisher:publishVideo": {
+      "label": "Terbitkan video",
+      "description": "Izinkan anggota menerbitkan layer video yang di-host dari file video dan file metadata video yang didukung."
+    },
+    "portal:user:shareToGroup": {
+      "label": "Bagikan ke grup",
+      "description": "Izinkan anggota membagikan konten ke grup."
+    },
+    "portal:user:shareToOrg": {
+      "label": "Bagikan dengan organisasi",
+      "labelPortal": "Bagikan dengan portal",
+      "description": "Izinkan anggota membagikan konten ke organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota membagikan konten ke portal Anda."
+    },
+    "portal:user:shareToPublic": {
+      "label": "Bagikan ke publik",
+      "description": "Izinkan anggota membagikan konten mereka kepada publik jika diizinkan oleh kebijakan pembagian publik dari organisasi.",
+      "tooltip": "Jika organisasi tidak mengizinkan anggotanya berbagi konten secara publik, maka anggota memerlukan hak istimewa administratif untuk membagikan konten anggota dengan publik."
+    },
+    "portal:user:shareGroupToOrg": {
+      "label": "Bagikan dengan portal",
+      "description": "Izinkan anggota membagikan konten ke organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota membagikan konten ke portal Anda."
+    },
+    "portal:user:shareGroupToPublic": {
+      "label": "Jadikan grup terlihat oleh publik",
+      "description": "Izinkan anggota membuat grup dapat ditemukan oleh publik."
+    },
+    "opendata:user:designateGroup": {
+      "label": "Jadikan grup tersedia untuk Data Terbuka",
+      "description": "Izinkan anggota menunjuk kelompok sebagai tersedia untuk digunakan dalam Data Terbuka."
+    },
+    "premium:user:elevation": {
+      "label": "Elevasi",
+      "description": "Deskripsi"
+    },
+    "premium:user:geocode": {
+      "label": "Geocoding",
+      "description": "Izinkan anggota untuk melakukan tugas geocoding yang menggunakan kredit dengan ArcGIS World Geocoding Service (atau tampilan dari pencari lokasi ini)."
+    },
+    "premium:user:geocode:stored": {
+      "label": "Geocoding Tersimpan",
+      "description": "Deskripsi"
+    },
+    "premium:user:geocode:temporary": {
+      "label": "Geocoding Sementara",
+      "description": "Deskripsi"
+    },
+    "premium:user:networkanalysis": {
+      "label": "Analisis Jaringan",
+      "description": "Izinkan anggota melakukan tugas analisis jaringan seperti area perutean dan waktu berkendara."
+    },
+    "premium:user:networkanalysis:closestfacility": {
+      "label": "Analisis fasilitas terdekat",
+      "description": "Deskripsi"
+    },
+    "premium:user:networkanalysis:locationallocation": {
+      "label": "Analisis alokasi lokasi",
+      "description": "Deskripsi"
+    },
+    "premium:user:networkanalysis:routing": {
+      "label": "Routing dasar",
+      "description": "Deskripsi"
+    },
+    "premium:user:networkanalysis:optimizedrouting": {
+      "label": "Perutean yang dioptimalkan",
+      "description": "Deskripsi"
+    },
+    "premium:user:networkanalysis:vehiclerouting": {
+      "label": "Routing kendaraan",
+      "description": "Deskripsi"
+    },
+    "premium:user:networkanalysis:origindestinationcostmatrix": {
+      "label": "Matriks asal/tujuan",
+      "description": "Deskripsi"
+    },
+    "premium:user:networkanalysis:servicearea": {
+      "label": "Area layanan",
+      "description": "Deskripsi"
+    },
+    "premium:user:places": {
+      "label": "Tempat",
+      "description": "Deskripsi"
+    },
+    "premium:user:spatialanalysis": {
+      "label": "Analisis Spasial",
+      "labelPortal": "Analisis Fitur Standar",
+      "description": "Izinkan anggota melakukan tugas analisis spasial.",
+      "descriptionPortal": "Hak istimewa ini memberikan kemampuan untuk melakukan pekerjaan analisis fitur standar."
+    },
+    "premium:user:geoenrichment": {
+      "label": "GeoEnrichment",
+      "description": "Izinkan anggota untuk fitur geoenrich."
+    },
+    "premium:user:demographics": {
+      "label": "Demografis",
+      "description": "Izinkan anggota menggunakan data demografis premium."
+    },
+    "premium:publisher:geoanalytics": {
+      "label": "Analisis Fitur GeoAnalytics",
+      "description": "Hak ini memberikan kemampuan untuk melakukan tugas GeoAnalytics."
+    },
+    "premium:publisher:rasteranalysis": {
+      "label": "Analisis Citra",
+      "description": "Izinkan anggota untuk melakukan tugas analisis citra. Memerlukan ekstensi jenis pengguna ArcGIS Image for ArcGIS Online.",
+      "descriptionPortal": "Izinkan anggota untuk melakukan tugas analisis citra."
+    },
+    "premium:publisher:createAdvancedNotebooks": {
+      "label": "Notebook lanjutan",
+      "description": "Memungkinkan anggota mengimpor dan menggunakan modul ArcPy di notebook."
+    },
+    "portal:user:runWebTool": {
+      "label": "Jalankan alat web",
+      "description": "Izinkan anggota untuk menjalankan alat web yang diterbitkan dari notebooks."
+    },
+    "premium:user:featurereport": {
+      "label": "Laporan fitur",
+      "description": "Izinkan anggota membuat laporan fitur di Survey123."
+    },
+    "features:user:edit": {
+      "label": "Edit",
+      "description": "Izinkan anggota untuk mengedit fitur dalam layer yang dapat diedit dan bukan publik, berdasarkan opsi edit yang diaktifkan pada layer."
+    },
+    "features:user:fullEdit": {
+      "label": "Edit dengan kontrol penuh",
+      "description": "Izinkan anggota untuk menambah, menghapus, dan memperbarui fitur dalam feature layer yang di-host dan dapat diedit, terlepas apakah opsi pengeditan diaktifkan pada layer atau tidak."
+    },
+    "features:user:manageVersions": {
+      "label": "Kelola semua",
+      "description": "Izinkan anggota untuk mengelola penguncian versi dan melihat, mengubah, menghapus, mengedit, mencocokkan, dan memposting ke semua versi cabang yang diakses melalui feature layer ArcGIS Server."
+    },
+    "portal:publisher:createFeatureWebhook": {
+      "label": "Feature layer",
+      "description": "Izinkan anggota untuk membuat, mengedit, dan menghapus webhook feature layer mereka sendiri."
+    },
+    "portal:admin:viewUsers": {
+      "label": "Lihat semua",
+      "description": "Izinkan anggota melihat informasi akun anggota lengkap dalam organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota melihat informasi akun anggota lengkap dalam portal Anda."
+    },
+    "portal:admin:updateUsers": {
+      "label": "Pembaruan",
+      "description": "Izinkan anggota untuk mengatur ulang kata sandi, memperbarui informasi akun anggota, dan memperbarui kategori anggota dalam organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota untuk mengatur ulang kata sandi, memperbarui informasi akun anggota, dan memperbarui kategori anggota dalam portal Anda."
+    },
+    "portal:admin:deleteUsers": {
+      "label": "Hapus",
+      "description": "Izinkan anggota menghapus akun anggota dalam organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota menghapus akun anggota dalam portal Anda."
+    },
+    "portal:admin:inviteUsers": {
+      "label": "Tambahkan",
+      "labelPortal": "Undang",
+      "description": "Izinkan anggota mengundang anggota ke organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota mengundang anggota ke portal Anda."
+    },
+    "portal:admin:disableUsers": {
+      "label": "Nonaktifkan",
+      "description": "Izinkan anggota mengaktifkan dan menonaktifkan akun anggota dalam organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota mengaktifkan dan menonaktifkan akun anggota dalam portal Anda."
+    },
+    "portal:admin:changeUserRoles": {
+      "label": "Ubah peran",
+      "description": "Izinkan anggota mengubah peran yang ditetapkan akun anggota. Catatan, hanya anggota dengan peran Administrator yang dapat menetapkan atau membatalkan penetapan peran Administrator ke akun lain.",
+      "descriptionPortal": "Izinkan anggota mengubah peran yang ditetapkan akun anggota. Catatan, hanya anggota dengan peran Administrator yang dapat menetapkan atau membatalkan penetapan peran Administrator ke akun lain."
+    },
+    "portal:admin:manageLicenses": {
+      "label": "Kelola lisensi",
+      "description": "Izinkan anggota menetapkan lisensi kepada anggota organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota menetapkan lisensi kepada anggota portal Anda."
+    },
+    "portal:admin:updateMemberCategorySchema": {
+      "label": "Kelola kategori",
+      "description": "Izinkan anggota mengonfigurasi kategori anggota organisasi.",
+      "descriptionPortal": "Izinkan anggota mengonfigurasi kategori anggota portal."
+    },
+    "portal:admin:viewGroups": {
+      "label": "Lihat semua",
+      "description": "Izinkan anggota melihat semua grup dalam organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota melihat semua grup dalam portal Anda."
+    },
+    "portal:admin:updateGroups": {
+      "label": "Pembaruan",
+      "description": "Izinkan anggota memperbarui grup dalam organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota memperbarui grup dalam portal Anda."
+    },
+    "portal:admin:deleteGroups": {
+      "label": "Hapus",
+      "description": "Izinkan anggota menghapus grup dalam organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota menghapus grup di dalam portal Anda."
+    },
+    "portal:admin:reassignGroups": {
+      "label": "Tugaskan ulang kepemilikan",
+      "description": "Izinkan anggota menetapkan kembali grup ke anggota lain dalam organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota menetapkan kembali grup ke anggota lain dalam portal Anda."
+    },
+    "portal:admin:assignToGroups": {
+      "label": "Tugaskan anggota",
+      "description": "Izinkan anggota menetapkan anggota Anda, memperbarui peran grup anggota, dan menghapus anggota dari grup dalam organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota menetapkan anggota Anda, memperbarui peran grup anggota, dan menghapus anggota dari grup di dalam portal Anda."
+    },
+    "portal:admin:manageEnterpriseGroups": {
+      "label": "Tautan ke grup khusus organisasi",
+      "description": "Izinkan anggota untuk menautkan keanggotaan grup ke grup khusus organisasi."
+    },
+    "portal:admin:createUpdateCapableGroup": {
+      "label": "Buat dengan kemampuan pembaruan",
+      "description": "Izinkan anggota membuat grup dengan kemampuan pembaruan."
+    },
+    "portal:admin:createLeavingDisallowedGroup": {
+      "label": "Buat dengan melarang meninggalkan grup",
+      "description": "Izinkan anggota membuat dan memiliki grup yang tidak mengizinkan anggota meninggalkan grup (grup administratif)."
+    },
+    "portal:admin:viewItems": {
+      "label": "Lihat semua",
+      "description": "Izinkan anggota melihat semua konten dalam organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota melihat semua konten dalam portal Anda."
+    },
+    "portal:admin:updateItems": {
+      "label": "Pembaruan",
+      "description": "Izinkan anggota untuk memperbarui dan mengategorikan konten dan mengedit feature layer yang diselenggarakan di organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota untuk memperbarui dan mengategorikan konten dan mengedit feature layer yang diselenggarakan di portal Anda."
+    },
+    "portal:admin:deleteItems": {
+      "label": "Hapus",
+      "description": "Izinkan anggota menghapus konten dalam organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota menghapus konten dalam portal Anda."
+    },
+    "portal:admin:reassignItems": {
+      "label": "Tugaskan ulang kepemilikan",
+      "description": "Izinkan anggota menetapkan kembali konten ke anggota lain dalam organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota menetapkan kembali konten ke anggota lain dalam portal Anda."
+    },
+    "portal:admin:updateItemCategorySchema": {
+      "label": "Kelola kategori",
+      "description": "Izinkan anggota mengonfigurasi kategori konten organisasi.",
+      "descriptionPortal": "Izinkan anggota mengonfigurasi kategori konten portal."
+    },
+    "portal:publisher:publishServerGPServices": {
+      "label": "Terbitkan alat web",
+      "description": "Hak istimewa ini memberikan kemampuan untuk menerbitkan alat web yang didukung oleh layanan geoprocessing dari situs server terfederasi."
+    },
+    "portal:admin:shareToOrg": {
+      "label": "Bagikan konten anggota ke organisasi",
+      "description": "Izinkan anggota membagikan konten yang dimiliki anggota lain di organisasi Anda ke organisasi.",
+      "descriptionPortal": "Izinkan anggota membagikan konten yang dimiliki anggota lain di portal Anda ke portal."
+    },
+    "portal:admin:shareToPublic": {
+      "label": "Bagikan konten anggota ke publik",
+      "description": "Izinkan anggota membagikan konten yang dimiliki anggota lain di organisasi ke publik.",
+      "descriptionPortal": "Izinkan anggota membagikan konten yang dimiliki anggota lain di portal Anda ke publik."
+    },
+    "portal:admin:createReports": {
+      "label": "Membuat dan mengelola laporan administratif",
+      "description": "Izinkan anggota membuat dan mengelola laporan administratif untuk organisasi Anda.",
+      "descriptionPortal": "Izinkan anggota membuat dan mengelola laporan administratif untuk portal Anda."
+    },
+    "marketplace:admin:manage": {
+      "label": "Buat dan kelola",
+      "description": "Izinkan anggota membuat penawaran, mencantumkan item, mengelola langganan di dalam ArcGIS Marketplace, serta mengelola informasi kontak dan pembeli untuk organisasi Anda. Penggunaan hak istimewa ini bergantung pada organisasi Anda yang mendapatkan penawaran dan menerbitkan akses ke ArcGIS Marketplace."
+    },
+    "marketplace:admin:purchase": {
+      "label": "Beli dan dapatkan produk gratis",
+      "description": "Izinkan anggota untuk mengirimkan permintaan pembelian dan mengakses produk gratis dari penyedia di ArcGIS Marketplace. Untuk mengizinkan anggota untuk membeli produk dengan menggunakan kartu kredit, Anda harus menunjuknya sebagai pembeli Marketplace."
+    },
+    "marketplace:admin:startTrial": {
+      "label": "Mulai uji coba",
+      "description": "Izinkan anggota memulai langganan uji coba dalam ArcGIS Marketplace."
+    },
+    "portal:admin:manageSecurity": {
+      "label": "Keamanan dan infrastruktur",
+      "description": "Izinkan anggota mengelola pengaturan keamanan dan infrastruktur organisasi.",
+      "descriptionPortal": "Izinkan anggota mengelola pengaturan keamanan dan infrastruktur portal."
+    },
+    "portal:admin:manageWebsite": {
+      "label": "Situs web organisasi",
+      "description": "Izinkan anggota mengelola pengaturan situs web organisasi.",
+      "descriptionPortal": "Izinkan anggota mengelola pengaturan situs web portal."
+    },
+    "portal:admin:manageCollaborations": {
+      "label": "Kolaborasi",
+      "description": "Izinkan anggota mengelola kolaborasi organisasi.",
+      "descriptionPortal": "Izinkan anggota mengelola kolaborasi portal."
+    },
+    "portal:admin:manageCredits": {
+      "label": "Kredit",
+      "description": "Izinkan anggota mengelola pengaturan penganggaran kredit organisasi."
+    },
+    "portal:admin:manageRoles": {
+      "label": "Peran anggota",
+      "description": "Izinkan anggota mengelola peran anggota organisasi.",
+      "descriptionPortal": "Izinkan anggota mengelola peran anggota portal."
+    },
+    "portal:admin:manageServers": {
+      "label": "Server",
+      "description": "Hak istimewa ini memberikan kemampuan untuk mengelola pengaturan server portal."
+    },
+    "portal:admin:manageUtilityServices": {
+      "label": "Layanan utilitas",
+      "description": "Izinkan anggota mengelola pengaturan layanan utilitas organisasi.",
+      "descriptionPortal": "Izinkan anggota mengelola pengaturan layanan utilitas portal."
+    },
+    "portal:admin:manageWebhooks": {
+      "label": "Webhook organisasi",
+      "description": "Izinkan anggota untuk membuat, mengedit, dan menghapus webhook organisasi dan mengelola semua webhook dalam portal."
+    },
+    "portal:admin:createGPWebhook": {
+      "label": "Geoprocessing",
+      "description": "Izinkan anggota untuk membuat, mengedit, dan menghapus webhook geoprosesing mereka sendiri."
+    }
+  }
+}

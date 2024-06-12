@@ -1,0 +1,72 @@
+{
+  "browser": {
+    "refineContent": "Precizēt saturu",
+    "filters": "Filtri",
+    "pageRange": "${start}-${end}, kopā: ${total}",
+    "pageRangeAria": "${start}-${end}, vienības kopā: ${total}",
+    "pageRangeWithRecycleBin": "${start}-${end}, kopā: ${total} (${recycleBinSize}) atkritnē",
+    "pageRangeAriaWithRecycleBin": "${start}-${end}, vienības kopā: ${total} (${recycleBinSize}) atkritnē",
+    "loading": "Notiek rezultātu ielāde",
+    "close": "Aizvērt"
+  },
+  "actions": {
+    "more": "Vairāk"
+  },
+  "filter": {
+    "clear": "Notīrīt"
+  },
+  "filterDate": {
+    "today": "Šodien",
+    "yesterday": "Vakar",
+    "last7": "Pēdējās 7 dienas",
+    "last30": "Pēdējās 30 dienas",
+    "custom": "Pielāgots diapazons…",
+    "title": {
+      "created": "Izveides datums",
+      "modified": "Izmaiņu datums"
+    },
+    "created": "Izveidots: ${date}",
+    "modified": "Mainīts: ${date}"
+  },
+  "pagination": {
+    "next": "Nākamā lapa",
+    "prev": "Iepriekšējā lapa"
+  },
+  "search": {
+    "label": "Meklēt grupas",
+    "search": "Meklēt",
+    "clear": "Notīrīt meklējamo terminu",
+    "wildcard": "Aizstājējzīmes meklēšana netiek atbalstīta"
+  },
+  "sort": {
+    "sortDirection": "Kārtošanas virziens",
+    "title": "Nosaukums",
+    "relevance": "Svarīgums",
+    "modified": "Izmaiņu datums",
+    "deleted": "Dzēšanas datums",
+    "created": "Izveides datums",
+    "size": "Izmērs",
+    "owner": "Īpašnieks",
+    "sizeAsc": "No mazākā uz lielāko",
+    "sizeDesc": "No lielākā uz mazāko",
+    "numviews": "Skatījumu skaits",
+    "numAsc": "No mazākā uz lielāko",
+    "numDesc": "No lielākā uz mazāko",
+    "alphabeticalAsc": "Alfabētiskā secībā",
+    "alphabeticalDesc": "Apgrieztā alfabēta secībā",
+    "recentAsc": "Senākais",
+    "recentDesc": "Jaunākais",
+    "sort": "Kārtot",
+    "sortBy": "Kārtot pēc",
+    "sortByColon": "Kārtot pēc:"
+  },
+  "topBar": {
+    "filter": "Filtrs"
+  },
+  "filterStatus": {
+    "clear": "Notīrīt",
+    "filters": "Filtri:",
+    "additional": "Papildu aktīvie filtri",
+    "clearAllFilters": "Notīrīt visus filtrus"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "deleteItem": "Panaikinti elementą",
+  "deleteItems": "Ištrinti elementus",
+  "deleteFolder": "Ištrinti aplanką",
+  "recycleBin": "Šiukšliadėžė",
+  "delete": "Pašalinti",
+  "permanentlyDelete": "Ištrinti visam laikui",
+  "back": "Atgal",
+  "cancel": "Atšaukti",
+  "item": "elementas",
+  "items": "elementai",
+  "cantDelete": "Šie elementai negali būti pašalinti, nes yra apsaugoti nuo šalinimo arba turi priklausomų elementų.",
+  "proceed": "Ar tęsti likusių elementų trynimą?",
+  "moreOptions": "Išplėstinės parinktys",
+  "hideOptions": "Slėpti parinktis",
+  "deletePermanently": "Ištrinti visam laikui (šio veiksmo atšaukti negalima)",
+  "learnMore": "Sužinokite daugiau",
+  "summary": {
+    "select": "Pasirinkti",
+    "deselect": "Atžymėti",
+    "selectedItems": "Pasirinkti elementai:",
+    "permanentlyDelete": "Ištrinti visam laikui:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "Šio elemento nepalaiko šiukšliadėžė.",
+        "multiple": "Šiukšliadėžė šių elementų nepalaiko."
+      },
+      "unsynchronized": "Nesinchronizuoti redagavimai, atlikti elementų sluoksniams paskirstyto bendradarbiavimo grupėje, bus prarasti.",
+      "notSupportedAndUnsynchronized": "Kai kurie elementų tipai nepalaikomi. Nesinchronizuoti redagavimai, atlikti elementų sluoksniams paskirstyto bendradarbiavimo grupėje, bus prarasti.",
+      "group": {
+        "notSupported": "Nepalaikoma",
+        "distributedCollaboration": "Priklauso paskirstytam bendradarbiavimui"
+      }
+    },
+    "canBeRecovered": {
+      "single": "Šį elementą galima atkurti iki ${days} d.",
+      "multiple": "Šiuos elementus galima atkurti iki ${days} d.",
+      "unknown": "Šiuos elementus galima atkurti iki ${days} d."
+    },
+    "willBeRecycled": "Siųsti į šiukšliadėžę:",
+    "cannotBeDeleted": "Negalima ištrinti:",
+    "deleteDiscouraged": "Ištrinti nerekomenduojama:",
+    "hasDependentItems": "Turi priklausomų elementų:",
+    "someActionsMayNoLongerWork": {
+      "single": "Jei šį elementą nusiųsite į šiukšliadėžę, kai kurie veiksmai, kuriems reikia prieigos prie pradinio elemento, gali būti atliekami netinkamai.",
+      "multiple": "Jei šiuos elementus nusiųsite į šiukšliadėžę, kai kurie veiksmai, kuriems reikia prieigos prie pradinio elemento, gali būti atliekami netinkamai."
+    },
+    "cannotDelete": {
+      "all": "Elementai, kurie yra apsaugoti nuo ištrynimo, priklauso paskirstyto bendradarbiavimo grupei ar turi priklausomų elementų, negali būti ištrinti.",
+      "protectedAndCollaboration": "Elementai, kurie yra apsaugoti nuo ištrynimo ar priklauso paskirstyto bendradarbiavimo grupei, negali būti ištrinti.",
+      "protectedAndDependent": "Elementai, kurie yra apsaugoti nuo ištrynimo ar turi priklausomų elementų, negali būti ištrinti.",
+      "collaborationAndDependent": "Elementai, kurie priklauso paskirstyto bendradarbiavimo grupei ar turi priklausomų elementų, negali būti ištrinti."
+    },
+    "deletePermanently": "Ištrinti visam laikui: ${count} (šio veiksmo atšaukti negalima)",
+    "deleteAllPermanently": "Ištrinti visus elementus visam laikui: ${count} (šio veiksmo atšaukti negalima)",
+    "deleteXPermanently": "Ištrinti ${subset} iš ${total} elementų visam laikui (šio veiksmo atšaukti negalima)",
+    "protectedGroup": {
+      "deleteProtected": "Apsaugoti nuo ištrynimo",
+      "deleteProtectedDescription": "Elementų, kurie yra apsaugoti nuo ištrynimo, ištrinti negalima.",
+      "hasDependentItems": "Turi priklausomų elementų",
+      "itemUsedBy": "Šį elementą naudojo:",
+      "hasDependentItemsDescription": {
+        "single": "Šis elementas turi priklausomą elementą. Jie turi būti ištrinti kartu.",
+        "multiple": "Šie elementai turi kitų nuo jų priklausančių elementų. Jie turi būti ištrinti kartu."
+      },
+      "distributedCollaboration": "Priklauso paskirstytam bendradarbiavimui",
+      "distributedCollaborationDescription": "Elementai, kurie priklauso paskirstyto bendradarbiavimo grupei, negali būti ištrinti.",
+      "deleteDiscouraged": "Ištrinti nerekomenduojama",
+      "deleteDiscouragedDescription": {
+        "single": "Jei šis elementas bus ištrintas, priklausomi elementai gali prarasti kai kurias funkcijas. Šį elementą galite ištrinti iš elemento informacijos puslapio.",
+        "multiple": "Jei šie elementai bus ištrinti, priklausomi elementai gali prarasti kai kurias funkcijas. Šiuos elementus galite po vieną ištrinti iš elemento informacijos puslapio."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "Šis elementas bus ištrintas visam laikui, nes šiukšliadėžė jo nepalaiko.",
+    "multiple": "Šie elementai bus ištrinti visam laikui, nes šiukšliadėžė jų nepalaiko.",
+    "unknown": "Šie elementai bus ištrinti visam laikui, nes šiukšliadėžė jų nepalaiko."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "Pasirinktas elementas priklauso paskirstyto bendradarbiavimo grupei ir negali būti perkeltas į šiukšliadėžę. Jis bus ištrintas visam laikui.",
+    "multiple": "Pasirinkti elementai priklauso paskirstyto bendradarbiavimo grupei ir negali būti perkelti į šiukšliadėžę. Jie bus ištrinti visam laikui.",
+    "unknown": "Pasirinkti elementai priklauso paskirstyto bendradarbiavimo grupei ir negali būti perkelti į šiukšliadėžę. Jie bus ištrinti visam laikui."
+  },
+  "areYouSure": {
+    "single": "Ar tikrai norite ištrinti šį elementą?",
+    "multiple": "Ar tikrai norite ištrinti šiuos elementus?",
+    "unknown": "Ar tikrai norite ištrinti šiuos elementus?"
+  },
+  "areYouSureRecycle": {
+    "single": "Šis elementas liks šiukšliadėžėje ${days} d., o po to bus visam laikui ištrintas.",
+    "multiple": "Šie elementai liks šiukšliadėžėje ${days} d., o po to bus visam laikui ištrinti.",
+    "unknown": "Šie elementai liks šiukšliadėžėje ${days} d., o po to bus visam laikui ištrinti."
+  },
+  "areYouSurePermanent": {
+    "single": "Ar tikrai norite visam laikui ištrinti šį ${number} elementą? Šio ${carrot} elemento atkurti negalima, jei jis buvo ištrintas visam laikui.",
+    "multiple": "Ar tikrai norite visam laikui ištrinti šiuos elementus? Šių elementų atkurti negalima, jei jie buvo ištrinti visam laikui.",
+    "unknown": "Ar tikrai norite visam laikui ištrinti šiuos elementus? Šių elementų atkurti negalima, jei jie buvo ištrinti visam laikui."
+  },
+  "folder": {
+    "mustBeEmpty": "Aplankas <b>${folder}</b> turi būti tuščias, kad jį būtų galima ištrinti.",
+    "aFewCannotBeDeleted": "Kelių elementų ištrinti negalima. Ar tikrai norite tęsti ir ištrinti likusius?",
+    "mustBeEmptyProceed": "Aplankas <b>${folder}</b> turi būti tuščias, kad jį būtų galima ištrinti. Ar tikrai norite tęsti ir ištrinti šiuos elementus?",
+    "cannotBeDeleted": "Aplanko <b>${folder}</b> negalima ištrinti, nes jo elementų negalima ištrinti."
+  },
+  "deletes": {
+    "single": "Bus ištrinta po ${days} d.",
+    "multiple": "Bus ištrinta po ${days} d.",
+    "unknown": "Liko dienų iki ištrynimo: ${days}"
+  },
+  "deleteOverride": {
+    "single": "Ar tikrai norite vietoje to visam laikui ištrinti šį elementą? Šio veiksmo negalima atšaukti.",
+    "multiple": "Ar tikrai norite vietoje to visam laikui ištrinti šiuos elementus? Šio veiksmo negalima atšaukti."
+  },
+  "restore": {
+    "restore": "Grąžinti",
+    "restoreTo": "Atkurti į",
+    "restoreItem": "Atkurti elementą",
+    "restoreItems": "Atkurti elementus",
+    "noticeMessage": "Atkurtų elementų bendrinimas bus panaikintas. Peržiūrėkite savo turinį prieš vėl jį bendrindami.",
+    "cannotBulkRestoreXItems": "Negalima masiškai atkurti daugiau nei ${number} elementų, panaikinkite kelių elementų pasirinkimą.",
+    "cannotBulkRestoreMultipleOwners": "Negalima masiškai atkurti elementų, priklausančių skirtingiems savininkams. Norėdami masiškai atkurti, pasirinkite vieno savininko elementus.",
+    "toRestore": {
+      "single": "Atkuriamas elementas:",
+      "multiple": "Atkuriami elementai:"
+    },
+    "cannotRestore": "Negalima atkurti:",
+    "dependentItems": {
+      "single": "Šio elemento negalima atkurti, nes jis priklauso nuo <b>${parent}</b>. Atkurkite juos kartu.",
+      "multiple": "Šių elementų negalima atkurti, nes jie priklausomi nuo kitų elementų šiukšliadėžėje. Atkurkite juos kartu: "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "Reikia atkurti atsitiktinai ištrintą elementą? Išbandykite naują šiukšliadėžę!",
+    "takeALook": "Žvilgterkite į naują šiukšliadėžę!",
+    "learnMore": "Sužinoti daugiau apie ištrintų elementų atkūrimą",
+    "heldInRecycleBin": "Elementai šiukšliadėžėje laikomi iki ${days} d.",
+    "goToUserRecycleBin": "Norėdami atkurti elementus arba juos ištrinti visam laikui, eikite į savo ${linkStart}šiukšliadėžę${linkEnd}.",
+    "goToOrgRecycleBin": "Norėdami atkurti elementus arba juos ištrinti visam laikui, eikite į savo ${linkStart}organizacijos šiukšliadėžę${linkEnd}. Šiukšliadėžėje esantis turinys toliau naudoja kreditus."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "${start} – ${end} iš ${total} (${size}) šiukšliadėžėje",
+    "other": "${start} – ${end}, iš viso: ${total} (${size}) šiukšliadėžėje"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "${start} – ${end} iš ${total} (>${size}) šiukšliadėžėje",
+    "other": "${start} – ${end}, iš viso: ${total} (>${size}) šiukšliadėžėje"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "Lisätietoja",
+    "title": "ArcGIS Onlinen uudet ominaisuudet",
+    "description": "Helmikuun 2024 päivitys sisältää uusia ominaisuuksia ja parannuksia koko ArcGIS Online -sivustolla."
+  },
+  "pipelines": {
+    "learnMore": "Lisätietoja",
+    "title": "Tuo, puhdista ja muunna aineistoja ilman mitään koodausta.",
+    "description": "Visuaaliset vedä ja pudota -työkalut tietojen syöttämiseen Amazon S3:sta, Google BigQuerystä ja monista muista lähteistä.",
+    "link": "Kokeile ArcGIS Data Pipelines -työkalua"
+  },
+  "title": "Uusi ArcGIS Onlinessa"
+}

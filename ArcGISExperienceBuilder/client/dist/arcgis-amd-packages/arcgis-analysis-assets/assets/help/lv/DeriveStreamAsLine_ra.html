@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>Rīks Atvasināt plūsmu kā līniju ģenerē plūsmas līnijas elementus no ievades virsmas rastra bez iepriek&scaron;ējas sateknes vai padziļinājuma aizpildī&scaron;anas.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputSurfaceRaster">
+        <div>
+            <p>Augstuma rastrs, kas tiks izmantots aprēķinā.
+            </p>
+        </div>
+    </div>
+    <div id="inputDepressionsData">
+        <div>
+            <p>Ievade, kas nosaka reālu ieteku vai ieplaku atra&scaron;anās vietas, kur ūdens var ieplūst, bet ne izplūst.
+            </p>
+        </div>
+    </div>
+    <div id="inputWeightRaster">
+        <div>
+            <p>Rastra slānis, kas nosaka plūsmas frakciju, kas veicina plūsmas uzkrā&scaron;anos katrā &scaron;ūnā.
+            </p>
+        </div>
+    </div>
+    <div id="accumulationThreshold">
+        <div>
+            <p>Slieksnis, lai noteiktu, vai konkrētā &scaron;ūna ir plūsmas daļa, ņemot vērā kopējo platību, kas ieplūst &scaron;ajā elementā.
+            </p>
+        </div>
+    </div>
+    <div id="streamDesignationMethod">
+        <div>
+            <p>Norāda, vai izvades plūsmas segmentiem būs nemainīga vērtība, unikālas vērtības vai tie tiks pasūtīti.
+            </p>
+        </div>
+    </div>
+    <div id="simplify">
+        <div>
+            <p>Norāda, vai izvades plūsmas rindas tiks izlīdzinātas vienkār&scaron;ākās formās.
+            </p>
+            <p>Ja &scaron;ī opcija ir atzīmēta, plūsmas līnijas elementi tiks vienkār&scaron;oti, izmantojot Duglasa&ndash;Poikera algoritmu ar sqrt(0.5)* &scaron;ūnas lieluma pielaidi. Tā ir noklusējuma vērtība. Ja &scaron;ī opcija nav atzīmēta, plūsmas līnijas elementi netiks izlīdzināti.
+            </p>
+        </div>
+    </div>
+    <div id="outputStreamFeaturesName">
+        <div>
+            <p>Plūsmas rindas elementu slāņa nosaukums, kas tiks izveidots un pievienots kartei.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>Mapes nosaukums sadaļā  <b>Mans saturs</b>, kurā tiks saglabāti rezultāti.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

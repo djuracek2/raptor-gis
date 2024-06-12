@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"הוראות נסיעה",_action_DirectionsFrom_label:"הוראות נסיעה מ-",_action_DirectionsTo_label:"הוראות נסיעה אל",outOfCredit:"לא ניתן לטעון את שירות המסלולים. ייתכן שהסיבה לכך היא שהשירות אינו נגיש.",namedInvalidUtilMsg:"{label} לא זמין.",namedNeedLoginUtilMsg:"מצטערים, אין לך הרשאת גישה אל {label}."})}}}));

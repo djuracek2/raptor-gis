@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "Další informace",
+    "title": "Nové funkce v ArcGIS Online",
+    "description": "Aktualizace z února 2024 obsahuje nové funkce a vylepšení celého webu ArcGIS Online."
+  },
+  "pipelines": {
+    "learnMore": "Další informace",
+    "title": "Importujte, vyčistěte a transformujte data bez nutnosti kódování.",
+    "description": "Vizuální nástroje pro přetažení dat z Amazon S3, Google BigQuery a dalších.",
+    "link": "Vyzkoušejte ArcGIS Data Pipelines"
+  },
+  "title": "Novinky v ArcGIS Online"
+}

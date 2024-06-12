@@ -1,0 +1,16 @@
+{
+  "cancel": "İptal",
+  "reset": "Sıfırla",
+  "resetting": "Sıfırlanıyor...",
+  "save": "Kaydet",
+  "saving": "Kaydediliyor...",
+  "itemClassificationLabel": "Sınıflandırma",
+  "itemClassificationCategoryLabel": "Öge sınıflama kategorisi etiketi",
+  "itemClassificationEditLabel": "Sınıflamayı Düzenle",
+  "itemClassificationValidateError": "Doğrulama başarısız; öge sınıflama değeri doldurulmayacak! Lütfen düzenleyip yeni bir sınıflama kaydedin.",
+  "classificationValueSaved": "Sınıflama değeri kaydedildi",
+  "classificationNotificationHandler": "Sınıflama bildirimi işleyici",
+  "openModal": "Modalı aç",
+  "currentSelections": "Mevcut Seçimler",
+  "searchForCategory": "Kategori ara"
+}

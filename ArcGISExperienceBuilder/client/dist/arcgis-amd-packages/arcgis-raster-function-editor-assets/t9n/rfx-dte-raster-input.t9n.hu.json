@@ -1,0 +1,10 @@
+{
+  "outputRaster": "Kimeneti raszter",
+  "rfxVariable": "RaszterFunkcióVáltozó",
+  "selectLayer": "Réteg kiválasztása",
+  "allowScalar": "Válasszon réteget, vagy pedig adja meg a kívánt állandót.",
+  "browseLayer": "Rétegek tallózása",
+  "loading": "Betöltés...",
+  "layerMissing": "A térkép egy vagy több rétege itt nem szerepel, mert nem teszi lehetővé az elemzést. További információ.",
+  "layerFailedToLoad": "A réteg betöltése nem sikerült."
+}

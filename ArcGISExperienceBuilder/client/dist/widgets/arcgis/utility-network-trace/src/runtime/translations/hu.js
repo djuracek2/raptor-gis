@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Közműhálózat nyomkövetése",_widgetDescription:"Widget egy ArcGIS közműhálózat nyomon követéséhez",_action_filter_label:"Szűrő"})}}}));

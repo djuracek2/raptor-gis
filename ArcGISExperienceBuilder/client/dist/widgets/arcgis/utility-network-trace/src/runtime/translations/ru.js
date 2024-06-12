@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Трассировка Инженерной сети",_widgetDescription:"Виджет для трассировки ArcGIS Utility Network",_action_filter_label:"Фильтр"})}}}));

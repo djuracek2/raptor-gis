@@ -1,0 +1,10 @@
+{
+  "select": "Selecionar item: ${title}",
+  "lastUpdated": "Item atualizado: ${date}",
+  "viewItemDetails": "Veja mais detalhes sobre ${title}",
+  "preview": "Mais detalhes",
+  "hidePreview": "Menos detalhes",
+  "closeDetails": "Fechar painel de detalhes do item",
+  "openDetails": "Painel de detalhes do item aberto",
+  "moreOptions": "Mais opções"
+}

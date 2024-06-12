@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({sourceLabel:"Bron",sourceDescript:"Een webkaart of webscene, of een combinatie van beide.",showBaseMap:"Legenda's basiskaart weergeven",cardStyle:"Kaartstijl gebruiken"})}}}));

@@ -1,0 +1,12 @@
+{
+  "value": "Vrednost",
+  "classname": "ClassName",
+  "color": "Boja",
+  "raster": "Raster",
+  "generate": "Generiši tabelu",
+  "minValue": "Minimalna vrednost",
+  "maxValue": "Maksimalna vrednost",
+  "classBaseName": "Osnovno ime klase",
+  "colorscheme": "Šema boja",
+  "defaultClassName": "Oznaka_"
+}

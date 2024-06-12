@@ -1,0 +1,21 @@
+{
+  "deleteFolder": "Map verwijderen",
+  "delete": "Verwijderen",
+  "permanentlyDelete": "Permanent verwijderen",
+  "back": "Terug",
+  "cancel": "Annuleren",
+  "success": "De map '${title}' is verwijderd",
+  "deleteProtectedItemsInFolder": "Kan map niet verwijderen omdat een aantal van de items tegen verwijdering zijn beveiligd of afhankelijke items hebben.",
+  "message": {
+    "empty": "Weet u zeker dat u deze map wilt verwijderen, <strong style='font-weight: 500'>${title}</strong>?",
+    "mustBeEmpty": "De map <strong style='font-weight: 500'>${title}</strong> moet leeg zijn om te kunnen worden verwijderd.",
+    "aFewCannotBeDeleted": "Een paar items kunnen niet verwijderd worden. Weet u zeker dat u door wilt gaan met het verwijderen van de rest?",
+    "mustBeEmptyProceed": "De map <strong style='font-weight: 500'>${title}</strong> moet leeg zijn om te kunnen worden verwijderd. Weet u zeker dat u door wilt gaan met het verwijderen van deze items?",
+    "cannotBeDeleted": "De map <strong style='font-weight: 500'>${title}</strong> kan niet worden verwijderd omdat de items niet kunnen worden verwijderd."
+  },
+  "disabledMessage": {
+    "single": "Er bevindt zich <span style='color:red'>1 item</span> in deze map, ${label}.<br/></br/>Weet u zeker dat u deze map en het bijbehorende item wilt verwijderen?",
+    "multiple": "Er bevinden zich <span style='color:red'>${number} items</span> in deze map, ${label}.<br/></br/>Weet u zeker dat u deze map en alle items wilt verwijderen?",
+    "unknown": "Weet u zeker dat u deze map wilt verwijderen, ${label}?"
+  }
+}

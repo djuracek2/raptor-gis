@@ -1,0 +1,10 @@
+{
+  "select": "Välj objekt: ${title}",
+  "lastUpdated": "Objekt uppdaterat: ${date}",
+  "viewItemDetails": "Visa mer information om ${title}",
+  "preview": "Fler detaljer",
+  "hidePreview": "Färre detaljer",
+  "closeDetails": "Stäng objektinformationspanelen",
+  "openDetails": "Öppna objektinformationspanelen",
+  "moreOptions": "Fler alternativ"
+}

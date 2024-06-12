@@ -1,0 +1,10 @@
+{
+  "outputRaster": "Výstupný raster",
+  "rfxVariable": "Premenná funkcie rastra",
+  "selectLayer": "Vybrať vrstvu",
+  "allowScalar": "Vyberte vrstvu alebo zadajte konštantu",
+  "browseLayer": "Prehľadať vrstvy",
+  "loading": "Načítava sa...",
+  "layerMissing": "Jedna alebo viac vrstiev z mapy tu nie sú uvedené, pretože neumožňujú analýzy. Zistiť viac.",
+  "layerFailedToLoad": "Nepodarilo sa načítať vrstvu."
+}

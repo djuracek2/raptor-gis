@@ -1,0 +1,12 @@
+{
+  "value": "Érték",
+  "classname": "OsztályNév",
+  "color": "Szín",
+  "raster": "Raszter",
+  "generate": "Tábla létrehozása",
+  "minValue": "Minimum érték",
+  "maxValue": "Maximum érték",
+  "classBaseName": "Osztályalap neve",
+  "colorscheme": "Színséma",
+  "defaultClassName": "Felirat_"
+}

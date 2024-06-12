@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "Научете повече",
+    "title": "Нови обекти в ArcGIS Online",
+    "description": "Актуализацията от февруари 2024 г. включва нови възможности и подобрения в целия уебсайт на ArcGIS Online."
+  },
+  "pipelines": {
+    "learnMore": "Научете повече",
+    "title": "Импортирайте, почиствайте и трансформирайте данни без никакво кодиране.",
+    "description": "Визуални инструменти за плъзгане и пускане за поемане на данни от Amazon S3, Google BigQuery и др.",
+    "link": "Опитайте ArcGIS Data Pipelines"
+  },
+  "title": "Нов в ArcGIS Online"
+}

@@ -1,0 +1,12 @@
+{
+  "value": "Värde",
+  "classname": "ClassName",
+  "color": "Färg",
+  "raster": "Raster",
+  "generate": "Skapa tabell",
+  "minValue": "Minsta värde",
+  "maxValue": "Maximalt värde",
+  "classBaseName": "Klassbasnamn",
+  "colorscheme": "Färgschema",
+  "defaultClassName": "Label_"
+}

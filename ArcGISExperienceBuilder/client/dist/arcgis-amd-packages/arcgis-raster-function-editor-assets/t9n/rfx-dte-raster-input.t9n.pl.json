@@ -1,0 +1,10 @@
+{
+  "outputRaster": "Raster wynikowy",
+  "rfxVariable": "RasterFunctionVariable",
+  "selectLayer": "Wybierz warstwę",
+  "allowScalar": "Wybierz warstwę lub wprowadź stałą",
+  "browseLayer": "Przeglądaj warstwy",
+  "loading": "Wczytywanie...",
+  "layerMissing": "Co najmniej jedna warstwa z mapy nie została tu wymieniona, ponieważ nie umożliwia analizy. Dowiedz się więcej.",
+  "layerFailedToLoad": "Nie udało się wczytać warstwy."
+}

@@ -1,0 +1,69 @@
+{
+  "modalHeader": "Configura les categories de contingut",
+  "modalGroupHeader": "Configura les categories de grup",
+  "helpText": "Editeu, elimineu o reordeneu categories de la vostra organització.",
+  "loadingText": "S'estan carregant les plantilles d'esquema",
+  "cancel": "Cancel·la",
+  "finishSetup": "Finalitza la configuració",
+  "hasUnsavedChanges": "Heu fet canvis de categoria que es perdran si no els deseu abans. Segur que voleu tancar aquesta visualització i perdre els canvis?",
+  "error": {
+    "generic": {
+      "title": "Error en actualitzar les categories",
+      "message": "Hi ha hagut algun problema. Torneu-ho a provar més tard."
+    },
+    "maxDepthExceeded": {
+      "title": "Error en actualitzar les categories",
+      "message": "No podeu niar categories amb més de dos nivells de profunditat."
+    },
+    "destinationHasSameName": {
+      "title": "Error en actualitzar les categories",
+      "message": "Ja existeix una categoria amb el mateix nom a la categoria de destinació."
+    },
+    "emptyTitle": {
+      "title": "Error en actualitzar les categories",
+      "message": "El títol de la categoria no pot estar buit."
+    },
+    "noSchema": {
+      "title": "No s'ha trobat l'esquema",
+      "message": "No s'ha trobat l'esquema d'elements de l'usuari."
+    },
+    "maxCharacter": {
+      "title": "Error en actualitzar les categories",
+      "message": "Els noms de categoria poden tenir ${maxCharacter} caràcters de longitud com a màxim."
+    }
+  },
+  "warning": {
+    "deleteInUseCategory": {
+      "title": "Suprimeix la categoria",
+      "message": "S'han assignat ${numItem} elements a aquesta categoria. Si suprimiu la categoria, també s'eliminarà d'aquests elements.",
+      "cta": "Suprimeix la categoria"
+    },
+    "changeTitleInUseCategory": {
+      "title": "Actualitza la categoria",
+      "message": "S'han assignat ${numItem} elements a aquesta categoria. Si actualitzeu aquesta categoria, s'actualitzaran els elements perquè utilitzin \"${newTitle}\"",
+      "cta": "Actualitza la categoria"
+    }
+  },
+  "template": {
+    "title": "Plantilles de categoria",
+    "learnMore": "Més informació",
+    "templateList": {
+      "custom": {
+        "title": "Categories personalitzades",
+        "message": "Creeu les vostres pròpies categories per organitzar el contingut a l'organització."
+      },
+      "arcgis": {
+        "title": "Categories de l'ArcGIS",
+        "message": "Les categories de l'ArcGIS inclouen una selecció de categories i subcategories de temes que es poden utilitzar per classificar molts tipus de contingut geoespacial. Aquestes categories s'utilitzen per donar suport a l'ArcGIS Living Atlas of the World."
+      },
+      "iso": {
+        "title": "Categories ISO",
+        "message": "Les categories ISO inclouen categories temàtiques de la International Organization for Standardization que proporcionen un mètode per descriure i catalogar informació geogràfica."
+      },
+      "inspire": {
+        "title": "Categories INSPIRE",
+        "message": "Les categories INSPIRE inclouen un conjunt complet de temes de dades espacials que s'estableix a la Directiva INSPIRE."
+      }
+    }
+  }
+}

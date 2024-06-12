@@ -1,0 +1,1 @@
+System.register([],(function(t){return{execute:function(){t({_widgetLabel:"Trasování inženýrské sítě",_widgetDescription:"Widget pro trasování inženýrské sítě ArcGIS Utility Network",_action_filter_label:"Filtr"})}}}));

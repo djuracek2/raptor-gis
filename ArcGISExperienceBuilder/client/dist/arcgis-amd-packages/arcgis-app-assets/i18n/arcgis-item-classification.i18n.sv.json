@@ -1,0 +1,16 @@
+{
+  "cancel": "Avbryt",
+  "reset": "Återställ",
+  "resetting": "Återställer...",
+  "save": "Spara",
+  "saving": "Sparar...",
+  "itemClassificationLabel": "Klassificering",
+  "itemClassificationCategoryLabel": "Kategorietikett för objektklassificering",
+  "itemClassificationEditLabel": "Redigera klassificering",
+  "itemClassificationValidateError": "Validering misslyckades, objektklassificeringsvärdet kommer inte att fyllas i! Redigera och spara en ny.",
+  "classificationValueSaved": "Klassificeringsvärdet har sparats",
+  "classificationNotificationHandler": "Hanterare av klassificeringsmeddelanden",
+  "openModal": "Öppna modal",
+  "currentSelections": "Aktuella urval",
+  "searchForCategory": "Sök efter kategori"
+}

@@ -1,0 +1,1 @@
+System.register([],(function(t){return{execute:function(){t({routeSettings:"Ruteindstillinger",searchSettings:"Søgeindstillinger",routeUrl:"Rute-URL",outputStops:"Stop",outputRoute:"Rute",outputDirectionPoints:"Retningspunkter",outputDirectionLines:"Retningslinjer"})}}}));

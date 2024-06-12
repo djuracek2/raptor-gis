@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"方向",_action_DirectionsFrom_label:"方向來源",_action_DirectionsTo_label:"方向目的地",outOfCredit:"無法載入路線服務。 這可能是無法存取服務所致。",namedInvalidUtilMsg:"{label} 不可用。",namedNeedLoginUtilMsg:"很抱歉，您沒有權限存取 {label}。"})}}}));

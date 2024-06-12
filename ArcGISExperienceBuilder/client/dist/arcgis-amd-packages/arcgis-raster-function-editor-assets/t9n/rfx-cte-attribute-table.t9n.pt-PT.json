@@ -1,0 +1,12 @@
+{
+  "value": "Valor",
+  "classname": "ClassName",
+  "color": "Cor",
+  "raster": "Raster",
+  "generate": "Criar tabela",
+  "minValue": "Valor Mínimo",
+  "maxValue": "Valor Máximo",
+  "classBaseName": "Nome Base da Classe",
+  "colorscheme": "Esquema de Cores",
+  "defaultClassName": "Rótulo_"
+}

@@ -1,0 +1,10 @@
+{
+  "select": "Izaberite stavku: ${title}",
+  "lastUpdated": "Ažurirana stavka: ${date}",
+  "viewItemDetails": "Prikaz više informacija o ${title}",
+  "preview": "Više detalja",
+  "hidePreview": "Manje detalja",
+  "closeDetails": "Zatvori panel detalji stavke",
+  "openDetails": "Otvorite panel sa detaljima o stavci",
+  "moreOptions": "Više opcija"
+}

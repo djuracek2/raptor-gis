@@ -1,0 +1,11 @@
+{
+  "addRaster": "Dodaj varijablu rastera",
+  "addScalar": "Dodaj konstantu",
+  "raster": "Raster",
+  "scalar": "Skalar",
+  "defaultModelName": "Predložak funkcije rastera",
+  "defaultRasterName": "Raster",
+  "invalidRFTMessage": "Predložak rasterske funkcije nije važeći.",
+  "deprecated": "Zastarjelo",
+  "deprecatedHoverText": "Ova rasterska funkcija je zastarjela i bit će uklonjena u budućem izdanju."
+}

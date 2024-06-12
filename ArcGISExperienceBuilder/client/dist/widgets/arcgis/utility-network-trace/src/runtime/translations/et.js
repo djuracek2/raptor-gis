@@ -1,0 +1,1 @@
+System.register([],(function(i){return{execute:function(){i({_widgetLabel:"Kommunaalvaldkonna võrgustiku rada",_widgetDescription:"ArcGIS Utility Networki jälgimise vidin",_action_filter_label:"Filtreeri"})}}}));

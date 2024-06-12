@@ -1,0 +1,1 @@
+System.register([],(function(t){return{execute:function(){t({routeSettings:"Налаштування маршруту",searchSettings:"Налаштування пошуку",routeUrl:"URL маршруту",outputStops:"Зупинки",outputRoute:"Маршрут",outputDirectionPoints:"Точки напрямку",outputDirectionLines:"Лінії напрямку"})}}}));

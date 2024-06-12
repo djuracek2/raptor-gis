@@ -1,0 +1,1 @@
+System.register([],(function(t){return{execute:function(){t({routeSettings:"Maršruto nustatymai",searchSettings:"Paieškos nustatymai",routeUrl:"Maršruto URL",outputStops:"Sustojimai",outputRoute:"Maršrutas",outputDirectionPoints:"Krypties taškai",outputDirectionLines:"Krypties linijos"})}}}));

@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"公用事業網路追蹤",_widgetDescription:"用來追蹤 ArcGIS Utility Network 的 widget",_action_filter_label:"篩選器"})}}}));

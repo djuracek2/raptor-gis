@@ -1,0 +1,455 @@
+{
+  "rolePrivileges": "Lomas privilēģijas",
+  "setFromExisting": "Iestatīt no esošas lomas",
+  "expandAll": "Izvērst visu",
+  "generalPrivileges": "Vispārīgās privilēģijas",
+  "adminPrivileges": "Administratora privilēģijas",
+  "enabledLabel": "Iespējots:",
+  "enableAll": "Iespējot visu",
+  "disableAll": "Atspējot visu",
+  "members": "Dalībnieki",
+  "groups": "Grupas",
+  "content": "Saturs",
+  "sharing": "Koplietošana",
+  "premiumContent": "Augstākā līmeņa saturs",
+  "features": "Elementi",
+  "versionMgmt": "Versiju pārvaldība",
+  "webhooks": "Tīmekļa aizķeres",
+  "marketplaceSubscriptions": "ArcGIS Marketplace abonementi",
+  "orgSettings": "Organizācijas iestatījumi",
+  "learnMore": "Uzzināt vairāk",
+  "searchPrivileges": "Meklēt privilēģijas",
+  "notebooks": "Notebooks",
+  "analysis": "Analīze",
+  "networkAnalysis": "Tīkla analīze",
+  "privileges": {
+    "portal:user:viewOrgUsers": {
+      "label": "Skatīt",
+      "description": "Atļaut dalībniekam skatīt organizācijas dalībniekus.",
+      "descriptionPortal": "Atļaut dalībniekam skatīt portāla dalībniekus."
+    },
+    "portal:user:createGroup": {
+      "label": "Izveidot, atjaunināt un dzēst",
+      "description": "Atļaut dalībniekam izveidot, rediģēt un dzēst viņu pašu grupas."
+    },
+    "portal:user:joinGroup": {
+      "label": "Pievienoties organizācijas grupām",
+      "description": "Atļaut dalībniekam pievienoties grupām jūsu organizācijā.",
+      "descriptionPortal": "Atļaut dalībniekam pievienoties grupām jūsu portālā."
+    },
+    "portal:user:joinNonOrgGroup": {
+      "label": "Pievienošanās ārējām grupām",
+      "description": "Atļaut dalībniekam pievienoties grupām ārpus jūsu organizācijas.",
+      "descriptionPortal": "Atļaut dalībniekam pievienoties grupām ārpus jūsu portāla."
+    },
+    "portal:user:viewOrgGroups": {
+      "label": "Skatīt grupas, kas koplietotas ar organizāciju",
+      "description": "Atļaut dalībniekam skatīt ar organizāciju koplietotas grupas.",
+      "descriptionPortal": "Atļaut dalībniekam skatīt ar portālu koplietotas grupas."
+    },
+    "portal:user:invitePartneredCollaborationMembers": {
+      "label": "Uzaicināt partnerorganizāciju dalībniekus",
+      "description": "Atļaut dalībniekam uzaicināt grupās dalībniekus no partneru sadarbības organizācijām."
+    },
+    "portal:user:addExternalMembersToGroup": {
+      "label": "Pievienot dalībniekus no citām organizācijām",
+      "description": "Atļaut dalībniekam veidot grupas, kas pieļauj dalībniekus no citām organizācijām, kā arī uzaicināt ārējus dalībniekus grupās."
+    },
+    "portal:user:createItem": {
+      "label": "Izveidot, atjaunināt un dzēst",
+      "description": "Atļaut dalībniekam izveidot, rediģēt un dzēst viņu pašu saturu."
+    },
+    "portal:publisher:publishFeatures": {
+      "label": "Publicējiet viesoto elementu slāņus",
+      "description": "Atļaut dalībniekam publicēt viesotus elementu slāņus no Shape failiem, CSV utt."
+    },
+    "portal:publisher:publishTiles": {
+      "label": "Publicēt viesotus mozaīkas slāņus",
+      "description": "Atļaut dalībniekam publicēt viesotus mozaīkas slāņus no mozaīkas pakotnēm, elementiem utt."
+    },
+    "portal:publisher:publishScenes": {
+      "label": "Publicēt viesotu scēnu slāņus",
+      "description": "Atļaut dalībniekam publicēt viesoto scēnu slāņus."
+    },
+    "portal:publisher:publishTiledImagery": {
+      "label": "Publicēt viesotos mozaīkas attēlu slāņus",
+      "description": "Ļaujiet dalībniekam publicēt viesotu mozaīkas attēlu slāņus no viena attēla vai attēlu kolekcijas. Nepieciešams ArcGIS Image for ArcGIS Online lietotāja veida paplašinājums.",
+      "descriptionPortal": "Ļaujiet dalībniekam publicēt viesotu mozaīkas attēlu slāņus no viena attēla vai attēlu kolekcijas."
+    },
+    "portal:publisher:publishDynamicImagery": {
+      "label": "Publicēt viesotos dinamisko attēlu slāņus",
+      "description": "Ļaujiet dalībniekam publicēt viesotu dinamisko attēlu slāņus no viena attēla vai attēlu kolekcijas."
+    },
+    "portal:publisher:publishServerServices": {
+      "label": "Publicēt serverī bastītus slāņus",
+      "description": "Šī privilēģija nodrošina iespēju publicēt slāņus, ko darbina federēto serveru vietņu servisi. Šie servisi bieži atsaucas uz reģistrētiem datiem no ģeodatubāzēm vai failos balstītiem datu avotiem."
+    },
+    "portal:publisher:publishKnowledgeGraph": {
+      "label": "Publicēt viesotus Knowledge grafikus",
+      "description": "Atļaut dalībniekam publicēt viesoto Knowledge slāņus."
+    },
+    "portal:user:viewOrgItems": {
+      "label": "Skatīt saturu, kas koplietots ar organizāciju",
+      "description": "Atļaut dalībniekam skatīt ar organizāciju koplietotu saturu.",
+      "descriptionPortal": "Atļaut dalībniekam skatīt ar portālu koplietotu saturu."
+    },
+    "premium:publisher:createNotebooks": {
+      "label": "Piezīmju grāmatiņu izveide un rediģēšana",
+      "description": "Atļaut dalībniekam izveidot un rediģēt interaktīvas piezīmju grāmatiņas."
+    },
+    "premium:publisher:scheduleNotebooks": {
+      "label": "Ieplānot Notebook",
+      "description": "Atļaut dalībniekam ieplānot nākamo automātisko notebook palaišanu."
+    },
+    "portal:publisher:bulkPublishFromDataStores": {
+      "label": "Izveidot daudzus elementu slāņus no datu krātuves",
+      "description": "Šī privilēģija nodrošina iespēju publicēt tīmekļa slāņus no reģistrētas datu krātuves."
+    },
+    "portal:publisher:registerDataStores": {
+      "label": "Reģistrēt datu krātuves",
+      "description": "Šī canRegisterDataStore privilēģija dod iespēju portālā reģistrēt datu krātuvi."
+    },
+    "portal:user:viewTracks": {
+      "label": "Skatīt novietojuma izsekošanas informāciju",
+      "description": "Atļaut dalībniekam skatīt dalībnieku novietojuma izsekošanas informāciju, izmantojot koplietojamus izsekošanas skatus, kad ir iespējota novietojuma koplietošanas funkcija."
+    },
+    "portal:user:reassignItems": {
+      "label": "Atkārtoti piešķirt saturu",
+      "description": "Atļaut dalībniekam atkārtoti piešķirt saturu tikai tādam dalībniekam, kuram ir tiesības saņemt saturu."
+    },
+    "portal:user:receiveItems": {
+      "label": "Saņemt saturu",
+      "description": "Atļaut dalībniekam saņemt saturu, ko viņam atkārtoti piešķīris cits dalībnieks ar tiesībām atkārtoti piešķirt saturu."
+    },
+    "portal:publisher:publishFeeds": {
+      "label": "Publicēt plūsmas",
+      "description": "Šīs privilēģijas ļauj publicēt plūsmas, lai uzņemtu un parādītu reāllaika datus, izmantojot ArcGIS Velocity."
+    },
+    "portal:publisher:publishRealTimeAnalytics": {
+      "label": "Publicēt reāllaika analīzi",
+      "description": "Šīs privilēģijas ļauj publicēt reāllaika analīzi, lai analizētu un apstrādātu reāllaika datus, izmantojot ArcGIS Velocity."
+    },
+    "portal:publisher:publishBigDataAnalytics": {
+      "label": "Publicēt big data analīzi",
+      "description": "Šīs tiesības ļauj publicēt Big Data analīzi, lai analizētu vēsturisku novērojumu datus, izmantojot ArcGIS Velocity."
+    },
+    "portal:publisher:createDataPipelines": {
+      "label": "Izveiot un palaist datu kanālus",
+      "description": "Atļaut dalībniekam izveidot, rediģēt un palaist datu kanālus."
+    },
+    "portal:publisher:publishLivestreamVideo": {
+      "label": "Publicēt tiešraides video",
+      "description": "Atļaut dalībniekam publicēt viesotus tiešraides video slāņus, kas iegūti no tīkla video pārraidēm un plūsmām."
+    },
+    "portal:publisher:publishVideo": {
+      "label": "Publicēt video",
+      "description": "Atļaut dalībniekam publicēt viesotus video slāņus no video faila un atbalstītiem video metadatu failiem."
+    },
+    "portal:user:shareToGroup": {
+      "label": "Koplietot ar grupām",
+      "description": "Atļaut dalībniekam koplietot saturu ar grupām."
+    },
+    "portal:user:shareToOrg": {
+      "label": "Koplietot ar organizāciju",
+      "labelPortal": "Koplietot ar portālu",
+      "description": "Atļaut dalībniekam koplietot saturu jūsu organizāciju.",
+      "descriptionPortal": "Atļaut dalībniekam koplietot saturu ar jūsu portālu."
+    },
+    "portal:user:shareToPublic": {
+      "label": "Kopīgot publiski",
+      "description": "Ļaut dalībniekam publiski koplietot savu saturu, ja to atļauj organizācijas publiskā koplietošanas politika.",
+      "tooltip": "Ja organizācija neļauj dalībniekiem publiski koplietot saturu, dalībniekiem būs nepieciešama administratīvā privilēģija, lai koplietotu dalībnieku saturu ar sabiedrību."
+    },
+    "portal:user:shareGroupToOrg": {
+      "label": "Koplietot ar portālu",
+      "description": "Atļaut dalībniekam koplietot saturu jūsu organizāciju.",
+      "descriptionPortal": "Atļaut dalībniekam koplietot saturu ar jūsu portālu."
+    },
+    "portal:user:shareGroupToPublic": {
+      "label": "Padarīt grupas publiski redzamas",
+      "description": "Atļaut dalībniekam veidot grupas, kas redzamas publiski."
+    },
+    "opendata:user:designateGroup": {
+      "label": "Padarīt grupas pieejamas atvērtajiem datiem",
+      "description": "Atļaut dalībiekam norādīt grupas kā pieejamas izmantošanai atvērtajos datos."
+    },
+    "premium:user:elevation": {
+      "label": "Paaugstinājums",
+      "description": "Apraksts"
+    },
+    "premium:user:geocode": {
+      "label": "Ģeokodēšana",
+      "description": "Ļaujiet dalībniekam veikt servisa kredītu tērējošus ģeokodēšanas uzdevumus, izmantojot ArcGIS World Geocoding Service (vai šī meklētāja skatu)."
+    },
+    "premium:user:geocode:stored": {
+      "label": "Saglabāta ģeokodēšana",
+      "description": "Apraksts"
+    },
+    "premium:user:geocode:temporary": {
+      "label": "Pagaidu ģeokodēšana",
+      "description": "Apraksts"
+    },
+    "premium:user:networkanalysis": {
+      "label": "Tīkla analīze",
+      "description": "Atļaut dalībniekam veikt tīkla analīzes uzdevumus, piemēram, saistībā ar maršrutēšanu un braukšanas laika teritorijām."
+    },
+    "premium:user:networkanalysis:closestfacility": {
+      "label": "Tuvākās iespējas analīze",
+      "description": "Apraksts"
+    },
+    "premium:user:networkanalysis:locationallocation": {
+      "label": "Novietojuma piešķiršanas analīze",
+      "description": "Apraksts"
+    },
+    "premium:user:networkanalysis:routing": {
+      "label": "Pamata maršrutēšana",
+      "description": "Apraksts"
+    },
+    "premium:user:networkanalysis:optimizedrouting": {
+      "label": "Optimizēta maršrutēšana",
+      "description": "Apraksts"
+    },
+    "premium:user:networkanalysis:vehiclerouting": {
+      "label": "Transportlīdzekļu maršrutēšana",
+      "description": "Apraksts"
+    },
+    "premium:user:networkanalysis:origindestinationcostmatrix": {
+      "label": "Sākumpunkta/galamērķa matrica",
+      "description": "Apraksts"
+    },
+    "premium:user:networkanalysis:servicearea": {
+      "label": "Servisa teritorija",
+      "description": "Apraksts"
+    },
+    "premium:user:places": {
+      "label": "Vietas",
+      "description": "Apraksts"
+    },
+    "premium:user:spatialanalysis": {
+      "label": "Telpiskā analīze",
+      "labelPortal": "Standarta elementu analīze",
+      "description": "Atļaut dalībniekam veikt telpiskās analīzes uzdevumus.",
+      "descriptionPortal": "Šī privilēģija piešķir iespēju izpildīt standarta elementu analīzes uzdevumus."
+    },
+    "premium:user:geoenrichment": {
+      "label": "GeoEnrichment",
+      "description": "Atļaut dalībniekam ģeobagātināt elementus."
+    },
+    "premium:user:demographics": {
+      "label": "Demogrāfija",
+      "description": "Atļaut dalībniekam izmantot augstas kvalitātes demogrāfiskos datus."
+    },
+    "premium:publisher:geoanalytics": {
+      "label": "GeoAnalytics elementu analīze",
+      "description": "Šī privilēģija piešķir iespēju izpildīt GeoAnalytics uzdevumus."
+    },
+    "premium:publisher:rasteranalysis": {
+      "label": "Attēlu datu analīze",
+      "description": "Atļaut dalībniekam veikt attēlu analīzes uzdevumus. Nepieciešams ArcGIS Image for ArcGIS Online lietotāja veida paplašinājums.",
+      "descriptionPortal": "Atļaut dalībniekam veikt attēlu analīzes uzdevumus."
+    },
+    "premium:publisher:createAdvancedNotebooks": {
+      "label": "Uzlabotas piezīmju grāmatiņas",
+      "description": "Atļaut dalībniekam importēt un izmantot ArcPy moduļus piezīmju grāmatiņās."
+    },
+    "portal:user:runWebTool": {
+      "label": "Palaist tīmekļa rīkus",
+      "description": "Atļaut dalībniekam palaist tīmekļa rīkus, kas publicēti Notebooks."
+    },
+    "premium:user:featurereport": {
+      "label": "Elementu pārskats",
+      "description": "Atļaut dalībniekam izveidot elementu ziņojumus Survey123."
+    },
+    "features:user:edit": {
+      "label": "Rediģēt",
+      "description": "Atļaut dalībniekam rediģēt elementus rediģējamos slāņos, kas nav publiski, pamatojoties uz slānī aktivizētajām rediģēšanas opcijām."
+    },
+    "features:user:fullEdit": {
+      "label": "Rediģēt ar pilnu vadību",
+      "description": "Atļaut dalībniekam pievienot, dzēst un atjaunināt elementus rediģējamā, viesotā elementu slānī neatkarīgi no slānī iespējotajām rediģēšanas opcijām."
+    },
+    "features:user:manageVersions": {
+      "label": "Pārvaldīt visu",
+      "description": "Atļaut dalībniekiem pārvaldīt versiju bloķēšanu, kā arī skatīt, mainīt, dzēst, rediģēt, saskaņot un izlikt visās filiāļu versijās, kurām var piekļūt, izmantojot ArcGIS Server elementu slāņus."
+    },
+    "portal:publisher:createFeatureWebhook": {
+      "label": "Elementu slānis",
+      "description": "Ļaut dalībniekam izveidot, rediģēt un dzēst sava elementu slāņa tīmekļa aizķeres."
+    },
+    "portal:admin:viewUsers": {
+      "label": "Apskatīt visu",
+      "description": "Atļaut dalībniekam skatīt visu dalībnieka konta informāciju jūsu organizācijā.",
+      "descriptionPortal": "Atļaut dalībniekam skatīt visu dalībnieka konta informāciju jūsu portālā."
+    },
+    "portal:admin:updateUsers": {
+      "label": "Atjaunināt",
+      "description": "Atļaut dalībniekam atiestatīt paroles, atjaunināt dalībnieku konta informāciju, kā arī atjaunināt dalībnieku kategorijas jūsu organizācijā.",
+      "descriptionPortal": "Atļaut dalībniekam atiestatīt paroles, atjaunināt dalībnieku konta informāciju un atjaunināt dalībnieku kategorijas jūsu portālā."
+    },
+    "portal:admin:deleteUsers": {
+      "label": "Dzēst",
+      "description": "Ataujiet dalībniekam dzēst dalībnieku kontus jūsu organizācijā.",
+      "descriptionPortal": "Ataujiet dalībniekam dzēst dalībnieku kontus jūsu portālā."
+    },
+    "portal:admin:inviteUsers": {
+      "label": "Pievienot",
+      "labelPortal": "Uzaicināt",
+      "description": "Atļaut dalībniekiem uzaicināt dalībniekus pievienoties jūsu organizācijai.",
+      "descriptionPortal": "Atļaut dalībniekiem uzaicināt dalībniekus pievienoties jūsu portālam."
+    },
+    "portal:admin:disableUsers": {
+      "label": "Atspējot",
+      "description": "Ataujiet dalībniekam iespējot un atspējot dalībnieku kontus jūsu organizācijā.",
+      "descriptionPortal": "Ataujiet dalībniekam iespējot un atspējot dalībnieku kontus jūsu portālā."
+    },
+    "portal:admin:changeUserRoles": {
+      "label": "Mainīt lomas",
+      "description": "Atļaut dalībniekam mainīt dalībnieka kontam piešķirto lomu. Ņemiet vērā, ka tikai dalībnieki, kuriem ir piešķirta administratora loma, var savam kontam piešķirt un atcelt administratora lomu.",
+      "descriptionPortal": "Atļaut dalībniekam mainīt dalībnieka kontam piešķirto lomu. Ņemiet vērā, ka tikai dalībnieki, kuriem ir piešķirta administratora loma, var savam kontam piešķirt un atcelt administratora lomu."
+    },
+    "portal:admin:manageLicenses": {
+      "label": "Pārvaldīt licences",
+      "description": "Atļaut dalībniekam piešķirt licences jūsu organizācijas dalībniekiem.",
+      "descriptionPortal": "Atļaut dalībniekam piešķirt licences jūsu portāla dalībniekiem."
+    },
+    "portal:admin:updateMemberCategorySchema": {
+      "label": "Kategoriju pārvaldība",
+      "description": "Atļaut dalībniekam konfigurēt organizācijas dalībnieka kategorijas.",
+      "descriptionPortal": "Atļaut dalībniekam konfigurēt portāla dalībnieka kategorijas."
+    },
+    "portal:admin:viewGroups": {
+      "label": "Apskatīt visu",
+      "description": "Atļaut dalībniekam skatīt visas grupas jūsu organizācijā.",
+      "descriptionPortal": "Atļaut dalībniekam skatīt visas grupas jūsu portālā."
+    },
+    "portal:admin:updateGroups": {
+      "label": "Atjaunināt",
+      "description": "Atļaut dalībniekam atjaunināt grupas jūsu organizācijā.",
+      "descriptionPortal": "Atļaut dalībniekam atjaunināt grupas jūsu portālā."
+    },
+    "portal:admin:deleteGroups": {
+      "label": "Dzēst",
+      "description": "Atļaut dalībniekam dzēst grupas jūsu organizācijā.",
+      "descriptionPortal": "Atļaut dalībniekam dzēst grupas jūsu portālā."
+    },
+    "portal:admin:reassignGroups": {
+      "label": "Atkārtoti piešķirt īpašumtiesības",
+      "description": "Atļaut dalībniekam atkārtoti piešķirt grupas citiem organizācijas dalībniekiem.",
+      "descriptionPortal": "Atļaut dalībniekam atkārtoti piešķirt grupas citiem dalībniekiem jūsu portālā."
+    },
+    "portal:admin:assignToGroups": {
+      "label": "Piešķirt dalībniekus",
+      "description": "Atļaut dalībniekam iekļaut jūsu dalībniekus grupās, atjaunināt jūsu dalībnieku lomas grupās un noņemt jūsu dalībniekus no grupām jūsu organizācijā.",
+      "descriptionPortal": "Atļaut dalībniekam iekļaut jūsu dalībniekus grupās, atjaunināt jūsu dalībnieku lomas grupās un noņemt jūsu dalībniekus no grupām portālā."
+    },
+    "portal:admin:manageEnterpriseGroups": {
+      "label": "Saite uz organizācijas grupu",
+      "description": "Atļaut dalībniekam piesaistīt grupas dalību organizācijas grupai."
+    },
+    "portal:admin:createUpdateCapableGroup": {
+      "label": "Izveidot ar atjaunošanas iespējām",
+      "description": "Atļaut dalībniekam izveidot grupas ar atjaunināšanas iespējām."
+    },
+    "portal:admin:createLeavingDisallowedGroup": {
+      "label": "Izveidot ar atslēgtu aiziešanas iespēju",
+      "description": "Atļaut dalībniekam izveidot un būt īpašniekam grupās, no kurām dalībnieki nevar aiziet (administratīvās grupas)."
+    },
+    "portal:admin:viewItems": {
+      "label": "Apskatīt visu",
+      "description": "Atļaut dalībniekam skatīt visu saturu jūsu organizācijā.",
+      "descriptionPortal": "Atļaut dalībniekam skatīt visu saturu jūsu portālā."
+    },
+    "portal:admin:updateItems": {
+      "label": "Atjaunināt",
+      "description": "Atļaut dalībniekam atjaunināt un kategorizēt saturu un rediģēt organizācijā viesotos elementu slāņus.",
+      "descriptionPortal": "Atļaut dalībniekam atjaunināt un kategorizēt saturu un rediģēt portālā viesotos elementu slāņus."
+    },
+    "portal:admin:deleteItems": {
+      "label": "Dzēst",
+      "description": "Atļaut dalībniekam dzēst saturu jūsu organizācijā.",
+      "descriptionPortal": "Atļaut dalībniekam dzēst saturu jūsu portālā."
+    },
+    "portal:admin:reassignItems": {
+      "label": "Atkārtoti piešķirt īpašumtiesības",
+      "description": "Atļaut dalībniekam atkārtoti piešķirt saturu citiem dalībniekiem jūsu organizācijā.",
+      "descriptionPortal": "Atļaut dalībniekam atkārtoti piešķirt saturu citiem dalībniekiem jūsu portālā."
+    },
+    "portal:admin:updateItemCategorySchema": {
+      "label": "Kategoriju pārvaldība",
+      "description": "Atļaut dalībniekam konfigurēt organizācijas satura kategorijas.",
+      "descriptionPortal": "Atļaut dalībniekam konfigurēt portāla satura kategorijas."
+    },
+    "portal:publisher:publishServerGPServices": {
+      "label": "Publicēt tīmekļa rīkus",
+      "description": "Šī privilēģija ļauj publicēt tīmekļa rīkus, ko atbalsta federēto servera vietņu ģeoapstrādes pakalpojumi."
+    },
+    "portal:admin:shareToOrg": {
+      "label": "Koplietot dalībnieka saturu ar organizāciju",
+      "description": "Atļaut dalībniekam koplietot citu jūsu organizācijas dalībnieku saturu organizācijā.",
+      "descriptionPortal": "Atļaut dalībniekam koplietot citu jūsu portāla dalībnieku saturu portālā."
+    },
+    "portal:admin:shareToPublic": {
+      "label": "Koplietot dalībnieka saturu publiski",
+      "description": "Atļaut dalībniekam koplietot citu jūsu organizācijas dalībnieku saturu publiski.",
+      "descriptionPortal": "Atļaut dalībniekam koplietot citu jūsu portāla dalībnieku saturu publiski."
+    },
+    "portal:admin:createReports": {
+      "label": "Administratīvo pārskatu izveide un pārvaldība",
+      "description": "Atļaut dalībniekam izveidot un pārvaldīt jūsu organizācijas administratīvos pārskatus.",
+      "descriptionPortal": "Atļaut dalībniekam izveidot un pārvaldīt jūsu portāla administratīvos pārskatus."
+    },
+    "marketplace:admin:manage": {
+      "label": "Izveidot un pārvaldīt",
+      "description": "Atļaut dalībniekam izveidot sarakstus, izvietot vienības, pārvaldīt abonementus, izmantojot ArcGIS Marketplace, kā arī pārvaldīt pircēju datus un kontaktinformāciju jūsu organizācijā. Šīs privilēģijas izmantošana ir atkarīga no tā, vai jūsu organizācijai ir sarakstu veidošanas un publicēšanas tiesības vietnē ArcGIS Marketplace."
+    },
+    "marketplace:admin:purchase": {
+      "label": "Iegādājieties un saņemiet bezmaksas produktus",
+      "description": "Atļaut dalībniekam sūtīt iegādes pieprasījumus un piekļūt produktiem, kuri ir pieejami ArcGIS Marketplace. Lai atļautu dalībniekiem iegādāties produktus, izmantojot kredītkartes, jums jāatzīmē dalībnieki kā Marketplace pircēji."
+    },
+    "marketplace:admin:startTrial": {
+      "label": "Sākt izmēģinājumus",
+      "description": "Atļaut dalībniekam sākt izmēģinājuma abonementus, izmantojot ArcGIS Marketplace."
+    },
+    "portal:admin:manageSecurity": {
+      "label": "Drošība un infrastruktūra",
+      "description": "Atļaut dalībniekam pārvaldīt organizācijas drošības un infrastruktūras iestatījumus.",
+      "descriptionPortal": "Atļaut dalībniekam pārvaldīt portāla drošības un infrastruktūras iestatījumus."
+    },
+    "portal:admin:manageWebsite": {
+      "label": "Organizācijas tīmekļa vietne",
+      "description": "Atļaut dalībniekam pārvaldīt organizācijas tīmekļa vietnes iestatījumus.",
+      "descriptionPortal": "Atļaut dalībniekam pārvaldīt portāla tīmekļa vietnes iestatījumus."
+    },
+    "portal:admin:manageCollaborations": {
+      "label": "Kopdarbi",
+      "description": "Atļaut dalībniekam pārvaldīt organizācijas kopdarbus.",
+      "descriptionPortal": "Atļaut dalībniekam pārvaldīt portāla kopdarbus."
+    },
+    "portal:admin:manageCredits": {
+      "label": "Servisa kredīti",
+      "description": "Atļaut dalībniekam pārvaldīt organizācijas servisa kredītu budžeta plānošanas iestatījumus."
+    },
+    "portal:admin:manageRoles": {
+      "label": "Dalībnieku lomas",
+      "description": "Atļaut dalībniekam pārvaldīt organizācijas dalībnieku lomas.",
+      "descriptionPortal": "Atļaut dalībniekam pārvaldīt portāla dalībnieku lomas."
+    },
+    "portal:admin:manageServers": {
+      "label": "Serveri",
+      "description": "Šī privilēģija ļauj pārvaldīt portāla servera iestatījumus."
+    },
+    "portal:admin:manageUtilityServices": {
+      "label": "Utilītu servisi",
+      "description": "Atļaut dalībniekam pārvaldīt organizācijas utilītu servisu iestatījumus.",
+      "descriptionPortal": "Atļaut dalībniekam pārvaldīt portāla utilītu servisu iestatījumus."
+    },
+    "portal:admin:manageWebhooks": {
+      "label": "Organizācijas tīmekļa aizķeres",
+      "description": "Atļaut dalībniekam izveidot, rediģēt un dzēst organizācijas tīmekļa aizķeres un pārvaldīt visas portāla tīmekļa aizķeres."
+    },
+    "portal:admin:createGPWebhook": {
+      "label": "Ģeoapstrāde",
+      "description": "Ļaut dalībniekam izveidot, rediģēt un dzēst savas ģeoapstrādes tīmekļa aizķeres."
+    }
+  }
+}

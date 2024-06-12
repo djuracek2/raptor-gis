@@ -1,0 +1,10 @@
+{
+  "select": "選取項目: ${title}",
+  "lastUpdated": "更新的項目: ${date}",
+  "viewItemDetails": "檢視 ${title} 的詳細資訊",
+  "preview": "詳細資訊",
+  "hidePreview": "較不詳細資訊",
+  "closeDetails": "關閉項目詳細資訊面板",
+  "openDetails": "開啟項目詳細資訊面板",
+  "moreOptions": "更多選項"
+}

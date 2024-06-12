@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "További információ",
+    "title": "Az ArcGIS Online új funkciói",
+    "description": "A 2024. februári frissítéssel új képességek és fejlesztések jelennek meg szerte az ArcGIS Online webhelyén."
+  },
+  "pipelines": {
+    "learnMore": "További információ",
+    "title": "Adatok importálása, tisztítása és átalakítása kódolás nélkül.",
+    "description": "Vizuális, egérhúzással használható segédeszközök az Amazon S3-ból, a Google BigQuery-ből stb. származó adatok fogadásához.",
+    "link": "Próbálja ki az ArcGIS Data Pipelines szolgáltatást"
+  },
+  "title": "Az ArcGIS Online újdonságai"
+}

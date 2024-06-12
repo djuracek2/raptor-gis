@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({sourceLabel:"Zdroj",sourceDescript:"Webová mapa alebo webová scéna alebo akákoľvek kombinácia týchto dvoch.",showBaseMap:"Zobraziť legendy základných máp",cardStyle:"Použiť štýl karty"})}}}));

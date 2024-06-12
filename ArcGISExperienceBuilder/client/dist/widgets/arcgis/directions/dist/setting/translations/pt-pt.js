@@ -1,0 +1,1 @@
+System.register([],(function(t){return{execute:function(){t({routeSettings:"Definições de rotas",searchSettings:"Definições da pesquisa",routeUrl:"URL de rota",outputStops:"Paragens",outputRoute:"Rota",outputDirectionPoints:"Pontos de direção",outputDirectionLines:"Linhas de direção"})}}}));

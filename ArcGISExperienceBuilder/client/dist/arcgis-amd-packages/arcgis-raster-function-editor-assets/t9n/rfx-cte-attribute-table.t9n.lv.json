@@ -1,0 +1,12 @@
+{
+  "value": "Vērtība",
+  "classname": "Klases nosaukums",
+  "color": "Krāsa",
+  "raster": "Rastrs",
+  "generate": "Ģenerēt tabulu",
+  "minValue": "Minimālā vērtība",
+  "maxValue": "Maksimālā vērtība",
+  "classBaseName": "Klases pamata nosaukums",
+  "colorscheme": "Krāsu shēma",
+  "defaultClassName": "Kartes teksts_"
+}

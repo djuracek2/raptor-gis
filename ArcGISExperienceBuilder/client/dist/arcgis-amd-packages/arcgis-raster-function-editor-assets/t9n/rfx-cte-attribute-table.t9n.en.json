@@ -1,0 +1,12 @@
+{
+  "value": "Value",
+  "classname": "ClassName",
+  "color": "Color",
+  "raster": "Raster",
+  "generate": "Generate Table",
+  "minValue": "Minimum Value",
+  "maxValue": "Maximum Value",
+  "classBaseName": "Class Base Name",
+  "colorscheme": "Color Scheme",
+  "defaultClassName": "Label_"
+}

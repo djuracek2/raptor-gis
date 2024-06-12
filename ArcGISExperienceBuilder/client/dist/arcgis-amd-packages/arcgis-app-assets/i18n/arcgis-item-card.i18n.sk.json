@@ -1,0 +1,10 @@
+{
+  "select": "Vybrať položku: ${title}",
+  "lastUpdated": "Aktualizované položky: ${date}",
+  "viewItemDetails": "Zobraziť viac informácií o ${title}",
+  "preview": "Viac podrobností",
+  "hidePreview": "Menej podrobností",
+  "closeDetails": "Zatvoriť panel s podrobnosťami o položke",
+  "openDetails": "Otvoriť panel s podrobnosťami o položke",
+  "moreOptions": "Viac možností"
+}

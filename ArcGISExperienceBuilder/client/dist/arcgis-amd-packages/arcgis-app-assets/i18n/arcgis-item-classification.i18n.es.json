@@ -1,0 +1,16 @@
+{
+  "cancel": "Cancelar",
+  "reset": "Restablecer",
+  "resetting": "Restableciendo...",
+  "save": "Guardar",
+  "saving": "Guardando...",
+  "itemClassificationLabel": "Clasificación",
+  "itemClassificationCategoryLabel": "Etiqueta de categoría de clasificación de elementos",
+  "itemClassificationEditLabel": "Editar clasificación",
+  "itemClassificationValidateError": "Error de validación; el valor de clasificación de elementos no se rellenará. Edite y guarde uno nuevo.",
+  "classificationValueSaved": "El valor de clasificación se ha guardado",
+  "classificationNotificationHandler": "Controlador de notificación de clasificación",
+  "openModal": "Abrir modal",
+  "currentSelections": "Selecciones actuales",
+  "searchForCategory": "Buscar categoría"
+}

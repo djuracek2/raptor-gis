@@ -1,0 +1,12 @@
+{
+  "value": "Значення",
+  "classname": "ClassName",
+  "color": "Колір",
+  "raster": "Растр",
+  "generate": "Згенерувати таблицю",
+  "minValue": "Мінімальне значення",
+  "maxValue": "Максимальне значення",
+  "classBaseName": "Базове ім'я класу",
+  "colorscheme": "Колірна схема",
+  "defaultClassName": "Напис_"
+}

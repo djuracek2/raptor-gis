@@ -1,0 +1,149 @@
+{
+  "deleteItem": "Vymazať položku",
+  "deleteItems": "Vymazať položky",
+  "deleteFolder": "Vymazať priečinok",
+  "recycleBin": "Kôš",
+  "delete": "Zmazať",
+  "permanentlyDelete": "Natrvalo vymazať",
+  "back": "Späť",
+  "cancel": "Zrušiť",
+  "item": "položka",
+  "items": "položky",
+  "cantDelete": "Nasledujúce položky nemožno odstrániť, pretože sú chránené proti vymazaniu alebo majú závislé položky.",
+  "proceed": "Začať s mazaním zostávajúcich položiek?",
+  "moreOptions": "Viac možností",
+  "hideOptions": "Skryť možnosti",
+  "deletePermanently": "Natrvalo vymazať (túto akciu nie je možné vrátiť späť)",
+  "learnMore": "Zistiť viac",
+  "summary": {
+    "select": "Vybrať",
+    "deselect": "Zrušiť výber",
+    "selectedItems": "Vybrané položky:",
+    "permanentlyDelete": "Natrvalo vymazať:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "Táto položka nie je podporovaná košom.",
+        "multiple": "Tieto položky kôš nepodporuje."
+      },
+      "unsynchronized": "Nesynchronizované editácie vykonané v prvkových vrstvách v distribuovanej skupine pre spoluprácu sa stratia.",
+      "notSupportedAndUnsynchronized": "Niektoré typy položiek nie sú podporované. Nesynchronizované editácie vykonané v prvkových vrstvách v distribuovanej skupine pre spoluprácu sa stratia.",
+      "group": {
+        "notSupported": "Nie je podporované",
+        "distributedCollaboration": "Súčasť distribuovanej spolupráce"
+      }
+    },
+    "canBeRecovered": {
+      "single": "Túto položku je možné obnoviť do ${days} dní.",
+      "multiple": "Tieto položky je možné obnoviť do ${days} dní.",
+      "unknown": "Tieto položky je možné obnoviť do ${days} dní."
+    },
+    "willBeRecycled": "Odoslať do koša:",
+    "cannotBeDeleted": "Nie je možné vymazať:",
+    "deleteDiscouraged": "Odstrániť sa neodporúča:",
+    "hasDependentItems": "Má závislé položky:",
+    "someActionsMayNoLongerWork": {
+      "single": "Ak túto položku pošlete do koša, niektoré akcie, ktoré vyžadujú prístup k zdrojovej položke, už nemusia fungovať podľa očakávania.",
+      "multiple": "Ak tieto položky pošlete do koša, niektoré akcie, ktoré vyžadujú prístup k zdrojovým položkám, už nemusia fungovať podľa očakávania."
+    },
+    "cannotDelete": {
+      "all": "Položky, ktoré sú chránené proti vymazaniu, sú súčasťou distribuovanej skupiny pre spoluprácu alebo majú závislé položky, nie je možné vymazať.",
+      "protectedAndCollaboration": "Položky, ktoré sú chránené proti vymazaniu alebo sú súčasťou distribuovanej skupiny pre spoluprácu, nie je možné vymazať.",
+      "protectedAndDependent": "Položky, ktoré sú chránené proti vymazaniu alebo majú závislé položky, nie je možné vymazať.",
+      "collaborationAndDependent": "Položky, ktoré sú súčasťou distribuovanej skupiny pre spoluprácu alebo majú závislé položky, nie je možné vymazať."
+    },
+    "deletePermanently": "Vymazať natrvalo: ${count} (Túto akciu nie je možné vrátiť späť)",
+    "deleteAllPermanently": "Vymazať všetky položky natrvalo: ${count} (Túto akciu nie je možné vrátiť späť)",
+    "deleteXPermanently": "Vymazať ${subset} z ${total} položiek natrvalo (Túto akciu nie je možné vrátiť späť)",
+    "protectedGroup": {
+      "deleteProtected": "Vymazať chránené",
+      "deleteProtectedDescription": "Položky, ktoré sú chránené proti vymazaniu, nie je možné vymazať.",
+      "hasDependentItems": "Má závislé položky",
+      "itemUsedBy": "Túto položku používali:",
+      "hasDependentItemsDescription": {
+        "single": "Táto položka má závislú položku. Musia byť vymazané spoločne.",
+        "multiple": "Tieto položky majú ďalšie položky, ktoré od nich závisia. Musia byť vymazané spoločne."
+      },
+      "distributedCollaboration": "Súčasť distribuovanej spolupráce",
+      "distributedCollaborationDescription": "Položky, ktoré sú súčasťou distribuovanej skupiny pre spoluprácu, nie je možné vymazať.",
+      "deleteDiscouraged": "Odstrániť sa neodporúča",
+      "deleteDiscouragedDescription": {
+        "single": "Ak sa táto položka odstráni, závislé položky môžu stratiť niektoré funkcie. Túto položku môžete odstrániť na stránke s podrobnosťami o položke.",
+        "multiple": "Ak sa tieto položky odstránia, závislé položky môžu stratiť niektoré funkcie. Tieto položky môžete odstrániť jednotlivo na stránke s podrobnosťami o položke."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "Táto položka bude natrvalo vymazaná, pretože nie je podporovaná košom.",
+    "multiple": "Tieto položky budú natrvalo vymazané, pretože nie sú podporované košom.",
+    "unknown": "Tieto položky budú natrvalo vymazané, pretože nie sú podporované košom."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "Vybraná položka patrí do distribuovanej skupiny spolupráce a nemožno ju presunúť do koša. Bude natrvalo vymazaná.",
+    "multiple": "Vybrané položky patria do distribuovanej skupiny spolupráce a nemožno ich presunúť do koša. Budú natrvalo vymazané.",
+    "unknown": "Vybrané položky patria do distribuovanej skupiny spolupráce a nemožno ich presunúť do koša. Budú natrvalo vymazané."
+  },
+  "areYouSure": {
+    "single": "Ste si istí, že chcete vymazať túto položku?",
+    "multiple": "Ste si istí, že chcete vymazať tieto položky?",
+    "unknown": "Ste si istí, že chcete vymazať tieto položky?"
+  },
+  "areYouSureRecycle": {
+    "single": "Táto položka zostane v koši ${days} dní, pokým bude natrvalo vymazaná.",
+    "multiple": "Tieto položky zostanú v koši ${days} dní, pokým budú natrvalo vymazané.",
+    "unknown": "Tieto položky zostanú v koši ${days} dní, pokým budú natrvalo vymazané."
+  },
+  "areYouSurePermanent": {
+    "single": "Ste si istí, že chcete natrvalo vymazať túto položku ${number}? Túto položku ${carrot} nebude možné po jej trvalom vymazaní obnoviť.",
+    "multiple": "Ste si istí, že chcete tieto položky natrvalo vymazať? Tieto položky sa po trvalom vymazaní nedajú obnoviť.",
+    "unknown": "Ste si istí, že chcete tieto položky natrvalo vymazať? Tieto položky sa po trvalom vymazaní nedajú obnoviť."
+  },
+  "folder": {
+    "mustBeEmpty": "Priečinok <b>${folder}</b> musí byť prázdny, aby ho bolo možné vymazať.",
+    "aFewCannotBeDeleted": "Niekoľko položiek nie je možné vymazať. Ste si istí, že chcete pokračovať vo vymazávaní ostatných?",
+    "mustBeEmptyProceed": "Priečinok <b>${folder}</b> musí byť prázdny, aby ho bolo možné vymazať. Ste si istí, že chcete pokračovať vo vymazávaní týchto položiek?",
+    "cannotBeDeleted": "Priečinok <b>${folder}</b> nie je možné vymazať, pretože nie je možné vymazať jeho položky."
+  },
+  "deletes": {
+    "single": "Bude vymazané za ${days} dní",
+    "multiple": "Vymaže sa za ${days} dní",
+    "unknown": "Počet dní do vymazania: ${days}"
+  },
+  "deleteOverride": {
+    "single": "Ste si istí, že chcete túto položku natrvalo vymazať? Túto akciu nie je možné vrátiť späť.",
+    "multiple": "Ste si istí, že chcete tieto položky natrvalo vymazať? Túto akciu nie je možné vrátiť späť."
+  },
+  "restore": {
+    "restore": "Obnoviť",
+    "restoreTo": "Obnoviť na",
+    "restoreItem": "Obnoviť položku",
+    "restoreItems": "Obnoviť položky",
+    "noticeMessage": "Obnovené položky nebudú zdieľané. Pred ďalším zdieľaním obsahu ho prosím skontrolujte.",
+    "cannotBulkRestoreXItems": "Nie je možné hromadne obnoviť viac ako ${number} položiek, zrušte prosím výber niekoľkých položiek.",
+    "cannotBulkRestoreMultipleOwners": "Nie je možné hromadne obnoviť položky, ktoré patria rôznym vlastníkom. Vyberte položky od jedného vlastníka na hromadné obnovenie.",
+    "toRestore": {
+      "single": "Položka na obnovu:",
+      "multiple": "Položky na obnovu:"
+    },
+    "cannotRestore": "Nebolo možné obnoviť:",
+    "dependentItems": {
+      "single": "Túto položku nie je možné obnoviť, pretože je závislá od <b>${parent}</b>. Obnovte ich spoločne.",
+      "multiple": "Tieto položky nie je možné obnoviť, pretože sú závislé od iných položiek v koši. Obnovte ich spoločne: "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "Potrebujete obnoviť omylom vymazanú položku? Vyskúšajte nový kôš!",
+    "takeALook": "Pozrite sa na nový kôš!",
+    "learnMore": "Získajte viac informácií o obnovení vymazaných položiek",
+    "heldInRecycleBin": "Položky v koši sa uchovávajú až ${days} dní.",
+    "goToUserRecycleBin": "Prejdite do vášho ${linkStart}koša${linkEnd} a obnovte alebo natrvalo vymažte položky.",
+    "goToOrgRecycleBin": "Prejdite do ${linkStart}koša vašej organizácie${linkEnd} a obnovte alebo natrvalo vymažte položky. Obsah v koši naďalej spotrebováva kredity."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "${start} - ${end} z ${total} (${size}) v koši",
+    "other": "${start} - ${end}, celkovo: ${total} (${size}) v koši"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "${start} - ${end} z ${total} (>${size}) v koši",
+    "other": "${start} - ${end}, celkovo: ${total} (>${size}) v koši"
+  }
+}

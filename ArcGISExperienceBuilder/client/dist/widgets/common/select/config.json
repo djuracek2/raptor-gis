@@ -1,0 +1,26 @@
+{
+  "useMap": true,
+  "dataAttributeInfo": {
+    "allowGenerated": false,
+    "dataSourceItems": []
+  },
+  "mapInfo": {
+    "allowGenerated": false,
+    "enableAttributeSelection": false,
+    "jimuMapViews": {}
+  },
+  "interactiveTools": {
+    "tools": ["rectangle"],
+    "partiallyWithin": true
+  },
+  "spatialSelection": {
+    "enable": false,
+    "useDataSources": [],
+    "relationships": ["Intersects"],
+    "buffer": {
+      "enable": false,
+      "distance": 0,
+      "unit": "Meters"
+    }
+  }
+}

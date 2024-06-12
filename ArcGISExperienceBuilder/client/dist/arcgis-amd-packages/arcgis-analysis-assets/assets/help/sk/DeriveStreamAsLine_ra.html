@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>N&aacute;stroj Odvodiť stream ako l&iacute;niu generuje prvky l&iacute;nie streamu zo vstupn&eacute;ho rastra povrchu bez potreby predch&aacute;dzaj&uacute;ceho vyplnenia depresi&iacute; alebo priehlbiny.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputSurfaceRaster">
+        <div>
+            <p>V&yacute;&scaron;kov&yacute; raster, ktor&yacute; sa použije na v&yacute;počet.
+            </p>
+        </div>
+    </div>
+    <div id="inputDepressionsData">
+        <div>
+            <p>Vstup, ktor&yacute; definuje miesta skutočn&yacute;ch depresi&iacute; alebo priehlb&iacute;n, do ktor&yacute;ch m&ocirc;že voda pr&uacute;diť, ale nem&ocirc;že z nich odtekať.
+            </p>
+        </div>
+    </div>
+    <div id="inputWeightRaster">
+        <div>
+            <p>Rastrov&aacute; vrstva, ktor&aacute; definuje podiel prietoku, ktor&yacute; prispieva k akumul&aacute;cii prietoku v každej bunke.
+            </p>
+        </div>
+    </div>
+    <div id="accumulationThreshold">
+        <div>
+            <p>Prahov&aacute; hodnota na určenie, či je dan&aacute; bunka s&uacute;časťou streamu z hľadiska celkovej plochy, ktor&aacute; do takejto bunky pr&uacute;di.
+            </p>
+        </div>
+    </div>
+    <div id="streamDesignationMethod">
+        <div>
+            <p>Určuje, či segmenty streamu vo v&yacute;stupe bud&uacute; mať kon&scaron;tantn&uacute; hodnotu, jedinečn&eacute; hodnoty alebo bud&uacute; usporiadan&eacute;.
+            </p>
+        </div>
+    </div>
+    <div id="simplify">
+        <div>
+            <p>Určuje, či bud&uacute; v&yacute;stupn&eacute; l&iacute;nie streamu vyhladen&eacute; do jednoduch&scaron;&iacute;ch tvarov.
+            </p>
+            <p>Ak je za&scaron;krtnut&eacute;, prvky l&iacute;nie streamu sa zjednodu&scaron;ia pomocou Douglasovho-Peuckerovho algoritmu s toleranciou sqrt(0,5) * veľkosť bunky. Toto je prednastaven&aacute; voľba. Ak nie je za&scaron;krtnut&eacute;, prvky l&iacute;nie streamu nebud&uacute; vyhladen&eacute;.
+            </p>
+        </div>
+    </div>
+    <div id="outputStreamFeaturesName">
+        <div>
+            <p>N&aacute;zov vrstvy prvkov l&iacute;nie streamu, ktor&aacute; sa vytvor&iacute; a prid&aacute; do mapy.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>N&aacute;zov priečinka v r&aacute;mci  <b>M&ocirc;j obsah</b> do ktor&eacute;ho sa ulož&iacute; v&yacute;sledok.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

@@ -1,0 +1,455 @@
+{
+  "rolePrivileges": "Privilegije uloge",
+  "setFromExisting": "Postavi iz postojeće uloge",
+  "expandAll": "Proširi sve",
+  "generalPrivileges": "Opće privilegije",
+  "adminPrivileges": "Privilegije administratora",
+  "enabledLabel": "Omogućeno:",
+  "enableAll": "Omogući sve",
+  "disableAll": "Onemogući sve",
+  "members": "Članovi",
+  "groups": "Grupe",
+  "content": "Sadržaj",
+  "sharing": "Dijeljenje",
+  "premiumContent": "Premium sadržaj",
+  "features": "Geoobjekte",
+  "versionMgmt": "Upravljanje verzijom",
+  "webhooks": "Webhookovi",
+  "marketplaceSubscriptions": "Pretplate na ArcGIS Marketplace",
+  "orgSettings": "Postavke organizacije",
+  "learnMore": "Saznajte više",
+  "searchPrivileges": "Privilegije pretraživanja",
+  "notebooks": "Notebooks",
+  "analysis": "Analiza",
+  "networkAnalysis": "Mrežna analiza",
+  "privileges": {
+    "portal:user:viewOrgUsers": {
+      "label": "Prikaži",
+      "description": "Dopusti članu da vidi članove organizacije.",
+      "descriptionPortal": "Dopustite članu da vidi članove portala."
+    },
+    "portal:user:createGroup": {
+      "label": "Stvori, ažuriraj i izbriši",
+      "description": "Dopustite članu stvaranje, uređivanje i brisanje vlastitih grupa."
+    },
+    "portal:user:joinGroup": {
+      "label": "Pridruži se grupama organizacije",
+      "description": "Dopustite članu da se pridruži grupama unutar vaše organizacije.",
+      "descriptionPortal": "Dopustite članu da se pridruži grupama unutar vašeg portala."
+    },
+    "portal:user:joinNonOrgGroup": {
+      "label": "Pridruži se vanjskim grupama",
+      "description": "Dopustite članu da se pridruži grupama izvan vaše organizacije.",
+      "descriptionPortal": "Dopustite članu da se pridruži grupama izvan vašeg portala."
+    },
+    "portal:user:viewOrgGroups": {
+      "label": "Prikaži grupe podijeljene s organizacijom",
+      "description": "Dopustite članu da vidi grupe koje se dijele s organizacijom.",
+      "descriptionPortal": "Dopustite članu da vidi grupe koje se dijele s portalom."
+    },
+    "portal:user:invitePartneredCollaborationMembers": {
+      "label": "Pozovi članove partnerske organizacije",
+      "description": "Dopustite članu da poziva članove iz organizacija za partnersku suradnju u grupe."
+    },
+    "portal:user:addExternalMembersToGroup": {
+      "label": "Dodaj članove iz drugih organizacija",
+      "description": "Dopustite članu da izrađuju grupe u kojima su dopušteni članovi iz drugih organizacija, kao i da poziva vanjske članove u grupe."
+    },
+    "portal:user:createItem": {
+      "label": "Stvori, ažuriraj i izbriši",
+      "description": "Dopustite članu stvaranje, uređivanje i brisanje vlastitog sadržaja."
+    },
+    "portal:publisher:publishFeatures": {
+      "label": "Objavi hostirane slojeve geoobjekata",
+      "description": "Dopustite članu da objavi hostirane slojeve geoobjekata iz datoteka oblika, CSV-ova itd."
+    },
+    "portal:publisher:publishTiles": {
+      "label": "Objavi hostirane pločaste slojeve",
+      "description": "Dopustite članu objavljivanje hostiranih pločastih slojeva iz paketa pločica, geoobjekata itd."
+    },
+    "portal:publisher:publishScenes": {
+      "label": "Objavi hostirane slojeve scena",
+      "description": "Dopustite članu objavljivanje hostiranih slojeva scena."
+    },
+    "portal:publisher:publishTiledImagery": {
+      "label": "Objavi hostirane pločaste slojeve sa snimkama",
+      "description": "Dopustite članu da objavljuje hostirane pločaste slojeve sa snimkama jedne slike ili zbirke slika. Potrebno je proširenje za vrstu korisnika ArcGIS Image for ArcGIS Online.",
+      "descriptionPortal": "Dopustite članu da objavljuje hostirane pločaste slojeve sa snimkama jedne slike ili zbirke slika."
+    },
+    "portal:publisher:publishDynamicImagery": {
+      "label": "Objavi hostirane dinamične slojeve sa snimkama",
+      "description": "Dopustite članu da objavljuje hostirane dinamične slojeve sa snimkama jedne slike ili zbirke slika."
+    },
+    "portal:publisher:publishServerServices": {
+      "label": "Objavi slojeve na temelju poslužitelja",
+      "description": "Ova privilegija daje sposobnost objavljivanja slojeva omogućenih uslugama združenih web-mjesta poslužitelja. Te usluge često referenciraju registrirane podatke iz geobaza podataka ili izvora podataka na temelju datoteka."
+    },
+    "portal:publisher:publishKnowledgeGraph": {
+      "label": "Objavljivati hostirane grafikone znanja",
+      "description": "Dopustite članu mogućnost objavljivanja hostiranih grafikona znanja."
+    },
+    "portal:user:viewOrgItems": {
+      "label": "Prikaži sadržaj podijeljen s organizacijom",
+      "description": "Dopustite članu da vidi sadržaj koji se dijeli s organizacijom.",
+      "descriptionPortal": "Dopustite članu da vidi sadržaj koji se dijeli s portalom."
+    },
+    "premium:publisher:createNotebooks": {
+      "label": "Izradi i uredi notebookove",
+      "description": "Dopustite članu da izrađuje i uređuje interaktivne notebookove."
+    },
+    "premium:publisher:scheduleNotebooks": {
+      "label": "Zakaži notebooks",
+      "description": "Dopustite članu da zakaže buduća automatizirana pokretanja notebooka."
+    },
+    "portal:publisher:bulkPublishFromDataStores": {
+      "label": "Stvarajte slojeve geoobjekata naveliko iz spremnika podataka",
+      "description": "Ova privilegija pruža mogućnost objavljivanja web-slojeva iz registriranog spremnika podataka."
+    },
+    "portal:publisher:registerDataStores": {
+      "label": "Registriraj pohrane podataka",
+      "description": "Ova privilegija daje mogućnost registracije pohrane podataka na portalu."
+    },
+    "portal:user:viewTracks": {
+      "label": "Prikaži tragove lokacije",
+      "description": "Dopustite članu da vidi tragove lokacije članova putem dijeljenih prikaza tragova kada je dijeljenje lokacije omogućeno."
+    },
+    "portal:user:reassignItems": {
+      "label": "Preraspodijeli sadržaj",
+      "description": "Dopustite članu da preraspodijeli samo svoj sadržaj drugom članu s privilegijom primanja sadržaja."
+    },
+    "portal:user:receiveItems": {
+      "label": "Primi sadržaj",
+      "description": "Dopustite članu da primi sadržaj koji je preraspodijeljen njemu od strane drugog člana s privilegijom preraspodjele sadržaja."
+    },
+    "portal:publisher:publishFeeds": {
+      "label": "Objavi obavijesti",
+      "description": "Ova privilegija daje mogućnost objavljivanja obavijesti za prikaz podataka u stvarnom vremenu pomoću ArcGIS Velocity."
+    },
+    "portal:publisher:publishRealTimeAnalytics": {
+      "label": "Objavi analitičke podatke u stvarnom vremenu",
+      "description": "Ova privilegija daje mogućnost objavljivanja analitike radi analize i obrade podataka u stvarnom vremenu pomoću ArcGIS Velocity."
+    },
+    "portal:publisher:publishBigDataAnalytics": {
+      "label": "Objavi analitiku velikih podataka",
+      "description": "Ova privilegija daje mogućnost objavljivanja analitike velikih podataka radi analize povijesnih podataka opažanja pomoću ArcGIS Velocity."
+    },
+    "portal:publisher:createDataPipelines": {
+      "label": "Stvori i pokreni Data Pipelines",
+      "description": "Dopustite članu stvaranje, uređivanje i pokretanje Data Pipelines"
+    },
+    "portal:publisher:publishLivestreamVideo": {
+      "label": "Objavite video uživo",
+      "description": "Omogućuje članu objavljivanje hostiranih videozapisa uživo koji potječu iz mrežnih video streamova i streamova."
+    },
+    "portal:publisher:publishVideo": {
+      "label": "Objavite video",
+      "description": "Omogućuje članu objavljivanje hostiranih slojeva videozapisa iz datoteka video datoteka i podržanih datoteka metapodataka videozapisa."
+    },
+    "portal:user:shareToGroup": {
+      "label": "Podijeli s grupama",
+      "description": "Dopustite članu da dijeli sadržaj s grupama."
+    },
+    "portal:user:shareToOrg": {
+      "label": "Podijeli s organizacijom",
+      "labelPortal": "Podijeli s portalom",
+      "description": "Dopustite članu da dijeli sadržaj s vašom organizacijom.",
+      "descriptionPortal": "Dopustite članu da dijeli sadržaj s vašim portalom."
+    },
+    "portal:user:shareToPublic": {
+      "label": "Podijeli s javnošću",
+      "description": "Dopustite članu da javno dijeli svoj sadržaj ako to dopuštaju pravila organizacije o dijeljenju s javnosti.",
+      "tooltip": "Ako organizacija ne dopušta članovima da javno dijele sadržaj, tada će članovima biti potrebna administrativna privilegija za dijeljenje sadržaja članova s javnošću."
+    },
+    "portal:user:shareGroupToOrg": {
+      "label": "Podijeli s portalom",
+      "description": "Dopustite članu da dijeli sadržaj s vašom organizacijom.",
+      "descriptionPortal": "Dopustite članu da dijeli sadržaj s vašim portalom."
+    },
+    "portal:user:shareGroupToPublic": {
+      "label": "Učini grupe vidljivima javnosti",
+      "description": "Dopustite članu da grupe učini vidljivima javnosti."
+    },
+    "opendata:user:designateGroup": {
+      "label": "Učini grupe dostupne otvorenim podacima",
+      "description": "Dopustite članu da odredi grupe kao dostupne za korištenje u otvorenim podacima."
+    },
+    "premium:user:elevation": {
+      "label": "Visina terena",
+      "description": "Opis"
+    },
+    "premium:user:geocode": {
+      "label": "Geokodiranje",
+      "description": "Omogućite članu da izvodi geokodiranja koja troše kredite sa ArcGIS World Geocoding Service (ili pogled tog lokatora)."
+    },
+    "premium:user:geocode:stored": {
+      "label": "Pohranjeno geokodiranje",
+      "description": "Opis"
+    },
+    "premium:user:geocode:temporary": {
+      "label": "Privremeno geokodiranje",
+      "description": "Opis"
+    },
+    "premium:user:networkanalysis": {
+      "label": "Mrežna analiza",
+      "description": "Dopustite članu da obavlja zadatke analize mreže kao što su rutiranje i poligoni vremena vožnje."
+    },
+    "premium:user:networkanalysis:closestfacility": {
+      "label": "Analiza najbližeg mjesta usluge",
+      "description": "Opis"
+    },
+    "premium:user:networkanalysis:locationallocation": {
+      "label": "Analiza dodjele lokacija",
+      "description": "Opis"
+    },
+    "premium:user:networkanalysis:routing": {
+      "label": "Osnovno rutiranje",
+      "description": "Opis"
+    },
+    "premium:user:networkanalysis:optimizedrouting": {
+      "label": "Optimizirano rutiranje",
+      "description": "Opis"
+    },
+    "premium:user:networkanalysis:vehiclerouting": {
+      "label": "Rutiranje vozila",
+      "description": "Opis"
+    },
+    "premium:user:networkanalysis:origindestinationcostmatrix": {
+      "label": "Matrica ishodišta/odredišta",
+      "description": "Opis"
+    },
+    "premium:user:networkanalysis:servicearea": {
+      "label": "Područje usluge",
+      "description": "Opis"
+    },
+    "premium:user:places": {
+      "label": "Mjesta",
+      "description": "Opis"
+    },
+    "premium:user:spatialanalysis": {
+      "label": "Prostorna analiza",
+      "labelPortal": "Standardna analiza geoobjekta",
+      "description": "Dopustite članu da obavlja zadatke prostorne analize.",
+      "descriptionPortal": "Ova privilegija daje sposobnost izvršavanja standardne analize geoobjekta."
+    },
+    "premium:user:geoenrichment": {
+      "label": "Obogaćivanje karte",
+      "description": "Dopusti članu geoobogaćivanje geoobjekata."
+    },
+    "premium:user:demographics": {
+      "label": "Demografije",
+      "description": "Dopustite članu korištenje premium demografskih podataka."
+    },
+    "premium:publisher:geoanalytics": {
+      "label": "GeoAnalytics analiza geoobjekata",
+      "description": "Ova privilegija daje mogućnost izvršavanja GeoAnalytics zadataka."
+    },
+    "premium:publisher:rasteranalysis": {
+      "label": "Analiza slika",
+      "description": "Dopustite članovima da provode zadatke analize slika. Potrebno je proširenje za vrstu korisnika ArcGIS Image for ArcGIS Online.",
+      "descriptionPortal": "Dopustite članovima da provode zadatke analize slika."
+    },
+    "premium:publisher:createAdvancedNotebooks": {
+      "label": "Napredni notebookovi",
+      "description": "Dopustite članu da uvozi i upotrebljava ArcPy module u notebookovima."
+    },
+    "portal:user:runWebTool": {
+      "label": "Pokreni web-alate",
+      "description": "Dopusti članu pokretanje web-alata izdanih s notebookova."
+    },
+    "premium:user:featurereport": {
+      "label": "Izvješće o geoobjektima",
+      "description": "Dopustite članu stvaranje izvješća o geoobjektima u Survey123."
+    },
+    "features:user:edit": {
+      "label": "Uredi",
+      "description": "Dopustite članu da uređuje geoobjekte u slojevima koji se mogu uređivati koji nisu javni, na temelju opcija uređivanja omogućenih na sloju."
+    },
+    "features:user:fullEdit": {
+      "label": "Uredi s potpunom kontrolom",
+      "description": "Dopustite članu da dodaje, briše i ažurira geoobjekte u sloju geoobjekta koji se može uređivati, bez obzira na mogućnosti uređivanja omogućene na sloju."
+    },
+    "features:user:manageVersions": {
+      "label": "Upravljaj svim",
+      "description": "Dopustite članovima da upravljaju zaključavanjem verzija i pregledavaju, mijenjaju, brišu, uređuju, usklađuju i objavljuju svim verzijama grana kojima se pristupa putem slojeva geoobjekata ArcGIS Server."
+    },
+    "portal:publisher:createFeatureWebhook": {
+      "label": "Sloj geoobjekta",
+      "description": "Dopustite članu stvaranje, uređivanje i brisanje vlastitih webhookova sloja geoobjekta."
+    },
+    "portal:admin:viewUsers": {
+      "label": "Prikaži sve",
+      "description": "Dopustite članu da vidi sve podatke o računu člana unutar vaše organizacije.",
+      "descriptionPortal": "Dopustite članu da vidi sve podatke o računu člana unutar vašeg portala."
+    },
+    "portal:admin:updateUsers": {
+      "label": "Ažuriraj",
+      "description": "Dopustite članu da poništi lozinke, ažurira podatke o računu člana i ažurira kategorije članova unutar vaše organizacije.",
+      "descriptionPortal": "Dopustite članu da poništi lozinke, ažurira podatke o računu člana i ažurira kategorije članova unutar vašeg portala."
+    },
+    "portal:admin:deleteUsers": {
+      "label": "Izbriši",
+      "description": "Dopustite članu da izbriše račune članova unutar vaše organizacije.",
+      "descriptionPortal": "Dopustite članu da izbriše račune članova unutar vašeg portala."
+    },
+    "portal:admin:inviteUsers": {
+      "label": "Dodaj",
+      "labelPortal": "Pozovi",
+      "description": "Dopustite članu da poziva članove u vašu organizaciju.",
+      "descriptionPortal": "Dopustite članu da poziva članove u vaš portal."
+    },
+    "portal:admin:disableUsers": {
+      "label": "Onemogući",
+      "description": "Dopustite članu da omogući i onemogući račune članova unutar vaše organizacije.",
+      "descriptionPortal": "Dopustite članu da omogući i onemogući račune članova unutar vašeg portala."
+    },
+    "portal:admin:changeUserRoles": {
+      "label": "Promijeni uloge",
+      "description": "Dopustite članu da promijeni ulogu koja je dodijeljena članskom računu. Imajte na umu da samo članovi s ulogom administratora mogu dodijeliti ili ukloniti ulogu administratora ostalim računima.",
+      "descriptionPortal": "Dopustite članu da promijeni ulogu koja je dodijeljena članskom računu. Imajte na umu da samo članovi s ulogom administratora mogu dodijeliti ili ukloniti ulogu administratora ostalim računima."
+    },
+    "portal:admin:manageLicenses": {
+      "label": "Upravljanje licencama",
+      "description": "Dopustite članu da dodjeljuje licence članovima vaše organizacije.",
+      "descriptionPortal": "Dopustite članu da dodjeljuje licence članovima vašeg portala."
+    },
+    "portal:admin:updateMemberCategorySchema": {
+      "label": "Upraljanje kategorijama",
+      "description": "Ova privilegija daje članu mogućnost konfiguriranja kategorija članova organizacije.",
+      "descriptionPortal": "Ova privilegija daje članu mogućnost konfiguriranja kategorija članova portala."
+    },
+    "portal:admin:viewGroups": {
+      "label": "Prikaži sve",
+      "description": "Dopustite članu da vidi sve grupe unutar vaše organizacije.",
+      "descriptionPortal": "Dopustite članu da vidi sve grupe unutar vašeg portala."
+    },
+    "portal:admin:updateGroups": {
+      "label": "Ažuriraj",
+      "description": "Dopustite članu da ažurira grupe unutar vaše organizacije.",
+      "descriptionPortal": "Dopustite članu da ažurira grupe unutar vašeg portala."
+    },
+    "portal:admin:deleteGroups": {
+      "label": "Izbriši",
+      "description": "Dopustite članu brisanje grupa unutar vaše organizacije.",
+      "descriptionPortal": "Dopustite članu brisanje grupa unutar vašeg portala."
+    },
+    "portal:admin:reassignGroups": {
+      "label": "Preraspodijeli vlasništvo",
+      "description": "Dopustite članu da prerasodijeli grupe drugim članovima unutar vaše organizacije.",
+      "descriptionPortal": "Dopustite članu da prerasodijeli grupe drugim članovima unutar vašeg portala."
+    },
+    "portal:admin:assignToGroups": {
+      "label": "Dodijeli članove",
+      "description": "Dopustite članu da dodijeli vaše članove u, ažurira grupnu ulogu vašeg člana i ukloni va članove iz grupa unutar vaše organizacije.",
+      "descriptionPortal": "Dopustite članu da dodijeli vaše članove u, ažurira grupnu ulogu vašeg člana i ukloni va članove iz grupa unutar vašeg portala."
+    },
+    "portal:admin:manageEnterpriseGroups": {
+      "label": "Poveznica na grupu specifičnu za organizaciju",
+      "description": "Dopustite članovima da povežu članstvo u grupi s grupom specifičnom za organizaciju."
+    },
+    "portal:admin:createUpdateCapableGroup": {
+      "label": "Stvori s mogućnostima ažuriranja",
+      "description": "Dopustite članu stvaranje grupa s mogućnostima ažuriranja."
+    },
+    "portal:admin:createLeavingDisallowedGroup": {
+      "label": "Stvaranje s nedopuštenim napuštanjem",
+      "description": "Dopustite članu stvaranje i posjedovanje grupa koje članovima ne dopuštaju napuštanje (administrativne grupe)."
+    },
+    "portal:admin:viewItems": {
+      "label": "Prikaži sve",
+      "description": "Dopustite članu da vidi sav sadržaj unutar vaše organizacije.",
+      "descriptionPortal": "Dopustite članu da vidi sav sadržaj unutar vašeg portala."
+    },
+    "portal:admin:updateItems": {
+      "label": "Ažuriraj",
+      "description": "Ova privilegija daje članu mogućnost ažuriranja i kategoriziranja sadržaja, i uređivanja hostiranih slojeva geoobjekta u vašoj organizaciji.",
+      "descriptionPortal": "Ova privilegija daje članu mogućnost ažuriranja i kategoriziranja sadržaja, i uređivanja hostiranih slojeva geoobjekta na vašem portalu."
+    },
+    "portal:admin:deleteItems": {
+      "label": "Izbriši",
+      "description": "Dopustite članu brisanje sadržaja unutar vaše organizacije.",
+      "descriptionPortal": "Dopustite članu brisanje sadržaja unutar vašeg portala."
+    },
+    "portal:admin:reassignItems": {
+      "label": "Preraspodijeli vlasništvo",
+      "description": "Dopustite članu da prerasodijeli sadržaj drugim članovima unutar vaše organizacije.",
+      "descriptionPortal": "Dopustite članu da prerasodijeli sadržaj drugim članovima unutar vašeg portala."
+    },
+    "portal:admin:updateItemCategorySchema": {
+      "label": "Upraljanje kategorijama",
+      "description": "Dopustite članu da konfigurira kategorije sadržaja organizacije.",
+      "descriptionPortal": "Dopustite članu da konfigurira kategorije sadržaja portala."
+    },
+    "portal:publisher:publishServerGPServices": {
+      "label": "Objavi web-alate",
+      "description": "Ova privilegija daje sposobnost objavljivanja web-alata poduprte uslugama geoprocesiranja sa združenih web-mjesta poslužitelja."
+    },
+    "portal:admin:shareToOrg": {
+      "label": "Podijeli sadržaj za članove s organizacijom",
+      "description": "Dopustite članu dijeljenje sadržaja u vlasništvu drugih članova unutar vaše organizacije s organizacijom.",
+      "descriptionPortal": "Dopustite članu dijeljenje sadržaja u vlasništvu drugih članova unutar vašeg portala s portalom."
+    },
+    "portal:admin:shareToPublic": {
+      "label": "Podijeli sadržaj za članove s javnosti",
+      "description": "Dopustite članu dijeljenje sadržaja u vlasništvu drugih članova unutar vaše organizacije s javnosti.",
+      "descriptionPortal": "Dopustite članu dijeljenje sadržaja u vlasništvu drugih članova unutar vašeg portala s javnosti."
+    },
+    "portal:admin:createReports": {
+      "label": "Stvorite i upravljajte administrativnim izvješćima",
+      "description": "Dopustite članu stvaranje i upravljanje administrativnim izvješćima za vašu organizaciju.",
+      "descriptionPortal": "Dopustite članu stvaranje i upravljanje administrativnim izvješćima za vaš portal."
+    },
+    "marketplace:admin:manage": {
+      "label": "Stvori i upravljaj",
+      "description": "Dopustite članu stvaranje popisa, popisivanje stavki, upravljanje pretplatama unutar ArcGIS Marketplacea, kao i upravljanje kupcima i kontakt informacijama za vašu organizaciju. Upotreba ove privilegije ovisi o pristupu vaše organizacije popisima i objavljivanju na web-mjestu ArcGIS Marketplace."
+    },
+    "marketplace:admin:purchase": {
+      "label": "Kupite i ostvarite besplatne proizvode",
+      "description": "Dopustite članovima da pošalju zahtjeve za kupnju i pristupe besplatnim proizvodima pružatelja usluga na ArcGIS Marketplaceu. Kako biste dopustili članovima da kupuju članove koristeći kreditne kartice, morate ih postaviti kao kupce na Marketplaceu."
+    },
+    "marketplace:admin:startTrial": {
+      "label": "Pokreni probne pretplate",
+      "description": "Dopustite članu da započne probne pretplate unutar ArcGIS Marketplacea."
+    },
+    "portal:admin:manageSecurity": {
+      "label": "Sigurnost i infrastruktura",
+      "description": "Dopustite članu upravljanje sigurnosnim i infrastrukturnim postavkama organizacije.",
+      "descriptionPortal": "Dopustite članu upravljanje sigurnosnim i infrastrukturnim postavkama portala."
+    },
+    "portal:admin:manageWebsite": {
+      "label": "Web-mjesto organizacije",
+      "description": "Dopustite članu da upravlja postavkama web-mjesta organizacije.",
+      "descriptionPortal": "Dopustite članu da upravlja postavkama web-mjesta portala."
+    },
+    "portal:admin:manageCollaborations": {
+      "label": "Suradnje",
+      "description": "Dopustite članu da upravlja suradnjama organizacije.",
+      "descriptionPortal": "Dopustite članu da upravlja suradnjama portala."
+    },
+    "portal:admin:manageCredits": {
+      "label": "Krediti",
+      "description": "Dopustite članu da upravlja postavkama planiranja proračuna organizacije."
+    },
+    "portal:admin:manageRoles": {
+      "label": "Uloge članova",
+      "description": "Dopustite članu da upravlja ulogama članova organizacije.",
+      "descriptionPortal": "Dopustite članu da upravlja ulogama članova portala."
+    },
+    "portal:admin:manageServers": {
+      "label": "Poslužitelji",
+      "description": "Ova privilegija daje mogućnost upravljanja postavkama poslužitelja portala."
+    },
+    "portal:admin:manageUtilityServices": {
+      "label": "Pomoćne usluge",
+      "description": "Dopustite članu da upravlja postavkama pomoćnih usluga organizacije.",
+      "descriptionPortal": "Dopustite članu da upravlja postavkama pomoćnih usluga portala."
+    },
+    "portal:admin:manageWebhooks": {
+      "label": "Webhookovi organizacije",
+      "description": "Dopustite članu stvaranje, uređivanje i brisanje organizacijskih webhookova i upravljanje svim webhookovijma unutar portala."
+    },
+    "portal:admin:createGPWebhook": {
+      "label": "Geoprocesiranje",
+      "description": "Dopustite članu stvaranje, uređivanje i brisanje vlastitih webhookova za geoprocesiranje."
+    }
+  }
+}

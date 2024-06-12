@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>Laske yhdistelm&auml;indeksi -ty&ouml;kalu yhdist&auml;&auml; useita numeerisia muuttujia yksitt&auml;isen indeksin luontia varten.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputLayer">
+        <div>
+            <p>Indeksiin yhdistett&auml;v&auml;t muuttujat sis&auml;lt&auml;v&auml; taulu tai sis&auml;lt&auml;v&auml;t kohteet.
+            </p>
+        </div>
+    </div>
+    <div id="inputVariables">
+        <div>
+            <p>Kent&auml;t sis&auml;lt&auml;v&auml;t muuttujia, jotka yhdistet&auml;&auml;n indeksin luomiseksi.  <b>K&auml;&auml;nn&auml; suunta</b> m&auml;&auml;ritt&auml;&auml;, muutetaanko muuttujien arvot k&auml;&auml;nteisiksi. <b>Painoarvo</b> on kunkin muuttujan suhteellinen vaikutus indeksiin.
+            </p>
+        </div>
+    </div>
+    <div id="indexMethod">
+        <div>
+            <p>M&auml;&auml;ritt&auml;&auml; menetelm&auml;n, jota k&auml;ytet&auml;&auml;n l&auml;ht&ouml;aineiston muuttujien skaalaamiseen ja skaalattujen muuttujien yhdist&auml;miseen indeksin luomiseksi.
+            </p>
+        </div>
+    </div>
+    <div id="outputIndexReverse">
+        <div>
+            <p>M&auml;&auml;ritt&auml;&auml;, muutetaanko l&auml;ht&ouml;aineiston indeksiarvojen suunta k&auml;&auml;nteiseksi. Kun t&auml;m&auml; valitaan, korkeita arvoja pidet&auml;&auml;n matalina indeksiarvoina ja p&auml;invastoin.
+            </p>
+        </div>
+    </div>
+    <div id="outputIndexMinMax">
+        <div>
+            <p>Tulosaineiston indeksiarvojen minimi ja maksimi.
+            </p>
+        </div>
+    </div>
+    <div id="outputName">
+        <div>
+            <p>Karttaan luotavan ja lis&auml;tt&auml;v&auml;n karttatason nimi.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>Nimi  <b>Oma sis&auml;lt&ouml;</b> -kansiossa, jonne tulos tallennetaan.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

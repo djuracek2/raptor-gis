@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "Ulteriori informazioni",
+    "title": "Nuove feature in ArcGIS Online",
+    "description": "L'aggiornamento di febbraio 2024 include nuove funzionalità e miglioramenti in tutto il sito Web di ArcGIS Online."
+  },
+  "pipelines": {
+    "learnMore": "Ulteriori informazioni",
+    "title": "Importa, pulisci e trasforma i dati senza alcun codice.",
+    "description": "Strumenti visivi di trascinamento e rilascio per elaborare dati di Amazon S3, Google BigQuery e altro.",
+    "link": "Prova ArcGIS Data Pipelines"
+  },
+  "title": "Novità in ArcGIS Online"
+}

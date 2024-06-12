@@ -1,0 +1,16 @@
+{
+  "cancel": "Отказ",
+  "reset": "Нулиране",
+  "resetting": "Възстановяване...",
+  "save": "Запазване",
+  "saving": "Запазва се...",
+  "itemClassificationLabel": "Класификация",
+  "itemClassificationCategoryLabel": "Етикет за категория за класификация на елемент",
+  "itemClassificationEditLabel": "Редактиране на класификацията",
+  "itemClassificationValidateError": "Валидирането е неуспешно, стойността на класификацията на елемента няма да бъде попълнена! Моля, редактирайте и запазете нов.",
+  "classificationValueSaved": "Стойността на класификацията е запазена",
+  "classificationNotificationHandler": "Манипулатор на известия за класификация",
+  "openModal": "Отваряне на модала",
+  "currentSelections": "Текущи избори",
+  "searchForCategory": "Търсене на категория"
+}

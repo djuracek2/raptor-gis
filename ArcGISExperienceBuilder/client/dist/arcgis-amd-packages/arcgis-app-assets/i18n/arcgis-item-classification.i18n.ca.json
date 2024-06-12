@@ -1,0 +1,16 @@
+{
+  "cancel": "Cancel·la",
+  "reset": "Restableix",
+  "resetting": "S'està restablint...",
+  "save": "Desa",
+  "saving": "S'està desant...",
+  "itemClassificationLabel": "Classificació",
+  "itemClassificationCategoryLabel": "Etiqueta de categoria de classificació de l'element",
+  "itemClassificationEditLabel": "Edita la classificació",
+  "itemClassificationValidateError": "No s'ha pogut dur a terme la validació, no s'emplenarà el valor de classificació de l'element. Editeu-lo i deseu-ne un de nou.",
+  "classificationValueSaved": "S'ha desat el valor de classificació",
+  "classificationNotificationHandler": "Controlador de notificació de classificació",
+  "openModal": "Obre el modal",
+  "currentSelections": "Seleccions actuals",
+  "searchForCategory": "Cerca una categoria"
+}

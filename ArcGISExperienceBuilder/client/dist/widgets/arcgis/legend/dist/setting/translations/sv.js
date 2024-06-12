@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({sourceLabel:"Källa",sourceDescript:"En webbkarta eller webbscen, eller en kombination av båda.",showBaseMap:"Visa teckenförklaring för baskarta",cardStyle:"Använd kortstil"})}}}));

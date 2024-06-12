@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>הכלי 'גזור זרם כקו' מפיק קו זרם מרסטר פני שטח של קלט ללא צורך במילוי אגן או שקע קודם.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputSurfaceRaster">
+        <div>
+            <p>רסטר קו הגובה אשר ישמש לחישוב.
+            </p>
+        </div>
+    </div>
+    <div id="inputDepressionsData">
+        <div>
+            <p>הקלט שמגדיר את המיקומים של שקעים או אגנים אמיתיים, שמים יכולים לזרום לתוכם פנימה אך לא מהם החוצה.
+            </p>
+        </div>
+    </div>
+    <div id="inputWeightRaster">
+        <div>
+            <p>שכבת הרסטר שמגדירה את חלק הזרימה שתורם לצבירת זרימה בכל תא.
+            </p>
+        </div>
+    </div>
+    <div id="accumulationThreshold">
+        <div>
+            <p>סף הקביעה האם תא נתון הוא חלק מזרם במונחים של השטח הכולל שזורם לתוך תא שכזה.
+            </p>
+        </div>
+    </div>
+    <div id="streamDesignationMethod">
+        <div>
+            <p>מציין האם מקטעי הזרם בפלט יהיו בעלי ערך קבוע, ערכים ייחודיים או יאורגנו לפי סדר.
+            </p>
+        </div>
+    </div>
+    <div id="simplify">
+        <div>
+            <p>מציין האם קווי זרם הפלט יוחלקו לקבלת צורות פשוטות יותר.
+            </p>
+            <p>אם מסומן, יתבצע פישוט של ישויות קו הזרם תוך שימוש באלגוריתם Douglas-Peucker עם טולרנס של sqrt(0.5) * גודל תא. זוהי ברירת המחדל. אם לא מסומן, לא יתבצע פישוט של ישויות קו הזרם.
+            </p>
+        </div>
+    </div>
+    <div id="outputStreamFeaturesName">
+        <div>
+            <p>שם שכבת ישויות קו הזרם שתיווצר ותתווסף למפה.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>שם התיקייה  <b>בתוכן שלי</b> שבה התוצאות יישמרו.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

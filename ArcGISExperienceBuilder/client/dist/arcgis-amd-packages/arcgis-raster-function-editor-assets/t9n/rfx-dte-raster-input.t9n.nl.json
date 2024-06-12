@@ -1,0 +1,10 @@
+{
+  "outputRaster": "OutputRaster",
+  "rfxVariable": "RasterFunctieVariable",
+  "selectLayer": "Kaartlaag selecteren",
+  "allowScalar": "Selecteer een laag of voer een constante in",
+  "browseLayer": "Blader door lagen",
+  "loading": "Bezig met laden...",
+  "layerMissing": "Een of meer lagen van de kaart worden hier niet vermeld omdat daarin geen analyse is toegestaan. Meer informatie.",
+  "layerFailedToLoad": "Kan laag niet laden."
+}

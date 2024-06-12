@@ -1,0 +1,10 @@
+{
+  "outputRaster": "OutputRaster",
+  "rfxVariable": "RasterFunctionVariable",
+  "selectLayer": "Vali kiht",
+  "allowScalar": "Kihi valimine või konstandi sisestamine",
+  "browseLayer": "Sirvi kihte",
+  "loading": "Laadimine...",
+  "layerMissing": "Siin pole loetletud ühte või mitut kaardilt pärit kihti, kuna need ei luba analüüsi. Lisateave.",
+  "layerFailedToLoad": "Kihi laadimine nurjus."
+}

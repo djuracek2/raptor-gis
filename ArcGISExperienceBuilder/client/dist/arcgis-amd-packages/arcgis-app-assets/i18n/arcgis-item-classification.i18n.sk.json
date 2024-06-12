@@ -1,0 +1,16 @@
+{
+  "cancel": "Zrušiť",
+  "reset": "Resetovať",
+  "resetting": "Resetovanie...",
+  "save": "Uložiť",
+  "saving": "Ukladá sa...",
+  "itemClassificationLabel": "Klasifikácia",
+  "itemClassificationCategoryLabel": "Označenie kategórie klasifikácie položky",
+  "itemClassificationEditLabel": "Editovať klasifikáciu",
+  "itemClassificationValidateError": "Validácia zlyhala, hodnota klasifikácie položky sa nevyplní! Prosím editujte a uložte nové.",
+  "classificationValueSaved": "Hodnota klasifikácie sa uložila",
+  "classificationNotificationHandler": "Obsluha notifikácie o klasifikácii",
+  "openModal": "Otvoriť modálne",
+  "currentSelections": "Aktuálne výbery",
+  "searchForCategory": "Vyhľadať kategóriu"
+}

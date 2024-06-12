@@ -1,0 +1,455 @@
+{
+  "rolePrivileges": "Privilégios do papel",
+  "setFromExisting": "Definir a partir do papel existente",
+  "expandAll": "Expandir todos",
+  "generalPrivileges": "Privilégios gerais",
+  "adminPrivileges": "Privilégios de administrador",
+  "enabledLabel": "Habilitado:",
+  "enableAll": "Habilitar todos",
+  "disableAll": "Desativar todos",
+  "members": "Membros",
+  "groups": "Grupos",
+  "content": "Conteúdo",
+  "sharing": "Compartilhamento",
+  "premiumContent": "Conteúdo Premium",
+  "features": "Feições",
+  "versionMgmt": "Gerenciamento de Versão",
+  "webhooks": "Webhooks",
+  "marketplaceSubscriptions": "Assinaturas do ArcGIS Marketplace",
+  "orgSettings": "Configurações da Organização",
+  "learnMore": "Saiba mais",
+  "searchPrivileges": "Privilégios de pesquisa",
+  "notebooks": "Notebooks",
+  "analysis": "Análise",
+  "networkAnalysis": "Análise de rede",
+  "privileges": {
+    "portal:user:viewOrgUsers": {
+      "label": "Visualizar",
+      "description": "Permitir ao membro visualizar membros da organização.",
+      "descriptionPortal": "Permitir ao membro visualizar membros do portal."
+    },
+    "portal:user:createGroup": {
+      "label": "Criar, atualizar e excluir",
+      "description": "Permitir ao membro criar, editar e excluir seus próprios grupos."
+    },
+    "portal:user:joinGroup": {
+      "label": "Participar de grupos da organização",
+      "description": "Permitir ao membro participar de grupos dentro da sua organização.",
+      "descriptionPortal": "Permitir ao membro participar de grupos dentro do portal."
+    },
+    "portal:user:joinNonOrgGroup": {
+      "label": "Participar de grupos externos",
+      "description": "Permitir ao membro participar de grupos externos à sua organização.",
+      "descriptionPortal": "Permitir ao membro participar de grupos externos ao seu portal."
+    },
+    "portal:user:viewOrgGroups": {
+      "label": "Visualizar grupos compartilhados com a organização",
+      "description": "Permitir ao membro visualizar grupos compartilhados com a organização.",
+      "descriptionPortal": "Permitir ao membro visualizar grupos compartilhados com o portal."
+    },
+    "portal:user:invitePartneredCollaborationMembers": {
+      "label": "Convidar membros da organização parceira",
+      "description": "Permite que o membro convide membros de organizações de colaboração parceiras para grupos."
+    },
+    "portal:user:addExternalMembersToGroup": {
+      "label": "Adicionar membros de outras organizações",
+      "description": "Permite que o membro crie grupos que permitem membros de outras organizações, como também, convidar membros externos para grupos."
+    },
+    "portal:user:createItem": {
+      "label": "Criar, atualizar e excluir",
+      "description": "Permitir ao membro criar, editar e excluir seus próprios conteúdos."
+    },
+    "portal:publisher:publishFeatures": {
+      "label": "Publicar camadas de feição hospedadas",
+      "description": "Permitir ao membro publicar camadas de feição hospedadas a partir de shapefiles, CSVs, etc."
+    },
+    "portal:publisher:publishTiles": {
+      "label": "Publicar camadas de mosaico hospedadas",
+      "description": "Permitir ao membro publicar camadas de feições hospedadas a partir de pacotes, feições, etc."
+    },
+    "portal:publisher:publishScenes": {
+      "label": "Publicar camadas de cenas hospedadas",
+      "description": "Permitir ao membro publicar camadas de cena hospedadas."
+    },
+    "portal:publisher:publishTiledImagery": {
+      "label": "Publicar camadas de imagens de mosaico hospedadas",
+      "description": "Permite ao membro publicar camadas de imagens mosaicadas hospedadas a partir de uma única imagem ou coleção de imagens. Exige uma extensão do tipo de usuário ArcGIS Image for ArcGIS Online.",
+      "descriptionPortal": "Permite ao membro publicar camadas de imagens mosaicadas hospedadas a partir de uma única imagem ou coleção de imagens."
+    },
+    "portal:publisher:publishDynamicImagery": {
+      "label": "Publicar camadas de imagens dinâmicas hospedadas",
+      "description": "Permite ao membro publicar camadas de imagens dinâmicas hospedadas de uma única imagem ou coleção de imagens."
+    },
+    "portal:publisher:publishServerServices": {
+      "label": "Publicar camadas baseadas em servidor",
+      "description": "Este privilégio concede a capacidade de publicar camadas alimentadas por serviços de sites de servidores federados. Estes serviços geralmente fazem referência aos dados registrados de geodatabases ou fontes de dados baseadas em arquivos."
+    },
+    "portal:publisher:publishKnowledgeGraph": {
+      "label": "Publique gráficos de conhecimento hospedados",
+      "description": "Permitir que o membro publique gráficos de conhecimento hospedados."
+    },
+    "portal:user:viewOrgItems": {
+      "label": "Visualizar conteúdo compartilhado com a organização",
+      "description": "Permitir ao membro visualizar conteúdo compartilhado com a organização.",
+      "descriptionPortal": "Permitir ao membro visualizar conteúdo compartilhado com o portal."
+    },
+    "premium:publisher:createNotebooks": {
+      "label": "Criar e editar notebooks",
+      "description": "Permite que o membro crie e edite notebooks interativos."
+    },
+    "premium:publisher:scheduleNotebooks": {
+      "label": "Agendar notebooks",
+      "description": "Permite que o membro agende futuras execuções automatizadas de um notebook."
+    },
+    "portal:publisher:bulkPublishFromDataStores": {
+      "label": "Crie camadas de feição em lote a partir de um armazenamento de dados",
+      "description": "Este privilégio concede a capacidade de publicar camadas da web a partir de um armazenamento de dados registrado."
+    },
+    "portal:publisher:registerDataStores": {
+      "label": "Registrar armazenamentos de dados",
+      "description": "Este privicanRegisterDataStorelege concede a capacidade de registrar armazenamentos de dados no portal."
+    },
+    "portal:user:viewTracks": {
+      "label": "Visualizar rastreamentos de locais",
+      "description": "Permitir que o membro visualize os caminhos de localização dos membros por meio de visualizações de caminhos compartilhados quando o compartilhamento de localização estiver ativado."
+    },
+    "portal:user:reassignItems": {
+      "label": "Reatribuir conteúdo",
+      "description": "Permite que o membro reatribua apenas seu conteúdo a outro membro com o privilégio de receber conteúdo."
+    },
+    "portal:user:receiveItems": {
+      "label": "Receber conteúdo",
+      "description": "Permite que o membro receba conteúdo que é reatribuído a ele por outro membro com o privilégio de reatribuir conteúdo."
+    },
+    "portal:publisher:publishFeeds": {
+      "label": "Publicar feeds",
+      "description": "Este privilégio concede a habilidade de publicar feeds para ingerir e exibir dados em tempo real usando ArcGIS Velocity."
+    },
+    "portal:publisher:publishRealTimeAnalytics": {
+      "label": "Publicar análises em tempo real",
+      "description": "Este privilégio concede a capacidade de publicar análises em tempo real para analisar e processar dados em tempo real usando o ArcGIS Velocity."
+    },
+    "portal:publisher:publishBigDataAnalytics": {
+      "label": "Publicar análises de big data",
+      "description": "Este privilégio concede a capacidade de publicar análises de big data para analisar dados de observação histórica usando ArcGIS Velocity."
+    },
+    "portal:publisher:createDataPipelines": {
+      "label": "Criar e executar pipelines de dados",
+      "description": "Permita que o membro crie, edite e execute pipelines de dados."
+    },
+    "portal:publisher:publishLivestreamVideo": {
+      "label": "Publicar vídeo ao vivo",
+      "description": "Permite que o membro publique camadas de vídeo de transmissão ao vivo hospedadas provenientes de transmissões e fluxos de vídeo em rede."
+    },
+    "portal:publisher:publishVideo": {
+      "label": "Publicar vídeo",
+      "description": "Permite que o membro publique camadas de vídeo hospedadas de arquivos de vídeo e arquivos de metadados de vídeo suportados."
+    },
+    "portal:user:shareToGroup": {
+      "label": "Compartilhar com grupos",
+      "description": "Permitir ao membro compartilhar conteúdo com grupos."
+    },
+    "portal:user:shareToOrg": {
+      "label": "Compartilhar com organização",
+      "labelPortal": "Compartilhar com portal",
+      "description": "Permitir ao membro compartilhar conteúdo na sua organização.",
+      "descriptionPortal": "Permitir ao membro compartilhar conteúdo no seu portal."
+    },
+    "portal:user:shareToPublic": {
+      "label": "Compartilhar com público",
+      "description": "Permita que o membro compartilhe seu conteúdo publicamente se permitido pela política de compartilhamento público da organização.",
+      "tooltip": "Se a organização não permitir que os membros compartilhem o conteúdo publicamente, os membros precisarão do privilégio administrativo para compartilhar o conteúdo do membro com o público."
+    },
+    "portal:user:shareGroupToOrg": {
+      "label": "Compartilhar com portal",
+      "description": "Permitir ao membro compartilhar conteúdo na sua organização.",
+      "descriptionPortal": "Permitir ao membro compartilhar conteúdo no seu portal."
+    },
+    "portal:user:shareGroupToPublic": {
+      "label": "Tornar grupos visíveis para o público",
+      "description": "Permitir ao membro criar grupos detectáveis pelo público."
+    },
+    "opendata:user:designateGroup": {
+      "label": "Tornar grupos disponíveis para Open Data",
+      "description": "Permitir ao membro designar grupos como disponíveis para uso no Open Data."
+    },
+    "premium:user:elevation": {
+      "label": "Elevação",
+      "description": "Descrição"
+    },
+    "premium:user:geocode": {
+      "label": "Geocodificação",
+      "description": "Permite ao membro executar tarefas de geocodificação que consomem crédito com o ArcGIS World Geocoding Service (ou uma visualização deste localizador)."
+    },
+    "premium:user:geocode:stored": {
+      "label": "Geocodificação Armazenada",
+      "description": "Descrição"
+    },
+    "premium:user:geocode:temporary": {
+      "label": "Geocodificação Temporária",
+      "description": "Descrição"
+    },
+    "premium:user:networkanalysis": {
+      "label": "Análise de Rede",
+      "description": "Permitir ao membro executar tarefas da análise de rede como áreas do tempo de percurso e rota."
+    },
+    "premium:user:networkanalysis:closestfacility": {
+      "label": "Análise da instalação mais próxima",
+      "description": "Descrição"
+    },
+    "premium:user:networkanalysis:locationallocation": {
+      "label": "Análise de alocação de localização",
+      "description": "Descrição"
+    },
+    "premium:user:networkanalysis:routing": {
+      "label": "Rota básico",
+      "description": "Descrição"
+    },
+    "premium:user:networkanalysis:optimizedrouting": {
+      "label": "Rotas otimizadas",
+      "description": "Descrição"
+    },
+    "premium:user:networkanalysis:vehiclerouting": {
+      "label": "Rota de veículos",
+      "description": "Descrição"
+    },
+    "premium:user:networkanalysis:origindestinationcostmatrix": {
+      "label": "Matriz origem/destino",
+      "description": "Descrição"
+    },
+    "premium:user:networkanalysis:servicearea": {
+      "label": "Área de serviço",
+      "description": "Descrição"
+    },
+    "premium:user:places": {
+      "label": "Locais",
+      "description": "Descrição"
+    },
+    "premium:user:spatialanalysis": {
+      "label": "Análise Espacial",
+      "labelPortal": "Análise de Feição Padrão",
+      "description": "Permita ao membro executar tarefas de análise de espacial.",
+      "descriptionPortal": "Este privilégio concede a habilidade de executar tarefas de análise da feição padrão."
+    },
+    "premium:user:geoenrichment": {
+      "label": "GeoEnrichment",
+      "description": "Permitir ao membro geoenriquecer feições."
+    },
+    "premium:user:demographics": {
+      "label": "Demográficos",
+      "description": "Permitir ao membro fazer uso de dados premium demográficos."
+    },
+    "premium:publisher:geoanalytics": {
+      "label": "Análise de Feição do GeoAnalytics",
+      "description": "Este privilégio concede à habilidade de executar tarefas do GeoAnalytics."
+    },
+    "premium:publisher:rasteranalysis": {
+      "label": "Análise de Imagens",
+      "description": "Permita que o membro execute tarefas de análise de imagens. Exige uma extensão do tipo de usuário ArcGIS Image for ArcGIS Online.",
+      "descriptionPortal": "Permita que o membro execute tarefas de análise de imagens."
+    },
+    "premium:publisher:createAdvancedNotebooks": {
+      "label": "Notebooks avançados",
+      "description": "Permite que o membro importe e use módulos ArcPy em notebooks."
+    },
+    "portal:user:runWebTool": {
+      "label": "Executar ferramentas da web",
+      "description": "Permitir ao membro executar ferramentas da web publicadas de notebooks."
+    },
+    "premium:user:featurereport": {
+      "label": "Relatório da feição",
+      "description": "Permitir ao membro criar relatórios de feição no Survey123."
+    },
+    "features:user:edit": {
+      "label": "Editar",
+      "description": "Permitir ao membro editar feições em camadas editáveis que não sejam públicas, baseado nas opções de edição habilitadas na camada."
+    },
+    "features:user:fullEdit": {
+      "label": "Editar com controle total",
+      "description": "Permitir ao membro adicionar, excluir e atualizar feições em uma camada de feição hospedada, editável não importando as opções de edição habilitadas na camada."
+    },
+    "features:user:manageVersions": {
+      "label": "Gerenciar todos",
+      "description": "Permite aos membros gerenciar bloqueios de versão e visualizar, alterar, excluir, editar, reconciliar e publicar em todas as versões de filial acessadas através das camadas de feição do ArcGIS Server."
+    },
+    "portal:publisher:createFeatureWebhook": {
+      "label": "Camada de feição",
+      "description": "Permite que o membro crie, edite e exclua seus próprios webhooks da camada de feição."
+    },
+    "portal:admin:viewUsers": {
+      "label": "Visualizar todos",
+      "description": "Permitir ao membro visualizar informações de conta do membro completas dentro da sua organização.",
+      "descriptionPortal": "Permitir ao membro visualizar informações de conta do membro completas dentro do seu portal."
+    },
+    "portal:admin:updateUsers": {
+      "label": "Atualizar",
+      "description": "Permitir que o membro redefina senhas, atualize as informações da conta do membro e atualize as categorias de membros em sua organização.",
+      "descriptionPortal": "Permita que o membro redefina senhas, atualize as informações da conta do membro e atualize as categorias de membros em sua portal."
+    },
+    "portal:admin:deleteUsers": {
+      "label": "Excluir",
+      "description": "Permitir ao membro excluir contas do membro dentro da sua organização.",
+      "descriptionPortal": "Permitir ao membro excluir contas do membro dentro do seu portal."
+    },
+    "portal:admin:inviteUsers": {
+      "label": "Adicionar",
+      "labelPortal": "Convidar",
+      "description": "Permitir ao membro convidar membros para sua organização.",
+      "descriptionPortal": "Permitir ao membro convidar membros para seu portal."
+    },
+    "portal:admin:disableUsers": {
+      "label": "Desabilitar",
+      "description": "Permitir ao membro habilitar ou desabilitar contas do membro dentro da sua organização.",
+      "descriptionPortal": "Permitir ao membro habilitar ou desabilitar contas do membro dentro do seu portal."
+    },
+    "portal:admin:changeUserRoles": {
+      "label": "Alterar papéis",
+      "description": "Permitir ao membro alterar o papel que uma conta do membro está atribuída. Note que somente membros com o papel Administrador podem atribuir ou cancelar atribuição do papel Administrador a outras contas.",
+      "descriptionPortal": "Permitir ao membro alterar o papel que uma conta do membro está atribuída. Note que somente membros com o papel Administrador podem atribuir ou cancelar atribuição do papel Administrador a outras contas."
+    },
+    "portal:admin:manageLicenses": {
+      "label": "Gerenciar licenças",
+      "description": "Permitir ao membro atribuir licenças aos membros da sua organização.",
+      "descriptionPortal": "Permitir ao membro atribuir licenças aos membros do seu portal."
+    },
+    "portal:admin:updateMemberCategorySchema": {
+      "label": "Gerenciar categorias",
+      "description": "Permitir que o membro configure as categorias de membros da organização.",
+      "descriptionPortal": "Permitir que o membro configure as categorias de membros do portal."
+    },
+    "portal:admin:viewGroups": {
+      "label": "Visualizar todos",
+      "description": "Permitir ao membro visualizar todos os grupos dentro da sua organização.",
+      "descriptionPortal": "Permitir ao membro visualizar todos os grupos dentro do seu portal."
+    },
+    "portal:admin:updateGroups": {
+      "label": "Atualizar",
+      "description": "Permitir ao membro atualizar grupos dentro da sua organização.",
+      "descriptionPortal": "Permitir ao membro atualizar grupos dentro do seu portal."
+    },
+    "portal:admin:deleteGroups": {
+      "label": "Excluir",
+      "description": "Permitir ao membro excluir grupos dentro da sua organização.",
+      "descriptionPortal": "Permitir ao membro excluir grupos dentro do seu portal."
+    },
+    "portal:admin:reassignGroups": {
+      "label": "Reatribuir propriedade",
+      "description": "Permitir ao membro reatribuir grupos a outros membros dentro da sua organização.",
+      "descriptionPortal": "Permitir ao membro reatribuir grupos a outros membros dentro do seu portal."
+    },
+    "portal:admin:assignToGroups": {
+      "label": "Atribuir membros",
+      "description": "Permitir ao membro atribuir seus membros, atualizar papel de grupo do membro e remover seus membros de grupos da sua organização.",
+      "descriptionPortal": "Permitir ao membro atribuir seus membros, atualizar papel de grupo do membro e remover seus membros de grupos do seu portal."
+    },
+    "portal:admin:manageEnterpriseGroups": {
+      "label": "Link para grupo de organização específico",
+      "description": "Permita que o membro vincule a associação ao grupo a um grupo específico da organização."
+    },
+    "portal:admin:createUpdateCapableGroup": {
+      "label": "Criar com recursos de atualização",
+      "description": "Permitir ao membro criar grupos com recursos de atualização."
+    },
+    "portal:admin:createLeavingDisallowedGroup": {
+      "label": "Criar com saída não permitida",
+      "description": "Permitir que o membro crie e possua grupos que não permitem a saída de membros (grupos administrativos)."
+    },
+    "portal:admin:viewItems": {
+      "label": "Visualizar todos",
+      "description": "Permitir ao membro visualizar todo conteúdo dentro da sua organização.",
+      "descriptionPortal": "Permitir ao membro visualizar todo conteúdo dentro do seu portal."
+    },
+    "portal:admin:updateItems": {
+      "label": "Atualizar",
+      "description": "Permite que o membro atualize e categorize o conteúdo, e edite as camadas de feição hospedadas em sua organização.",
+      "descriptionPortal": "Permite que o membro atualize e categorize o conteúdo, e edite as camadas de feição hospedadas em seu portal."
+    },
+    "portal:admin:deleteItems": {
+      "label": "Excluir",
+      "description": "Permitir ao membro excluir conteúdo dentro da sua organização.",
+      "descriptionPortal": "Permitir ao membro excluir conteúdo dentro do seu portal."
+    },
+    "portal:admin:reassignItems": {
+      "label": "Reatribuir propriedade",
+      "description": "Permitir ao membro reatribuir conteúdo a outros membros dentro da sua organização.",
+      "descriptionPortal": "Permitir ao membro reatribuir conteúdo a outros membros dentro do seu portal."
+    },
+    "portal:admin:updateItemCategorySchema": {
+      "label": "Gerenciar categorias",
+      "description": "Permitir ao membro configurar categorias de conteúdo da organização.",
+      "descriptionPortal": "Permitir ao membro configurar categorias de conteúdo do portal."
+    },
+    "portal:publisher:publishServerGPServices": {
+      "label": "Publicar ferramentas da web",
+      "description": "Este privilégio concede a habilidade de publicar ferramentas da web suportadas por serviços de geoprocessamento de sites dos servidores federados."
+    },
+    "portal:admin:shareToOrg": {
+      "label": "Compartilhar conteúdo dos membros com a organização",
+      "description": "Permite que o membro compartilhe conteúdo de propriedade de outros membros em sua organização com a organização.",
+      "descriptionPortal": "Permite que o membro compartilhe conteúdo de propriedade de outros membros em seu portal com o portal."
+    },
+    "portal:admin:shareToPublic": {
+      "label": "Compartilhar conteúdo dos membros com o público",
+      "description": "Permite que o membro compartilhe conteúdo de propriedade de outros membros em sua organização com o público.",
+      "descriptionPortal": "Permite que o membro compartilhe conteúdo de propriedade de outros membros em seu portal com o público."
+    },
+    "portal:admin:createReports": {
+      "label": "Criar e gerenciar relatórios administrativos",
+      "description": "Permite que o membro crie e gerencie relatórios administrativos para sua organização.",
+      "descriptionPortal": "Permite que o membro crie e gerencie relatórios administrativos para o seu portal."
+    },
+    "marketplace:admin:manage": {
+      "label": "Criar e gerenciar",
+      "description": "Permitir ao membro criar listagens, listar itens, gerenciar assinaturas dentro do ArcGIS Marketplace, como também, gerenciar compradores e informações de contato para sua organização. A utilização destes privilégios depende se a sua organização tem acesso à lista e publicação no ArcGIS Marketplace."
+    },
+    "marketplace:admin:purchase": {
+      "label": "Compre e obtenha produtos gratuitos",
+      "description": "Permita que o membro envie solicitações de compra e acesse produtos gratuitos de fornecedores no ArcGIS Marketplace. Para permitir que os membros comprem produtos usando cartões de crédito, você deve designá-los como compradores do Marketplace."
+    },
+    "marketplace:admin:startTrial": {
+      "label": "Iniciar testes",
+      "description": "Permitir ao membro iniciar assinaturas de teste dentro do ArcGIS Marketplace."
+    },
+    "portal:admin:manageSecurity": {
+      "label": "Segurança e infraestrutura",
+      "description": "Permitir ao membro gerenciar as configurações de infraestrutura e segurança da organização.",
+      "descriptionPortal": "Permitir que o membro gerencie as configurações de segurança e infraestrutura do portal."
+    },
+    "portal:admin:manageWebsite": {
+      "label": "Site da web da organização",
+      "description": "Permitir que o membro gerencie as configurações do site da organização.",
+      "descriptionPortal": "Permitir que o membro gerencie as configurações do site do portal."
+    },
+    "portal:admin:manageCollaborations": {
+      "label": "Colaborações",
+      "description": "Permitir que o membro gerencie as colaborações da organização.",
+      "descriptionPortal": "Permitir que o membro gerencie as colaborações do portal."
+    },
+    "portal:admin:manageCredits": {
+      "label": "Créditos",
+      "description": "Permitir que o membro gerencie as configurações de orçamento de crédito da organização."
+    },
+    "portal:admin:manageRoles": {
+      "label": "Gerenciar papéis",
+      "description": "Permitir que o membro gerencie os papéis de membro da organização.",
+      "descriptionPortal": "Permitir que o membro gerencie os papéis de membro do portal."
+    },
+    "portal:admin:manageServers": {
+      "label": "Servidores",
+      "description": "Este privilégio concede a capacidade de gerenciar as configurações do servidor do portal."
+    },
+    "portal:admin:manageUtilityServices": {
+      "label": "Serviços do utilitário",
+      "description": "Permitir que o membro gerencie as configurações de serviços utilitários da organização.",
+      "descriptionPortal": "Permitir que o membro gerencie as configurações do serviço utilitário do portal."
+    },
+    "portal:admin:manageWebhooks": {
+      "label": "Webhooks da organização",
+      "description": "Permita que o membro crie, edite e exclua webhooks organizacionais e gerencie todos os webhooks no portal."
+    },
+    "portal:admin:createGPWebhook": {
+      "label": "Geoprocessamento",
+      "description": "Permite que o membro crie, edite e exclua seus próprios webhooks de geoprocessamento."
+    }
+  }
+}

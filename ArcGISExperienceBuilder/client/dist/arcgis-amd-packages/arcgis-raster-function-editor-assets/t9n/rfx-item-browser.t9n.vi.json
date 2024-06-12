@@ -1,0 +1,11 @@
+{
+  "addToMap": "Xác nhận và thêm vào bản đồ",
+  "cancel": "Hủy",
+  "confirm": "Xác nhận",
+  "header": "Chọn mục",
+  "select": "Lựa chọn",
+  "selectTask": "Chọn tác vụ",
+  "unsupportedLayer": "Thông số này không hỗ trợ các lớp sau: ${layerName}.",
+  "viewDetails": "Xem đầy đủ thông tin chi tiết về mục",
+  "layerLoadFailure": "Không thể tải lớp."
+}

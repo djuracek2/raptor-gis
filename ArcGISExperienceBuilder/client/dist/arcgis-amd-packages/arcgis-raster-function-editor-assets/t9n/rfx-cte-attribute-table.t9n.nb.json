@@ -1,0 +1,12 @@
+{
+  "value": "Verdi",
+  "classname": "Klassenavn",
+  "color": "Farge",
+  "raster": "Raster",
+  "generate": "Generer tabell",
+  "minValue": "Minimumsverdi",
+  "maxValue": "Maksimumsverdi",
+  "classBaseName": "Klassebasenavn",
+  "colorscheme": "Fargevalg",
+  "defaultClassName": "Etikett_"
+}

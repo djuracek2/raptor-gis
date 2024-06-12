@@ -1,0 +1,10 @@
+{
+  "select": "Selectare element: ${title}",
+  "lastUpdated": "Element actualizat: ${date}",
+  "viewItemDetails": "Vizualizați mai multe detalii despre ${title}",
+  "preview": "Mai multe detalii",
+  "hidePreview": "Mai puține detalii",
+  "closeDetails": "Închideți panoul de detalii ale elementului",
+  "openDetails": "Deschideți panoul de detalii ale elementului",
+  "moreOptions": "Mai multe opțiuni"
+}

@@ -1,0 +1,72 @@
+{
+  "browser": {
+    "refineContent": "Förfina innehåll",
+    "filters": "Filter",
+    "pageRange": "${start}-${end}, totalt: ${total}",
+    "pageRangeAria": "${start}-${end}, totalt antal objekt: ${total}",
+    "pageRangeWithRecycleBin": "${start}-${end}, totalt: ${total} (${recycleBinSize}) i papperskorgen",
+    "pageRangeAriaWithRecycleBin": "${start}-${end}, totalt antal objekt: ${total} (${recycleBinSize}) i papperskorgen",
+    "loading": "Läser in resultat",
+    "close": "Stäng"
+  },
+  "actions": {
+    "more": "Mer"
+  },
+  "filter": {
+    "clear": "Radera"
+  },
+  "filterDate": {
+    "today": "Idag",
+    "yesterday": "Igår",
+    "last7": "Senaste 7 dagarna",
+    "last30": "Senaste 30 dagarna",
+    "custom": "Anpassat intervall...",
+    "title": {
+      "created": "Skapad den",
+      "modified": "Ändringsdatum"
+    },
+    "created": "Skapad: ${date}",
+    "modified": "Ändrades: ${date}"
+  },
+  "pagination": {
+    "next": "Nästa sida",
+    "prev": "Föregående sida"
+  },
+  "search": {
+    "label": "Sök efter grupper",
+    "search": "Sök",
+    "clear": "Rensa sökterm",
+    "wildcard": "Sökningar med jokertecken stöds inte."
+  },
+  "sort": {
+    "sortDirection": "Sorteringsordning",
+    "title": "Titel",
+    "relevance": "Relevans",
+    "modified": "Ändringsdatum",
+    "deleted": "Datum har tagits bort",
+    "created": "Skapad den",
+    "size": "Storlek",
+    "owner": "Ägare",
+    "sizeAsc": "Minst till störst",
+    "sizeDesc": "Störst till minst",
+    "numviews": "Visa antal",
+    "numAsc": "Minst till mest",
+    "numDesc": "Mest till minst",
+    "alphabeticalAsc": "Alfabetisk",
+    "alphabeticalDesc": "Omvänd alfabetisk",
+    "recentAsc": "Minst nyligen",
+    "recentDesc": "Senaste",
+    "sort": "Sortera",
+    "sortBy": "Sortera efter",
+    "sortByColon": "Sortera efter:"
+  },
+  "topBar": {
+    "filter": "Filter"
+  },
+  "filterStatus": {
+    "clear": "Radera",
+    "filters": "Filter:",
+    "additional": "Ytterligare aktiva filter",
+    "clearAllFilters": "Rensa alla filter"
+  }
+}

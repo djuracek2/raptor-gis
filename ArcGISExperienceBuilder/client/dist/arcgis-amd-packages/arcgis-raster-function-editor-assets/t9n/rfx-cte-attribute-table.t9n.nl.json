@@ -1,0 +1,12 @@
+{
+  "value": "Waarde",
+  "classname": "Klassenaam",
+  "color": "Kleur",
+  "raster": "Raster",
+  "generate": "Tabel genereren",
+  "minValue": "Minimumwaarde",
+  "maxValue": "Maximumwaarde",
+  "classBaseName": "Klasse basisnaam",
+  "colorscheme": "Kleurenschema",
+  "defaultClassName": "Label_"
+}

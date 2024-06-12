@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "Få mere at vide",
+    "title": "Nye elementer i ArcGIS Online",
+    "description": "Februar 2024-opdateringen indeholder nye funktioner og forbedringer på hele ArcGIS Online-webstedet."
+  },
+  "pipelines": {
+    "learnMore": "Få mere at vide",
+    "title": "Importer, rens og transformer data uden kodning.",
+    "description": "Brug visuelle værktøjer med træk og slip-funktion for at indtage data fra Amazon S3, Google BigQuery mv.",
+    "link": "Prøv ArcGIS Data Pipelines"
+  },
+  "title": "Ny på ArcGIS Online"
+}

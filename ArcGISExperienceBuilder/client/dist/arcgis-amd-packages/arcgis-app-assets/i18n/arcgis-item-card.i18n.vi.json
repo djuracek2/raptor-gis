@@ -1,0 +1,10 @@
+{
+  "select": "Chọn mục: ${title}",
+  "lastUpdated": "Mục đã cập nhật: ${date}",
+  "viewItemDetails": "Xem thêm thông tin chi tiết về ${title}",
+  "preview": "Thông tin chi tiết khác",
+  "hidePreview": "Giảm bớt thông tin chi tiết",
+  "closeDetails": "Đóng bảng chi tiết mục",
+  "openDetails": "Mở bảng chi tiết mục",
+  "moreOptions": "Các tùy chọn khác"
+}

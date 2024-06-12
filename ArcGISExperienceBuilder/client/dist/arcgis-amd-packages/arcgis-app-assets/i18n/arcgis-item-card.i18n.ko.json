@@ -1,0 +1,10 @@
+{
+  "select": "항목 선택: ${title}",
+  "lastUpdated": "항목 업데이트됨: ${date}",
+  "viewItemDetails": "${title}에 대한 자세한 정보 보기",
+  "preview": "자세한 정보",
+  "hidePreview": "간단한 정보",
+  "closeDetails": "항목 세부정보 패널 닫기",
+  "openDetails": "항목 세부정보 패널 열기",
+  "moreOptions": "추가 옵션"
+}

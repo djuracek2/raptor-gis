@@ -1,0 +1,1 @@
+System.register([],(function(t){return{execute:function(){t({_widgetLabel:'تتبع شبكة المرافق "Utility Network"',_widgetDescription:"عنصر واجهة مستخدم لتتبع ArcGIS Utility Network",_action_filter_label:"تصفية"})}}}));

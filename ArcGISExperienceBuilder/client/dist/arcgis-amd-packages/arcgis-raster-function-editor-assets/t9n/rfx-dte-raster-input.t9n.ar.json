@@ -1,0 +1,10 @@
+{
+  "outputRaster": "OutputRaster",
+  "rfxVariable": "RasterFunctionVariable",
+  "selectLayer": "حدد طبقة",
+  "allowScalar": "تحديد طبقة أو إدخال ثابت",
+  "browseLayer": "استعراض الطبقات",
+  "loading": "جارِ التحميل...",
+  "layerMissing": "طبقة واحدة أو أكثر من الخريطة غير مدرجة هنا لأنها لا تسمح بالتحليل. تعرّف على المزيد.",
+  "layerFailedToLoad": "فشل تحميل الطبقة."
+}

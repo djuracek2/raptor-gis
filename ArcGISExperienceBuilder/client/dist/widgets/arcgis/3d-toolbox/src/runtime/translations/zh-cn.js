@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"3D 工具箱",select3DScene:"请选择一个 3D 场景来激活此微件",clearEffect:"清除效果",clearAnalysis:"清除分析",showDevelopmentLayer:"显示 Development 图层",showDevLayer:"显示 Development 图层",allowTiltOnSlice:"允许在剖切片平面上倾斜",excludedLayer:"已排除图层",resetSlice:"重置剖切片平面",clearSlice:"清除剖切片"})}}}));

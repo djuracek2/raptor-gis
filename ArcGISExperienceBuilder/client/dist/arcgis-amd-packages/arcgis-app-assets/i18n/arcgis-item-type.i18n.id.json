@@ -1,0 +1,9 @@
+{
+  "hostedService": "di-host",
+  "hostedView": "di-host, tampilan",
+  "hostedData": "di-host",
+  "hostedPhotos": "di-host, foto",
+  "photoLocations": "foto",
+  "locatorView": "tampilkan",
+  "utilityNetwork": "jaringan utilitas"
+}

@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "Saznajte više",
+    "title": "Nove značajke u ArcGIS Online",
+    "description": "Ažuriranje iz veljače 2024. uključuje nove mogućnosti i poboljšanja na web-mjestu ArcGIS Online."
+  },
+  "pipelines": {
+    "learnMore": "Saznajte više",
+    "title": "Uvoz, čišćenje i transformacija podataka bez ikakvog kodiranja.",
+    "description": "Vizualni alati za povlačenje i ispuštanje za unos podataka s Amazon S3, Google BigQuery itd.",
+    "link": "Isprobajte ArcGIS Data Pipelines"
+  },
+  "title": "Novo u ArcGIS Online"
+}

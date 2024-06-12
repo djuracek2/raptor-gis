@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>Instrumentul Derivare curs ca raster generează un raster de curs dintr-un raster de suprafață de intrare fără să fie necesară scufundarea sau umplerea depresiunilor.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputSurfaceRaster">
+        <div>
+            <p>Rasterul de elevație care va fi folosit pentru calcul.
+            </p>
+        </div>
+    </div>
+    <div id="inputDepressionsData">
+        <div>
+            <p>Intrarea care definește locațiile depresiunilor sau dolinelor reale, &icirc;n care apa poate curge, dar din care nu poate ieși.
+            </p>
+        </div>
+    </div>
+    <div id="inputWeightRaster">
+        <div>
+            <p>Stratul tematic de raster care definește fracțiunea de curgere care contribuie la acumularea debitului &icirc;n fiecare celulă.
+            </p>
+        </div>
+    </div>
+    <div id="accumulationThreshold">
+        <div>
+            <p>Pragul pentru care se stabilește dacă o anumită celulă face parte dintr-un curs &icirc;n ceea ce privește suprafața totală care curge &icirc;ntr-o astfel de celulă.
+            </p>
+        </div>
+    </div>
+    <div id="streamDesignationMethod">
+        <div>
+            <p>Specifică dacă segmentele de curs din ieșire vor avea o valoare constantă, valori unice sau sunt ordonate.
+            </p>
+        </div>
+    </div>
+    <div id="forceFlow">
+        <div>
+            <p>Specifică dacă curgerea la celulele din margine va urma regulile de curgere normală sau la curge &icirc;ntotdeauna spre exterior.
+            </p>
+            <p>Dacă este neselectată, curgerea va fi spre celula interioară cu cea mai abruptă cădere &icirc;n valoarea z. Cu toate acestea, &icirc;n cazul &icirc;n care căderea este mai mică sau egală cu zero, celula va curge spre exterior față de rasterul de suprafață. Dacă este selectată, direcția de curgere va fi spre exterior față de rasterul de suprafață.
+            </p>
+        </div>
+    </div>
+    <div id="outputStreamRasterName">
+        <div>
+            <p>Numele stratului tematic de raster de curs va fi creat și adăugat pe hartă.
+            </p>
+        </div>
+    </div>
+    <div id="resultType">
+        <div>
+            <p>Tipul de ieșire care va fi creată. Ieșirea poate fi un strat tematic de imagini satelitare cu segmente tile sau un strat tematic de imagini satelitare dinamic.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>Numele folderului din  <b>Resursele mele</b> &icirc;n care va fi salvat rezultatul.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

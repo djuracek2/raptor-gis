@@ -1,0 +1,149 @@
+{
+  "deleteItem": "Ştergerea unui element",
+  "deleteItems": "Ștergere elemente",
+  "deleteFolder": "Ștergere folder",
+  "recycleBin": "Coș de reciclare",
+  "delete": "Ștergere",
+  "permanentlyDelete": "Ștergere definitivă",
+  "back": "Înapoi",
+  "cancel": "Anulare",
+  "item": "element",
+  "items": "elemente",
+  "cantDelete": "Următoarele elemente nu pot fi șterse, deoarece sunt protejate împotriva ștergerii sau au elemente dependente.",
+  "proceed": "Ștergeți restul elementelor?",
+  "moreOptions": "Mai multe opțiuni",
+  "hideOptions": "Ascundere opțiuni",
+  "deletePermanently": "Ștergere definitivă (această acțiune nu poate fi anulată)",
+  "learnMore": "Aflați mai multe",
+  "summary": {
+    "select": "Selectare",
+    "deselect": "Deselectare",
+    "selectedItems": "Elemente selectate:",
+    "permanentlyDelete": "Ștergere definitivă:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "Acest element nu este acceptat de coșul de reciclare.",
+        "multiple": "Aceste elemente nu sunt acceptate de coșul de reciclare."
+      },
+      "unsynchronized": "Editările nesincronizate făcute la straturile tematice dintr-un grup de colaborare distribuit se vor pierde.",
+      "notSupportedAndUnsynchronized": "Unele tipuri de elemente nu sunt acceptate. Editările nesincronizate făcute la straturile tematice dintr-un grup de colaborare distribuit se vor pierde.",
+      "group": {
+        "notSupported": "Neacceptate",
+        "distributedCollaboration": "Parte a colaborării distribuite"
+      }
+    },
+    "canBeRecovered": {
+      "single": "Acest element poate fi recuperat până la ${days} zile.",
+      "multiple": "Aceste elemente pot fi recuperate în până la ${days} zile.",
+      "unknown": "Aceste elemente pot fi recuperate în până la ${days} zile."
+    },
+    "willBeRecycled": "Trimiteți în coșul de reciclare:",
+    "cannotBeDeleted": "Nu se poate șterge:",
+    "deleteDiscouraged": "Ștergere descurajată:",
+    "hasDependentItems": "Are elemente dependente:",
+    "someActionsMayNoLongerWork": {
+      "single": "Dacă trimiteți acest element în coșul de reciclare, unele acțiuni care necesită acces la elementul sursă ar putea să nu funcționeze conform așteptărilor.",
+      "multiple": "Dacă trimiteți aceste elemente în coșul de reciclare, unele acțiuni care necesită acces la elementele sursă ar putea să nu mai funcționeze conform așteptărilor."
+    },
+    "cannotDelete": {
+      "all": "Elementele care sunt protejate la ștergere, parte a unui grup de colaborare distribuit sau au elemente dependente care nu pot fi șterse.",
+      "protectedAndCollaboration": "Elementele care sunt protejate la ștergere sau fac parte dintr-un grup de colaborare distribuit nu pot fi șterse.",
+      "protectedAndDependent": "Elementele care sunt protejate la ștergere sau au elemente dependente nu pot fi șterse.",
+      "collaborationAndDependent": "Elementele care fac parte dintr-un grup de colaborare distribuit sau au elemente dependente nu pot fi șterse."
+    },
+    "deletePermanently": "Ștergere definitivă: ${count} (această acțiune nu poate fi anulată)",
+    "deleteAllPermanently": "Ștergere definitivă toate elementele: ${count} (această acțiune nu poate fi anulată)",
+    "deleteXPermanently": "Ștergere definitivă ${subset} din ${total} elemente (această acțiune nu poate fi anulată)",
+    "protectedGroup": {
+      "deleteProtected": "Protejat la ștergere",
+      "deleteProtectedDescription": "Elementele care sunt protejate la ștergere nu pot fi șterse.",
+      "hasDependentItems": "Are elemente dependente",
+      "itemUsedBy": "Acest element a fost utilizat de:",
+      "hasDependentItemsDescription": {
+        "single": "Acest element are un element dependent. Acestea trebuie să fie șterse împreună.",
+        "multiple": "Aceste elemente au alte elemente dependente de ele. Acestea trebuie să fie șterse împreună."
+      },
+      "distributedCollaboration": "Parte a colaborării distribuite",
+      "distributedCollaborationDescription": "Elementele care fac parte dintr-un grup de colaborare distribuit nu pot fi șterse.",
+      "deleteDiscouraged": "Ștergere descurajată",
+      "deleteDiscouragedDescription": {
+        "single": "Dacă acest element este șters, elementele dependente pot pierde o parte din funcționalitate. Puteți șterge acest element din pagina de detalii despre elemente.",
+        "multiple": "Dacă aceste elemente sunt șterse, elementele dependente pot pierde o parte din funcționalitate. Puteți șterge aceste elemente individual din pagina de detalii despre elemente."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "Acest element va fi șters definitiv deoarece nu este acceptat de coșul de reciclare.",
+    "multiple": "Aceste elemente vor fi șterse definitiv deoarece nu sunt acceptate de coșul de reciclare.",
+    "unknown": "Aceste elemente vor fi șterse definitiv deoarece nu sunt acceptate de coșul de reciclare."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "Elementul selectat aparține unui grup de colaborare distribuită și nu poate fi mutat în coșul de reciclare. Acesta va fi șters definitiv.",
+    "multiple": "Elementele selectate aparțin unui grup de colaborare distribuită și nu pot fi mutate în coșul de reciclare. Acesta vor fi șterse definitiv.",
+    "unknown": "Elementele selectate aparțin unui grup de colaborare distribuită și nu pot fi mutate în coșul de reciclare. Acesta vor fi șterse definitiv."
+  },
+  "areYouSure": {
+    "single": "Sigur doriţi să ştergeţi acest element?",
+    "multiple": "Sigur doriți să ștergeți aceste elemente?",
+    "unknown": "Sigur doriți să ștergeți aceste elemente?"
+  },
+  "areYouSureRecycle": {
+    "single": "Acest element va rămâne în coșul de gunoi timp de ${days} zile înainte de a fi șters definitiv.",
+    "multiple": "Aceste elemente vor rămâne în coșul de gunoi timp de ${days} zile înainte de a fi șterse definitiv.",
+    "unknown": "Aceste elemente vor rămâne în coșul de gunoi timp de ${days} zile înainte de a fi șterse definitiv."
+  },
+  "areYouSurePermanent": {
+    "single": "Sigur doriți să ștergeți definitiv acest element ${number}? Acest element ${carrot} nu poate fi recuperat după ce a fost șters definitiv.",
+    "multiple": "Sigur doriți să ștergeți definitiv aceste elemente? Aceste elemente nu pot fi recuperate după ce au fost șterse definitiv.",
+    "unknown": "Sigur doriți să ștergeți definitiv aceste elemente? Aceste elemente nu pot fi recuperate după ce au fost șterse definitiv."
+  },
+  "folder": {
+    "mustBeEmpty": "Folderul <b>${folder}</b> trebuie să fie gol pentru a fi șters.",
+    "aFewCannotBeDeleted": "Câteva elemente nu pot fi șterse. Sigur doriți să continuați cu ștergerea restului?",
+    "mustBeEmptyProceed": "Folderul <b>${folder}</b> trebuie să fie gol pentru a fi șters. Sigur doriți să continuați cu ștergerea acestor elemente?",
+    "cannotBeDeleted": "Folderul <b>${folder}</b> nu poate fi șters pentru că elementele sale nu pot fi șterse."
+  },
+  "deletes": {
+    "single": "Șterge în ${days} zile",
+    "multiple": "Se șterge în ${days} zile",
+    "unknown": "Zile până la ștergere: ${days}"
+  },
+  "deleteOverride": {
+    "single": "Sigur doriți să ștergeți în schimb definitiv acest element? Această acțiune nu poate fi anulată.",
+    "multiple": "Sigur doriți să ștergeți în schimb definitiv aceste elemente? Această acțiune nu poate fi anulată."
+  },
+  "restore": {
+    "restore": "Restaurare",
+    "restoreTo": "Restabilire la",
+    "restoreItem": "Restabilire element",
+    "restoreItems": "Restabilire elemente",
+    "noticeMessage": "Elementele restaurate nu vor mai fi partajate. Examinați conținutul înainte de a-l partaja din nou.",
+    "cannotBulkRestoreXItems": "Nu se pot restaura în grup mai mult de ${number} elemente, vă rugăm să deselectați câteva elemente.",
+    "cannotBulkRestoreMultipleOwners": "Nu se pot restaura în grup elemente care aparțin unor proprietari diferiți. Selectați elemente de la un singur proprietar pentru a le restaura în grup.",
+    "toRestore": {
+      "single": "Element de restaurat:",
+      "multiple": "Elemente de restaurat:"
+    },
+    "cannotRestore": "Nu se poate restaura:",
+    "dependentItems": {
+      "single": "Acest element nu poate fi restaurat deoarece este dependent de <b>${parent}</b>. Restaurați-le împreună.",
+      "multiple": "Aceste elemente nu pot fi restaurate deoarece depind de alte elemente din coșul de reciclare. Restaurați-le împreună: "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "Trebuie să recuperați acel element șters accidental? Verificați noul coș de reciclare!",
+    "takeALook": "Aruncați o privire rapidă la noul coș de reciclare!",
+    "learnMore": "Aflați mai multe despre restabilirea elementelor șterse",
+    "heldInRecycleBin": "Elementele din coșul de reciclare sunt păstrate timp de ${days} zile.",
+    "goToUserRecycleBin": "Accesați ${linkStart}coșul de reciclare${linkEnd} pentru a restabili sau șterge definitiv elementele.",
+    "goToOrgRecycleBin": "Accesați ${linkStart}coșul de reciclare al organizației${linkEnd} pentru a restabili sau pentru a șterge definitiv elementele. Conținutul din coșul de reciclare continuă să consume credite."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "${start} - ${end} din ${total} (${size}) în coșul de reciclare",
+    "other": "${start} - ${end}, total: ${total} (${size}) în coșul de reciclare"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "${start} - ${end} din ${total} (>${size}) în coșul de reciclare",
+    "other": "${start} - ${end}, total: ${total} (>${size}) în coșul de reciclare"
+  }
+}

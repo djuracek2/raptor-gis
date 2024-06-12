@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"內嵌",embedHint:"以 URL 或代碼嵌入",unSupportUrl:"它不是有效的 URL。",unSupportIframeUrl:"很抱歉，無法嵌入此內容。 可能限制嵌入其他網站的內容。",maxLimitTips:"HTML 代碼超出字元數上限。",unsupportedHtmlTips:"抱歉! 由於不支援的 HTML 格式，嵌入的內容無法顯示。"})}}}));

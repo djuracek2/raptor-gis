@@ -1,0 +1,10 @@
+{
+  "outputRaster": "OutputRaster",
+  "rfxVariable": "RasterFunctionVariable",
+  "selectLayer": "Vælg lag",
+  "allowScalar": "Vælg et lag, eller angiv en konstant",
+  "browseLayer": "Gennemse lag",
+  "loading": "Indlæser...",
+  "layerMissing": "Et eller flere lag fra dette kort er ikke angivet her, fordi de ikke tillader analyse. Lær mere.",
+  "layerFailedToLoad": "Kunne ikke indlæse lag."
+}

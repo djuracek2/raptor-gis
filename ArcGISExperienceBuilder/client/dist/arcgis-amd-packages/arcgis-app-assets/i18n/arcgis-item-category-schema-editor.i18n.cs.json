@@ -1,0 +1,69 @@
+{
+  "modalHeader": "Konfigurace kategorií obsahu",
+  "modalGroupHeader": "Konfigurace kategorií skupin",
+  "helpText": "Upravit, smazat nebo znovu seřadit kategorie ve vaší organizaci.",
+  "loadingText": "Načítání šablon schémat",
+  "cancel": "Storno",
+  "finishSetup": "Dokončit nastavení",
+  "hasUnsavedChanges": "Provedli jste změny kategorie, které budou ztraceny, pokud je nejprve neuložíte. Určitě chcete zavřít toto zobrazení a přijít o všechny neuložené změny?",
+  "error": {
+    "generic": {
+      "title": "Chyba při aktualizaci kategorií",
+      "message": "Něco se pokazilo. Zkuste to prosím znovu později."
+    },
+    "maxDepthExceeded": {
+      "title": "Chyba při aktualizaci kategorií",
+      "message": "Kategorie nelze vnořit hlouběji než dvě úrovně."
+    },
+    "destinationHasSameName": {
+      "title": "Chyba při aktualizaci kategorií",
+      "message": "V cílové kategorii již existuje kategorie se stejným názvem."
+    },
+    "emptyTitle": {
+      "title": "Chyba při aktualizaci kategorií",
+      "message": "Název kategorie nesmí být prázdný."
+    },
+    "noSchema": {
+      "title": "Schéma nebylo nalezeno",
+      "message": "Schéma položky nebylo pro uživatele nalezeno."
+    },
+    "maxCharacter": {
+      "title": "Chyba při aktualizaci kategorií",
+      "message": "Názvy kategorií mohou mít maximálně ${maxCharacter} znaků."
+    }
+  },
+  "warning": {
+    "deleteInUseCategory": {
+      "title": "Smazat kategorii",
+      "message": "${numItem} položek je přiřazeno této kategorii. Odstraněním této kategorie ji odstraníte i z těchto položek.",
+      "cta": "Smazat kategorii"
+    },
+    "changeTitleInUseCategory": {
+      "title": "Aktualizovat kategorii",
+      "message": "${numItem} položek je přiřazeno této kategorii. Aktualizace kategorie se projeví i na položkách, které použijí „${newTitle}“.",
+      "cta": "Aktualizovat kategorii"
+    }
+  },
+  "template": {
+    "title": "Šablony kategorií",
+    "learnMore": "Další informace",
+    "templateList": {
+      "custom": {
+        "title": "Vlastní kategorie",
+        "message": "Vytvořte si vlastní kategorie pro uspořádání obsahu v rámci organizace."
+      },
+      "arcgis": {
+        "title": "Kategorie ArcGIS",
+        "message": "Kategorie ArcGIS zahrnují řadu tematických kategorií a podkategorií, které lze použít ke klasifikaci mnoha druhů geoprostorového obsahu. Tyto kategorie slouží k podpoře ArcGIS Living Atlas of the World."
+      },
+      "iso": {
+        "title": "Kategorie ISO",
+        "message": "Kategorie ISO zahrnují tematické kategorie stanovené Mezinárodní organizací pro normalizaci, které poskytují metodu popisu a katalogizace geografických informací."
+      },
+      "inspire": {
+        "title": "Kategorie INSPIRE",
+        "message": "Kategorie INSPIRE zahrnují obsáhlý soubor prostorových dat uvedený ve směrnici INSPIRE."
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "outputRaster": "OutputRaster",
+  "rfxVariable": "RasterFunctionVariable",
+  "selectLayer": "Seleccioneu la capa",
+  "allowScalar": "Seleccioneu una capa o introduïu una constant",
+  "browseLayer": "Examineu capes",
+  "loading": "S'està carregant...",
+  "layerMissing": "Una o diverses capes del mapa no figuren en aquesta llista perquè no permeten l'anàlisi. Obteniu més informació.",
+  "layerFailedToLoad": "No s'ha pogut carregar la capa."
+}

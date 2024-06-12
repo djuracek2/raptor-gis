@@ -1,0 +1,2294 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0",
+        "MEDIUM": "layout_4",
+        "SMALL": "layout_10"
+      },
+      "isDefault": true,
+      "isVisible": true
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "40.00px",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_8",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0.00%",
+            "bottom": "94.9%",
+            "width": "100%",
+            "height": "40px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_1": {
+      "content": {},
+      "type": "FIXED",
+      "order": []
+    },
+    "layout_2": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_3",
+          "bbox": {}
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_4",
+          "bbox": {}
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_5",
+          "bbox": {}
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "bbox": {}
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_7",
+          "bbox": {}
+        }
+      },
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "layout_3": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "left": "82.6%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "260.00px",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": false,
+              "width": "CUSTOM",
+              "height": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_9",
+          "bbox": {
+            "left": "50.00px",
+            "right": "75.7%",
+            "top": "50%",
+            "bottom": "10.0%",
+            "width": "200.00px",
+            "height": "32px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false,
+              "height": "CUSTOM"
+            },
+            "hCenter": false,
+            "vCenter": true
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_10",
+          "bbox": {
+            "left": "260.00px",
+            "right": "75.7%",
+            "top": "50%",
+            "bottom": "15%",
+            "width": "280px",
+            "height": "24.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false,
+              "height": "CUSTOM"
+            },
+            "hCenter": false,
+            "vCenter": true
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_11",
+          "bbox": {
+            "left": "10.00px",
+            "right": "76.6%",
+            "top": "50%",
+            "bottom": "0.0%",
+            "width": "30.00px",
+            "height": "30.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true
+          }
+        }
+      },
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_4": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "80.00px",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_12",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0.00%",
+            "bottom": "94.9%",
+            "width": "100%",
+            "height": "40px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_13",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "40.00px",
+            "bottom": "91.2%",
+            "width": "100%",
+            "height": "40.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_5": {
+      "content": {},
+      "type": "FIXED",
+      "order": []
+    },
+    "layout_6": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "left": "82.6%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "260.00px",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": false,
+              "width": "CUSTOM",
+              "height": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          },
+          "isPending": true
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_9",
+          "bbox": {
+            "left": "7.00%",
+            "right": "48.2%",
+            "top": "50%",
+            "bottom": "10.0%",
+            "width": "50.00%",
+            "height": "32px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false,
+              "height": "CUSTOM"
+            },
+            "hCenter": false,
+            "vCenter": true
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_10",
+          "bbox": {
+            "left": "32.7%",
+            "right": "1.00%",
+            "top": "50%",
+            "bottom": "0.0%",
+            "width": "40.00%",
+            "height": "24.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true,
+              "height": "CUSTOM"
+            },
+            "hCenter": false,
+            "vCenter": true
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_11",
+          "bbox": {
+            "left": "1.00%",
+            "right": "76.6%",
+            "top": "50%",
+            "bottom": "0.0%",
+            "width": "5.0000%",
+            "height": "75.0000%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true
+          }
+        }
+      },
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_7": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_3",
+          "bbox": {}
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_4",
+          "bbox": {}
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_5",
+          "bbox": {}
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "bbox": {}
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_7",
+          "bbox": {}
+        }
+      },
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "layout_8": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_14",
+          "bbox": {}
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_15",
+          "bbox": {}
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_16",
+          "bbox": {}
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_17",
+          "bbox": {}
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_18",
+          "bbox": {}
+        }
+      },
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "layout_10": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "40.00px",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_20",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0.00%",
+            "bottom": "94.9%",
+            "width": "100%",
+            "height": "80.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_11": {
+      "content": {},
+      "type": "FIXED",
+      "order": []
+    },
+    "layout_12": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100%",
+            "height": "40.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": true,
+              "bottom": false,
+              "width": "STRETCH",
+              "height": "CUSTOM"
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_9",
+          "bbox": {
+            "left": "40.00px",
+            "right": "37.4%",
+            "top": "5px",
+            "bottom": "53.8%",
+            "width": "170.00px",
+            "height": "32px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "height": "CUSTOM"
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_10",
+          "bbox": {
+            "left": "260.00px",
+            "right": "5.00px",
+            "top": "8.00px",
+            "bottom": "15%",
+            "width": "140.00px",
+            "height": "24.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true,
+              "height": "CUSTOM"
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_11",
+          "bbox": {
+            "left": "5.00px",
+            "right": "76.6%",
+            "top": "6.00px",
+            "bottom": "0.0%",
+            "width": "30.00px",
+            "height": "30.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "layout_13": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_3",
+          "bbox": {}
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_4",
+          "bbox": {}
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_5",
+          "bbox": {}
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "bbox": {}
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_7",
+          "bbox": {}
+        }
+      },
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  },
+  "exbVersion": "1.14.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": true
+  },
+  "template": "plateau",
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.14.0",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": false,
+          "canNavigation": true
+        },
+        "isUseCustomMapState": false,
+        "layoutIndex": 0
+      },
+      "id": "widget_1",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_1",
+          "MEDIUM": "layout_5",
+          "SMALL": "layout_11"
+        }
+      }
+    },
+    "widget_2": {
+      "uri": "widgets/common/controller/",
+      "version": "1.14.0",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [],
+          "displayType": "STACK",
+          "vertical": false,
+          "size": {},
+          "arrangement": "fixed"
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": true,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 2,
+            "avatar": {
+              "type": "primary",
+              "size": "sm",
+              "shape": "rectangle"
+            },
+            "showIndicator": false,
+            "variant": {
+              "default": {
+                "color": "#080808",
+                "bg": "var(--primary)",
+                "border": {
+                  "color": "#076fe5",
+                  "width": "1px"
+                }
+              },
+              "hover": {
+                "bg": "var(--primary-600)"
+              },
+              "active": {
+                "bg": "var(--primary-600)",
+                "color": "#080808"
+              },
+              "disabled": {
+                "color": "#8b8b8b",
+                "bg": "#e3e3e3",
+                "border": {
+                  "color": "#e3e3e3"
+                }
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_2",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_2",
+          "MEDIUM": "layout_7",
+          "SMALL": "layout_13"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--primary)",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_3": {
+      "uri": "widgets/arcgis/legend/",
+      "version": "1.14.0",
+      "config": {},
+      "id": "widget_3",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_4": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.14.0",
+      "config": {
+        "useMapWidget": true
+      },
+      "id": "widget_4",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_5": {
+      "uri": "widgets/arcgis/directions/",
+      "version": "1.14.0",
+      "config": {},
+      "id": "widget_5",
+      "outputDataSources": [
+        "widget_5_output_stop",
+        "widget_5_output_direction_point",
+        "widget_5_output_direction_line",
+        "widget_5_output_route"
+      ],
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_6": {
+      "uri": "widgets/arcgis/draw/",
+      "version": "1.14.0",
+      "config": {
+        "isDisplayCanvasLayer": false,
+        "arrangement": "Panel",
+        "drawMode": "continuous",
+        "drawingTools": [
+          "point",
+          "polyline",
+          "polygon",
+          "rectangle",
+          "circle"
+        ],
+        "measurementsInfo": {
+          "enableMeasurements": false,
+          "fontsColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "fontsSize": 12,
+          "haloColor": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "haloSize": 2,
+          "decimalPlaces": {
+            "point": 5,
+            "line": 3,
+            "area": 3
+          }
+        },
+        "measurementsUnitsInfos": [],
+        "drawingElevationMode3D": "on-the-ground"
+      },
+      "id": "widget_6",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_7": {
+      "uri": "widgets/common/search/",
+      "version": "1.14.0",
+      "config": {
+        "searchResultView": "Result_Panel",
+        "arrangementStyle": "Style1",
+        "searchResultStyle": "Classic",
+        "maxSuggestions": 6,
+        "recentSearchesMaxNumber": 6,
+        "resultMaxNumber": 6,
+        "enableFiltering": true
+      },
+      "id": "widget_7"
+    },
+    "widget_8": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.14.0",
+      "config": null,
+      "id": "widget_8",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_3"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_9": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><br></p>",
+        "placeholder": "<p style=\"text-align: left;\"><span style=\"color: var(--dark); font-size: 20px;\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿${title}</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_9"
+    },
+    "widget_10": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "config": {
+        "text": "<p style=\"text-align: left;\"><br></p>",
+        "placeholder": "<p style=\"text-align: left;\"><span style=\"color: var(--dark); font-size: 14px;\">${defaultTextPlaceholder}</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_10"
+    },
+    "widget_11": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {},
+          "imageDisplayQualityMode": "ORIGINAL"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_11"
+    },
+    "widget_12": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.14.0",
+      "config": null,
+      "id": "widget_12",
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      },
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_6"
+        }
+      }
+    },
+    "widget_13": {
+      "uri": "widgets/common/controller/",
+      "version": "1.14.0",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [],
+          "displayType": "STACK",
+          "vertical": false,
+          "size": {},
+          "arrangement": "fixed"
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": true,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 0,
+            "avatar": {
+              "type": "primary",
+              "size": "sm",
+              "shape": "rectangle"
+            },
+            "showIndicator": false,
+            "variant": {
+              "default": {
+                "color": "#080808",
+                "bg": "var(--primary)",
+                "border": {
+                  "color": "#076fe5",
+                  "width": "1px"
+                }
+              },
+              "hover": {
+                "bg": "var(--primary-600)"
+              },
+              "active": {
+                "bg": "var(--primary-600)",
+                "color": "#080808"
+              },
+              "disabled": {
+                "color": "#8b8b8b",
+                "bg": "#e3e3e3",
+                "border": {
+                  "color": "#e3e3e3"
+                }
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_13",
+      "layouts": {
+        "controller": {
+          "MEDIUM": "layout_8"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--primary)",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_14": {
+      "uri": "widgets/arcgis/legend/",
+      "version": "1.14.0",
+      "config": {},
+      "id": "widget_14",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_15": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.14.0",
+      "config": {
+        "useMapWidget": true
+      },
+      "id": "widget_15",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_16": {
+      "uri": "widgets/arcgis/directions/",
+      "version": "1.14.0",
+      "config": {},
+      "id": "widget_16",
+      "outputDataSources": [
+        "widget_16_output_stop",
+        "widget_16_output_direction_point",
+        "widget_16_output_direction_line",
+        "widget_16_output_route"
+      ],
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_17": {
+      "uri": "widgets/arcgis/draw/",
+      "version": "1.14.0",
+      "config": {
+        "isDisplayCanvasLayer": false,
+        "arrangement": "Panel",
+        "drawMode": "continuous",
+        "drawingTools": [
+          "point",
+          "polyline",
+          "polygon",
+          "rectangle",
+          "circle"
+        ],
+        "measurementsInfo": {
+          "enableMeasurements": false,
+          "fontsColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "fontsSize": 12,
+          "haloColor": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "haloSize": 2,
+          "decimalPlaces": {
+            "point": 5,
+            "line": 3,
+            "area": 3
+          }
+        },
+        "measurementsUnitsInfos": [],
+        "drawingElevationMode3D": "on-the-ground"
+      },
+      "id": "widget_17",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    },
+    "widget_18": {
+      "uri": "widgets/common/search/",
+      "version": "1.14.0",
+      "config": {
+        "searchResultView": "Result_Panel",
+        "arrangementStyle": "Style1",
+        "searchResultStyle": "Classic",
+        "maxSuggestions": 6,
+        "recentSearchesMaxNumber": 6,
+        "resultMaxNumber": 6,
+        "enableFiltering": true
+      },
+      "id": "widget_18"
+    },
+    "widget_20": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.14.0",
+      "config": null,
+      "id": "widget_20",
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      },
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_12"
+        }
+      }
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "dataSources": {
+    "widget_5_output_stop": {
+      "id": "widget_5_output_stop",
+      "label": "Stops",
+      "type": "FEATURE_LAYER",
+      "isOutputFromWidget": true,
+      "geometryType": "esriGeometryPoint",
+      "schema": {
+        "idField": "ObjectID",
+        "fields": {
+          "ObjectID": {
+            "jimuName": "ObjectID",
+            "name": "ObjectID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectID",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            }
+          },
+          "ArrivalCurbApproach": {
+            "jimuName": "ArrivalCurbApproach",
+            "name": "ArrivalCurbApproach",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Arrival Curb Approach",
+            "format": null
+          },
+          "ArrivalTime": {
+            "jimuName": "ArrivalTime",
+            "name": "ArrivalTime",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Arrival Time",
+            "format": null
+          },
+          "ArrivalUTCOffset": {
+            "jimuName": "ArrivalUTCOffset",
+            "name": "ArrivalUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Arrival Time: Offset from UTC in Minutes",
+            "format": null
+          },
+          "CumulativeCosts": {
+            "jimuName": "CumulativeCosts",
+            "name": "CumulativeCosts",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Cumulative Costs",
+            "format": null
+          },
+          "CumulativeMeters": {
+            "jimuName": "CumulativeMeters",
+            "name": "CumulativeMeters",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Cumulative Meters",
+            "format": null
+          },
+          "CumulativeMinutes": {
+            "jimuName": "CumulativeMinutes",
+            "name": "CumulativeMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Cumulative Minutes",
+            "format": null
+          },
+          "CurbApproach": {
+            "jimuName": "CurbApproach",
+            "name": "CurbApproach",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Curb Approach",
+            "format": null
+          },
+          "DepartureCurbApproach": {
+            "jimuName": "DepartureCurbApproach",
+            "name": "DepartureCurbApproach",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Departure Curb Approach",
+            "format": null
+          },
+          "DepartureTime": {
+            "jimuName": "DepartureTime",
+            "name": "DepartureTime",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Departure Time",
+            "format": null
+          },
+          "DepartureUTCOffset": {
+            "jimuName": "DepartureUTCOffset",
+            "name": "DepartureUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Departure Time: Offset from UTC in Minutes",
+            "format": null
+          },
+          "LateMinutes": {
+            "jimuName": "LateMinutes",
+            "name": "LateMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Minutes Late",
+            "format": null
+          },
+          "LocationType": {
+            "jimuName": "LocationType",
+            "name": "LocationType",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Location Type",
+            "format": null
+          },
+          "Name": {
+            "jimuName": "Name",
+            "name": "Name",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Name",
+            "format": null
+          },
+          "RouteName": {
+            "jimuName": "RouteName",
+            "name": "RouteName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Route Name",
+            "format": null
+          },
+          "Sequence": {
+            "jimuName": "Sequence",
+            "name": "Sequence",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Sequence",
+            "format": null
+          },
+          "ServiceCosts": {
+            "jimuName": "ServiceCosts",
+            "name": "ServiceCosts",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Service Costs",
+            "format": null
+          },
+          "ServiceMeters": {
+            "jimuName": "ServiceMeters",
+            "name": "ServiceMeters",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Service Meters",
+            "format": null
+          },
+          "ServiceMinutes": {
+            "jimuName": "ServiceMinutes",
+            "name": "ServiceMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Service Minutes",
+            "format": null
+          },
+          "Status": {
+            "jimuName": "Status",
+            "name": "Status",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Status",
+            "format": null
+          },
+          "TimeWindowEnd": {
+            "jimuName": "TimeWindowEnd",
+            "name": "TimeWindowEnd",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Time Window End",
+            "format": null
+          },
+          "TimeWindowEndUTCOffset": {
+            "jimuName": "TimeWindowEndUTCOffset",
+            "name": "TimeWindowEndUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Time Window End: Offset from UTC in Minutes",
+            "format": null
+          },
+          "TimeWindowStart": {
+            "jimuName": "TimeWindowStart",
+            "name": "TimeWindowStart",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Time Window Start",
+            "format": null
+          },
+          "TimeWindowStartUTCOffset": {
+            "jimuName": "TimeWindowStartUTCOffset",
+            "name": "TimeWindowStartUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Time Window Start: Offset from UTC in Minutes",
+            "format": null
+          },
+          "WaitMinutes": {
+            "jimuName": "WaitMinutes",
+            "name": "WaitMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Minutes Early",
+            "format": null
+          }
+        }
+      }
+    },
+    "widget_5_output_direction_point": {
+      "id": "widget_5_output_direction_point",
+      "label": "Direction points",
+      "type": "FEATURE_LAYER",
+      "isOutputFromWidget": true,
+      "geometryType": "esriGeometryPoint",
+      "schema": {
+        "idField": "ObjectID",
+        "fields": {
+          "ObjectID": {
+            "jimuName": "ObjectID",
+            "name": "ObjectID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectID",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            }
+          },
+          "AlternateName": {
+            "jimuName": "AlternateName",
+            "name": "AlternateName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Alternative Feature Name",
+            "format": null
+          },
+          "ArrivalTime": {
+            "jimuName": "ArrivalTime",
+            "name": "ArrivalTime",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Maneuver Starts at",
+            "format": null
+          },
+          "ArrivalUTCOffset": {
+            "jimuName": "ArrivalUTCOffset",
+            "name": "ArrivalUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Offset from UTC in Minutes",
+            "format": null
+          },
+          "Azimuth": {
+            "jimuName": "Azimuth",
+            "name": "Azimuth",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Azimuth",
+            "format": null
+          },
+          "BranchName": {
+            "jimuName": "BranchName",
+            "name": "BranchName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Signpost Branch Name",
+            "format": null
+          },
+          "DirectionPointType": {
+            "jimuName": "DirectionPointType",
+            "name": "DirectionPointType",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Directions Item Type",
+            "format": null
+          },
+          "DisplayText": {
+            "jimuName": "DisplayText",
+            "name": "DisplayText",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Text to Display",
+            "format": null
+          },
+          "ExitName": {
+            "jimuName": "ExitName",
+            "name": "ExitName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Highway Exit Name",
+            "format": null
+          },
+          "IntersectingName": {
+            "jimuName": "IntersectingName",
+            "name": "IntersectingName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Intersecting Feature Name",
+            "format": null
+          },
+          "Level": {
+            "jimuName": "Level",
+            "name": "Level",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "3D Logical Level",
+            "format": null
+          },
+          "Name": {
+            "jimuName": "Name",
+            "name": "Name",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Primary Feature Name",
+            "format": null
+          },
+          "Sequence": {
+            "jimuName": "Sequence",
+            "name": "Sequence",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Sequence",
+            "format": null
+          },
+          "ShortVoiceInstruction": {
+            "jimuName": "ShortVoiceInstruction",
+            "name": "ShortVoiceInstruction",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Voice Instruction",
+            "format": null
+          },
+          "StopID": {
+            "jimuName": "StopID",
+            "name": "StopID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Stop ID",
+            "format": null
+          },
+          "TowardName": {
+            "jimuName": "TowardName",
+            "name": "TowardName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Signpost Toward Name",
+            "format": null
+          },
+          "VoiceInstruction": {
+            "jimuName": "VoiceInstruction",
+            "name": "VoiceInstruction",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Voice Full Instruction",
+            "format": null
+          }
+        }
+      }
+    },
+    "widget_5_output_direction_line": {
+      "id": "widget_5_output_direction_line",
+      "label": "Direction lines",
+      "type": "FEATURE_LAYER",
+      "isOutputFromWidget": true,
+      "geometryType": "esriGeometryPolyline",
+      "schema": {
+        "idField": "ObjectID",
+        "fields": {
+          "ObjectID": {
+            "jimuName": "ObjectID",
+            "name": "ObjectID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectID",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            }
+          },
+          "DirectionLineType": {
+            "jimuName": "DirectionLineType",
+            "name": "DirectionLineType",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Line Type",
+            "format": null
+          },
+          "DirectionPointID": {
+            "jimuName": "DirectionPointID",
+            "name": "DirectionPointID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Direction Point ID",
+            "format": null
+          },
+          "FromLevel": {
+            "jimuName": "FromLevel",
+            "name": "FromLevel",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Start from 3D Level",
+            "format": null
+          },
+          "Meters": {
+            "jimuName": "Meters",
+            "name": "Meters",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Length in Meters",
+            "format": null
+          },
+          "Minutes": {
+            "jimuName": "Minutes",
+            "name": "Minutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Duration in Minutes",
+            "format": null
+          },
+          "ToLevel": {
+            "jimuName": "ToLevel",
+            "name": "ToLevel",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "End at 3D Level",
+            "format": null
+          }
+        }
+      }
+    },
+    "widget_5_output_route": {
+      "id": "widget_5_output_route",
+      "label": "Route",
+      "type": "FEATURE_LAYER",
+      "isOutputFromWidget": true,
+      "geometryType": "esriGeometryPolyline",
+      "schema": {
+        "idField": "ObjectID",
+        "fields": {
+          "ObjectID": {
+            "jimuName": "ObjectID",
+            "name": "ObjectID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectID",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            }
+          },
+          "AnalysisSettings": {
+            "jimuName": "AnalysisSettings",
+            "name": "AnalysisSettings",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Analysis Settings",
+            "format": null
+          },
+          "EndTime": {
+            "jimuName": "EndTime",
+            "name": "EndTime",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "End Time",
+            "format": null
+          },
+          "EndUTCOffset": {
+            "jimuName": "EndUTCOffset",
+            "name": "EndUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "End Time: Offset from UTC in Minutes",
+            "format": null
+          },
+          "Messages": {
+            "jimuName": "Messages",
+            "name": "Messages",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Analysis Messages",
+            "format": null
+          },
+          "RouteName": {
+            "jimuName": "RouteName",
+            "name": "RouteName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Route Name",
+            "format": null
+          },
+          "StartTime": {
+            "jimuName": "StartTime",
+            "name": "StartTime",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Start Time",
+            "format": null
+          },
+          "StartUTCOffset": {
+            "jimuName": "StartUTCOffset",
+            "name": "StartUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Start Time: Offset from UTC in Minutes",
+            "format": null
+          },
+          "TotalCosts": {
+            "jimuName": "TotalCosts",
+            "name": "TotalCosts",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Total Costs",
+            "format": null
+          },
+          "TotalLateMinutes": {
+            "jimuName": "TotalLateMinutes",
+            "name": "TotalLateMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Total Late Minutes",
+            "format": null
+          },
+          "TotalMeters": {
+            "jimuName": "TotalMeters",
+            "name": "TotalMeters",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Total Meters",
+            "format": null
+          },
+          "TotalMinutes": {
+            "jimuName": "TotalMinutes",
+            "name": "TotalMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Total Minutes",
+            "format": null
+          },
+          "TotalWaitMinutes": {
+            "jimuName": "TotalWaitMinutes",
+            "name": "TotalWaitMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Total Wait Minutes",
+            "format": null
+          },
+          "Version": {
+            "jimuName": "Version",
+            "name": "Version",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Version",
+            "format": null
+          }
+        }
+      }
+    },
+    "widget_16_output_stop": {
+      "id": "widget_16_output_stop",
+      "label": "Stops",
+      "type": "FEATURE_LAYER",
+      "isOutputFromWidget": true,
+      "geometryType": "esriGeometryPoint",
+      "schema": {
+        "idField": "ObjectID",
+        "fields": {
+          "ObjectID": {
+            "jimuName": "ObjectID",
+            "name": "ObjectID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectID",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            }
+          },
+          "ArrivalCurbApproach": {
+            "jimuName": "ArrivalCurbApproach",
+            "name": "ArrivalCurbApproach",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Arrival Curb Approach",
+            "format": null
+          },
+          "ArrivalTime": {
+            "jimuName": "ArrivalTime",
+            "name": "ArrivalTime",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Arrival Time",
+            "format": null
+          },
+          "ArrivalUTCOffset": {
+            "jimuName": "ArrivalUTCOffset",
+            "name": "ArrivalUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Arrival Time: Offset from UTC in Minutes",
+            "format": null
+          },
+          "CumulativeCosts": {
+            "jimuName": "CumulativeCosts",
+            "name": "CumulativeCosts",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Cumulative Costs",
+            "format": null
+          },
+          "CumulativeMeters": {
+            "jimuName": "CumulativeMeters",
+            "name": "CumulativeMeters",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Cumulative Meters",
+            "format": null
+          },
+          "CumulativeMinutes": {
+            "jimuName": "CumulativeMinutes",
+            "name": "CumulativeMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Cumulative Minutes",
+            "format": null
+          },
+          "CurbApproach": {
+            "jimuName": "CurbApproach",
+            "name": "CurbApproach",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Curb Approach",
+            "format": null
+          },
+          "DepartureCurbApproach": {
+            "jimuName": "DepartureCurbApproach",
+            "name": "DepartureCurbApproach",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Departure Curb Approach",
+            "format": null
+          },
+          "DepartureTime": {
+            "jimuName": "DepartureTime",
+            "name": "DepartureTime",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Departure Time",
+            "format": null
+          },
+          "DepartureUTCOffset": {
+            "jimuName": "DepartureUTCOffset",
+            "name": "DepartureUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Departure Time: Offset from UTC in Minutes",
+            "format": null
+          },
+          "LateMinutes": {
+            "jimuName": "LateMinutes",
+            "name": "LateMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Minutes Late",
+            "format": null
+          },
+          "LocationType": {
+            "jimuName": "LocationType",
+            "name": "LocationType",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Location Type",
+            "format": null
+          },
+          "Name": {
+            "jimuName": "Name",
+            "name": "Name",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Name",
+            "format": null
+          },
+          "RouteName": {
+            "jimuName": "RouteName",
+            "name": "RouteName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Route Name",
+            "format": null
+          },
+          "Sequence": {
+            "jimuName": "Sequence",
+            "name": "Sequence",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Sequence",
+            "format": null
+          },
+          "ServiceCosts": {
+            "jimuName": "ServiceCosts",
+            "name": "ServiceCosts",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Service Costs",
+            "format": null
+          },
+          "ServiceMeters": {
+            "jimuName": "ServiceMeters",
+            "name": "ServiceMeters",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Service Meters",
+            "format": null
+          },
+          "ServiceMinutes": {
+            "jimuName": "ServiceMinutes",
+            "name": "ServiceMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Service Minutes",
+            "format": null
+          },
+          "Status": {
+            "jimuName": "Status",
+            "name": "Status",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Status",
+            "format": null
+          },
+          "TimeWindowEnd": {
+            "jimuName": "TimeWindowEnd",
+            "name": "TimeWindowEnd",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Time Window End",
+            "format": null
+          },
+          "TimeWindowEndUTCOffset": {
+            "jimuName": "TimeWindowEndUTCOffset",
+            "name": "TimeWindowEndUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Time Window End: Offset from UTC in Minutes",
+            "format": null
+          },
+          "TimeWindowStart": {
+            "jimuName": "TimeWindowStart",
+            "name": "TimeWindowStart",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Time Window Start",
+            "format": null
+          },
+          "TimeWindowStartUTCOffset": {
+            "jimuName": "TimeWindowStartUTCOffset",
+            "name": "TimeWindowStartUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Time Window Start: Offset from UTC in Minutes",
+            "format": null
+          },
+          "WaitMinutes": {
+            "jimuName": "WaitMinutes",
+            "name": "WaitMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Minutes Early",
+            "format": null
+          }
+        }
+      }
+    },
+    "widget_16_output_direction_point": {
+      "id": "widget_16_output_direction_point",
+      "label": "Direction points",
+      "type": "FEATURE_LAYER",
+      "isOutputFromWidget": true,
+      "geometryType": "esriGeometryPoint",
+      "schema": {
+        "idField": "ObjectID",
+        "fields": {
+          "ObjectID": {
+            "jimuName": "ObjectID",
+            "name": "ObjectID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectID",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            }
+          },
+          "AlternateName": {
+            "jimuName": "AlternateName",
+            "name": "AlternateName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Alternative Feature Name",
+            "format": null
+          },
+          "ArrivalTime": {
+            "jimuName": "ArrivalTime",
+            "name": "ArrivalTime",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Maneuver Starts at",
+            "format": null
+          },
+          "ArrivalUTCOffset": {
+            "jimuName": "ArrivalUTCOffset",
+            "name": "ArrivalUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Offset from UTC in Minutes",
+            "format": null
+          },
+          "Azimuth": {
+            "jimuName": "Azimuth",
+            "name": "Azimuth",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Azimuth",
+            "format": null
+          },
+          "BranchName": {
+            "jimuName": "BranchName",
+            "name": "BranchName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Signpost Branch Name",
+            "format": null
+          },
+          "DirectionPointType": {
+            "jimuName": "DirectionPointType",
+            "name": "DirectionPointType",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Directions Item Type",
+            "format": null
+          },
+          "DisplayText": {
+            "jimuName": "DisplayText",
+            "name": "DisplayText",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Text to Display",
+            "format": null
+          },
+          "ExitName": {
+            "jimuName": "ExitName",
+            "name": "ExitName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Highway Exit Name",
+            "format": null
+          },
+          "IntersectingName": {
+            "jimuName": "IntersectingName",
+            "name": "IntersectingName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Intersecting Feature Name",
+            "format": null
+          },
+          "Level": {
+            "jimuName": "Level",
+            "name": "Level",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "3D Logical Level",
+            "format": null
+          },
+          "Name": {
+            "jimuName": "Name",
+            "name": "Name",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Primary Feature Name",
+            "format": null
+          },
+          "Sequence": {
+            "jimuName": "Sequence",
+            "name": "Sequence",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Sequence",
+            "format": null
+          },
+          "ShortVoiceInstruction": {
+            "jimuName": "ShortVoiceInstruction",
+            "name": "ShortVoiceInstruction",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Voice Instruction",
+            "format": null
+          },
+          "StopID": {
+            "jimuName": "StopID",
+            "name": "StopID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Stop ID",
+            "format": null
+          },
+          "TowardName": {
+            "jimuName": "TowardName",
+            "name": "TowardName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Signpost Toward Name",
+            "format": null
+          },
+          "VoiceInstruction": {
+            "jimuName": "VoiceInstruction",
+            "name": "VoiceInstruction",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Voice Full Instruction",
+            "format": null
+          }
+        }
+      }
+    },
+    "widget_16_output_direction_line": {
+      "id": "widget_16_output_direction_line",
+      "label": "Direction lines",
+      "type": "FEATURE_LAYER",
+      "isOutputFromWidget": true,
+      "geometryType": "esriGeometryPolyline",
+      "schema": {
+        "idField": "ObjectID",
+        "fields": {
+          "ObjectID": {
+            "jimuName": "ObjectID",
+            "name": "ObjectID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectID",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            }
+          },
+          "DirectionLineType": {
+            "jimuName": "DirectionLineType",
+            "name": "DirectionLineType",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Line Type",
+            "format": null
+          },
+          "DirectionPointID": {
+            "jimuName": "DirectionPointID",
+            "name": "DirectionPointID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Direction Point ID",
+            "format": null
+          },
+          "FromLevel": {
+            "jimuName": "FromLevel",
+            "name": "FromLevel",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Start from 3D Level",
+            "format": null
+          },
+          "Meters": {
+            "jimuName": "Meters",
+            "name": "Meters",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Length in Meters",
+            "format": null
+          },
+          "Minutes": {
+            "jimuName": "Minutes",
+            "name": "Minutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Duration in Minutes",
+            "format": null
+          },
+          "ToLevel": {
+            "jimuName": "ToLevel",
+            "name": "ToLevel",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "End at 3D Level",
+            "format": null
+          }
+        }
+      }
+    },
+    "widget_16_output_route": {
+      "id": "widget_16_output_route",
+      "label": "Route",
+      "type": "FEATURE_LAYER",
+      "isOutputFromWidget": true,
+      "geometryType": "esriGeometryPolyline",
+      "schema": {
+        "idField": "ObjectID",
+        "fields": {
+          "ObjectID": {
+            "jimuName": "ObjectID",
+            "name": "ObjectID",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeOID",
+            "alias": "ObjectID",
+            "format": {
+              "digitSeparator": false,
+              "places": 0
+            }
+          },
+          "AnalysisSettings": {
+            "jimuName": "AnalysisSettings",
+            "name": "AnalysisSettings",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Analysis Settings",
+            "format": null
+          },
+          "EndTime": {
+            "jimuName": "EndTime",
+            "name": "EndTime",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "End Time",
+            "format": null
+          },
+          "EndUTCOffset": {
+            "jimuName": "EndUTCOffset",
+            "name": "EndUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "End Time: Offset from UTC in Minutes",
+            "format": null
+          },
+          "Messages": {
+            "jimuName": "Messages",
+            "name": "Messages",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Analysis Messages",
+            "format": null
+          },
+          "RouteName": {
+            "jimuName": "RouteName",
+            "name": "RouteName",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Route Name",
+            "format": null
+          },
+          "StartTime": {
+            "jimuName": "StartTime",
+            "name": "StartTime",
+            "type": "DATE",
+            "esriType": "esriFieldTypeDate",
+            "alias": "Start Time",
+            "format": null
+          },
+          "StartUTCOffset": {
+            "jimuName": "StartUTCOffset",
+            "name": "StartUTCOffset",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeInteger",
+            "alias": "Start Time: Offset from UTC in Minutes",
+            "format": null
+          },
+          "TotalCosts": {
+            "jimuName": "TotalCosts",
+            "name": "TotalCosts",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Total Costs",
+            "format": null
+          },
+          "TotalLateMinutes": {
+            "jimuName": "TotalLateMinutes",
+            "name": "TotalLateMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Total Late Minutes",
+            "format": null
+          },
+          "TotalMeters": {
+            "jimuName": "TotalMeters",
+            "name": "TotalMeters",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Total Meters",
+            "format": null
+          },
+          "TotalMinutes": {
+            "jimuName": "TotalMinutes",
+            "name": "TotalMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Total Minutes",
+            "format": null
+          },
+          "TotalWaitMinutes": {
+            "jimuName": "TotalWaitMinutes",
+            "name": "TotalWaitMinutes",
+            "type": "NUMBER",
+            "esriType": "esriFieldTypeDouble",
+            "alias": "Total Wait Minutes",
+            "format": null
+          },
+          "Version": {
+            "jimuName": "Version",
+            "name": "Version",
+            "type": "STRING",
+            "esriType": "esriFieldTypeString",
+            "alias": "Version",
+            "format": null
+          }
+        }
+      }
+    }
+  },
+  "messageConfigs": {},
+  "originExbVersion": "1.14.0",
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "controllerPanels": {
+    "widget_2": {
+      "position": "BOTTOM_RIGHT",
+      "width": "260px",
+      "offsetX": 0,
+      "offsetY": 0,
+      "heightMode": "STRETCH",
+      "bottom": "0%",
+      "top": "40px"
+    },
+    "widget_13": {
+      "position": "TOP_LEFT",
+      "width": "100%",
+      "height": "300px",
+      "offsetX": 0,
+      "offsetY": 80
+    }
+  },
+  "timestamp": 1709188277568
+}

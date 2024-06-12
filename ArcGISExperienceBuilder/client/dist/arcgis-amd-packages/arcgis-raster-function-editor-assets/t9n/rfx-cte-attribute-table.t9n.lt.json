@@ -1,0 +1,12 @@
+{
+  "value": "Reikšmė",
+  "classname": "ClassName",
+  "color": "Spalva",
+  "raster": "Rastras",
+  "generate": "Generuoti lentelę",
+  "minValue": "Minimali reikšmė",
+  "maxValue": "Maksimali reikšmė",
+  "classBaseName": "Bazinis klasės pavadinimas",
+  "colorscheme": "Spalvų paletė",
+  "defaultClassName": "Žymė_"
+}

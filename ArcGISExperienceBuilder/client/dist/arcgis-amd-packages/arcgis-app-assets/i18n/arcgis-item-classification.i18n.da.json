@@ -1,0 +1,16 @@
+{
+  "cancel": "Annuller",
+  "reset": "Nulstil",
+  "resetting": "Nulstiller...",
+  "save": "Gem",
+  "saving": "Gemmer...",
+  "itemClassificationLabel": "Klassifikation",
+  "itemClassificationCategoryLabel": "Kategorietiket til klassifikation af elementer",
+  "itemClassificationEditLabel": "Redigér klassifikation",
+  "itemClassificationValidateError": "Validering mislykkedes, værdien for elementklassifikation vil ikke blive udfyldt! Redigér og gem en ny.",
+  "classificationValueSaved": "Klassifikationsværdien er blevet gemt",
+  "classificationNotificationHandler": "Klassifikationsnotifikations-handler",
+  "openModal": "Open-modal",
+  "currentSelections": "Aktuelle markeringer",
+  "searchForCategory": "Søg efter kategori"
+}

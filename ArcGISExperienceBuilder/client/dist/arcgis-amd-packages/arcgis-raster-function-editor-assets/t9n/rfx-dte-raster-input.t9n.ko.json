@@ -1,0 +1,10 @@
+{
+  "outputRaster": "OutputRaster",
+  "rfxVariable": "RasterFunctionVariable",
+  "selectLayer": "레이어 선택",
+  "allowScalar": "레이어 선택 또는 상수 입력",
+  "browseLayer": "레이어 찾아보기",
+  "loading": "불러오는 중...",
+  "layerMissing": "맵 레이어 중 분석이 허용되지 않는 하나 이상의 레이어는 여기에 나열되지 않습니다. 더 많은 정보",
+  "layerFailedToLoad": "레이어를 불러오지 못했습니다."
+}

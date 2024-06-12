@@ -1,0 +1,149 @@
+{
+  "deleteItem": "アイテムの削除",
+  "deleteItems": "アイテムの削除",
+  "deleteFolder": "フォルダーの削除",
+  "recycleBin": "ゴミ箱",
+  "delete": "削除",
+  "permanentlyDelete": "完全に削除",
+  "back": "戻る",
+  "cancel": "キャンセル",
+  "item": "アイテム",
+  "items": "アイテム",
+  "cantDelete": "以下のアイテムは、削除されないよう保護されているか、従属するアイテムを持っているため、削除できません。",
+  "proceed": "残りのアイテムの削除を続行しますか？",
+  "moreOptions": "その他のオプション",
+  "hideOptions": "オプションの非表示",
+  "deletePermanently": "完全に削除 (この操作を取り消すことはできません)",
+  "learnMore": "詳細",
+  "summary": {
+    "select": "選択",
+    "deselect": "選択解除",
+    "selectedItems": "選択したアイテム:",
+    "permanentlyDelete": "完全に削除:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "このアイテムはゴミ箱に対応していません。",
+        "multiple": "これらのアイテムはゴミ箱に対応していません。"
+      },
+      "unsynchronized": "分散コラボレーション グループ内でのフィーチャ レイヤーへの同期されていない編集は失われます。",
+      "notSupportedAndUnsynchronized": "一部のアイテム タイプがサポートされていません。 分散コラボレーション グループ内でのフィーチャ レイヤーへの同期されていない編集は失われます。",
+      "group": {
+        "notSupported": "サポートされていません",
+        "distributedCollaboration": "分散コラボレーションの一部"
+      }
+    },
+    "canBeRecovered": {
+      "single": "このアイテムは ${days} 日間以内であれば復元できます。",
+      "multiple": "これらのアイテムは ${days} 日間以内であれば復元できます。",
+      "unknown": "これらのアイテムは ${days} 日間以内であれば復元できます。"
+    },
+    "willBeRecycled": "ゴミ箱に送信:",
+    "cannotBeDeleted": "削除できません:",
+    "deleteDiscouraged": "削除はお勧めしません:",
+    "hasDependentItems": "従属するアイテムがあります:",
+    "someActionsMayNoLongerWork": {
+      "single": "このアイテムをゴミ箱に送信すると、ソース アイテムにアクセスする必要がある操作の一部が期待通りに動作しなくなる可能性があります。",
+      "multiple": "これらのアイテムをゴミ箱に送信すると、ソース アイテムにアクセスする必要がある操作の一部が期待通りに動作しなくなる可能性があります。"
+    },
+    "cannotDelete": {
+      "all": "削除されないよう保護されているアイテム、分散コラボレーション グループの一部であるアイテム、従属するアイテムがあるアイテムは削除できません。",
+      "protectedAndCollaboration": "削除されないよう保護されているか、分散コラボレーション グループの一部であるアイテムは削除できません。",
+      "protectedAndDependent": "削除されないよう保護されているか、従属するアイテムがあるアイテムは削除できません。",
+      "collaborationAndDependent": "分散コラボレーション グループの一部であるか、従属するアイテムがあるアイテムは削除できません。"
+    },
+    "deletePermanently": "完全に削除: ${count} (この操作を取り消すことはできません)",
+    "deleteAllPermanently": "すべてのアイテムを完全に削除: ${count} (この操作を取り消すことはできません)",
+    "deleteXPermanently": "${subset}/${total} 個のアイテムを完全に削除 (この操作を取り消すことはできません)",
+    "protectedGroup": {
+      "deleteProtected": "削除されないよう保護",
+      "deleteProtectedDescription": "削除されないよう保護されているアイテムは削除できません。",
+      "hasDependentItems": "従属するアイテムがある",
+      "itemUsedBy": "このアイテムの使用先:",
+      "hasDependentItemsDescription": {
+        "single": "このアイテムには、従属するアイテムがあります。 これらのアイテムは同時に削除する必要があります。",
+        "multiple": "これらのアイテムには、従属する他のアイテムがあります。 これらのアイテムは同時に削除する必要があります。"
+      },
+      "distributedCollaboration": "分散コラボレーションの一部",
+      "distributedCollaborationDescription": "分散コラボレーション グループの一部であるアイテムは削除できません。",
+      "deleteDiscouraged": "削除はお勧めしません",
+      "deleteDiscouragedDescription": {
+        "single": "このアイテムを削除すると、従属するアイテムが一部の機能を失う可能性があります。 アイテムの詳細ページから、このアイテムを削除することができます。",
+        "multiple": "これらのアイテムを削除すると、従属するアイテムが一部の機能を失う可能性があります。 アイテムの詳細ページから、これらのアイテムを個別に削除することができます。"
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "このアイテムは、ゴミ箱に対応していないため、完全に削除されます。",
+    "multiple": "これらのアイテムは、ゴミ箱に対応していないため、完全に削除されます。",
+    "unknown": "これらのアイテムは、ゴミ箱に対応していないため、完全に削除されます。"
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "選択したアイテムは分散コラボレーション グループに属しているため、ゴミ箱に移動することはできません。 アイテムは完全に削除されます。",
+    "multiple": "選択したアイテムは分散コラボレーション グループに属しているため、ゴミ箱に移動することはできません。 アイテムは完全に削除されます。",
+    "unknown": "選択したアイテムは分散コラボレーション グループに属しているため、ゴミ箱に移動することはできません。 アイテムは完全に削除されます。"
+  },
+  "areYouSure": {
+    "single": "このアイテムを削除しますか？",
+    "multiple": "これらのアイテムを削除しますか？",
+    "unknown": "これらのアイテムを削除しますか？"
+  },
+  "areYouSureRecycle": {
+    "single": "このアイテムは、${days} 日間、ゴミ箱に置かれた後に完全に削除されます。",
+    "multiple": "これらのアイテムは、${days} 日間、ゴミ箱に置かれた後に完全に削除されます。",
+    "unknown": "これらのアイテムは、${days} 日間、ゴミ箱に置かれた後に完全に削除されます。"
+  },
+  "areYouSurePermanent": {
+    "single": "この ${number} アイテムを完全に削除しますか？ この ${carrot} アイテムは、完全に削除された後に復元することができません。",
+    "multiple": "これらのアイテムを完全に削除しますか？ これらのアイテムは、完全に削除された後に復元することができません。",
+    "unknown": "これらのアイテムを完全に削除しますか？ これらのアイテムは、完全に削除された後に復元することができません。"
+  },
+  "folder": {
+    "mustBeEmpty": "フォルダー <b>${folder}</b> を削除するには、空にする必要があります。",
+    "aFewCannotBeDeleted": "いくつかのアイテムを削除できません。 残っているアイテムの削除を続行しますか？",
+    "mustBeEmptyProceed": "フォルダー <b>${folder}</b> を削除するには、空にする必要があります。 これらのアイテムの削除を続行しますか？",
+    "cannotBeDeleted": "フォルダー <b>${folder}</b> は、含まれているアイテムを削除できないため、削除することができません。"
+  },
+  "deletes": {
+    "single": "${days} 日以内に削除",
+    "multiple": "${days} 日以内に削除",
+    "unknown": "削除までの日数: ${days}"
+  },
+  "deleteOverride": {
+    "single": "代わりにこのアイテムを完全に削除しますか？ この操作を取り消すことはできません。",
+    "multiple": "代わりにこれらのアイテムを完全に削除しますか？ この操作を取り消すことはできません。"
+  },
+  "restore": {
+    "restore": "復元",
+    "restoreTo": "復元先",
+    "restoreItem": "アイテムの復元",
+    "restoreItems": "アイテムの復元",
+    "noticeMessage": "復元されたアイテムは共有解除されます。 コンテンツを確認してから、もう一度共有してください。",
+    "cannotBulkRestoreXItems": "${number} 個を超えるアイテムを一括復元することはできません、いくつかのアイテムを選択解除してください。",
+    "cannotBulkRestoreMultipleOwners": "別々の所有者に属しているアイテムを一括復元することはできません。 一括復元するには、単一の所有者からのアイテムを選択します。",
+    "toRestore": {
+      "single": "復元するアイテム:",
+      "multiple": "復元するアイテム:"
+    },
+    "cannotRestore": "復元できません:",
+    "dependentItems": {
+      "single": "このアイテムは、<b>${parent}</b> に従属しているため、復元できません。 これらのアイテムは同時に復元してください。",
+      "multiple": "これらのアイテムは、ゴミ箱内の他のアイテムに従属しているため、復元できません。 これらのアイテムは同時に復元してください。 "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "誤って削除したアイテムを復元する必要がありますか？ 新しいゴミ箱をご確認ください",
+    "takeALook": "新しくなったゴミ箱をご確認ください。",
+    "learnMore": "削除されたアイテムの復元の詳細",
+    "heldInRecycleBin": "ゴミ箱内のアイテムは最大 ${days} 日間保持されます。",
+    "goToUserRecycleBin": "アイテムを復元するか、完全に削除するには、${linkStart}ゴミ箱${linkEnd}に移動します。",
+    "goToOrgRecycleBin": "アイテムを復元するか、完全に削除するには、${linkStart}組織のゴミ箱${linkEnd}に移動します。 ゴミ箱のコンテンツは引き続きクレジットを消費します。"
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "ゴミ箱の内容: ${start} - ${end} / ${total} (${size})",
+    "other": "ゴミ箱の内容: ${start} - ${end}、合計サイズ: ${total} (${size})"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "ゴミ箱の内容: ${start} - ${end} / ${total} (${size} より大きい)",
+    "other": "ゴミ箱の内容: ${start} - ${end}、合計サイズ: ${total} (${size} より大きい)"
+  }
+}

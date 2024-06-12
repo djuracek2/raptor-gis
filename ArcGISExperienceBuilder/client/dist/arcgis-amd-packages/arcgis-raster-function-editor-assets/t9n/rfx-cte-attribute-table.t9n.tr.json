@@ -1,0 +1,12 @@
+{
+  "value": "Değer",
+  "classname": "SınıfAdı",
+  "color": "Renkli",
+  "raster": "Raster",
+  "generate": "Tablo Oluştur",
+  "minValue": "Minimum Değer",
+  "maxValue": "Maksimum Değer",
+  "classBaseName": "Sınıf Taban Adı",
+  "colorscheme": "Renk Düzeni",
+  "defaultClassName": "Etiket_"
+}

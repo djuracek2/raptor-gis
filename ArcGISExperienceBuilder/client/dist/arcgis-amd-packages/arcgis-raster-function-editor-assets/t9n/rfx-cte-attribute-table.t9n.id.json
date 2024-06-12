@@ -1,0 +1,12 @@
+{
+  "value": "Nilai",
+  "classname": "ClassName",
+  "color": "Warna",
+  "raster": "Raster",
+  "generate": "Buat Tabel",
+  "minValue": "Nilai Minimum",
+  "maxValue": "Nilai Maksimum",
+  "classBaseName": "Nama Dasar Kelas",
+  "colorscheme": "Skema Warna",
+  "defaultClassName": "Label_"
+}

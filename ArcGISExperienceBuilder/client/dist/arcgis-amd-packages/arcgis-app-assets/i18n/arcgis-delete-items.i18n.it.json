@@ -1,0 +1,149 @@
+{
+  "deleteItem": "Elimina elemento",
+  "deleteItems": "Elimina elementi",
+  "deleteFolder": "Elimina cartella",
+  "recycleBin": "Cestino",
+  "delete": "Elimina",
+  "permanentlyDelete": "Elimina definitivamente",
+  "back": "Indietro",
+  "cancel": "Annulla",
+  "item": "elemento",
+  "items": "elementi",
+  "cantDelete": "I seguenti elementi non possono essere eliminati perché sono protetti da eliminazione o hanno elementi dipendenti.",
+  "proceed": "Proseguire con l'eliminazione degli elementi rimanenti?",
+  "moreOptions": "Altre opzioni",
+  "hideOptions": "Nascondi opzioni",
+  "deletePermanently": "Elimina definitivamente (questa azione non è reversibile)",
+  "learnMore": "Ulteriori informazioni",
+  "summary": {
+    "select": "Seleziona",
+    "deselect": "Deseleziona",
+    "selectedItems": "Elementi selezionati:",
+    "permanentlyDelete": "Elimina definitivamente:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "Questo elemento non è supportato dal cestino.",
+        "multiple": "Questi elementi non sono supportati dal cestino."
+      },
+      "unsynchronized": "Le modifiche non sincronizzate apportate ai feature layer in un gruppo di collaborazione distribuita non saranno salvate.",
+      "notSupportedAndUnsynchronized": "Alcuni tipi di elemento non sono supportati. Le modifiche non sincronizzate apportate ai feature layer in un gruppo di collaborazione distribuita non saranno salvate.",
+      "group": {
+        "notSupported": "Non supportato",
+        "distributedCollaboration": "Parte della collaborazione distribuita"
+      }
+    },
+    "canBeRecovered": {
+      "single": "Questo elemento può essere recuperato entro ${days} giorni massimo.",
+      "multiple": "Questi elementi possono essere recuperati entro ${days} giorni.",
+      "unknown": "Questi elementi possono essere recuperati entro ${days} giorni."
+    },
+    "willBeRecycled": "Invia al cestino:",
+    "cannotBeDeleted": "Impossibile eliminare:",
+    "deleteDiscouraged": "Eliminazione scoraggiata:",
+    "hasDependentItems": "Include elementi dipendenti:",
+    "someActionsMayNoLongerWork": {
+      "single": "Inviando questo elemento al cestino, è possibile che alcune azioni che richiedono l'accesso all'elemento di origine non funzionino come previsto.",
+      "multiple": "Inviando questi elementi al cestino, è possibile che alcune azioni che richiedono l'accesso all'elemento di origine non funzionino come previsto."
+    },
+    "cannotDelete": {
+      "all": "Non è possibile eliminare gli elementi che sono protetti da eliminazione, fanno parte di un gruppo di collaborazione o hanno elementi dipendenti.",
+      "protectedAndCollaboration": "Non è possibile eliminare gli elementi che sono protetti da eliminazione o fanno parte di un gruppo di collaborazione distribuita.",
+      "protectedAndDependent": "Non è possibile eliminare gli elementi che sono protetti da eliminazione.",
+      "collaborationAndDependent": "Non è possibile eliminare gli elementi che fanno parte di un gruppo di collaborazione distribuita o hanno elementi dipendenti."
+    },
+    "deletePermanently": "Elimina definitivamente: ${count} (questa azione non è reversibile)",
+    "deleteAllPermanently": "Elimina tutti gli elementi definitivamente: ${count} (questa azione non è reversibile)",
+    "deleteXPermanently": "Elimina ${subset} di${total} elementi definitivamente (questa azione non è reversibile)",
+    "protectedGroup": {
+      "deleteProtected": "Elimina protetto",
+      "deleteProtectedDescription": "Impossibile eliminare gli elementi protetti da eliminazione.",
+      "hasDependentItems": "Include elementi dipendenti",
+      "itemUsedBy": "Questo elemento è stato usato da:",
+      "hasDependentItemsDescription": {
+        "single": "Questo elemento ha un elemento dipendente. Devono essere eliminati insieme.",
+        "multiple": "Da questi elementi dipendono altri elementi. Devono essere eliminati insieme."
+      },
+      "distributedCollaboration": "Parte della collaborazione distribuita",
+      "distributedCollaborationDescription": "Non è possibile eliminare gli elementi che fanno parte di un gruppo di collaborazione distribuita.",
+      "deleteDiscouraged": "Eliminazione scoraggiata",
+      "deleteDiscouragedDescription": {
+        "single": "Se questo elemento viene eliminato gli elementi dipendenti possono perdere funzionalità. È possibile eliminare questo elemento dalla pagina dei dettagli dell'elemento.",
+        "multiple": "Se questi elementi vengono eliminati gli elementi dipendenti possono perdere funzionalità. È possibile eliminare questi elementi singolarmente dalla pagina dei dettagli degli elementi."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "Questo elemento verrà eliminato definitivamente perché non è supportato dal cestino.",
+    "multiple": "Questi elementi verranno eliminati definitivamente perché non sono supportati dal cestino.",
+    "unknown": "Questi elementi verranno eliminati definitivamente perché non sono supportati dal cestino."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "L'elemento selezionato appartiene a un gruppo di collaborazione distribuita e non può essere spostato nel cestino. Verrà eliminato definitivamente.",
+    "multiple": "Gli elementi selezionati appartengono a un gruppo di collaborazione distribuita e non possono essere spostati nel cestino. Verranno eliminati definitivamente.",
+    "unknown": "Gli elementi selezionati appartengono a un gruppo di collaborazione distribuita e non possono essere spostati nel cestino. Verranno eliminati definitivamente."
+  },
+  "areYouSure": {
+    "single": "Eliminare questo elemento?",
+    "multiple": "Eliminare questi elementi?",
+    "unknown": "Eliminare questi elementi?"
+  },
+  "areYouSureRecycle": {
+    "single": "Questo elemento rimarrà nel cestino per ${days} giorni prima che venga eliminato definitivamente.",
+    "multiple": "Questi elementi rimarranno nel cestino per ${days} giorni prima che venga eliminato definitivamente.",
+    "unknown": "Questi elementi rimarranno nel cestino per ${days} giorni prima che venga eliminato definitivamente."
+  },
+  "areYouSurePermanent": {
+    "single": "Eliminare in maniera permanente questo elemento ${number}? Questo elemento ${carrot} non potrà essere recuperato dopo essere stato eliminato definitivamente.",
+    "multiple": "Eliminare in maniera permanente questi elementi? Questi elementi non potranno essere recuperati dopo essere stati eliminati definitivamente.",
+    "unknown": "Eliminare in maniera permanente questi elementi? Questi elementi non potranno essere recuperati dopo essere stati eliminati definitivamente."
+  },
+  "folder": {
+    "mustBeEmpty": "La cartella <b>${folder}</b> deve essere vuota per poter essere eliminata.",
+    "aFewCannotBeDeleted": "Impossibile eliminare alcuni elementi. Procedere con l'eliminazione dei restanti?",
+    "mustBeEmptyProceed": "La cartella <b>${folder}</b> deve essere vuota per poter essere eliminata. Procedere con l'eliminazione di questi elementi?",
+    "cannotBeDeleted": "La cartella <b>${folder}</b> non può essere eliminata perché i suoi elementi non possono essere eliminati."
+  },
+  "deletes": {
+    "single": "Elimina tra ${days} giorno",
+    "multiple": "Elimina tra ${days} giorni",
+    "unknown": "Giorni mancanti all'eliminazione: ${days}"
+  },
+  "deleteOverride": {
+    "single": "Eliminare invece in maniera permanente questo elemento? Questa azione non potrà essere annullata.",
+    "multiple": "Eliminare invece in maniera permanente questi elementi? Questa azione non potrà essere annullata."
+  },
+  "restore": {
+    "restore": "Ripristina",
+    "restoreTo": "Ripristina",
+    "restoreItem": "Ripristina elemento",
+    "restoreItems": "Ripristina elementi",
+    "noticeMessage": "Gli elementi ripristinati non saranno condivisi. Revisionare i contenuti prima di condividerli di nuovo.",
+    "cannotBulkRestoreXItems": "Impossibile ripristinare in blocco più di ${number} elementi, deselezionare qualche elemento.",
+    "cannotBulkRestoreMultipleOwners": "Impossibile ripristinare in blocco elementi che appartengono a proprietari diversi. Seleziona elementi da un proprietario singolo per il ripristino in blocco.",
+    "toRestore": {
+      "single": "Elemento da ripristinare:",
+      "multiple": "Elementi da ripristinare:"
+    },
+    "cannotRestore": "Impossibile ripristinare:",
+    "dependentItems": {
+      "single": "L'elemento non può essere ripristinato perché dipende da <b>${parent}</b>. Ripristinali insieme.",
+      "multiple": "Gli elementi non possono essere ripristinati perché dipendono da altri elementi nel cestino. Ripristinali insieme: "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "Recuperare quell'elemento eliminato accidentalmente? Controlla il nuovo cestino!",
+    "takeALook": "Dai un'occhiata al nuovo cestino!",
+    "learnMore": "Maggiori informazioni sul ripristino degli elementi eliminati",
+    "heldInRecycleBin": "Gli elementi nel cestino sono conservati per un massimo di ${days} giorni.",
+    "goToUserRecycleBin": "Accedere al proprio ${linkStart}cestino${linkEnd} per ripristinare o eliminare definitivamente gli elementi.",
+    "goToOrgRecycleBin": "Accedere al ${linkStart}cestino della propria organizzazione${linkEnd} per ripristinare o eliminare definitivamente gli elementi. Il contenuto nel cestino continua a consumare crediti."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "${start} - ${end} di ${total} (${size}) nel cestino",
+    "other": "${start} - ${end}, totale: ${total} (${size}) nel cestino"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "${start} - ${end} di ${total} (>${size}) nel cestino",
+    "other": "${start} - ${end}, totale: ${total} (>${size}) nel cestino"
+  }
+}

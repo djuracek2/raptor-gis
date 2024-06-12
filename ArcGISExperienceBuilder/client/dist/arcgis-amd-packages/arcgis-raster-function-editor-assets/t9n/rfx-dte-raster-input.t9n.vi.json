@@ -1,0 +1,10 @@
+{
+  "outputRaster": "OutputRaster",
+  "rfxVariable": "RasterFunctionVariable",
+  "selectLayer": "Chọn Lớp",
+  "allowScalar": "Chọn một lớp hoặc nhập một hằng số",
+  "browseLayer": "Duyệt tìm lớp",
+  "loading": "Đang tải...",
+  "layerMissing": "Một hoặc nhiều lớp từ bản đồ không được liệt kê ở đây vì các lớp đó không cho phép phân tích. Tìm hiểu thêm.",
+  "layerFailedToLoad": "Không thể tải lớp."
+}

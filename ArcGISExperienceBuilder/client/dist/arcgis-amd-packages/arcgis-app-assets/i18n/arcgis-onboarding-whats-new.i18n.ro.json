@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "Aflați mai multe",
+    "title": "Obiecte spațiale noi în ArcGIS Online",
+    "description": "Actualizarea din februarie 2024 include noi capacități și îmbunătățiri din site-ul web ArcGIS Online."
+  },
+  "pipelines": {
+    "learnMore": "Aflați mai multe",
+    "title": "Importați, curățați și transformați datele fără nicio codificare.",
+    "description": "Trageți și aplicați vizual instrumentele pentru a asimila datele din Amazon S3, Google BigQuery și multe altele.",
+    "link": "Încercați ArcGIS Data Pipelines"
+  },
+  "title": "Nou în ArcGIS Online"
+}

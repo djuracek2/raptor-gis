@@ -1,0 +1,16 @@
+{
+  "cancel": "Mégse",
+  "reset": "Alaphelyzetbe állítás",
+  "resetting": "Alaphelyzetbe állítás…",
+  "save": "Mentés",
+  "saving": "Mentés...",
+  "itemClassificationLabel": "Osztályozás",
+  "itemClassificationCategoryLabel": "Elemosztályozási kategória címkéje",
+  "itemClassificationEditLabel": "Osztályozás szerkesztése",
+  "itemClassificationValidateError": "Az érvényesítés nem sikerült, az elem osztályozási értéke nem lesz kitöltve! Szerkessze, és mentsen újat.",
+  "classificationValueSaved": "Az osztályozási érték elmentve.",
+  "classificationNotificationHandler": "Osztályozásértesítés-kezelő",
+  "openModal": "Modális megnyitása",
+  "currentSelections": "Aktuális kijelölések",
+  "searchForCategory": "Kategória keresése"
+}

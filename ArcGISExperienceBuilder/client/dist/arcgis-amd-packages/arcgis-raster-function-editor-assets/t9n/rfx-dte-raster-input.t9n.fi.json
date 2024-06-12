@@ -1,0 +1,10 @@
+{
+  "outputRaster": "TulosaineistonRasteri",
+  "rfxVariable": "RasterFunctionVariable",
+  "selectLayer": "Valitse karttataso",
+  "allowScalar": "Valitse karttataso tai anna vakio",
+  "browseLayer": "Selaa karttatasoja",
+  "loading": "Ladataan...",
+  "layerMissing": "Vähintään yhtä karttatasoa ei ole lueteltu tässä, koska ne eivät salli analyysia. Lue lisää.",
+  "layerFailedToLoad": "Karttatason lataus epäonnistui."
+}

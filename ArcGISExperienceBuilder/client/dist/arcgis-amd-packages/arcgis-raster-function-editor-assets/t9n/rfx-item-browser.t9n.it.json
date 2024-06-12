@@ -1,0 +1,11 @@
+{
+  "addToMap": "Confermare e aggiungere alla mappa",
+  "cancel": "Cancella",
+  "confirm": "Conferma",
+  "header": "Seleziona elemento",
+  "select": "Seleziona",
+  "selectTask": "Seleziona attività",
+  "unsupportedLayer": "Questo parametro non supporta i seguenti layer: ${layerName}.",
+  "viewDetails": "Visualizza i dettagli completi dell’elemento",
+  "layerLoadFailure": "Impossibile caricare il layer."
+}

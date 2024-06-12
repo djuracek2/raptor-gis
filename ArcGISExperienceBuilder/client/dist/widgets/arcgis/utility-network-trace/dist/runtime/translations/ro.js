@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Urmărire rețea utilități",_widgetDescription:"Un widget pentru urmărirea unei rețele de utilități ArcGIS",_action_filter_label:"Filtrare"})}}}));

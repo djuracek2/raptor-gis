@@ -1,0 +1,72 @@
+{
+  "browser": {
+    "refineContent": "Rafinați conținutul",
+    "filters": "Filtre",
+    "pageRange": "${start}-${end}, total: ${total}",
+    "pageRangeAria": "${start}-${end}, total elemente: ${total}",
+    "pageRangeWithRecycleBin": "${start}-${end}, total: ${total} (${recycleBinSize}) în coșul de reciclare",
+    "pageRangeAriaWithRecycleBin": "${start}-${end}, total elemente: ${total} (${recycleBinSize}) în coșul de reciclare",
+    "loading": "Se încarcă rezultatele",
+    "close": "Închidere"
+  },
+  "actions": {
+    "more": "Mai mult"
+  },
+  "filter": {
+    "clear": "Golire"
+  },
+  "filterDate": {
+    "today": "Astăzi",
+    "yesterday": "Ieri",
+    "last7": "Ultimele 7 zile",
+    "last30": "Ultimele 30 de zile",
+    "custom": "Interval personalizat...",
+    "title": {
+      "created": "Data creării",
+      "modified": "Data modificării"
+    },
+    "created": "Creat: ${date}",
+    "modified": "Modificat: ${date}"
+  },
+  "pagination": {
+    "next": "Pagina următoare",
+    "prev": "Pagina anterioară"
+  },
+  "search": {
+    "label": "Căutaţi grupuri",
+    "search": "Căutare",
+    "clear": "Golire termen de căutare",
+    "wildcard": "Căutările cu caractere de înlocuire nu sunt acceptate"
+  },
+  "sort": {
+    "sortDirection": "Direcție de sortare",
+    "title": "Titlu",
+    "relevance": "Relevanţă",
+    "modified": "Data modificării",
+    "deleted": "Dată selectată",
+    "created": "Data creării",
+    "size": "Dimensiune",
+    "owner": "Proprietar",
+    "sizeAsc": "De la cel mai mic la cel mai mare",
+    "sizeDesc": "De la cel mai mare la cel mai mic",
+    "numviews": "Număr de vizualizări",
+    "numAsc": "De la cel mai puțin la cel mai mult",
+    "numDesc": "De la cel mai mult la cel mai puțin",
+    "alphabeticalAsc": "Alfabetic",
+    "alphabeticalDesc": "Inversare alfabetică",
+    "recentAsc": "Cel mai puțin recent",
+    "recentDesc": "Cele mai recente",
+    "sort": "Sortare",
+    "sortBy": "Sortare după",
+    "sortByColon": "Sortare după:"
+  },
+  "topBar": {
+    "filter": "Filtrare"
+  },
+  "filterStatus": {
+    "clear": "Golire",
+    "filters": "Filtre:",
+    "additional": "Filtre active suplimentare",
+    "clearAllFilters": "Golire toate filtrele"
+  }
+}

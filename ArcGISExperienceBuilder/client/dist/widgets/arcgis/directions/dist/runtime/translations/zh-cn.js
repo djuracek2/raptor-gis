@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"方向",_action_DirectionsFrom_label:"出发地",_action_DirectionsTo_label:"目的地",outOfCredit:"无法加载路径服务。 这可能是由于服务无法访问。",namedInvalidUtilMsg:"{label} 不可用。",namedNeedLoginUtilMsg:"抱歉，您无权访问 {label}。"})}}}));

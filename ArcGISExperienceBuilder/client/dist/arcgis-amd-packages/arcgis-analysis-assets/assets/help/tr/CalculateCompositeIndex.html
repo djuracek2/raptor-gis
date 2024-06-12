@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>Kompozit Dizin Hesaplama aracı, tek bir dizin oluşturmak i&ccedil;in birden fazla sayısal değişkeni birleştirir.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputLayer">
+        <div>
+            <p>Dizinde birleştirilecek değişkenleri i&ccedil;eren tablo veya detaylar.
+            </p>
+        </div>
+    </div>
+    <div id="inputVariables">
+        <div>
+            <p>Dizini oluşturmak i&ccedil;in birleştirilecek değişkenleri i&ccedil;eren alanlar.  <b>Y&ouml;n&uuml; tersine &ccedil;evir</b>, değişkenlerin değerlerinin tersine &ccedil;evrilip &ccedil;evrilmeyeceğini belirtir. <b>Ağırlık</b>, her değişkenin dizin &uuml;zerindeki g&ouml;receli etkisidir.
+            </p>
+        </div>
+    </div>
+    <div id="indexMethod">
+        <div>
+            <p>Girdi değişkenlerini &ouml;l&ccedil;eklendirmek ve &ouml;l&ccedil;eklenen değişkenleri birleştirerek dizini oluşturmak i&ccedil;in kullanılacak y&ouml;ntemi belirtir.
+            </p>
+        </div>
+    </div>
+    <div id="outputIndexReverse">
+        <div>
+            <p>&Ccedil;ıktı dizin değerlerinin y&ouml;n&uuml;n&uuml;n ters &ccedil;evrilip &ccedil;evrilmeyeceğini belirtir. İşaretlendiğinde, y&uuml;ksek değerler d&uuml;ş&uuml;k dizin değerleri olarak ele alınır ve bunun tersi de ge&ccedil;erlidir.
+            </p>
+        </div>
+    </div>
+    <div id="outputIndexMinMax">
+        <div>
+            <p>&Ccedil;ıktı dizin değerlerinin minimum ve maksimum değerleri.
+            </p>
+        </div>
+    </div>
+    <div id="outputName">
+        <div>
+            <p>Oluşturulacak ve haritaya eklenecek katmanın adı.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p> <b>İ&ccedil;eriğim</b> i&ccedil;inde sonucun kaydedileceği klas&ouml;r&uuml;n adı.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

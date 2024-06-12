@@ -1,0 +1,16 @@
+{
+    "cancel": "Cancel",
+    "reset": "Reset",
+    "resetting": "Resetting...",
+    "save": "Save",
+    "saving": "Saving...",
+    "itemClassificationLabel": "Classification",
+    "itemClassificationCategoryLabel": "Item classification category label",
+    "itemClassificationEditLabel": "Edit Classification",
+    "itemClassificationValidateError": "Validation failed, the item classification value won't get populated! Please edit and save a new one.",
+    "classificationValueSaved": "The classification value has been saved",
+    "classificationNotificationHandler": "Classification notification handler",
+    "openModal": "Open modal",
+    "currentSelections": "Current Selections",
+    "searchForCategory": "Search for category"
+}

@@ -1,0 +1,9 @@
+{
+  "hostedService": "hosted",
+  "hostedView": "hosted, view",
+  "hostedData": "hosted",
+  "hostedPhotos": "hosted, photos",
+  "photoLocations": "photos",
+  "locatorView": "view",
+  "utilityNetwork": "utility network"
+}

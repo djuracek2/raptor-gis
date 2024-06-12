@@ -1,0 +1,10 @@
+{
+  "outputRaster": "出力ラスター",
+  "rfxVariable": "RasterFunctionVariable",
+  "selectLayer": "レイヤーの選択",
+  "allowScalar": "レイヤーを選択するか定数を入力します",
+  "browseLayer": "レイヤーの参照",
+  "loading": "読み込んでいます...",
+  "layerMissing": "マップの 1 つ以上のレイヤーが解析で許可されていないため、ここにリストされていません。 詳細を見る。",
+  "layerFailedToLoad": "レイヤーを読み込めませんでした。"
+}

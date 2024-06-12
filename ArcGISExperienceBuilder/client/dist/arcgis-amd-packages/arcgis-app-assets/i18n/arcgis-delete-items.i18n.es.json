@@ -1,0 +1,149 @@
+{
+  "deleteItem": "Eliminar elemento",
+  "deleteItems": "Eliminar elementos",
+  "deleteFolder": "Eliminar carpeta",
+  "recycleBin": "Papelera de reciclaje",
+  "delete": "Eliminar",
+  "permanentlyDelete": "Eliminar de forma permanente",
+  "back": "Atrás",
+  "cancel": "Cancelar",
+  "item": "elemento",
+  "items": "elementos",
+  "cantDelete": "Los elementos siguientes no se pueden eliminar porque están protegidos contra eliminación o tienen elementos dependientes.",
+  "proceed": "¿Desea proseguir con la eliminación de los elementos restantes?",
+  "moreOptions": "Más opciones",
+  "hideOptions": "Ocultar opciones",
+  "deletePermanently": "Eliminar de forma permanente (esta acción no se puede deshacer)",
+  "learnMore": "Más información",
+  "summary": {
+    "select": "Seleccionar",
+    "deselect": "Anular selección",
+    "selectedItems": "Elementos seleccionados:",
+    "permanentlyDelete": "Eliminar de forma permanente:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "Este elemento no es compatible con la papelera de reciclaje.",
+        "multiple": "La papelera de reciclaje no admite estos elementos."
+      },
+      "unsynchronized": "Se perderán las ediciones no sincronizadas realizadas en las capas de entidades de un grupo de colaboración distribuido.",
+      "notSupportedAndUnsynchronized": "Algunos tipos de elementos no son compatibles. Se perderán las ediciones no sincronizadas realizadas en las capas de entidades de un grupo de colaboración distribuido.",
+      "group": {
+        "notSupported": "Incompatible",
+        "distributedCollaboration": "Parte de colaboración distribuida"
+      }
+    },
+    "canBeRecovered": {
+      "single": "Este elemento se puede recuperar hasta pasados ${days} días.",
+      "multiple": "Estos elementos se pueden recuperar hasta pasados ${days} días.",
+      "unknown": "Estos elementos se pueden recuperar hasta pasados ${days} días."
+    },
+    "willBeRecycled": "Enviar a la papelera de reciclaje:",
+    "cannotBeDeleted": "No se puede eliminar:",
+    "deleteDiscouraged": "Eliminar desaconsejado:",
+    "hasDependentItems": "Tiene elementos dependientes:",
+    "someActionsMayNoLongerWork": {
+      "single": "Si envía este elemento a la papelera de reciclaje, es posible que algunas acciones que requieren acceso al elemento de origen ya no funcionen como se esperaba.",
+      "multiple": "Si envía estos elementos a la papelera de reciclaje, es posible que algunas acciones que requieren acceso al elemento de origen ya no funcionen como se esperaba."
+    },
+    "cannotDelete": {
+      "all": "Los elementos que están protegidos contra eliminación, que son parte de un grupo de colaboración distribuido o que tienen elementos dependientes no se pueden eliminar.",
+      "protectedAndCollaboration": "Los elementos que están protegidos contra la eliminación o que son parte de un grupo de colaboración distribuido no se pueden eliminar.",
+      "protectedAndDependent": "Los elementos que están protegidos contra la eliminación o que tienen elementos dependientes no se pueden eliminar.",
+      "collaborationAndDependent": "Los elementos que son parte de un grupo de colaboración distribuido o que tienen elementos dependientes no se pueden eliminar."
+    },
+    "deletePermanently": "Eliminar de forma permanente: ${count} (esta acción no se puede deshacer)",
+    "deleteAllPermanently": "Eliminar todos los elementos de forma permanente: ${count} (esta acción no se puede deshacer)",
+    "deleteXPermanently": "Eliminar ${subset} de ${total} elementos de forma permanente (esta acción no se puede deshacer)",
+    "protectedGroup": {
+      "deleteProtected": "Protegido contra la eliminación",
+      "deleteProtectedDescription": "Los elementos protegidos contra la eliminación no se pueden eliminar.",
+      "hasDependentItems": "Tiene elementos dependientes",
+      "itemUsedBy": "Este elemento ha sido utilizado por:",
+      "hasDependentItemsDescription": {
+        "single": "Este elemento tiene un elemento dependiente. Deben eliminarse juntos.",
+        "multiple": "Estos elementos tienen elementos que dependen de ellos. Deben eliminarse juntos."
+      },
+      "distributedCollaboration": "Parte de colaboración distribuida",
+      "distributedCollaborationDescription": "Los elementos que son parte de un grupo de colaboración distribuido no se pueden eliminar.",
+      "deleteDiscouraged": "Eliminar desaconsejado",
+      "deleteDiscouragedDescription": {
+        "single": "Si se elimina este elemento, los elementos dependientes pueden perder funcionalidad. Puede eliminar este elemento desde la página de detalles del elemento.",
+        "multiple": "Si se eliminan estos elementos, los elementos dependientes pueden perder funcionalidad. Puede eliminar estos elementos por separado desde la página de detalles del elemento."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "Este elemento se eliminará de forma permanente porque no es compatible con la papelera de reciclaje.",
+    "multiple": "Estos elementos se eliminarán de forma permanente porque no son compatibles con la papelera de reciclaje.",
+    "unknown": "Estos elementos se eliminarán de forma permanente porque no son compatibles con la papelera de reciclaje."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "El elemento seleccionado pertenece a un grupo de colaboración distribuido y no se puede mover a la papelera de reciclaje. Se eliminará de forma permanente.",
+    "multiple": "Los elementos seleccionados pertenecen a un grupo de colaboración distribuido y no se puede mover a la papelera de reciclaje. Se eliminarán de forma permanente.",
+    "unknown": "Los elementos seleccionados pertenecen a un grupo de colaboración distribuido y no se puede mover a la papelera de reciclaje. Se eliminarán de forma permanente."
+  },
+  "areYouSure": {
+    "single": "¿Desea realmente eliminar este elemento?",
+    "multiple": "¿Desea realmente eliminar estos elementos?",
+    "unknown": "¿Desea realmente eliminar estos elementos?"
+  },
+  "areYouSureRecycle": {
+    "single": "Este elemento permanecerá en la papelera de reciclaje durante ${days} días antes de que se elimine de forma permanente.",
+    "multiple": "Estos elementos permanecerán en la papelera de reciclaje durante ${days} días antes de que se eliminen de forma permanente.",
+    "unknown": "Estos elementos permanecerán en la papelera de reciclaje durante ${days} días antes de que se eliminen de forma permanente."
+  },
+  "areYouSurePermanent": {
+    "single": "¿Desea realmente eliminar permanentemente este elemento ${number}? No se puede recuperar este elemento ${carrot} tras eliminarlo de forma permanente.",
+    "multiple": "¿Desea realmente eliminar permanentemente estos elementos? Estos elementos no se pueden recuperar tras haberlos eliminado permanentemente.",
+    "unknown": "¿Desea realmente eliminar permanentemente estos elementos? Estos elementos no se pueden recuperar tras haberlos eliminado permanentemente."
+  },
+  "folder": {
+    "mustBeEmpty": "La carpeta <b>${folder}</b> debe estar vacía para poder eliminarla.",
+    "aFewCannotBeDeleted": "Algunos elementos no se pueden eliminar. ¿Seguro de que desea continuar con la eliminación del resto?",
+    "mustBeEmptyProceed": "La carpeta <b>${folder}</b> debe estar vacía para poder eliminarla. ¿Seguro de que desea continuar con la eliminación de estos elementos?",
+    "cannotBeDeleted": "La carpeta <b>${folder}</b> no se puede eliminar porque sus elementos no se pueden eliminar."
+  },
+  "deletes": {
+    "single": "Se elimina en ${days} día",
+    "multiple": "Se elimina en ${days} días",
+    "unknown": "Días hasta la eliminación: ${days}"
+  },
+  "deleteOverride": {
+    "single": "¿Realmente desea eliminar este elemento de forma permanente? Esta acción no se puede deshacer.",
+    "multiple": "¿Realmente desea eliminar estos elementos de forma permanente? Esta acción no se puede deshacer."
+  },
+  "restore": {
+    "restore": "Restaurar",
+    "restoreTo": "Restaurar en",
+    "restoreItem": "Restaurar elemento",
+    "restoreItems": "Restaurar elementos",
+    "noticeMessage": "Los elementos restaurados no se compartirán. Revise su contenido antes de compartirlo de nuevo.",
+    "cannotBulkRestoreXItems": "No se pueden restaurar de forma masiva más de ${number} elementos; anule la selección de algunos elementos.",
+    "cannotBulkRestoreMultipleOwners": "Los elementos que pertenecen a diferentes propietarios no se pueden restaurar de forma masiva. Seleccione elementos de un único propietario para realizar una restauración masiva.",
+    "toRestore": {
+      "single": "Elemento para restaurar:",
+      "multiple": "Elementos para restaurar:"
+    },
+    "cannotRestore": "No se puede restaurar:",
+    "dependentItems": {
+      "single": "Este elemento no se puede restaurar porque depende de <b>${parent}</b>. Debe restaurarlos juntos.",
+      "multiple": "Estos elementos no se pueden restaurar porque dependen de otros elementos de la papelera de reciclaje. Debe restaurarlos juntos: "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "¿Necesita recuperar ese elemento eliminado accidentalmente? ¡Eche un vistazo a la nueva papelera de reciclaje!",
+    "takeALook": "¡Eche un vistazo a la nueva papelera de reciclaje!",
+    "learnMore": "Más información sobre cómo restaurar elementos eliminados",
+    "heldInRecycleBin": "Los elementos de la papelera de reciclaje se conservan ${days} días.",
+    "goToUserRecycleBin": "Vaya a su ${linkStart}papelera de reciclaje${linkEnd} para restaurar o eliminar elementos de forma permanente.",
+    "goToOrgRecycleBin": "Vaya a la ${linkStart}papelera de reciclaje de su organización${linkEnd} para restaurar o eliminar elementos de forma permanente. El contenido de la papelera de reciclaje sigue consumiendo créditos."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "${start} - ${end} de ${total} (${size}) en la papelera de reciclaje",
+    "other": "${start} - ${end}, total: ${total} (${size}) en la papelera de reciclaje"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "${start} - ${end} de ${total} (>${size}) en la papelera de reciclaje",
+    "other": "${start} - ${end}, total: ${total} (>${size}) en la papelera de reciclaje"
+  }
+}

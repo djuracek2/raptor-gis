@@ -1,0 +1,10 @@
+{
+  "select": "Valitse kohde: ${title}",
+  "lastUpdated": "Kohde päivitetty: ${date}",
+  "viewItemDetails": "Näytä lisää tietoja kohteesta ${title}",
+  "preview": "Lisää tietoja",
+  "hidePreview": "Vähemmän tietoja",
+  "closeDetails": "Sulje kohteen tietoruutu",
+  "openDetails": "Avaa kohteen tietoruutu",
+  "moreOptions": "Lisää asetuksia"
+}

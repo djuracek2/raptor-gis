@@ -1,0 +1,69 @@
+{
+  "modalHeader": "İçerik kategorilerini yapılandır",
+  "modalGroupHeader": "Grup kategorilerini yapılandır",
+  "helpText": "Kuruluşunuzdaki kategorileri ekleyin, silin veya yeniden sıralayın.",
+  "loadingText": "Şema şablonları yükleniyor",
+  "cancel": "İptal",
+  "finishSetup": "Kurulumu tamamla",
+  "hasUnsavedChanges": "İlk önce kaydetmezseniz kaybolacak kategori değişiklikleri yaptınız. Bu görünümü kapatıp değişikliklerinizi kaybetmek istediğinizden emin misiniz?",
+  "error": {
+    "generic": {
+      "title": "Kategoriler güncellenirken hata oluştu.",
+      "message": "Bazı hatalar oluştu. Daha sonra yeniden deneyin."
+    },
+    "maxDepthExceeded": {
+      "title": "Kategoriler güncellenirken hata oluştu.",
+      "message": "Kategorileri 2 seviyeden daha derinde yuvaya yerleştiremezsiniz."
+    },
+    "destinationHasSameName": {
+      "title": "Kategoriler güncellenirken hata oluştu.",
+      "message": "Hedef kategoride aynı ada sahip bir kategori zaten var."
+    },
+    "emptyTitle": {
+      "title": "Kategoriler güncellenirken hata oluştu.",
+      "message": "Kategori başlığı boş olamaz."
+    },
+    "noSchema": {
+      "title": "Şema bulunamadı",
+      "message": "Kullanıcı için öge şeması bulunamadı."
+    },
+    "maxCharacter": {
+      "title": "Kategoriler güncellenirken hata oluştu.",
+      "message": "Kategori adları maksimum ${maxCharacter} karakter uzunlukta olabilir."
+    }
+  },
+  "warning": {
+    "deleteInUseCategory": {
+      "title": "Kategoriyi sil",
+      "message": "Bu kategoriye ${numItem} öge atandı. Kategoriyi silmek onu bu ögelerden çıkarır.",
+      "cta": "Kategoriyi sil"
+    },
+    "changeTitleInUseCategory": {
+      "title": "Kategoriyi güncelle",
+      "message": "Bu kategoriye ${numItem} öge atandı. Kategorinin güncellenmesi ögeleri \"${newTitle}\" kullanacak şekilde güncelleyecektir.",
+      "cta": "Kategoriyi güncelle"
+    }
+  },
+  "template": {
+    "title": "Kategori şablonları",
+    "learnMore": "Daha fazla bilgi",
+    "templateList": {
+      "custom": {
+        "title": "Özel kategoriler",
+        "message": "Kuruluşunuz içindeki içeriği düzenlemek için kendi kategorilerinizi oluşturun."
+      },
+      "arcgis": {
+        "title": "ArcGIS kategorileri",
+        "message": "ArcGIS kategorileri, birçok türdeki coğrafi mekansal içeriği kategorilere ayırmak için kullanılabilecek bir konu kategorileri ve alt kategoriler seçkisi içerir. Bu kategoriler ArcGIS Living Atlas of the World'u desteklemek için kullanılır."
+      },
+      "iso": {
+        "title": "ISO kategorileri",
+        "message": "ISO kategorileri, coğrafi bilgileri tanımlamak ve kataloglamak için bir yöntem sunan Uluslararası Standartlaştırma Örgütü konu kategorilerini içerir."
+      },
+      "inspire": {
+        "title": "INSPIRE kategorileri",
+        "message": "INSPIRE kategorileri, INSPIRE Yönergesinde düzenlenen kapsamlı bir mekansal veri temaları seti içerir."
+      }
+    }
+  }
+}

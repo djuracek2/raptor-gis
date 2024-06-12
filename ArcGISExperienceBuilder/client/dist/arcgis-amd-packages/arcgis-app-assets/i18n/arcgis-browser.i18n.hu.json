@@ -1,0 +1,72 @@
+{
+  "browser": {
+    "refineContent": "Tartalom pontosítása",
+    "filters": "Szűrők",
+    "pageRange": "${start}–${end}, összesen: ${total}",
+    "pageRangeAria": "${start}–${end}, összes elem: ${total}",
+    "pageRangeWithRecycleBin": "${start}-${end}, összesen: ${total} (${recycleBinSize}) a lomtárban",
+    "pageRangeAriaWithRecycleBin": "${start}-${end}, összes elem: ${total} (${recycleBinSize}) a lomtárban",
+    "loading": "Eredmények betöltése…",
+    "close": "Bezárás"
+  },
+  "actions": {
+    "more": "Továbbiak"
+  },
+  "filter": {
+    "clear": "Törlés"
+  },
+  "filterDate": {
+    "today": "Ma",
+    "yesterday": "Tegnap",
+    "last7": "Az elmúlt 7 nap",
+    "last30": "Az elmúlt 30 nap",
+    "custom": "Egyéni tartomány...",
+    "title": {
+      "created": "Létrehozás dátuma",
+      "modified": "Módosítás dátuma"
+    },
+    "created": "Létrehozva: ${date}",
+    "modified": "Módosítva: ${date}"
+  },
+  "pagination": {
+    "next": "Következő oldal",
+    "prev": "Előző oldal"
+  },
+  "search": {
+    "label": "Csoportok keresése",
+    "search": "Keresés",
+    "clear": "Keresőkifejezés törlése",
+    "wildcard": "A helyettesítő karakterrel történő keresés nem támogatott"
+  },
+  "sort": {
+    "sortDirection": "Rendezés iránya",
+    "title": "Cím",
+    "relevance": "Fontosság",
+    "modified": "Módosítás dátuma",
+    "deleted": "Törlés dátuma",
+    "created": "Létrehozás dátuma",
+    "size": "Méret",
+    "owner": "Tulajdonos",
+    "sizeAsc": "Legkisebbtől a legnagyobbig",
+    "sizeDesc": "Legnagyobbtól a legkisebbig",
+    "numviews": "Megtekintések száma",
+    "numAsc": "Legkevesebbtől a legtöbbig",
+    "numDesc": "Legnagyobbtól a legkisebbig",
+    "alphabeticalAsc": "Betűrend szerint",
+    "alphabeticalDesc": "Fordított betűrend szerint",
+    "recentAsc": "Legrégebbi",
+    "recentDesc": "Legfrissebb",
+    "sort": "Rendezés",
+    "sortBy": "Rendezési szempont",
+    "sortByColon": "Rendezési szempont:"
+  },
+  "topBar": {
+    "filter": "Szűrő"
+  },
+  "filterStatus": {
+    "clear": "Törlés",
+    "filters": "Szűrők:",
+    "additional": "További aktív szűrők",
+    "clearAllFilters": "Összes szűrő törlése"
+  }
+}

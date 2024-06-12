@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "了解详细信息",
+    "title": "ArcGIS Online 中的新功能",
+    "description": "2024 年 2 月更新包括整个 ArcGIS Online 网站的新功能和增强功能。"
+  },
+  "pipelines": {
+    "learnMore": "了解详细信息",
+    "title": "无需任何编码即可导入、清理和转换数据。",
+    "description": "使用可视化拖放工具从 Amazon S3、Google BigQuery 等来源获取数据。",
+    "link": "试用 ArcGIS Data Pipelines"
+  },
+  "title": "ArcGIS Online 的新特性"
+}

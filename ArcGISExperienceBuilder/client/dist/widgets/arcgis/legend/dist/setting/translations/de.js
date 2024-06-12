@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({sourceLabel:"Quelle",sourceDescript:"Eine Webkarte oder Webszene oder eine beliebige Kombination aus beidem.",showBaseMap:"Grundkartenlegenden anzeigen",cardStyle:"Kachel-Style verwenden"})}}}));

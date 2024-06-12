@@ -1,0 +1,12 @@
+{
+  "value": "Τιμή",
+  "classname": "Όνομα κλάσης",
+  "color": "Χρώμα",
+  "raster": "Raster",
+  "generate": "Δημιουργία πίνακα",
+  "minValue": "Ελάχιστη τιμή",
+  "maxValue": "Μέγιστη τιμή",
+  "classBaseName": "Τιμή βάσης κλάσης",
+  "colorscheme": "Χρωματικός συνδυασμός",
+  "defaultClassName": "Ετικέτα_"
+}

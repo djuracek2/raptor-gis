@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"길찾기",_action_DirectionsFrom_label:"경로 찾기 시작",_action_DirectionsTo_label:"경로 찾기 종료",outOfCredit:"경로 서비스를 불러올 수 없습니다. 서비스에 접근할 수 없기 때문일 수 있습니다.",namedInvalidUtilMsg:"{label}을(를) 사용할 수 없습니다.",namedNeedLoginUtilMsg:"죄송합니다. {label}에 접근할 수 있는 권한이 없습니다."})}}}));

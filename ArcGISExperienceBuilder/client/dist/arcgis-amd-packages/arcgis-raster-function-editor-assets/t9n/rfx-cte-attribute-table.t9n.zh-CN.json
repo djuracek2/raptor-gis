@@ -1,0 +1,12 @@
+{
+  "value": "值",
+  "classname": "ClassName",
+  "color": "颜色",
+  "raster": "栅格",
+  "generate": "生成表格",
+  "minValue": "最小值",
+  "maxValue": "最大值",
+  "classBaseName": "类基本名称",
+  "colorscheme": "配色方案",
+  "defaultClassName": "标注_"
+}

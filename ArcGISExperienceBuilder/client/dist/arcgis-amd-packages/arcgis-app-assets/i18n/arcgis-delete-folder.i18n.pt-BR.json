@@ -1,0 +1,21 @@
+{
+  "deleteFolder": "Excluir pasta",
+  "delete": "Excluir",
+  "permanentlyDelete": "Excluir permanentemente",
+  "back": "Voltar",
+  "cancel": "Cancelar",
+  "success": "Pasta '${title}' excluída com sucesso.",
+  "deleteProtectedItemsInFolder": "Não foi possível excluir a pasta, pois alguns dos itens estão protegidos contra exclusão ou têm itens dependentes.",
+  "message": {
+    "empty": "Tem certeza que deseja excluir esta pasta, <strong style='font-weight: 500'>${title}</strong>?",
+    "mustBeEmpty": "A pasta <strong style='font-weight: 500'>${title}</strong> deve estar vazia para ser excluída.",
+    "aFewCannotBeDeleted": "Alguns itens não podem ser excluídos. Tem certeza que deseja prosseguir com a exclusão do restante?",
+    "mustBeEmptyProceed": "A pasta <strong style='font-weight: 500'>${title}</strong> deve estar vazia para ser excluída. Tem certeza que deseja prosseguir com a exclusão desses itens?",
+    "cannotBeDeleted": "A pasta <strong style='font-weight: 500'>${title}</strong> não pode ser excluída, pois seus itens não podem ser excluídos."
+  },
+  "disabledMessage": {
+    "single": "Há <span style='color:red'>1 item</span> nesta pasta, ${label}.<br/></br/>Tem certeza que deseja excluir esta pasta e seu item?",
+    "multiple": "Há <span style='color:red'> ${number} itens </span> nesta pasta, ${label}.<br/></br/>Tem certeza de que deseja excluir esta pasta e todos os seus itens?",
+    "unknown": "Tem certeza que deseja excluir esta pasta, ${label}?"
+  }
+}

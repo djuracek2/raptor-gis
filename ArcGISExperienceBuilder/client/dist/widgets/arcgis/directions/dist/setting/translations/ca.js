@@ -1,0 +1,1 @@
+System.register([],(function(t){return{execute:function(){t({routeSettings:"Configuració de ruta",searchSettings:"Configuració de cerca",routeUrl:"URL de la ruta",outputStops:"Parades",outputRoute:"Ruta",outputDirectionPoints:"Punts d'indicació",outputDirectionLines:"Línies d'indicació"})}}}));

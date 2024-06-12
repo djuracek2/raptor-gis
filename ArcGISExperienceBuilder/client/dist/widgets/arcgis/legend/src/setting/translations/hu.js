@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({sourceLabel:"Forrás",sourceDescript:"Webtérkép vagy webes 3D térkép, illetve a kettő valamilyen kombinációja.",showBaseMap:"Alaptérkép-jelmagyarázatok megjelenítése",cardStyle:"Kártyastílus használata"})}}}));

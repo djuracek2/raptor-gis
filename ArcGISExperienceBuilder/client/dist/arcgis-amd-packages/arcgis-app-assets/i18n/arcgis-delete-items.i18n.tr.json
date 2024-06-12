@@ -1,0 +1,149 @@
+{
+  "deleteItem": "Ögeyi sil",
+  "deleteItems": "Ögeleri sil",
+  "deleteFolder": "Klasörü sil",
+  "recycleBin": "Geri dönüşüm kutusu",
+  "delete": "Sil",
+  "permanentlyDelete": "Kalıcı olarak sil",
+  "back": "Geri",
+  "cancel": "İptal",
+  "item": "öge",
+  "items": "ögeler",
+  "cantDelete": "Aşağıdaki ögeler, silme korumalı oldukları veya bağımlı ögeleri bulunduğu için silinemez.",
+  "proceed": "Kalan ögelerin silinmesine devam edilsin mi?",
+  "moreOptions": "Daha fazla seçenek",
+  "hideOptions": "Seçenekleri gizle",
+  "deletePermanently": "Kalıcı olarak sil (Bu işlem geri alınamaz)",
+  "learnMore": "Daha fazla bilgi",
+  "summary": {
+    "select": "Seç",
+    "deselect": "Seçimi Kaldır",
+    "selectedItems": "Seçili ögeler:",
+    "permanentlyDelete": "Kalıcı olarak sil:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "Bu öge geri dönüşüm kutusu tarafından desteklenmiyor.",
+        "multiple": "Bu ögeler geri dönüşüm kutusu tarafından desteklenmiyor."
+      },
+      "unsynchronized": "Dağıtık bir iş birliği grubundaki detay katmanlarında yapılan senkronize edilmemiş düzenlemeler kaybolacaktır.",
+      "notSupportedAndUnsynchronized": "Bazı öge türleri desteklenmez. Dağıtık bir iş birliği grubundaki detay katmanlarında yapılan senkronize edilmemiş düzenlemeler kaybolacaktır.",
+      "group": {
+        "notSupported": "Desteklenmemektedir",
+        "distributedCollaboration": "Dağıtık iş birliğinin bir parçasıdır"
+      }
+    },
+    "canBeRecovered": {
+      "single": "Bu öge ${days} güne kadar kurtarılabilir.",
+      "multiple": "Bu ögeler ${days} güne kadar kurtarılabilir.",
+      "unknown": "Bu ögeler ${days} güne kadar kurtarılabilir."
+    },
+    "willBeRecycled": "Geri dönüşüm kutusuna gönder:",
+    "cannotBeDeleted": "Silinemez:",
+    "deleteDiscouraged": "Silmek tavsiye edilmemektedir:",
+    "hasDependentItems": "Bağımlı ögeleri var:",
+    "someActionsMayNoLongerWork": {
+      "single": "Bu ögeyi geri dönüşüm kutusuna gönderirseniz, kaynak ögeye erişim gerektiren bazı eylemler artık beklendiği gibi çalışmayabilir.",
+      "multiple": "Bu ögeleri geri dönüşüm kutusuna gönderirseniz, kaynak ögelere erişim gerektiren bazı eylemler artık beklendiği gibi çalışmayabilir."
+    },
+    "cannotDelete": {
+      "all": "Silme korumalı, dağıtık bir işbirliği grubunun parçası olan veya bağımlı ögelere sahip ögeler silinemez.",
+      "protectedAndCollaboration": "Silme korumalı veya dağıtık bir işbirliği grubunun parçası olan ögeler silinemez.",
+      "protectedAndDependent": "Silme korumalı veya bağımlı ögelere sahip ögeler silinemez.",
+      "collaborationAndDependent": "Dağıtık bir işbirliği grubunun parçası olan veya bağımlı ögelere sahip ögeler silinemez."
+    },
+    "deletePermanently": "Kalıcı olarak sil: ${count} (Bu işlem geri alınamaz)",
+    "deleteAllPermanently": "Tüm ögeleri kalıcı olarak sil: ${count} (bu işlem geri alınamaz)",
+    "deleteXPermanently": "${subset} / ${total} ögeyi kalıcı olarak sil (Bu işlem geri alınamaz)",
+    "protectedGroup": {
+      "deleteProtected": "Silmeye karşı korumalı",
+      "deleteProtectedDescription": "Silme korumalı ögeler silinemez.",
+      "hasDependentItems": "Bağımlı ögeleri var",
+      "itemUsedBy": "Bu öge şunun tarafından korunuyor:",
+      "hasDependentItemsDescription": {
+        "single": "Ögenin bağımlı bir ögesi var. Birlikte silinmelidirler.",
+        "multiple": "Bu ögeler kendilerine bağımlı başka ögeler içerir. Birlikte silinmelidirler."
+      },
+      "distributedCollaboration": "Dağıtık iş birliğinin bir parçasıdır",
+      "distributedCollaborationDescription": "Dağıtık bir işbirliği grubunun parçası olan ögeler silinemez.",
+      "deleteDiscouraged": "Silmek tavsiye edilmemektedir",
+      "deleteDiscouragedDescription": {
+        "single": "Bu öge silinirse bağımlı ögelerin bazı işlevleri kaybolabilir. Öge ayrıntıları sayfasından bu ögeyi silebilirsiniz.",
+        "multiple": "Bu ögeler silinirse bağımlı ögelerin bazı işlevleri kaybolabilir. Öge ayrıntıları sayfasından bu ögeleri tek tek silebilirsiniz."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "Geri dönüşüm kutusu tarafından desteklenmediği için bu öge kalıcı olarak silinecek.",
+    "multiple": "Geri dönüşüm kutusu tarafından desteklenmediği için bu ögeler kalıcı olarak silinecek.",
+    "unknown": "Geri dönüşüm kutusu tarafından desteklenmediği için bu ögeler kalıcı olarak silinecek."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "Seçili öge, dağıtılmış bir iş birliği grubuna ait ve geri dönüşüm kutusuna taşınamaz. Kalıcı olarak silinecek.",
+    "multiple": "Seçili ögeler, dağıtılmış bir iş birliği grubuna ait ve geri dönüşüm kutusuna taşınamaz. Kalıcı olarak silinecekler.",
+    "unknown": "Seçili ögeler, dağıtılmış bir iş birliği grubuna ait ve geri dönüşüm kutusuna taşınamaz. Kalıcı olarak silinecekler."
+  },
+  "areYouSure": {
+    "single": "Bu ögeyi silmek istediğinizden emin misiniz?",
+    "multiple": "Bu ögeleri silmek istediğinizden emin misiniz?",
+    "unknown": "Bu ögeleri silmek istediğinizden emin misiniz?"
+  },
+  "areYouSureRecycle": {
+    "single": "Bu öge, kalıcı olarak silinmeden önce ${days} gün boyunca geri dönüşüm kutusunda kalacak.",
+    "multiple": "Bu ögeler, kalıcı olarak silinmeden önce ${days} gün boyunca geri dönüşüm kutusunda kalacak.",
+    "unknown": "Bu ögeler, kalıcı olarak silinmeden önce ${days} gün boyunca geri dönüşüm kutusunda kalacak."
+  },
+  "areYouSurePermanent": {
+    "single": "Bu ${number} ögesini kalıcı olarak silmek istediğinizden emin misiniz? Bu ${carrot} ögesi kalıcı olarak silindikten sonra kurtarılamaz.",
+    "multiple": "Bu ögeleri kalıcı olarak silmek istediğinizden emin misiniz? Bu ögeler kalıcı olarak silindikten sonra kurtarılamaz.",
+    "unknown": "Bu ögeleri kalıcı olarak silmek istediğinizden emin misiniz? Bu ögeler kalıcı olarak silindikten sonra kurtarılamaz."
+  },
+  "folder": {
+    "mustBeEmpty": "<b>${folder}</b> klasörünün silinebilmesi için boş olması gerekir.",
+    "aFewCannotBeDeleted": "Birkaç öge silinemiyor. Kalanların silinmesiyle devam etmek istediğinize emin misiniz?",
+    "mustBeEmptyProceed": "<b>${folder}</b> klasörünün silinebilmesi için boş olması gerekir. Bu ögelerin silinmesiyle devam etmek istediğinize emin misiniz?",
+    "cannotBeDeleted": "<b>${folder}</b> klasörü silinemez çünkü ögeleri silinemez."
+  },
+  "deletes": {
+    "single": "${days} gün içinde silinir",
+    "multiple": "${days} gün içinde siler",
+    "unknown": "Silinmesi için kalan gün sayısı: ${days}"
+  },
+  "deleteOverride": {
+    "single": "Bunun yerine bu ögeyi kalıcı olarak silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+    "multiple": "Bunun yerine bu ögeleri kalıcı olarak silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+  },
+  "restore": {
+    "restore": "Geri Yükle",
+    "restoreTo": "Şuna geri yükle",
+    "restoreItem": "Ögeyi Geri Yükle",
+    "restoreItems": "Ögeleri Geri Yükle",
+    "noticeMessage": "Geri yüklenen ögeler paylaşımdan kaldırılacak. Lütfen tekrar paylaşmadan önce içeriğinizi inceleyin.",
+    "cannotBulkRestoreXItems": "${number}'den fazla ögeyi toplu olarak geri yükleyemezsiniz, lütfen bazı ögelerin seçimini kaldırın.",
+    "cannotBulkRestoreMultipleOwners": "Farklı sahiplere ait ögeleri toplu halde geri yükleyemezsiniz. Toplu geri yükleme için tek bir sahibin ögelerini seçin.",
+    "toRestore": {
+      "single": "Geri Yüklenecek Öge:",
+      "multiple": "Geri Yüklenecek Ögeler:"
+    },
+    "cannotRestore": "Geri yüklenemez:",
+    "dependentItems": {
+      "single": "Bu öge <b>${parent}</b>'e bağımlı olduğu için geri yüklenemez. Birlikte geri yükleyin.",
+      "multiple": "Bu ögeler geri dönüşüm kutusundaki diğer ögelere bağımlı oldukları için geri yüklenemez. Birlikte geri yükleyin: "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "Kazayla silinen ögeyi kurtarmanız mı gerekiyor? Yeni geri dönüşüm kutusuna gözatın!",
+    "takeALook": "Yeni geri dönüşüm kutusuna gözatın!",
+    "learnMore": "Silinen ögeleri geri yükleme hakkında daha fazla bilgi edinin",
+    "heldInRecycleBin": "Geri dönüşüm kutusundaki ögeler ${days} gün boyunca tutulacaktır.",
+    "goToUserRecycleBin": "Ögeleri geri yüklemek veya kalıcı olarak silmek için ${linkStart}geri dönüşüm kutunuza${linkEnd} gidin.",
+    "goToOrgRecycleBin": "Ögeleri geri yüklemek veya kalıcı olarak silmek için ${linkStart}kuruluşunuzun geri dönüşüm kutusuna${linkEnd} gidin. Geri dönüşüm kutusundaki içerik kredi harcamaya devam eder."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "${start} - ${end} / ${total} (${size}) geri dönüşüm kutusunda",
+    "other": "${start} - ${end}, toplam: ${total} (${size}) geri dönüşüm kutusunda"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "${start} - ${end} / ${total} (>${size}) geri dönüşüm kutusunda",
+    "other": "${start} - ${end}, toplam: ${total} (>${size}) geri dönüşüm kutusunda"
+  }
+}

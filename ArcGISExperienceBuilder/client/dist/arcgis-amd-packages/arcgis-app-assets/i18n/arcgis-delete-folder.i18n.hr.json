@@ -1,0 +1,21 @@
+{
+  "deleteFolder": "Izbriši mapu",
+  "delete": "Izbriši",
+  "permanentlyDelete": "Trajno izbriši",
+  "back": "Natrag",
+  "cancel": "Odustani",
+  "success": "Mapa '${title}' uspješno izbrisana",
+  "deleteProtectedItemsInFolder": "Nije se moglo izbrisati mapu jer su neke stavke zaštićene od brisanja ili imaju zavisne stavke.",
+  "message": {
+    "empty": "Jeste li sigurni da želite izbrisati ovu mapu <strong style='font-weight: 500'>${title}</strong>?",
+    "mustBeEmpty": "Mapa <strong style='font-weight: 500'>${title}</strong> mora biti prazna da bi se izbrisala.",
+    "aFewCannotBeDeleted": "Nekoliko stavki nije moguće izbrisati. Jeste li sigurni da želite nastaviti s brisanjem ostatka?",
+    "mustBeEmptyProceed": "Mapa <strong style='font-weight: 500'>${title}</strong> mora biti prazna da bi se izbrisala. Jeste li sigurni da želite nastaviti s brisanjem ovih stavki?",
+    "cannotBeDeleted": "Mapa <strong style='font-weight: 500'>${title}</strong> se ne može izbrisati jer se njezine stavke ne mogu izbrisati."
+  },
+  "disabledMessage": {
+    "single": "Postoji 1<span style='color:red'> stavk</span>a u ovoj mapi. Jes${label}t<br/></br/>e li sigurni da želite izbrisati ovu mapu i njezinu stavku?",
+    "multiple": "Postoje s<span style='color:red'>${number}tavke </span>u ovoj mapi. Jest${label}e<br/></br/> li sigurni da želite izbrisati ovu mapu i sve njezine stavke?",
+    "unknown": "Jeste li sigurni da želite izbrisati ovu mapu ${label}?"
+  }
+}

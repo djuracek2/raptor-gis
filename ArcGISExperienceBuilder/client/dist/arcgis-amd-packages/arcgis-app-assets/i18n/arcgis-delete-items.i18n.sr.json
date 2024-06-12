@@ -1,0 +1,149 @@
+{
+  "deleteItem": "Izbriši stavku",
+  "deleteItems": "Izbriši stavke",
+  "deleteFolder": "Izbriši fasciklu",
+  "recycleBin": "Korpa za reciklažu",
+  "delete": "Izbriši",
+  "permanentlyDelete": "Trajno obriši",
+  "back": "Nazad",
+  "cancel": "Otkaži",
+  "item": "stavka",
+  "items": "stavke",
+  "cantDelete": "Sledeće stavke ne mogu da se obrišu jer su zaštićene od brisanja ili imaju zavisne stavke.",
+  "proceed": "Nastavi sa brisanjem preostalih stavki?",
+  "moreOptions": "Više opcija",
+  "hideOptions": "Sakrij opcije",
+  "deletePermanently": "Izbrišite trajno (Ovu radnju nije moguće opozvati)",
+  "learnMore": "Saznajte više",
+  "summary": {
+    "select": "Selektujte",
+    "deselect": "Opozovi izbor",
+    "selectedItems": "Izabrane stavke:",
+    "permanentlyDelete": "Trajno obriši:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "Kanta za otpatke ne podržava ovu stavku.",
+        "multiple": "Korpa za otpatke ne podržava ove stavke."
+      },
+      "unsynchronized": "Nesinhronizovane izmene napravljene na slojevima geoobjekta u distribuiranoj grupi za saradnju biće izgubljene.",
+      "notSupportedAndUnsynchronized": "Neki tipovi stavki nisu podržani. Nesinhronizovane izmene napravljene na slojevima geoobjekta u distribuiranoj grupi za saradnju biće izgubljene.",
+      "group": {
+        "notSupported": "Nije podržano",
+        "distributedCollaboration": "Deo distribuirane saradnje"
+      }
+    },
+    "canBeRecovered": {
+      "single": "Ova stavka se može vratiti do ${days} dana.",
+      "multiple": "Ova stavka se može vratiti za do ${days} dana.",
+      "unknown": "Ova stavka se može vratiti za do ${days} dana."
+    },
+    "willBeRecycled": "Pošaljite u kantu za otpatke:",
+    "cannotBeDeleted": "Nije moguće izbrisati:",
+    "deleteDiscouraged": "Izbriši obeshrabreno:",
+    "hasDependentItems": "Ima zavisne stavke:",
+    "someActionsMayNoLongerWork": {
+      "single": "Ako pošaljete ovu stavku u kantu za otpatke, neke radnje koje zahtevaju pristup izvornoj stavci možda više neće raditi kako se očekuje.",
+      "multiple": "Ako pošaljete ove stavke u kantu za otpatke, neke radnje koje zahtevaju pristup izvornim stavkama možda više neće raditi kako se očekuje."
+    },
+    "cannotDelete": {
+      "all": "Stavke koje su zaštićene od brisanja, koje su deo distribuirane grupe za saradnju ili imaju zavisne stavke ne mogu se izbrisati.",
+      "protectedAndCollaboration": "Stavke koje su zaštićene od brisanja ili su deo distribuirane grupe za saradnju ne mogu se izbrisati.",
+      "protectedAndDependent": "Stavke koje su zaštićene od brisanja ili imaju zavisne stavke ne mogu se izbrisati.",
+      "collaborationAndDependent": "Stavke koje su deo distribuirane grupe za saradnju ili imaju zavisne stavke ne mogu se izbrisati."
+    },
+    "deletePermanently": "Izbrišite trajno: ${count} (Ovu radnju nije moguće opozvati)",
+    "deleteAllPermanently": "Trajno izbrišite sve stavke: ${count} (Ovu radnju nije moguće opozvati)",
+    "deleteXPermanently": "Izbrišite ${subset} od ${total} stavki trajno (Ovu radnju nije moguće opozvati)",
+    "protectedGroup": {
+      "deleteProtected": "Izbriši zaštićeno",
+      "deleteProtectedDescription": "Stavke koje su zaštićene od brisanja ne mogu se izbrisati.",
+      "hasDependentItems": "Ima zavisne stavke",
+      "itemUsedBy": "Ovu stavku su koristili:",
+      "hasDependentItemsDescription": {
+        "single": "Ova stavka ima zavisnu stavku. Moraju se izbrisati zajedno.",
+        "multiple": "Ove stavke imaju druge stavke koje zavise od njih. Moraju se izbrisati zajedno."
+      },
+      "distributedCollaboration": "Deo distribuirane saradnje",
+      "distributedCollaborationDescription": "Stavke koje su deo distribuirane grupe za saradnju ne mogu se izbrisati.",
+      "deleteDiscouraged": "Izbriši obeshrabreno",
+      "deleteDiscouragedDescription": {
+        "single": "Ako se ova stavka izbriše, zavisne stavke mogu izgubiti neke funkcije. Ovu stavku možete izbrisati sa stranice sa detaljima o stavci.",
+        "multiple": "Ako se ove stavke izbrišu, zavisne stavke mogu izgubiti neke funkcije. Možete izbrisati ove stavke pojedinačno sa stranice sa detaljima o stavci."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "Ova stavka će biti trajno izbrisana jer je ne podržava korpa za otpatke.",
+    "multiple": "Ove stavke će biti trajno izbrisane jer ih korpa za otpatke ne podržava.",
+    "unknown": "Ove stavke će biti trajno izbrisane jer ih korpa za otpatke ne podržava."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "Izabrana stavka pripada distribuiranoj grupi za saradnju i ne može se premestiti u korpu za otpatke. Biće trajno izbrisano.",
+    "multiple": "Izabrane stavke pripadaju grupi za distribuiranu saradnju i ne mogu se premestiti u korpu za otpatke. Oni će biti trajno izbrisani.",
+    "unknown": "Izabrane stavke pripadaju grupi za distribuiranu saradnju i ne mogu se premestiti u korpu za otpatke. Oni će biti trajno izbrisani."
+  },
+  "areYouSure": {
+    "single": "Želite li zaista da izbrišete ovu stavku?",
+    "multiple": "Želite li zaista da izbrišete te stavke?",
+    "unknown": "Želite li zaista da izbrišete te stavke?"
+  },
+  "areYouSureRecycle": {
+    "single": "Ova stavka će ostati u korpi za otpatke tokom ${days} dana pre nego što se trajno izbriše.",
+    "multiple": "Ove stavke će ostati u korpi za otpatke tokoma ${days} dana pre nego što se trajno izbrišu.",
+    "unknown": "Ove stavke će ostati u korpi za otpatke tokoma ${days} dana pre nego što se trajno izbrišu."
+  },
+  "areYouSurePermanent": {
+    "single": "Želite li zaista da trajno izbrišete ovu ${number} stavku? Ova ${carrot} stavka se ne može vratiti nakon što je trajno izbrisana.",
+    "multiple": "Želite li zaista da trajno izbrišete ove stavke? Ove stavke se ne mogu vratiti nakon što se trajno izbrišu.",
+    "unknown": "Želite li zaista da trajno izbrišete ove stavke? Ove stavke se ne mogu vratiti nakon što se trajno izbrišu."
+  },
+  "folder": {
+    "mustBeEmpty": "Fascikla <b>${folder}</b> mora biti prazna da bi se izbrisala.",
+    "aFewCannotBeDeleted": "Nekoliko stavki se ne može izbrisati. Da li ste sigurni da želite da nastavite sa brisanjem ostatka?",
+    "mustBeEmptyProceed": "Fascikla <b>${folder}</b> mora biti prazna da bi se izbrisala. Da li ste sigurni da želite da nastavite sa brisanjem ovih stavki?",
+    "cannotBeDeleted": "Fascikla <b>${folder}</b> se ne može izbrisati jer se njene stavke ne mogu izbrisati."
+  },
+  "deletes": {
+    "single": "Brisanje za ${days} dana",
+    "multiple": "Brisnaje za ${days} dana",
+    "unknown": "Preostali dani do brisanja: ${days}"
+  },
+  "deleteOverride": {
+    "single": "Da li ste sigurni da umesto toga želite da trajno izbrišete ovu stavku? Ovu radnju nije moguće opozvati.",
+    "multiple": "Da li ste sigurni da želite da trajno izbrišete ove stavke? Ovu radnju nije moguće opozvati."
+  },
+  "restore": {
+    "restore": "Vrati u prethodno stanje",
+    "restoreTo": "Vrati na",
+    "restoreItem": "Vrati stavku",
+    "restoreItems": "Vrati stavke",
+    "noticeMessage": "Deljenje vraćenih stavki biće opozvano. Pregledajte svoj sadržaj pre nego što ga ponovo podelite.",
+    "cannotBulkRestoreXItems": "Nije moguće grupno vratiti više od ${number} stavki, poništite izbor nekoliko stavki.",
+    "cannotBulkRestoreMultipleOwners": "Nije moguće grupno vratiti stavke koje pripadaju različitim vlasnicima. Izaberite stavke od jednog vlasnika za grupno vraćanje.",
+    "toRestore": {
+      "single": "Stavka za vraćanje:",
+      "multiple": "Stavke za vraćanje:"
+    },
+    "cannotRestore": "Nije moguće vraćanje:",
+    "dependentItems": {
+      "single": "Ova stavka se ne može vratiti jer zavisi od <b>${parent}</b>. Vratite ih zajedno.",
+      "multiple": "Ove stavke se ne mogu vratiti jer zavise od drugih stavki u kanti za otpatke. Vratite ih zajedno: "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "Treba da povratite tu slučajno izbrisanu stavku? Pogledajte novu kantu za otpatke!",
+    "takeALook": "Bacite pogled na novu kantu za otpatke!",
+    "learnMore": "Saznajte više o vraćanju izbrisanih stavki",
+    "heldInRecycleBin": "Stavke u korpi za otpatke čuvaju se do ${days} dana.",
+    "goToUserRecycleBin": "Idite u ${linkStart}kantu za otpatke${linkEnd} da biste vratili ili trajno izbrisali stavke.",
+    "goToOrgRecycleBin": "Idite u ${linkStart}kantu za otpatke svoje organizacije${linkEnd} da biste vratili ili trajno izbrisali stavke. Sadržaj u korpi za otpatke nastavlja da troši kredite."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "${start} - ${end} od ${total} (${size}) u kanti za otpatke",
+    "other": "${start} - ${end}, ukupno: ${total} (${size}) u kanti za otpatke"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "${start} - ${end} od ${total} (>${size}) u kanti za otpatke",
+    "other": "${start} - ${end}, ukupno: ${total} (>${size}) u kanti za otpatke"
+  }
+}

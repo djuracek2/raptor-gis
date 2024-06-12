@@ -1,0 +1,1 @@
+System.register([],(function(t){return{execute:function(){t({routeSettings:"Setări rută",searchSettings:"Setări căutare",routeUrl:"URL rută",outputStops:"Opriri",outputRoute:"Rută",outputDirectionPoints:"Puncte direcție",outputDirectionLines:"Linii direcție"})}}}));

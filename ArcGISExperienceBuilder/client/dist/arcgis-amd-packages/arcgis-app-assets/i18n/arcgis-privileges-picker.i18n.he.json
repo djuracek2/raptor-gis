@@ -1,0 +1,455 @@
+{
+  "rolePrivileges": "הרשאות תפקיד",
+  "setFromExisting": "הגדר מתפקיד קיים",
+  "expandAll": "הרחב הכול",
+  "generalPrivileges": "הרשאות כלליות",
+  "adminPrivileges": "הרשאות מנהל מערכת",
+  "enabledLabel": "מופעל:",
+  "enableAll": "הפעל הכול",
+  "disableAll": "השבת הכול",
+  "members": "חברים",
+  "groups": "קבוצות",
+  "content": "תוכן",
+  "sharing": "שיתוף",
+  "premiumContent": "תוכן פרימיום",
+  "features": "יישויות",
+  "versionMgmt": "ניהול גרסאות",
+  "webhooks": "Webhooks",
+  "marketplaceSubscriptions": "מינויי ArcGIS Marketplace",
+  "orgSettings": "הגדרות ארגון",
+  "learnMore": "מידע נוסף",
+  "searchPrivileges": "חפש הרשאות",
+  "notebooks": "מחברות",
+  "analysis": "ניתוח",
+  "networkAnalysis": "ניתוח רשת",
+  "privileges": {
+    "portal:user:viewOrgUsers": {
+      "label": "הצג",
+      "description": "אפשר לחבר להציג חברים בארגון.",
+      "descriptionPortal": "אפשר לחבר להציג חברים בפורטל."
+    },
+    "portal:user:createGroup": {
+      "label": "יצירה, עדכון ומחיקה",
+      "description": "אפשר לחבר ליצור, לערוך ולמחוק את הקבוצות של עצמו."
+    },
+    "portal:user:joinGroup": {
+      "label": "הצטרפות לקבוצות בארגון",
+      "description": "אפשר לחבר להצטרף לקבוצות בארגון שלך.",
+      "descriptionPortal": "אפשר לחבר להצטרף לקבוצות בפורטל שלך."
+    },
+    "portal:user:joinNonOrgGroup": {
+      "label": "הצטרפות לקבוצות חיצוניות",
+      "description": "אפשר לחבר להצטרף לקבוצות חיצוניות לארגון שלך.",
+      "descriptionPortal": "אפשר לחבר להצטרף לקבוצות חיצוניות לפורטל שלך."
+    },
+    "portal:user:viewOrgGroups": {
+      "label": "הצגת קבוצות שמשותפות עם הארגון",
+      "description": "אפשר לחבר להציג קבוצות אשר שותפו עם הארגון.",
+      "descriptionPortal": "אפשר לחבר להציג קבוצות אשר שותפו עם הפורטל."
+    },
+    "portal:user:invitePartneredCollaborationMembers": {
+      "label": "הזמנת חברים מארגון שותף",
+      "description": "אפשר לחבר להזמין חברים מארגוני שיתוף פעולה עם שותפים לקבוצות."
+    },
+    "portal:user:addExternalMembersToGroup": {
+      "label": "הוסף חברים מארגונים אחרים",
+      "description": "אפשר לחבר ליצור קבוצות המאפשרות חברים מארגונים אחרים, וכן להזמין חברים חיצוניים לקבוצות."
+    },
+    "portal:user:createItem": {
+      "label": "יצירה, עדכון ומחיקה",
+      "description": "אפשר לחבר ליצור, לערוך ולמחוק את התוכן של עצמו."
+    },
+    "portal:publisher:publishFeatures": {
+      "label": "פרסום שכבת ישויות מתארחת",
+      "description": "אפשר לחבר לפרסם שכבות ישויות מתארחות מתוך קובצי shapefile, CSV וכו'."
+    },
+    "portal:publisher:publishTiles": {
+      "label": "פרסום שכבות אריחים מתארחות",
+      "description": "אפשר לחבר לפרסם שכבות אריחים מתארחות מתוך חבילות אריחים, ישויות וכו'."
+    },
+    "portal:publisher:publishScenes": {
+      "label": "פרסום שכבות סצנות מתארחות",
+      "description": "אפשר לחבר לפרסם שכבות סצנות מתארחות."
+    },
+    "portal:publisher:publishTiledImagery": {
+      "label": "פרסם שכבות מתארחות של תמונות באריחים",
+      "description": "אפשר לחבר לפרסם שכבות מתארחות של תמונות באריחים מתוך תמונה יחידה או אוסף תמונות. מחייב הרחבת סוג משתמש ArcGIS Image for ArcGIS Online.",
+      "descriptionPortal": "אפשר לחבר לפרסם שכבות מתארחות של תמונות באריחים מתוך תמונה יחידה או אוסף תמונות."
+    },
+    "portal:publisher:publishDynamicImagery": {
+      "label": "פרסם שכבות מתארחות של תמונות דינמיות",
+      "description": "אפשר לחבר לפרסם שכבות מתארחות של תמונות דינמיות מתוך תמונה יחידה או אוסף תמונות."
+    },
+    "portal:publisher:publishServerServices": {
+      "label": "פרסום שכבות מבוסס-שרת",
+      "description": "הרשאה זו מעניקה את היכולת לפרסם שכבות שמופעלות על ידי שירותים מאתרי שרתים מאוחדים. שירותים אלה לעיתים קרובות מפנים לנתונים רשומים מ-Geodatabases או ממקורות נתונים מבוססי קבצים."
+    },
+    "portal:publisher:publishKnowledgeGraph": {
+      "label": "פרסם גרפי ידע מתארחים",
+      "description": "אפשר לחבר לפרסם גרפי ידע מתארחים."
+    },
+    "portal:user:viewOrgItems": {
+      "label": "הצגת תוכן שמשותף עם הארגון",
+      "description": "אפשר לחבר להציג תוכן אשר שותף עם הארגון.",
+      "descriptionPortal": "אפשר לחבר להציג תוכן אשר שותף עם הפורטל."
+    },
+    "premium:publisher:createNotebooks": {
+      "label": "יצירת Notebooks ועריכה שלהן",
+      "description": "אפשר לחבר ליצור ולערוך מחברות אינטראקטיביות."
+    },
+    "premium:publisher:scheduleNotebooks": {
+      "label": "תזמון מחברות",
+      "description": "אפשר לחברים לתזמן הפעלות אוטומטיות עתידיות של מחברת."
+    },
+    "portal:publisher:bulkPublishFromDataStores": {
+      "label": "יצירת שכבות ישויות באצווה מ-Data Store",
+      "description": "הרשאה זו מעניקה את היכולת לפרסם שכבות ווב מ-Data Store רשום."
+    },
+    "portal:publisher:registerDataStores": {
+      "label": "רישום Data Stores",
+      "description": "הרשאה זו מעניקה את היכולת לרשום Data Stores בפורטל."
+    },
+    "portal:user:viewTracks": {
+      "label": "הצגת מעקבים אחר מיקום",
+      "description": "אפשר לחבר להציג מעקבים אחר מיקומי חברים דרך תצוגות מעקב משותפות כאשר שיתוף מיקום פעיל."
+    },
+    "portal:user:reassignItems": {
+      "label": "הקצאה מחדש של תוכן",
+      "description": "אפשר לחבר להקצות מחדש רק את התוכן שלו לחבר אחר בעל הרשאה לקבל תוכן."
+    },
+    "portal:user:receiveItems": {
+      "label": "קבלת תוכן",
+      "description": "אפשר לחבר לקבל תוכן שהוקצה לו מחדש על-ידי חבר אחר בעל הרשאה להקצות מחדש תוכן."
+    },
+    "portal:publisher:publishFeeds": {
+      "label": "פרסום הזנות",
+      "description": "הרשאה זו מעניקה את היכולת לפרסם הזנות לצורך עיכול והצגה של נתונים בזמן אמת באמצעות ArcGIS Velocity."
+    },
+    "portal:publisher:publishRealTimeAnalytics": {
+      "label": "פרסום ניתוחים בזמן אמת",
+      "description": "הרשאה זו מעניקה את היכולת לפרסם הזנות בזמן אמת כדי לנתח ולעבד נתונים בזמן אמת באמצעות ArcGIS Velocity."
+    },
+    "portal:publisher:publishBigDataAnalytics": {
+      "label": "פרסום ניתוח Big Data",
+      "description": "הרשאה זו מעניקה את היכולת לפרסם ניתוחי Big Data הזנות לצורך ניתוח נתוני תצפיות היסטוריים באמצעות ArcGIS Velocity."
+    },
+    "portal:publisher:createDataPipelines": {
+      "label": "יצירה והרצה של Data Pipelines",
+      "description": "אפשר לחברים ליצור, לערוך ולהריץ Data Pipelines."
+    },
+    "portal:publisher:publishLivestreamVideo": {
+      "label": "פרסם וידאו בשידור חי",
+      "description": "אפשר לחבר לפרסם שכבות וידאו בשידור חי מתארחות שמקורן בשידורים ובהזרמות וידאו מרשת."
+    },
+    "portal:publisher:publishVideo": {
+      "label": "פרסם וידאו",
+      "description": "אפשר לחבר לפרסם שכבות וידאו מתארחות מקובץ וממסנני וידאו ומקובצי מטה דאטה נתמכים של וידאו."
+    },
+    "portal:user:shareToGroup": {
+      "label": "שיתוף עם קבוצות",
+      "description": "אפשר לחבר לשתף תוכן עם קבוצות."
+    },
+    "portal:user:shareToOrg": {
+      "label": "שיתוף עם ארגון",
+      "labelPortal": "שיתוף עם פורטל",
+      "description": "אפשר לחבר לשתף תוכן עם הארגון שלך.",
+      "descriptionPortal": "אפשר לחבר לשתף תוכן עם הפורטל שלך."
+    },
+    "portal:user:shareToPublic": {
+      "label": "שיתוף עם הציבור",
+      "description": "אפשר לחבר לשתף את התוכן שלו באופן ציבורי אם הדבר מותר לפי מדיניות השיתוף הציבורי של הארגון.",
+      "tooltip": "אם הארגון לא מתיר לחברים לשתף תוכן באופן ציבורי, לחברים נדרשת הרשאת מנהל מערכת כדי לשתף תוכן של חבר עם הציבור."
+    },
+    "portal:user:shareGroupToOrg": {
+      "label": "שיתוף עם פורטל",
+      "description": "אפשר לחבר לשתף תוכן עם הארגון שלך.",
+      "descriptionPortal": "אפשר לחבר לשתף תוכן עם הפורטל שלך."
+    },
+    "portal:user:shareGroupToPublic": {
+      "label": "הפיכת קבוצות לגלויות לציבור",
+      "description": "אפשר לחבר להפוך קבוצות לניתנות לגילוי על ידי הציבור."
+    },
+    "opendata:user:designateGroup": {
+      "label": "הפיכת קבוצות לזמינות ב-Open Data",
+      "description": "אפשר לחבר להגדיר קבוצות כזמינות לשימוש ב-Open Data."
+    },
+    "premium:user:elevation": {
+      "label": "גובה",
+      "description": "תאור"
+    },
+    "premium:user:geocode": {
+      "label": "עיגון כתובות",
+      "description": "אפשר לחבר לבצע עיגון כתובות שצורך אשראי באמצעות ArcGIS World Geocoding Service (או תצוגה של מגדיר עיגון כתובות זה)."
+    },
+    "premium:user:geocode:stored": {
+      "label": "עיגון כתובות מאוחסן",
+      "description": "תאור"
+    },
+    "premium:user:geocode:temporary": {
+      "label": "עיגון כתובות זמני",
+      "description": "תאור"
+    },
+    "premium:user:networkanalysis": {
+      "label": "ניתוח רשת",
+      "description": "אפשר לחבר לבצע משימות ניתוח רשת, כגון אזורי זמן נסיעה וניתוב."
+    },
+    "premium:user:networkanalysis:closestfacility": {
+      "label": "איתור המתקן הקרוב",
+      "description": "תאור"
+    },
+    "premium:user:networkanalysis:locationallocation": {
+      "label": "ניתוח הקצאה מרחבית",
+      "description": "תאור"
+    },
+    "premium:user:networkanalysis:routing": {
+      "label": "ניתוב בסיסי",
+      "description": "תאור"
+    },
+    "premium:user:networkanalysis:optimizedrouting": {
+      "label": "ניתוב ממוטב",
+      "description": "תאור"
+    },
+    "premium:user:networkanalysis:vehiclerouting": {
+      "label": "ניתוב רכבים",
+      "description": "תאור"
+    },
+    "premium:user:networkanalysis:origindestinationcostmatrix": {
+      "label": "מטריצת מוצא-יעד",
+      "description": "תאור"
+    },
+    "premium:user:networkanalysis:servicearea": {
+      "label": "אזור שירות",
+      "description": "תאור"
+    },
+    "premium:user:places": {
+      "label": "מקומות",
+      "description": "תאור"
+    },
+    "premium:user:spatialanalysis": {
+      "label": "ניתוח מרחבי",
+      "labelPortal": "ניתוח ישויות סטנדרטי",
+      "description": "אפשר לחבר לבצע משימות ניתוח מרחבי.",
+      "descriptionPortal": "הרשאה זו מעניקה את היכולת לבצע משימות של ניתוח ישויות סטנדרטיות."
+    },
+    "premium:user:geoenrichment": {
+      "label": "GeoEnrichment",
+      "description": "אפשר לחבר לבצע Geoenrich של ישויות."
+    },
+    "premium:user:demographics": {
+      "label": "דמוגרפיה",
+      "description": "אפשר לחבר לעשות שימוש בנתונים דמוגרפיים ברמת פרימיום."
+    },
+    "premium:publisher:geoanalytics": {
+      "label": "ניתוח ישויות של GeoAnalytics",
+      "description": "הרשאה זו מעניקה את היכולת לבצע משימות של GeoAnalytics."
+    },
+    "premium:publisher:rasteranalysis": {
+      "label": "ניתוח תצלומי לווין",
+      "description": "אפשר לחבר לבצע משימות ניתוח תצלומי לווין. מחייב הרחבת סוג משתמש ArcGIS Image for ArcGIS Online.",
+      "descriptionPortal": "אפשר לחבר לבצע משימות ניתוח תצלומי לווין."
+    },
+    "premium:publisher:createAdvancedNotebooks": {
+      "label": "מחברות מתקדמות",
+      "description": "אפשר לחבר לייבא מודולים של ArcPy ולהשתמש בהם במחברות."
+    },
+    "portal:user:runWebTool": {
+      "label": "הרץ כלי web",
+      "description": "אפשר לחבר להריץ כלי web שפורסמו ממחברות."
+    },
+    "premium:user:featurereport": {
+      "label": "דוח ישויות",
+      "description": "אפשר לחבר ליצור דוחות ישויות ב-Survey123."
+    },
+    "features:user:edit": {
+      "label": "עריכה",
+      "description": "אפשר לחבר לערוך ישויות בשכבות ניתנות לעריכה שאינן ציבוריות, בהתאם לאפשרויות העריכה שהופעלו בשכבה."
+    },
+    "features:user:fullEdit": {
+      "label": "עריכה עם שליטה מלאה",
+      "description": "אפשר לחבר להוסיף, למחוק ולעדכן ישויות בשכבת ישויות מתארחת ניתנת לעריכה, ללא תלות באפשרויות העריכה שהופעלו בשכבה."
+    },
+    "features:user:manageVersions": {
+      "label": "נהל הכול",
+      "description": "הרשה לחברים לנהל נעילות גרסאות ולהציג, לשנות, למחוק, לערוך, לפשר ולפרסם לכל גרסאות הענפים שנגישות דרך שכבות ישויות של ArcGIS Server."
+    },
+    "portal:publisher:createFeatureWebhook": {
+      "label": "שכבת ישות",
+      "description": "אפשר לחבר ליצור, לערוך ולמחוק את ה-webhooks של שכבת ישות שלו."
+    },
+    "portal:admin:viewUsers": {
+      "label": "הצג הכל",
+      "description": "אפשר לחבר להציג מידע מלא של חשבונות חברים בארגון שלך.",
+      "descriptionPortal": "אפשר לחבר להציג מידע מלא של חשבונות חברים בפורטל שלך."
+    },
+    "portal:admin:updateUsers": {
+      "label": "עדכון",
+      "description": "אפשר לחברים לאפס סיסמאות, לעדכן פרטי חשבונות חברים ולעדכן קטגוריות של חברים בארגונך.",
+      "descriptionPortal": "אפשר לחברים לאפס סיסמאות, לעדכן פרטי חשבונות חברים ולעדכן קטגוריות של חברים בפורטל שלך."
+    },
+    "portal:admin:deleteUsers": {
+      "label": "מחיקה",
+      "description": "אפשר לחבר למחוק חשבונות חברים בארגון שלך.",
+      "descriptionPortal": "אפשר לחבר למחוק חשבונות חברים בפורטל שלך."
+    },
+    "portal:admin:inviteUsers": {
+      "label": "הוספה",
+      "labelPortal": "הזמנה",
+      "description": "אפשר לחבר להזמין חברים לארגון שלך.",
+      "descriptionPortal": "אפשר לחבר להזמין חברים לפורטל שלך."
+    },
+    "portal:admin:disableUsers": {
+      "label": "השבת",
+      "description": "אפשר לחבר להפעיל ולהשבית חשבונות חברים בארגון שלך.",
+      "descriptionPortal": "אפשר לחבר להפעיל ולהשבית חשבונות חברים בפורטל שלך."
+    },
+    "portal:admin:changeUserRoles": {
+      "label": "שינוי תפקידים",
+      "description": "אפשר לחבר לשנות את התפקיד שמוקצה לחשבון חבר. שים לב, רק חברים בתפקיד 'מנהל מערכת' יכולים להקצות או לבטל הקצאה של תפקיד 'מנהל מערכת' לחשבונות אחרים.",
+      "descriptionPortal": "אפשר לחבר לשנות את התפקיד שמוקצה לחשבון חבר. שים לב, רק חברים בתפקיד 'מנהל מערכת' יכולים להקצות או לבטל הקצאה של תפקיד 'מנהל מערכת' לחשבונות אחרים."
+    },
+    "portal:admin:manageLicenses": {
+      "label": "ניהול רישיונות",
+      "description": "אפשר לחבר להקצות רישיונות לחברים בארגון שלך.",
+      "descriptionPortal": "אפשר לחבר להקצות רישיונות לחברים בפורטל שלך."
+    },
+    "portal:admin:updateMemberCategorySchema": {
+      "label": "ניהול קטגוריות",
+      "description": "אפשר לחבר להגדיר קטגוריות של חברים בארגון.",
+      "descriptionPortal": "אפשר לחבר להגדיר קטגוריות של חברים בפורטל."
+    },
+    "portal:admin:viewGroups": {
+      "label": "הצג הכל",
+      "description": "אפשר לחבר להציג את כל הקבוצות בארגון שלך.",
+      "descriptionPortal": "אפשר לחבר להציג את כל הקבוצות בפורטל שלך."
+    },
+    "portal:admin:updateGroups": {
+      "label": "עדכון",
+      "description": "אפשר לחבר לעדכן קבוצות בארגון שלך.",
+      "descriptionPortal": "אפשר לחבר לעדכן קבוצות בפורטל שלך."
+    },
+    "portal:admin:deleteGroups": {
+      "label": "מחיקה",
+      "description": "אפשר לחבר למחוק קבוצות בארגון שלך.",
+      "descriptionPortal": "אפשר לחבר למחוק קבוצות בפורטל שלך."
+    },
+    "portal:admin:reassignGroups": {
+      "label": "הקצאה מחדש של בעלות",
+      "description": "אפשר לחבר להקצות מחדש קבוצות לחברים אחרים בארגונן שלך.",
+      "descriptionPortal": "אפשר לחבר להקצות מחדש קבוצות לחברים אחרים בפורטל שלך."
+    },
+    "portal:admin:assignToGroups": {
+      "label": "הקצאת חברים",
+      "description": "אפשר לחבר להקצות חברים לקבוצה, לעדכן את תפקיד הקבוצה של חברים ולהסיר חברים מקבוצות בארגון שלך.",
+      "descriptionPortal": "אפשר לחבר להקצות חברים לקבוצה, לעדכן את תפקיד הקבוצה של חברים ולהסיר חברים מקבוצות בפורטל שלך."
+    },
+    "portal:admin:manageEnterpriseGroups": {
+      "label": "קישור אל קבוצה ייחודית לארגון",
+      "description": "אפשר לחבר לקשר חברות בקבוצה לקבוצה ייחודית לארגון."
+    },
+    "portal:admin:createUpdateCapableGroup": {
+      "label": "יצירה עם יכולות עדכון",
+      "description": "אפשר לחבר ליצור קבוצות עם יכולות עדכון."
+    },
+    "portal:admin:createLeavingDisallowedGroup": {
+      "label": "יצירה ללא אפשרות לעזוב",
+      "description": "אפשר לחבר ליצור קבוצות שלא מאפשרות לחברים לעזוב (קבוצות ניהוליות) ולהיות הבעלים של קבוצות כאלה."
+    },
+    "portal:admin:viewItems": {
+      "label": "הצג הכל",
+      "description": "אפשר לחבר להציג את כל התוכן בארגונן שלך.",
+      "descriptionPortal": "אפשר לחבר להציג את כל התוכן בפורטל שלך."
+    },
+    "portal:admin:updateItems": {
+      "label": "עדכון",
+      "description": "אפשר לחבר לעדכן, לסווג תוכן ולערוך שכבות ישויות שמתארחות בארגון שלך.",
+      "descriptionPortal": "אפשר לחבר לעדכן, לסווג תוכן ולערוך שכבות ישויות שמתארחות בפורטל שלך."
+    },
+    "portal:admin:deleteItems": {
+      "label": "מחיקה",
+      "description": "אפשר לחבר למחוק תוכן בארגון שלך.",
+      "descriptionPortal": "אפשר לחבר למחוק תוכן בפורטל שלך."
+    },
+    "portal:admin:reassignItems": {
+      "label": "הקצאה מחדש של בעלות",
+      "description": "אפשר לחבר להקצות תוכן לחברים אחרים בארגונן שלך.",
+      "descriptionPortal": "אפשר לחבר להקצות תוכן לחברים אחרים בפורטל שלך."
+    },
+    "portal:admin:updateItemCategorySchema": {
+      "label": "ניהול קטגוריות",
+      "description": "אפשר לחבר להגדיר קטגוריות של תוכן בארגון.",
+      "descriptionPortal": "אפשר לחבר להגדיר קטגוריות של תוכן בפורטל."
+    },
+    "portal:publisher:publishServerGPServices": {
+      "label": "פרסום כלי ווב",
+      "description": "הרשאה זו מעניקה את היכולת לפרסם כלי ווב עם גיבוי של שירותי Geoprocessing מאתרי שרתים מאוחדים."
+    },
+    "portal:admin:shareToOrg": {
+      "label": "שיתוף תוכן של חבר עם ארגון",
+      "description": "אפשר לחבר לשתף תוכן בבעלות חברים אחרים בארגון עם הארגון.",
+      "descriptionPortal": "אפשר לחבר לשתף תוכן בבעלות חברים אחרים בפורטל עם הפורטל."
+    },
+    "portal:admin:shareToPublic": {
+      "label": "שתף תוכן של חבר עם הציבור",
+      "description": "אפשר לחבר לשתף תוכן בבעלות חברים אחרים בארגון עם הציבור.",
+      "descriptionPortal": "אפשר לחבר לשתף תוכן בבעלות חברים אחרים בפורטל עם הציבור."
+    },
+    "portal:admin:createReports": {
+      "label": "יצירה וניהול של דוחות ניהוליים",
+      "description": "אפשר לחברים ליצור ולנהל דוחות ניהוליים עבור ארגונך.",
+      "descriptionPortal": "אפשר לחברים ליצור ולנהל דוחות ניהוליים עבור הפורטל שלך."
+    },
+    "marketplace:admin:manage": {
+      "label": "יצירה וניהול",
+      "description": "הרשה לחבר ליצור רישומים, פריטי רשימה, לנהל מינויים ב-ArcGIS Marketplace, וכן לנהל רוכשים ופרטי התקשרות עבור הארגון שלך. השימוש בהרשאה זו מותנה בכך שהארגון שלך קיבל גישת רישום ופרסום ב-ArcGIS Marketplace."
+    },
+    "marketplace:admin:purchase": {
+      "label": "קנה וקבל מוצרים בחינם",
+      "description": "אפשר לחבר לשלוח בקשות רכישה ולבקש מוצרים בחינם מספקים ב-ArcGIS Marketplace. כדי לאפשר לחברים לרכוש מוצרים בכרטיסי אשראי, עליך להקצות אותם כרוכשים ב-Marketplace."
+    },
+    "marketplace:admin:startTrial": {
+      "label": "הפעלת גרסאות לניסיון",
+      "description": "אפשר לחבר להפעיל מינויים לתקופת ניסיון ב-ArcGIS Marketplace."
+    },
+    "portal:admin:manageSecurity": {
+      "label": "אבטחה ותשתית",
+      "description": "אפשר לחבר לנהל את הגדרות האבטחה והתשתית של הארגון.",
+      "descriptionPortal": "אפשר לחבר לנהל את הגדרות האבטחה והתשתית של הפורטל."
+    },
+    "portal:admin:manageWebsite": {
+      "label": "אתר האינטרנט של הארגון",
+      "description": "אפשר לחבר לנהל את הגדרות אתר האינטרנט של הארגון.",
+      "descriptionPortal": "אפשר לחבר לנהל את הגדרות אתר האינטרנט של הפורטל."
+    },
+    "portal:admin:manageCollaborations": {
+      "label": "שיתופי פעולה",
+      "description": "אפשר לחבר לנהל את שיתופי הפעולה בארגון.",
+      "descriptionPortal": "אפשר לחבר לנהל את שיתופי הפעולה בפורטל."
+    },
+    "portal:admin:manageCredits": {
+      "label": "קרדיטים",
+      "description": "אפשר לחבר לנהל את הגדרות תקציב הקרדיטים של הארגון."
+    },
+    "portal:admin:manageRoles": {
+      "label": "תפקידי חברים",
+      "description": "אפשר לחבר לנהל את תפקידי החברים בארגון.",
+      "descriptionPortal": "אפשר לחבר לנהל את תפקידי החברים בפורטל."
+    },
+    "portal:admin:manageServers": {
+      "label": "שרתים",
+      "description": "הרשאה זו מעניקה את היכולת לנהל את הגדרות השרת של הפורטל."
+    },
+    "portal:admin:manageUtilityServices": {
+      "label": "שירותי תשתית",
+      "description": "אפשר לחבר לנהל את הגדרות שירות התשתית של הארגון.",
+      "descriptionPortal": "אפשר לחבר לנהל את הגדרות שירות התשתית של הפורטל."
+    },
+    "portal:admin:manageWebhooks": {
+      "label": "webhooks ארגוניים",
+      "description": "אפשר לחבר ליצור, לערוך ולמחוק webhooks ארגוניים ולנהל את כל ה-webhooks שבפורטל."
+    },
+    "portal:admin:createGPWebhook": {
+      "label": "Geoprocessing",
+      "description": "אפשר לחבר ליצור, לערוך ולמחוק את ה-webhooks של Geoprocessing שלו."
+    }
+  }
+}

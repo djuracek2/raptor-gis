@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Traçage de réseau de distribution",_widgetDescription:"Widget permettant de tracer un réseau de distribution ArcGIS Utility Network",_action_filter_label:"Filtrer"})}}}));

@@ -1,0 +1,69 @@
+{
+  "modalHeader": "Konfigurer innholdskategorier",
+  "modalGroupHeader": "Konfigurer gruppekategorier",
+  "helpText": "Rediger, slett eller endre rekkefølgen på kategorier i organisasjonen.",
+  "loadingText": "Laster inn skjemamaler",
+  "cancel": "Avbryt",
+  "finishSetup": "Fullfør konfigurasjon",
+  "hasUnsavedChanges": "Du har gjort kategoriendringer som går tapt om du ikke lagrer først. Er du sikker på at du vil lukke denne visningen og miste endringene?",
+  "error": {
+    "generic": {
+      "title": "Feil under oppdatering av kategorier",
+      "message": "Noe gikk galt. Prøv igjen senere."
+    },
+    "maxDepthExceeded": {
+      "title": "Feil under oppdatering av kategorier",
+      "message": "Du kan ikke neste kategorier mer enn to nivåer."
+    },
+    "destinationHasSameName": {
+      "title": "Feil under oppdatering av kategorier",
+      "message": "Det finnes allerede en kategori med samme navn i målkategorien."
+    },
+    "emptyTitle": {
+      "title": "Feil under oppdatering av kategorier",
+      "message": "Kategoritittel kan ikke være tom."
+    },
+    "noSchema": {
+      "title": "Finner ikke skjema",
+      "message": "Finner ikke elementskjema for bruker."
+    },
+    "maxCharacter": {
+      "title": "Feil under oppdatering av kategorier",
+      "message": "Kategorinavn kan inneholde opptil ${maxCharacter} tegn."
+    }
+  },
+  "warning": {
+    "deleteInUseCategory": {
+      "title": "Slett kategori",
+      "message": "${numItem} elementer er tilordnet til denne kategorien. Hvis du sletter kategorien, fjernes den også fra disse elementene.",
+      "cta": "Slett kategori"
+    },
+    "changeTitleInUseCategory": {
+      "title": "Oppdater kategori",
+      "message": "${numItem} elementer er tilordnet til denne kategorien. Hvis du oppdaterer kategorien, oppdateres elementene til å bruke \"${newTitle}\"",
+      "cta": "Oppdater kategori"
+    }
+  },
+  "template": {
+    "title": "Kategorimaler",
+    "learnMore": "Mer informasjon",
+    "templateList": {
+      "custom": {
+        "title": "Egendefinerte kategorier",
+        "message": "Opprett egne kategorier for å organisere innhold i organisasjonen."
+      },
+      "arcgis": {
+        "title": "ArcGIS-kategorier",
+        "message": "ArcGIS-kategorier består av et utvalg temakategorier og underkategorier som kan brukes til å kategorisere ulike typer geografisk innhold. Disse kategoriene brukes som støtte for ArcGIS Living Atlas of the World."
+      },
+      "iso": {
+        "title": "ISO-kategorier",
+        "message": "ISO-kategorier inkluderer temakategorier fra den internasjonale standardiseringsorganisasjonen som gir en metode for å beskrive og katalogisere geografisk informasjon."
+      },
+      "inspire": {
+        "title": "INSPIRE-kategorier",
+        "message": "INSPIRE-kategoriene inkluderer et omfattende sett med romlige datatemaer som definert i INSPIRE-direktivet."
+      }
+    }
+  }
+}

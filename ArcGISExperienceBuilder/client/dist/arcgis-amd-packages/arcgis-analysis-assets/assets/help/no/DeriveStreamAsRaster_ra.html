@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>Verkt&oslash;yet Utled vannl&oslash;p som raster genererer et str&oslash;mningsrasterlag fra et inndata-overflateraster uten krav til foreg&aring;ende utfylling av slukhull eller forsenkninger.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputSurfaceRaster">
+        <div>
+            <p>H&oslash;yderasteret som blir brukt til beregning.
+            </p>
+        </div>
+    </div>
+    <div id="inputDepressionsData">
+        <div>
+            <p>Inndataene som angir lokasjonene for faktiske forsenkninger eller slukhull som vannet kan str&oslash;mme inn i, men ikke ut av.
+            </p>
+        </div>
+    </div>
+    <div id="inputWeightRaster">
+        <div>
+            <p>Rasterlaget som definerer str&oslash;mningsfaktoren som bidrar til str&oslash;mningsakkumulering i hver celle.
+            </p>
+        </div>
+    </div>
+    <div id="accumulationThreshold">
+        <div>
+            <p>Terskelen for &aring; fastsette om en gitt celle er en del av en str&oslash;mning med tanke p&aring; det totale omr&aring;det som flyter inn i en slik celle.
+            </p>
+        </div>
+    </div>
+    <div id="streamDesignationMethod">
+        <div>
+            <p>Angir som str&oslash;mningssegmentene i utdataene har en konstant verdi, unike verdier eller er ordnet.
+            </p>
+        </div>
+    </div>
+    <div id="forceFlow">
+        <div>
+            <p>Angir om str&oslash;mning ved kantceller f&oslash;lger vanlige str&oslash;mningsregler eller alltid str&oslash;mmer utover.
+            </p>
+            <p>Hvis alternativet ikke er valgt, g&aring;r str&oslash;mningen til den indre cellen med det st&oslash;rste fallet i z-verdi. Hvis fallet er mindre enn eller lik null, str&oslash;mmer cellen utover fra overflaterasteret. Hvis alternativet er valgt, er str&oslash;mningsretningen utover fra overflaterasteret.
+            </p>
+        </div>
+    </div>
+    <div id="outputStreamRasterName">
+        <div>
+            <p>Navnet p&aring; str&oslash;mningsrasterlaget som opprettes og legges til i kartet.
+            </p>
+        </div>
+    </div>
+    <div id="resultType">
+        <div>
+            <p>Typen utdata som blir opprettet. Utdata kan v&aelig;re et flisinndelt bildelag eller et dynamisk bildelag.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>Navnet p&aring; mappen i  <b>Mitt innhold</b> der resultatene blir lagret.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

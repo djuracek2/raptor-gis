@@ -1,0 +1,12 @@
+{
+  "value": "Valor",
+  "classname": "ClassName",
+  "color": "Color",
+  "raster": "Ràster",
+  "generate": "Genera la taula",
+  "minValue": "Valor mínim",
+  "maxValue": "Valor màxim",
+  "classBaseName": "Nom de base de la classe",
+  "colorscheme": "Esquema de colors",
+  "defaultClassName": "Label_"
+}

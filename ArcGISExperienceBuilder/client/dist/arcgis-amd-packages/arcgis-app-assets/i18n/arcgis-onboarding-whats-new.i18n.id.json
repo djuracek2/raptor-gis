@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "Pelajari selengkapnya",
+    "title": "Fitur baru di ArcGIS Online",
+    "description": "Pembaruan Februari 2024 mencakup kemampuan dan penyempurnaan baru di seluruh situs web ArcGIS Online."
+  },
+  "pipelines": {
+    "learnMore": "Pelajari selengkapnya",
+    "title": "Mengimpor, membersihkan, dan mentransormasikan data tanpa perlu pengkodean",
+    "description": "Alat seret dan letakkan visual untuk mengumpulkan data dari Amazon S3, Google BigQuery, dan banyak lagi.",
+    "link": "Cobalah ArcGIS Data Pipelines"
+  },
+  "title": "Baru di ArcGIS Online"
+}

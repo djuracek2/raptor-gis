@@ -1,0 +1,9 @@
+{
+  "hostedService": "hostovani",
+  "hostedView": "hostovani, prikaz",
+  "hostedData": "hostovani",
+  "hostedPhotos": "hostovane, fotografije",
+  "photoLocations": "fotografije",
+  "locatorView": "prikaz",
+  "utilityNetwork": "uslužna mreža"
+}

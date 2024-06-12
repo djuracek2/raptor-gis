@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Traçat de xarxa de serveis",_widgetDescription:"Widget per traçar una ArcGIS Utility Network",_action_filter_label:"Filtre"})}}}));

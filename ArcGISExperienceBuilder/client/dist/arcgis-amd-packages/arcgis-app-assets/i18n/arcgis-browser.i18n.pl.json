@@ -1,0 +1,72 @@
+{
+  "browser": {
+    "refineContent": "Zawęź zasoby",
+    "filters": "Filtry",
+    "pageRange": "${start}-${end}, razem: ${total}",
+    "pageRangeAria": "${start}-${end}, łączna liczba elementów: ${total}",
+    "pageRangeWithRecycleBin": "${start}-${end}, łącznie: ${total} (${recycleBinSize}) w koszu",
+    "pageRangeAriaWithRecycleBin": "${start}-${end}, łączna liczba elementów: ${total} (${recycleBinSize}) w koszu",
+    "loading": "Wczytywanie wyników",
+    "close": "Zamknij"
+  },
+  "actions": {
+    "more": "Więcej"
+  },
+  "filter": {
+    "clear": "Wyczyść"
+  },
+  "filterDate": {
+    "today": "Dzisiaj",
+    "yesterday": "Wczoraj",
+    "last7": "Ostatnie 7 dni",
+    "last30": "Ostatnie 30 dni",
+    "custom": "Zakres niestandardowy...",
+    "title": {
+      "created": "Data utworzenia",
+      "modified": "Data modyfikacji"
+    },
+    "created": "Utworzono: ${date}",
+    "modified": "Zmodyfikowano: ${date}"
+  },
+  "pagination": {
+    "next": "Następna strona",
+    "prev": "Poprzednia strona"
+  },
+  "search": {
+    "label": "Wyszukaj grupy",
+    "search": "Szukaj",
+    "clear": "Wyczyść wyszukiwane wyrażenie",
+    "wildcard": "Wyszukiwanie wieloznaczne nie jest obsługiwane."
+  },
+  "sort": {
+    "sortDirection": "Kierunek sortowania",
+    "title": "Tytuł",
+    "relevance": "Dopasowanie",
+    "modified": "Data modyfikacji",
+    "deleted": "Data usunięcia",
+    "created": "Data utworzenia",
+    "size": "Rozmiar",
+    "owner": "Właściciel",
+    "sizeAsc": "Od najmniejszych do największych",
+    "sizeDesc": "Od największych do najmniejszych",
+    "numviews": "Liczba wyświetleń",
+    "numAsc": "Od najmniejszych do największych",
+    "numDesc": "Od największych do najmniejszych",
+    "alphabeticalAsc": "Alfabetycznie",
+    "alphabeticalDesc": "W odwrotnej kolejności alfabetycznej",
+    "recentAsc": "Najstarsze",
+    "recentDesc": "Najnowsze",
+    "sort": "Sortuj",
+    "sortBy": "Sortuj według",
+    "sortByColon": "Sortuj według:"
+  },
+  "topBar": {
+    "filter": "Filtruj"
+  },
+  "filterStatus": {
+    "clear": "Wyczyść",
+    "filters": "Filtry:",
+    "additional": "Dodatkowe aktywne filtry",
+    "clearAllFilters": "Wyczyść wszystkie filtry"
+  }
+}

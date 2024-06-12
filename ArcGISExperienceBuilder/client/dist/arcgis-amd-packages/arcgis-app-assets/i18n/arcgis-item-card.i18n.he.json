@@ -1,0 +1,10 @@
+{
+  "select": "בחר פריט: ${title}",
+  "lastUpdated": "פריט עודכן: ${date}",
+  "viewItemDetails": "הצג פרטים נוספים אודות ${title}",
+  "preview": "פרטים נוספים",
+  "hidePreview": "פחות פרטים",
+  "closeDetails": "סגור לוח פרטי פריט",
+  "openDetails": "פתח לוח פרטי פריט",
+  "moreOptions": "עוד אפשרויות"
+}

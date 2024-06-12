@@ -1,0 +1,10 @@
+{
+  "outputRaster": "IzhodniRaster",
+  "rfxVariable": "Spremenljivka rastrske funkcije",
+  "selectLayer": "Izberite sloj",
+  "allowScalar": "Izberi sloj ali vnesi konstanto",
+  "browseLayer": "Prebrskaj sloje",
+  "loading": "Nalaganje...",
+  "layerMissing": "Enega ali več slojev karte tukaj ni navedenih, ker ne dovoljujejo analize. Več o tem.",
+  "layerFailedToLoad": "Nalaganje sloja ni uspelo."
+}

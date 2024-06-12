@@ -1,0 +1,149 @@
+{
+  "deleteItem": "Kustuta sisuüksus",
+  "deleteItems": "Kustuta üksused",
+  "deleteFolder": "Kustuta kaust",
+  "recycleBin": "Prügikast",
+  "delete": "Kustuta",
+  "permanentlyDelete": "Kustuta jäädavalt",
+  "back": "Tagasi",
+  "cancel": "Loobu",
+  "item": "üksus",
+  "items": "üksused",
+  "cantDelete": "Järgmisi sisuüksusi ei saa kustutada, kuna need on kustutamise eest kaitstud või neil on sõltuvad sisuüksused.",
+  "proceed": "Kas jätkata ülejäänud üksuste kustutamisega?",
+  "moreOptions": "Rohkem valikuid",
+  "hideOptions": "Peida valikud",
+  "deletePermanently": "Kustuta jäädavalt (seda toimingut ei saa tagasi võtta)",
+  "learnMore": "Lisainfo",
+  "summary": {
+    "select": "Vali",
+    "deselect": "Tühista valik",
+    "selectedItems": "Valitud sisuüksused:",
+    "permanentlyDelete": "Kustuta jäädavalt:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "Prügikast ei toeta seda sisuüksust.",
+        "multiple": "Prügikast ei toeta neid sisuüksusi."
+      },
+      "unsynchronized": "Jagatud koostöö grupis tehtud sünkroonimata muudatused lähevad kaotsi.",
+      "notSupportedAndUnsynchronized": "Mõnda sisuüksuse tüüpi ei toetata. Jagatud koostöö grupis tehtud sünkroonimata muudatused lähevad kaotsi.",
+      "group": {
+        "notSupported": "Ei ole toetatud",
+        "distributedCollaboration": "Jagatud koostöö osa"
+      }
+    },
+    "canBeRecovered": {
+      "single": "Seda sisüksust saab taastada kuni ${days}päeva jooksul.",
+      "multiple": "Neid sisuüksusi saab taastada kuni ${days} päeva jooksul.",
+      "unknown": "Neid sisuüksusi saab taastada kuni ${days} päeva jooksul."
+    },
+    "willBeRecycled": "Saada prügikasti:",
+    "cannotBeDeleted": "Ei saa kustutada:",
+    "deleteDiscouraged": "Kustuta heitunud:",
+    "hasDependentItems": "Omab sõltuvaid üksusi:",
+    "someActionsMayNoLongerWork": {
+      "single": "Kui saadate selle üksuse prügiaksti, ei pruugi mõned lähteüksusele juurdepääsu nõudvad toimingu enam eeldatult töötada.",
+      "multiple": "Kui saadate selle üksuse prügiaksti, ei pruugi mõned lähteüksusele juurdepääsu nõudvad toimingu enam eeldatult töötada."
+    },
+    "cannotDelete": {
+      "all": "Üksusi, mis on kustutuskaitsega, mis on osa jagatud koostöö rühmast või millel on sõltuvad üksused, ei saa kustutada.",
+      "protectedAndCollaboration": "Üksusi, mis on kustutuskaitsega või mis on jagatud koostöögrupi osaks, ei saa kustutada.",
+      "protectedAndDependent": "Üksusi, mis on kustutuskaitsega või millel on sõltuvaid üksusi, ei saa kustutada.",
+      "collaborationAndDependent": "Üksusi, mis on jagatud koostöögrupi osaks või millel on sõltuvaid üksusi, ei saa kustutada."
+    },
+    "deletePermanently": "Kustuta jäädavalt: ${count} (seda toimingut ei saa tagasi võtta)",
+    "deleteAllPermanently": "Kustuta kõik üksused jäädavalt: ${count} (seda toimingut ei saa tagasi võtta)",
+    "deleteXPermanently": "Kustutage jäädavalt ${subset}/${total} üksust (seda toimingut ei saa tagasi võtta)",
+    "protectedGroup": {
+      "deleteProtected": "Kustutamiskaitsega",
+      "deleteProtectedDescription": "Kustutuskaitsega üksusi ei saa kustutada.",
+      "hasDependentItems": "Omab sõltuvaid üksusi",
+      "itemUsedBy": "Seda üksust on kasutanud:",
+      "hasDependentItemsDescription": {
+        "single": "Sellel üksusel on sõltuv üksus. Need tuleb koos kustutada.",
+        "multiple": "Nendel sisuüksustel on sõltuvad sisuüksused. Need tuleb koos kustutada."
+      },
+      "distributedCollaboration": "Jagatud koostöö osa",
+      "distributedCollaborationDescription": "Üksusi, mis on jagatud koostöögrupi osaks, ei saa kustutada.",
+      "deleteDiscouraged": "Kustuta heitunud",
+      "deleteDiscouragedDescription": {
+        "single": "Selle sisuüksuse kustutamise korral võivad sõltuvad sisuüksused kaotada mõne oma funktsiooni. Selle sisuüksuse saate kustutada sisuüksuse üksikasjade lehel.",
+        "multiple": "Nende sisuüksuste kustutamise korral võivad sõltuvad sisuüksused kaotada mõne oma funktsiooni. Need sisuüksused saate ükshaaval kustutada sisuüksuse üksikasjade lehel."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "See üksus kustutatakse jäädavalt, kuna prügikast ei toeta seda.",
+    "multiple": "Need üksused kustutatakse jäädavalt, kuna prügikast ei toeta neid.",
+    "unknown": "Need üksused kustutatakse jäädavalt, kuna prügikast ei toeta neid."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "Valitud üksus kuulub jagatud koostöö gruppi ja seda ei saa prügikasti teisaldada. See kustutatakse jäädavalt.",
+    "multiple": "Valitud üksused kuuluvad jagatud koostöö gruppi ja neid ei saa prügikasti teisaldada. Need kustutatakse jäädavalt.",
+    "unknown": "Valitud üksused kuuluvad jagatud koostöö gruppi ja neid ei saa prügikasti teisaldada. Need kustutatakse jäädavalt."
+  },
+  "areYouSure": {
+    "single": "Kas soovite selle sisuüksuse kindlasti kustutada?",
+    "multiple": "Kas soovite kindlasti need sisuüksused kustutada?",
+    "unknown": "Kas soovite kindlasti need sisuüksused kustutada?"
+  },
+  "areYouSureRecycle": {
+    "single": "See üksus jääb prügikasti ${days} päevaks, enne kui see jäädavalt kustutatakse.",
+    "multiple": "Need üksused jäävad prügikasti ${days} päevaks, enne kui need jäädavalt kustutatakse.",
+    "unknown": "Need üksused jäävad prügikasti ${days} päevaks, enne kui need jäädavalt kustutatakse."
+  },
+  "areYouSurePermanent": {
+    "single": "Kas soovite kindlasti selle sisuüksuse ${number} jäädavalt kustutada? Seda sisuüksust ${carrot} ei saa pärast jäädavalt kustutamist enam taastada.",
+    "multiple": "Kas soovite need üksused jäädavalt kustutada? Neid üksusi ei saa pärast jäädavalt kustutamist enam taastada.",
+    "unknown": "Kas soovite need üksused jäädavalt kustutada? Neid üksusi ei saa pärast jäädavalt kustutamist enam taastada."
+  },
+  "folder": {
+    "mustBeEmpty": "Kaust <b>${folder}</b> peab kustutamiseks olema tühi.",
+    "aFewCannotBeDeleted": "Mõnda üksust ei saa kustutada. Kas soovite kindlasti ülejäänute kustutamisega jätkata?",
+    "mustBeEmptyProceed": "Kaust <b>${folder}</b> peab kustutamiseks olema tühi. Kas soovite kindlasti nende üksuste kustutamisega jätkata?",
+    "cannotBeDeleted": "Kausta <b>${folder}</b> ei saa kustutada, kuna selle üksusi ei saa kustutada."
+  },
+  "deletes": {
+    "single": "Kustutatakse ${days} päeva pärast",
+    "multiple": "Kustutatakse ${days} päeva pärast",
+    "unknown": "Päevi kustutamiseni: ${days}"
+  },
+  "deleteOverride": {
+    "single": "Kas soovite kindlasti selle asemel selle üksuse jäädavalt kustutada? Seda toimingut ei saa tagasi võtta.",
+    "multiple": "Kas soovite kindlasti selle asemel need üksused jäädavalt kustutada? Seda toimingut ei saa tagasi võtta."
+  },
+  "restore": {
+    "restore": "Taasta",
+    "restoreTo": "Taasta kausta",
+    "restoreItem": "Taasta üksus",
+    "restoreItems": "Taasta üksused",
+    "noticeMessage": "Taastatud üksuste jagamine tühistatakse. Vaadake sisu üle enne jagamist uuesti üle.",
+    "cannotBulkRestoreXItems": "Rohkem kui ${number} üksust ei saa hulgitaastada. Tühistage mõne üksuse valik.",
+    "cannotBulkRestoreMultipleOwners": "Erinevatele omanikele kuuluvaid üksusi ei saa hulgitaastada. Valige hulgitaastamiseks ühe omaniku üksused.",
+    "toRestore": {
+      "single": "Taastatav üksus:",
+      "multiple": "Taastatavad üksused:"
+    },
+    "cannotRestore": "Ei saa taastada:",
+    "dependentItems": {
+      "single": "Seda üksust ei saa taastada, kuna see sõltub üksusest <b>${parent}</b>. Taastage need koos.",
+      "multiple": "Neid üksusi ei saa taastada, kuna need sõltuvad muudest üksustest prügikastis. Taastage need koos: "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "Kas soovite taastada juhuslikult kustutatud üksuse? Tutvuge uue prügikastiga.",
+    "takeALook": "Vaadake uut prügikasti.",
+    "learnMore": "Lugege lisateavet kustutatud üksuste taastamise kohta",
+    "heldInRecycleBin": "Üksusi hoitakse prügikastis kuni ${days} päeva.",
+    "goToUserRecycleBin": "Avage üksuste taastamiseks või jäädavalt kustutamiseks oma ${linkStart}prügikast recycle bin${linkEnd}.",
+    "goToOrgRecycleBin": "Avage üksuste taastamiseks või jäädavalt kustutamiseks oma ${linkStart}organisatsiooni prügikast${linkEnd}. Prügikastis olev sisu tarbib jätkuvalt krediite."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "${start} – ${end}/${total} (${size}) prügikastis",
+    "other": "${start} – ${end}, kokku: ${total} (${size}) prügikastis"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "${start} – ${end}/${total} (>${size}) prügikastis",
+    "other": "${start} – ${end}, kokku: ${total} (>${size}) prügikastis"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "Daha fazla bilgi",
+    "title": "ArcGIS Online'daki Yeni Özellikler",
+    "description": "Şubat 2024 güncellemesi, ArcGIS Online web sitesi genelinde yeni yetenekler ve geliştirmeler içermektedir."
+  },
+  "pipelines": {
+    "learnMore": "Daha fazla bilgi",
+    "title": "Verileri herhangi bir kodlamaya gerek kalmadan içe aktarın, temizleyin ve dönüştürün.",
+    "description": "Amazon S3, Google BigQuery ve daha fazlasından veri almak için görsel sürükle ve bırak araçları.",
+    "link": "ArcGIS Data Pipelines'ı deneyin"
+  },
+  "title": "ArcGIS Online'da Yeni"
+}

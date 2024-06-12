@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "เรียนรู้เพิ่มเติม",
+    "title": "ฟีเจอร์ใหม่ๆ ใน ArcGIS Online",
+    "description": "การอัปเดตเดือนกุมภาพันธ์ปี 2024 มาพร้อมความสามารถและการปรับใหม่ต่างๆ บนเว็บไซต์ ArcGIS Online"
+  },
+  "pipelines": {
+    "learnMore": "เรียนรู้เพิ่มเติม",
+    "title": "นำเข้า จัดระเบียบ และแปลงข้อมูลโดยไม่ต้องเขียนโค้ด",
+    "description": "เครื่องมือลากและวางแบบวิชวล เพื่ออินเจสต์ข้อมูลจาก Amazon S3, Google BigQuery และอื่นๆ",
+    "link": "ลองใช้ ArcGIS Data Pipelines"
+  },
+  "title": "ใหม่ใน ArcGIS Online"
+}

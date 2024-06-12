@@ -1,0 +1,16 @@
+{
+  "cancel": "Abbrechen",
+  "reset": "Zurücksetzen",
+  "resetting": "Wird zurückgesetzt...",
+  "save": "Speichern",
+  "saving": "Wird gespeichert...",
+  "itemClassificationLabel": "Sicherheitseinstufung",
+  "itemClassificationCategoryLabel": "Beschriftung der Elementklassifizierungskategorie",
+  "itemClassificationEditLabel": "Klassifizierung bearbeiten",
+  "itemClassificationValidateError": "Validierung fehlgeschlagen. Der Elementklassifizierungswert wird nicht eingetragen! Bearbeiten Sie einen neuen Wert, und speichern Sie ihn.",
+  "classificationValueSaved": "Der Klassifizierungswert wurde gespeichert",
+  "classificationNotificationHandler": "Klassifizierungsbenachrichtigungshandler",
+  "openModal": "Modale Registerkarte öffnen",
+  "currentSelections": "Aktuelle Auswahl",
+  "searchForCategory": "Nach Kategorie suchen"
+}

@@ -1,0 +1,455 @@
+{
+  "rolePrivileges": "امتيازات الدور",
+  "setFromExisting": "تعيين من دور موجود",
+  "expandAll": "توسيع الكل",
+  "generalPrivileges": "الامتيازات العامة",
+  "adminPrivileges": "امتيازات المسؤول",
+  "enabledLabel": "تم التمكين:",
+  "enableAll": "تمكين الكل",
+  "disableAll": "تعطيل الكل",
+  "members": "الأعضاء",
+  "groups": "المجموعات",
+  "content": "المحتوى",
+  "sharing": "مشاركة",
+  "premiumContent": "محتوى مُميز",
+  "features": "المعالم",
+  "versionMgmt": "إدارة الإصدار",
+  "webhooks": "خطافات الويب",
+  "marketplaceSubscriptions": "اشتراكات ArcGIS Marketplace",
+  "orgSettings": "إعدادات المؤسسة",
+  "learnMore": "تعرّف على المزيد",
+  "searchPrivileges": "امتيازات البحث",
+  "notebooks": "مفكرات",
+  "analysis": "تحليل",
+  "networkAnalysis": "تحليل الشبكة",
+  "privileges": {
+    "portal:user:viewOrgUsers": {
+      "label": "عرض",
+      "description": "السماح للعضو بعرض أعضاء المؤسسة.",
+      "descriptionPortal": "اسمح للعضو بعرض أعضاء البوابة."
+    },
+    "portal:user:createGroup": {
+      "label": "إنشاء، وتحديث، وحذف",
+      "description": "اسمح للعضو بإنشاء مجموعاته الخاصة وتحريرها وحذفها."
+    },
+    "portal:user:joinGroup": {
+      "label": "الانضمام إلى مجموعات مؤسسية",
+      "description": "اسمح للعضو بضم المجموعات إلى المؤسسة.",
+      "descriptionPortal": "اسمح للعضو بضم المجموعات إلى البوابة."
+    },
+    "portal:user:joinNonOrgGroup": {
+      "label": "الانضمام إلى مجموعات خارجية",
+      "description": "اسمح للعضو بضم المجموعات الخارجية إلى المؤسسة.",
+      "descriptionPortal": "اسمح للعضو بضم المجموعات الخارجية إلى البوابة."
+    },
+    "portal:user:viewOrgGroups": {
+      "label": "عرض المجموعات المشترَكة مع المؤسسة",
+      "description": "اسمح للعضو بعرض المجموعات المشتركة مع المؤسسة.",
+      "descriptionPortal": "اسمح للعضو بعرض المجموعات المشتركة مع البوابة."
+    },
+    "portal:user:invitePartneredCollaborationMembers": {
+      "label": "دعوة أعضاء مؤسسة مشتركة",
+      "description": "اسمح للعضو بدعوة أعضاء من مؤسسات التعاون المشترك إلى المجموعات."
+    },
+    "portal:user:addExternalMembersToGroup": {
+      "label": "إضافة أعضاء من مؤسسات أخرى",
+      "description": "اسمح للأعضاء بإنشاء مجموعات تسمح لأعضاء من مؤسسات أخرى، وكذلك دعوة أعضاء خارجيين إلى المجموعات."
+    },
+    "portal:user:createItem": {
+      "label": "إنشاء، وتحديث، وحذف",
+      "description": "اسمح للعضو بإنشاء محتواه الخاص وتحريره وحذفه."
+    },
+    "portal:publisher:publishFeatures": {
+      "label": "نشر طبقات المعالم المستضافة",
+      "description": "السماح للعضو بنشر طبقات المعالم المستضافة من ملفات شكل أو CSV أو ما إلى ذلك."
+    },
+    "portal:publisher:publishTiles": {
+      "label": "نشر طبقات التجانب المُستضافة",
+      "description": "اسمح للعضو بنشر طبقات التجانب المستضافة من حزم التجانبات أو المعالم أو ما إلى ذلك."
+    },
+    "portal:publisher:publishScenes": {
+      "label": "نشر طبقات المشاهد المستضافة",
+      "description": "اسمح للأعضاء بنشر طبقات المشاهد المستضافة."
+    },
+    "portal:publisher:publishTiledImagery": {
+      "label": "نشر طبقات الصور المتجانبة المُستضافة",
+      "description": "اسمح للعضو بنشر طبقات الصور المتجانبة المستضافة من صورة فردية أو مجموعة صور. يتطلب ملحق نوع مستخدم ArcGIS Image for ArcGIS Online.",
+      "descriptionPortal": "اسمح للعضو بنشر طبقات الصور المتجانبة المستضافة من صورة فردية أو مجموعة صور."
+    },
+    "portal:publisher:publishDynamicImagery": {
+      "label": "نشر طبقات الصور المُستضافة الديناميكية",
+      "description": "اسمح للعضو بنشر طبقات الصور المستضافة الديناميكية من صورة فردية أو مجموعة صور."
+    },
+    "portal:publisher:publishServerServices": {
+      "label": "نشر الطبقات التي تعتمد على الخادم",
+      "description": "يمنح هذا الامتياز إمكانية نشر الطبقات التي تشغلها الخدمات من مواقع الخادم الموحد. وغالبًا ما تشير هذه الخدمات إلى البيانات المسجلة من قواعد البيانات الجغرافية أو مصادر الملفات التي تعتمد على الملفات."
+    },
+    "portal:publisher:publishKnowledgeGraph": {
+      "label": "نشر الرسوم البيانية المعرفية المستضافة",
+      "description": "السماح للأعضاء بنشر الرسوم البيانية المعرفية المستضافة."
+    },
+    "portal:user:viewOrgItems": {
+      "label": "عرض المحتوى المشترَك مع المؤسسة",
+      "description": "اسمح للعضو بعرض المحتوى المشترك إلى المؤسسة.",
+      "descriptionPortal": "اسمح للعضو بعرض المحتوى المشترك إلى البوابة."
+    },
+    "premium:publisher:createNotebooks": {
+      "label": "إنشاء وتحرير دفاتر الملاحظات",
+      "description": "اسمع للعضو بإنشاء دفاتر ملاحظات تفاعلية وتحريرها."
+    },
+    "premium:publisher:scheduleNotebooks": {
+      "label": "جدول دفاتر الملاحظات",
+      "description": "اسمح للعضو بجدولة عمليات التشغيل التلقائية المستقبلية لدفتر الملاحظات."
+    },
+    "portal:publisher:bulkPublishFromDataStores": {
+      "label": "إنشاء طبقات معالم بشكل مجمع من مخزن بيانات",
+      "description": "يمنح هذا الامتياز إمكانية نشر طبقات الويب من مخزن بيانات مسجل."
+    },
+    "portal:publisher:registerDataStores": {
+      "label": "تسجيل مخازن البيانات",
+      "description": "يوفر هذا الامتياز \"تسجيل مخزن البيانات\" إمكانية تسجيل متاجر البيانات إلى البوابة الإلكترونية."
+    },
+    "portal:user:viewTracks": {
+      "label": "عرض تعقب الموقع",
+      "description": "السماح للعضو بعرض مسارات موقع الأعضاء عبر عروض التعقب المشتركة عند تمكين خاصية مشاركة الموقع."
+    },
+    "portal:user:reassignItems": {
+      "label": "إعادة تعيين المحتوى",
+      "description": "السماح للعضو بإعادة تعيين المحتوى الخاص به فقط إلى عضو آخر يتمتع بامتياز استلام المحتوى."
+    },
+    "portal:user:receiveItems": {
+      "label": "استلام المحتوى",
+      "description": "السماح للعضو بتلقي المحتوى الذي أُعيد تعيينه له بواسطة عضو آخر مع امتياز إعادة تعيين المحتوى."
+    },
+    "portal:publisher:publishFeeds": {
+      "label": "نشر الموجزات",
+      "description": "يوفر هذا الامتياز القدرة على نشر الموجزات لاستيعاب البيانات وعرضها في الوقت الفعلي باستخدام ArcGIS Velocity."
+    },
+    "portal:publisher:publishRealTimeAnalytics": {
+      "label": "نشر التحليلات في الوقت الحقيقي",
+      "description": "يوفر هذا الامتياز القدرة على نشر التحليلات في الوقت الفعلي لتحليل البيانات ومعالجتها في الوقت الفعلي باستخدام ArcGIS Velocity."
+    },
+    "portal:publisher:publishBigDataAnalytics": {
+      "label": "نشر تحليلات البيانات الضخمة",
+      "description": "يوفر هذا الامتياز القدرة على نشر تحليلات البيانات الضخمة لتحليل بيانات الملاحظة التاريخية باستخدام ArcGIS Velocity."
+    },
+    "portal:publisher:createDataPipelines": {
+      "label": "إنشاء خطوط أنابيب البيانات وتشغيلها",
+      "description": "اسمح للعضو بإنشاء خطوط أنابيب البيانات وتحريرها وتشغيلها."
+    },
+    "portal:publisher:publishLivestreamVideo": {
+      "label": "نشر فيديو البث المباشر",
+      "description": "اسمح للعضو بنشر طبقات فيديو البث المباشر المستضافة التي تم الحصول عليها من عمليات بث وتدفق فيديو الشبكة."
+    },
+    "portal:publisher:publishVideo": {
+      "label": "نشر الفيديو",
+      "description": "اسمح للعضو بنشر طبقات الفيديو المستضافة من ملفات الفيديو وملفات بيانات تعريف الفيديو المدعومة."
+    },
+    "portal:user:shareToGroup": {
+      "label": "المشاركة مع المجموعات",
+      "description": "اسمح للعضو بمشاركة المحتوى مع المجموعات."
+    },
+    "portal:user:shareToOrg": {
+      "label": "المشاركة مع المؤسسة",
+      "labelPortal": "المشاركة مع البوابة الإلكترونية",
+      "description": "اسمح للعضو بمشاركة المحتوى مع المؤسسة.",
+      "descriptionPortal": "اسمح للعضو بمشاركة المحتوى مع البوابة."
+    },
+    "portal:user:shareToPublic": {
+      "label": "المشاركة مع الجميع",
+      "description": "اسمح للأعضاء مشاركة محتواهم علنًا إن سمحت لهم المؤسسة بذلك بموجب سياسة المشاركة للجمهور.",
+      "tooltip": "إن لم تسمح المؤسسة للأعضاء بمشاركة محتواهم علنًا، فسيحتاج الأعضاء إلى الامتياز الإداري لمشاركة محتوى الأعضاء مع الجمهور."
+    },
+    "portal:user:shareGroupToOrg": {
+      "label": "المشاركة مع البوابة الإلكترونية",
+      "description": "اسمح للعضو بمشاركة المحتوى مع المؤسسة.",
+      "descriptionPortal": "اسمح للعضو بمشاركة المحتوى مع البوابة."
+    },
+    "portal:user:shareGroupToPublic": {
+      "label": "جعل المجموعات مرئية للجميع",
+      "description": "اسمح للعضو بجعل المجموعات قابلة للاكتشاف من قبل الجميع."
+    },
+    "opendata:user:designateGroup": {
+      "label": "جعل المجموعات متاحة للبيانات المفتوحة",
+      "description": "اسمح للعضو بتخصيص المجموعات لتكون متاحة للاستخدام في \"البيانات المفتوحة\"."
+    },
+    "premium:user:elevation": {
+      "label": "الارتفاع",
+      "description": "الوصف"
+    },
+    "premium:user:geocode": {
+      "label": "التكويد الجغرافي",
+      "description": "اسمح للعضو بتنفيذ مهام التكويد الجغرافي المستهلكة للرصيد باستخدام ArcGIS World Geocoding Service (أو بعرض محدد الموقع هذا)."
+    },
+    "premium:user:geocode:stored": {
+      "label": "الترميز الجغرافي المخزن",
+      "description": "الوصف"
+    },
+    "premium:user:geocode:temporary": {
+      "label": "الترميز الجغرافي المؤقت",
+      "description": "الوصف"
+    },
+    "premium:user:networkanalysis": {
+      "label": "تحليل الشبكة",
+      "description": "السماح للعضو بتنفيذ مهام تحليل الشبكة مثل التوجيه ومناطق وقت القيادة."
+    },
+    "premium:user:networkanalysis:closestfacility": {
+      "label": "تحليل أقرب مرفق",
+      "description": "الوصف"
+    },
+    "premium:user:networkanalysis:locationallocation": {
+      "label": "تحليل تخصيص الموقع",
+      "description": "الوصف"
+    },
+    "premium:user:networkanalysis:routing": {
+      "label": "التوجيه الأساسي",
+      "description": "الوصف"
+    },
+    "premium:user:networkanalysis:optimizedrouting": {
+      "label": "أداء توجيه مُحسن",
+      "description": "الوصف"
+    },
+    "premium:user:networkanalysis:vehiclerouting": {
+      "label": "توجيه المركبة",
+      "description": "الوصف"
+    },
+    "premium:user:networkanalysis:origindestinationcostmatrix": {
+      "label": "مصفوفة الأصل/الوجهة",
+      "description": "الوصف"
+    },
+    "premium:user:networkanalysis:servicearea": {
+      "label": "منطقة الخدمة",
+      "description": "الوصف"
+    },
+    "premium:user:places": {
+      "label": "الأماكن",
+      "description": "الوصف"
+    },
+    "premium:user:spatialanalysis": {
+      "label": "التحليل المكاني",
+      "labelPortal": "تحليل المعلم القياسي",
+      "description": "اسمح للعضو بتنفيذ مهام التحليل المكاني.",
+      "descriptionPortal": "تمنح هذه الامتيازات إمكانية القيام بمهام تحليل المعلم القياسي."
+    },
+    "premium:user:geoenrichment": {
+      "label": "GeoEnrichment",
+      "description": "السماح للعضو بإثراء المعالم جغرافيًا."
+    },
+    "premium:user:demographics": {
+      "label": "التوزيع الديموغرافي",
+      "description": "السماح للعضو باستخدام البيانات الديموغرافية."
+    },
+    "premium:publisher:geoanalytics": {
+      "label": "تحليل معالم GeoAnalytics",
+      "description": "يمنحك هذا الامتياز القدرة على تنفيذ مهام GeoAnalytics."
+    },
+    "premium:publisher:rasteranalysis": {
+      "label": "تحليل الصور",
+      "description": "اسمح للعضو بتنفيذ مهام تحليل الصور. يتطلب ملحق نوع مستخدم ArcGIS Image for ArcGIS Online.",
+      "descriptionPortal": "اسمح للعضو بتنفيذ مهام تحليل الصور."
+    },
+    "premium:publisher:createAdvancedNotebooks": {
+      "label": "دفاتر الملاحظات المتقدمة",
+      "description": "اسمح للعضو باستيراد وحدات ArcPy النمطية واستخدامها في دفاتر الملاحظات."
+    },
+    "portal:user:runWebTool": {
+      "label": "تشغيل أدوات الويب",
+      "description": "السماح للأعضاء بتشغيل أدوات الويب المنشورة من دفاتر الملاحظات."
+    },
+    "premium:user:featurereport": {
+      "label": "تقرير المعلم",
+      "description": "السماح للعضو بإنشاء تقارير المعالم في Survey123."
+    },
+    "features:user:edit": {
+      "label": "تحرير",
+      "description": "اسمح للعضو بتحرير المعالم في الطبقات القابلة للتحرير، التي ليست عامة، حسب خيارات التحرير الممكنة في الطبقة."
+    },
+    "features:user:fullEdit": {
+      "label": "تحرير مع التحكم الكامل",
+      "description": "اسمح للعضو بإضافة المعالم وحذفها وتحديثها في طبقة معالم مستضافة قابلة للتحرير، بغض النظر عن خيارات التحرير الممكنة على الطبقة."
+    },
+    "features:user:manageVersions": {
+      "label": "إدارة الكل",
+      "description": "اسمح للأعضاء بإدارة عمليات تأمين الإصدار والعرض والتعديل والحذف والتحرير والتسوية والنشر إلى كل إصدارات الفرع التي يتم الوصول إليها من خلال طبقات معالم خادم ArcGIS Server."
+    },
+    "portal:publisher:createFeatureWebhook": {
+      "label": "طبقة المعالم",
+      "description": "اسمح للأعضاء بإنشاء وتحرير وحذف خطافات الويب الخاصة بطبقة المعالم الخاصة بهم."
+    },
+    "portal:admin:viewUsers": {
+      "label": "عرض الكل",
+      "description": "السماح للعضو بعرض معلومات حساب العضو كاملة داخل مؤسستك.",
+      "descriptionPortal": "السماح للعضو بعرض معلومات حساب العضو كاملة داخل بوابتك."
+    },
+    "portal:admin:updateUsers": {
+      "label": "تحديث",
+      "description": "اسمح للأعضاء بإعادة تعيين كلمات المرور وتحديث معلومات حساب الأعضاء وتحديث فئات الأعضاء داخل مؤسستك.",
+      "descriptionPortal": "اسمح للأعضاء بإعادة تعيين كلمات المرور وتحديث معلومات حساب الأعضاء وتحديث فئات الأعضاء داخل بوابتك الإلكترونية."
+    },
+    "portal:admin:deleteUsers": {
+      "label": "حذف",
+      "description": "السماح للعضو بحذف حسابات الأعضاء داخل مؤسستك.",
+      "descriptionPortal": "السماح للعضو بحذف حسابات الأعضاء داخل بوابتك."
+    },
+    "portal:admin:inviteUsers": {
+      "label": "إضافة",
+      "labelPortal": "دعوة",
+      "description": "السماح للعضو بدعوة الأعضاء إلى مؤسستك.",
+      "descriptionPortal": "السماح للعضو بدعوة الأعضاء إلى بوابتك."
+    },
+    "portal:admin:disableUsers": {
+      "label": "تعطيل",
+      "description": "السماح للعضو بتمكين حسابات الأعضاء داخل مؤسستك وتعطيلها.",
+      "descriptionPortal": "السماح للعضو بتمكين حسابات الأعضاء داخل بوابتك وتعطيلها."
+    },
+    "portal:admin:changeUserRoles": {
+      "label": "تغيير الأدوار",
+      "description": "السماح للعضو بتغيير دور معين لحساب عضو. لاحظ أنه يمكن فقط للأعضاء الذين لديهم دور المسؤول تعيين دور المسؤول لحسابات أخرى أو إلغاء تعيينه.",
+      "descriptionPortal": "السماح للعضو بتغيير دور معين لحساب عضو. لاحظ أنه يمكن فقط للأعضاء الذين لديهم دور المسؤول تعيين دور المسؤول لحسابات أخرى أو إلغاء تعيينه."
+    },
+    "portal:admin:manageLicenses": {
+      "label": "إدارة التراخيص",
+      "description": "اسمح للعضو بتعيين التراخيص إلى أعضاء المؤسسة.",
+      "descriptionPortal": "اسمح للعضو بتعيين التراخيص إلى أعضاء البوابة."
+    },
+    "portal:admin:updateMemberCategorySchema": {
+      "label": "إدارة الفئات",
+      "description": "السماح للعضو بتكوين فئات أعضاء المؤسسة.",
+      "descriptionPortal": "السماح للعضو بتكوين فئات أعضاء البوابة."
+    },
+    "portal:admin:viewGroups": {
+      "label": "عرض الكل",
+      "description": "السماح للعضو بعرض كل المجموعات داخل المؤسسة.",
+      "descriptionPortal": "السماح للعضو بعرض كل المجموعات داخل البوابة."
+    },
+    "portal:admin:updateGroups": {
+      "label": "تحديث",
+      "description": "السماح للعضو بتحديث المجموعات داخل المؤسسة.",
+      "descriptionPortal": "السماح للعضو بتحديث المجموعات داخل البوابة."
+    },
+    "portal:admin:deleteGroups": {
+      "label": "حذف",
+      "description": "السماح للعضو بحذف المجموعات داخل المؤسسة.",
+      "descriptionPortal": "السماح للعضو بحذف المجموعات داخل البوابة."
+    },
+    "portal:admin:reassignGroups": {
+      "label": "إعادة تعيين الملكية",
+      "description": "السماح للعضو بإعادة تعيين المجموعات لأعضاء آخرين داخل المؤسسة.",
+      "descriptionPortal": "السماح للعضو بإعادة تعيين المجموعات لأعضاء آخرين داخل البوابة."
+    },
+    "portal:admin:assignToGroups": {
+      "label": "تعيين الأعضاء",
+      "description": "السماح للعضو بتعيين الأعضاء وتحديث دور مجموعة الأعضاء وإزالة الأعضاء من المجموعات داخل المؤسسة.",
+      "descriptionPortal": "السماح للعضو بتعيين الأعضاء وتحديث دور مجموعة الأعضاء وإزالة الأعضاء من المجموعات داخل البوابة."
+    },
+    "portal:admin:manageEnterpriseGroups": {
+      "label": "الارتباط بمجموعة خاصة بالمؤسسة",
+      "description": "اسمح للعضو بربط عضوية المجموعة بمجموعة خاصة بالمؤسسة."
+    },
+    "portal:admin:createUpdateCapableGroup": {
+      "label": "إنشاء باستخدام إمكانات التحديث",
+      "description": "السماح للعضو بإنشاء مجموعات مع تحديث الإمكانات."
+    },
+    "portal:admin:createLeavingDisallowedGroup": {
+      "label": "إنشاء مع عدم السماح بالمغادرة",
+      "description": "السماح للعضو لإنشاء وامتلاك مجموعات لا تسمح للأعضاء المغادرة (مجموعات إدارية)."
+    },
+    "portal:admin:viewItems": {
+      "label": "عرض الكل",
+      "description": "السماح للعضو بعرض كل المحتوى داخل المؤسسة.",
+      "descriptionPortal": "السماح للعضو بعرض كل المحتوى داخل البوابة."
+    },
+    "portal:admin:updateItems": {
+      "label": "تحديث",
+      "description": "اسمح للعضو بتحديث المحتوى وتصنيفه وتحرير طبقات المعالم المستضافة في مؤسستك.",
+      "descriptionPortal": "اسمح للعضو بتحديث المحتوى وتصنيفه وتحرير طبقات المعالم المستضافة في المدخل الخاص بك."
+    },
+    "portal:admin:deleteItems": {
+      "label": "حذف",
+      "description": "السماح للعضو بحذف المحتوى داخل المؤسسة.",
+      "descriptionPortal": "السماح للعضو بحذف المحتوى داخل البوابة."
+    },
+    "portal:admin:reassignItems": {
+      "label": "إعادة تعيين الملكية",
+      "description": "السماح للعضو بإعادة تعيين المحتوى لأعضاء آخرين داخل المؤسسة.",
+      "descriptionPortal": "السماح للعضو بإعادة تعيين المحتوى لأعضاء آخرين داخل البوابة."
+    },
+    "portal:admin:updateItemCategorySchema": {
+      "label": "إدارة الفئات",
+      "description": "السماح للعضو بتكوين فئات محتوى المؤسسة.",
+      "descriptionPortal": "السماح للعضو بتكوين فئات محتوى البوابة."
+    },
+    "portal:publisher:publishServerGPServices": {
+      "label": "نشر أدوات الويب",
+      "description": "يمنح هذا الامتياز إمكانية نشر أدوات الويب التي تم نسخها احتياطيًا بواسطة خدمات المعالجة الجغرافية من مواقع الخادم الموحد."
+    },
+    "portal:admin:shareToOrg": {
+      "label": "مشاركة محتوى الأعضاء مع المؤسسة",
+      "description": "اسمح للأعضاء بمشاركة المحتوى المملوك لأعضاء آخرين في مؤسستك مع المؤسسة.",
+      "descriptionPortal": "اسمح للعضو بمشاركة المحتوى المملوك لأعضاء آخرين في بوابتك الإلكترونية مع البوابة الإلكترونية."
+    },
+    "portal:admin:shareToPublic": {
+      "label": "مشاركة محتوى الأعضاء مع العامة",
+      "description": "اسمح للعضو بمشاركة المحتوى المملوك لأعضاء آخرين في مؤسستك مع العامة.",
+      "descriptionPortal": "اسمح للعضو بمشاركة المحتوى المملوك لأعضاء آخرين في بوابتك الإلكترونية مع العامة."
+    },
+    "portal:admin:createReports": {
+      "label": "إنشاء تقارير إدارية وإدارتها",
+      "description": "اسمح للعضو بإنشاء التقارير الإدارية لمؤسستك وإدارتها.",
+      "descriptionPortal": "اسمح للعضو بإنشاء التقارير الإدارية لبوابتك الإلكترونية وإدارتها."
+    },
+    "marketplace:admin:manage": {
+      "label": "إنشاء وإدارة",
+      "description": "اسمح للعضو بإنشاء قوائم وعناصر قوائم وإدارة الاشتراكات في ArcGIS Marketplace، علاوة على إدارة المشترين ومعلومات الاتصال الخاصة بمؤسستك. يعتمد استخدام هذا الامتياز على حصول مؤسستك على حق الوصول إلى القائمة والنشر إلى ArcGIS Marketplace."
+    },
+    "marketplace:admin:purchase": {
+      "label": "الشراء والحصول على منتجات مجانية",
+      "description": "اسمح للعضو بإرسال طلبات الشراء والوصول إلى المنتجات المجانية من الموفرين في ArcGIS Marketplace. للسماح للأعضاء بشراء المنتجات باستخدام بطاقات الائتمان، يجب عليك تعيينهم كمشترين في Marketplace."
+    },
+    "marketplace:admin:startTrial": {
+      "label": "بدء النسخ التجريبية",
+      "description": "اسمح للعضو ببدء اشتراكات تجريبية داخل ArcGIS Marketplace."
+    },
+    "portal:admin:manageSecurity": {
+      "label": "الأمان والبنية الأساسية",
+      "description": "اسمح للعضو بإدارة إعدادات البنية الأساسية وأمن المؤسسة.",
+      "descriptionPortal": "اسمح للعضو بإدارة إعدادات البنية الأساسية وأمن البوابة."
+    },
+    "portal:admin:manageWebsite": {
+      "label": "موقع الويب الخاص بالمؤسسة",
+      "description": "السماح للأعضاء بإدارة إعدادات موقع الويب الخاص بالمؤسسة.",
+      "descriptionPortal": "السماح للأعضاء بإدارة إعدادات موقع الويب الخاص بالبوابة الإلكترونية."
+    },
+    "portal:admin:manageCollaborations": {
+      "label": "عمليات التعاون",
+      "description": "السماح للعضو بإدارة عمليات التعاون الخاصة بالمؤسسة.",
+      "descriptionPortal": "السماح للعضو بإدارة عمليات التعاون داخل البوابة."
+    },
+    "portal:admin:manageCredits": {
+      "label": "الأرصدة",
+      "description": "السماح للعضو بإدارة إعدادات ميزانية اعتماد المؤسسة."
+    },
+    "portal:admin:manageRoles": {
+      "label": "أدوار العضو",
+      "description": "السماح للأعضاء بإدارة أدوار عضو المؤسسة.",
+      "descriptionPortal": "السماح للعضو بإدارة أدوار العضو في البوابة."
+    },
+    "portal:admin:manageServers": {
+      "label": "الخوادم",
+      "description": "يمنح هذا الامتياز القدرة على إدارة إعدادات خادم البوابة."
+    },
+    "portal:admin:manageUtilityServices": {
+      "label": "الخدمات المساعدة",
+      "description": "السماح للأعضاء بإدارة إعدادات خدمة الأداة المساعدة للمؤسسة.",
+      "descriptionPortal": "السماح للأعضاء بإدارة إعدادات خدمة الأداة المساعدة للبوابة الإلكترونية."
+    },
+    "portal:admin:manageWebhooks": {
+      "label": "خطافات الويب للمؤسسة",
+      "description": "اسمح للعضو بإنشاء وتعديل وحذف خطافات الويب المؤسسية وإدارة جميع خطافات الويب داخل البوابة الإلكترونية."
+    },
+    "portal:admin:createGPWebhook": {
+      "label": "المعالجة الجغرافية",
+      "description": "اسمح للأعضاء بإنشاء وتعديل وحذف خطافات الويب للمعالجة الجغرافية الخاصة بهم."
+    }
+  }
+}

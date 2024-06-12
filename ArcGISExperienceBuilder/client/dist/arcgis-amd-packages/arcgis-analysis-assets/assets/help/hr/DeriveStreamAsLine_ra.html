@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>Alat Izvedi strujanje kao liniju generira geoobjekte linija toka iz ulaznog rastera povr&scaron;ine bez prethodnog popunjavanja bazena ili udubljenja.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputSurfaceRaster">
+        <div>
+            <p>Raster visine terena koji će se koristiti za izračun.
+            </p>
+        </div>
+    </div>
+    <div id="inputDepressionsData">
+        <div>
+            <p>Unos koji definira lokacije stvarnih udubljenja ili ponora, u koje voda može uteći, ali ne i isteći.
+            </p>
+        </div>
+    </div>
+    <div id="inputWeightRaster">
+        <div>
+            <p>Rasterski sloj koji definira udio protoka koji pridonosi akumulaciji protoka u svakoj ćeliji.
+            </p>
+        </div>
+    </div>
+    <div id="accumulationThreshold">
+        <div>
+            <p>Prag za određivanje je li određena ćelija dio toka u smislu ukupne povr&scaron;ine koja teče u takvu ćeliju.
+            </p>
+        </div>
+    </div>
+    <div id="streamDesignationMethod">
+        <div>
+            <p>Određuje hoće li segmenti toka u izlazu imati konstantnu vrijednost, jedinstvene vrijednosti ili će biti poredani.
+            </p>
+        </div>
+    </div>
+    <div id="simplify">
+        <div>
+            <p>Određuje hoće li izlazne linije toka biti izglađene u jednostavnije oblike.
+            </p>
+            <p>Ako je označeno, geoobjekti linije toka bit će pojednostavljeni pomoću Douglas-Peuckerova algoritma s tolerancijom od sqrt(0,5) * veličina ćelije. To je zadano. Ako nije označeno, geoobjekti linije toka neće biti izglađeni.
+            </p>
+        </div>
+    </div>
+    <div id="outputStreamFeaturesName">
+        <div>
+            <p>Naziv sloja geoobjekata linije toka koji će se izraditi i dodati na kartu.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>Naziv mape u  <b>Moj sadržaj</b> gdje će se spremiti rezultati.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

@@ -1,0 +1,149 @@
+{
+  "deleteItem": "Hapus item",
+  "deleteItems": "Hapus item",
+  "deleteFolder": "Hapus folder",
+  "recycleBin": "Tempat sampah",
+  "delete": "Hapus",
+  "permanentlyDelete": "Hapus secara permanen",
+  "back": "Kembali",
+  "cancel": "Batalkan",
+  "item": "item",
+  "items": "item",
+  "cantDelete": "Item berikut ini tidak dapat dihapus karena diproteksi terhadap penghapusan atau terhubung dengan item lain.",
+  "proceed": "Lanjutkan dengan menghapus item yang tersisa?",
+  "moreOptions": "Opsi lainnya",
+  "hideOptions": "Sembunyikan opsi",
+  "deletePermanently": "Hapus secara permanen (Tindakan ini tidak dapat dibatalkan)",
+  "learnMore": "Pelajari selengkapnya",
+  "summary": {
+    "select": "Pilih",
+    "deselect": "Batalkan pilihan",
+    "selectedItems": "Item terpilih:",
+    "permanentlyDelete": "Hapus secara permanen:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "Item ini tidak didukung oleh tempat sampah.",
+        "multiple": "Item ini tidak didukung oleh tempat sampah."
+      },
+      "unsynchronized": "Pengeditan yang tidak disinkronkan yang dilakukan pada feature layer dalam grup kolaborasi terdistribusi akan hilang.",
+      "notSupportedAndUnsynchronized": "Beberapa jenis item tidak didukung. Pengeditan yang tidak disinkronkan yang dilakukan pada feature layer dalam grup kolaborasi terdistribusi akan hilang.",
+      "group": {
+        "notSupported": "Tidak didukung",
+        "distributedCollaboration": "Bagian dari kolaborasi terdistribusi"
+      }
+    },
+    "canBeRecovered": {
+      "single": "Item ini dapat dipulihkan hingga beberapa ${days} hari.",
+      "multiple": "Item ini dapat dipulihkan hingga ${days} hari.",
+      "unknown": "Item ini dapat dipulihkan hingga ${days} hari."
+    },
+    "willBeRecycled": "Kirim ke tempat sampah:",
+    "cannotBeDeleted": "Tidak bisa dihapus:",
+    "deleteDiscouraged": "Hapus tidak disarankan:",
+    "hasDependentItems": "Memiliki item dependen:",
+    "someActionsMayNoLongerWork": {
+      "single": "Jika Anda mengirim item ini ke keranjang sampah, beberapa tindakan yang memerlukan akses ke item sumber mungkin tidak lagi berfungsi seperti yang diharapkan.",
+      "multiple": "Jika Anda mengirim item ini ke tempat sampah, beberapa tindakan yang memerlukan akses ke item sumber mungkin tidak lagi berfungsi seperti yang diharapkan."
+    },
+    "cannotDelete": {
+      "all": "Item yang dilindungi dari penghapusan, bagian dari grup kolaborasi terdistribusi, atau terhubung dengan item lain tidak dapat dihapus.",
+      "protectedAndCollaboration": "Item yang dilindungi dari penghapusan atau bagian dari grup kolaborasi terdistribusi tidak dapat dihapus.",
+      "protectedAndDependent": "Item yang dilindungi dari penghapusan atau memiliki item dependen tidak dapat dihapus.",
+      "collaborationAndDependent": "Item yang merupakan bagian dari grup kolaborasi terdistribusi atau memiliki item yang bergantung tidak dapat dihapus."
+    },
+    "deletePermanently": "Hapus secara permanen: ${count} (Tindakan ini tidak dapat dibatalkan)",
+    "deleteAllPermanently": "Hapus semua item secara permanen: ${count} (Tindakan ini tidak dapat dibatalkan)",
+    "deleteXPermanently": "Hapus ${subset} dari ${total} item secara permanen (Tindakan ini tidak dapat dibatalkan)",
+    "protectedGroup": {
+      "deleteProtected": "Dilindungi dari penghapusan",
+      "deleteProtectedDescription": "Item yang dilindungi dari penghapusan tidak dapat dihapus.",
+      "hasDependentItems": "Memiliki item terikat",
+      "itemUsedBy": "Item ini telah digunakan oleh:",
+      "hasDependentItemsDescription": {
+        "single": "Item ini memiliki item terikat. Mereka harus dihapus bersama-sama.",
+        "multiple": "Item-item ini mempunyai item lain yang bergantung padanya. Mereka harus dihapus bersama-sama."
+      },
+      "distributedCollaboration": "Bagian dari kolaborasi terdistribusi",
+      "distributedCollaborationDescription": "Item yang merupakan bagian dari grup kolaborasi terdistribusi tidak dapat dihapus.",
+      "deleteDiscouraged": "Hapus tidak disarankan",
+      "deleteDiscouragedDescription": {
+        "single": "Jika item ini dihapus, item yang bergantung mungkin kehilangan beberapa fungsionalitasnya. Anda dapat menghapus item ini dari halaman detail item.",
+        "multiple": "Jika item ini dihapus, item yang bergantung mungkin kehilangan beberapa fungsionalitasnya. Anda dapat menghapus item ini secara individu dari halaman detail item."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "Item ini akan dihapus secara permanen karena tidak didukung tempat sampah.",
+    "multiple": "Item ini akan dihapus secara permanen karena tidak didukung tempat sampah.",
+    "unknown": "Item ini akan dihapus secara permanen karena tidak didukung tempat sampah."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "Item yang dipilih adalah milik grup kolaborasi terdistribusi dan tidak dapat dipindahkan ke tempat sampah. Item akan dihapus secara permanen.",
+    "multiple": "Item yang dipilih adalah milik grup kolaborasi terdistribusi dan tidak dapat dipindahkan ke tempat sampah. Item akan dihapus secara permanen.",
+    "unknown": "Item yang dipilih adalah milik grup kolaborasi terdistribusi dan tidak dapat dipindahkan ke tempat sampah. Item akan dihapus secara permanen."
+  },
+  "areYouSure": {
+    "single": "Yakin ingin menghapus item ini?",
+    "multiple": "Anda yakin ingin menghapus item ini?",
+    "unknown": "Anda yakin ingin menghapus item ini?"
+  },
+  "areYouSureRecycle": {
+    "single": "Item ini akan tetap berada di tempat sampah selama ${days} hari sebelum dihapus secara permanen.",
+    "multiple": "Item ini akan tetap berada di tempat sampah selama ${days} hari sebelum dihapus secara permanen.",
+    "unknown": "Item ini akan tetap berada di tempat sampah selama ${days} hari sebelum dihapus secara permanen."
+  },
+  "areYouSurePermanent": {
+    "single": "Anda yakin ingin menghapus item ${number} ini secara permanen? Item ${carrot} ini tidak dapat dipulihkan setelah dihapus secara permanen.",
+    "multiple": "Yakin ingin menghapus item ini secara permanen? Item ini tidak dapat dipulihkan setelah dihapus secara permanen.",
+    "unknown": "Yakin ingin menghapus item ini secara permanen? Item ini tidak dapat dipulihkan setelah dihapus secara permanen."
+  },
+  "folder": {
+    "mustBeEmpty": "Folder <b>${folder}</b> harus kosong agar dapat dihapus.",
+    "aFewCannotBeDeleted": "Beberapa item tidak dapat dihapus. Apakah Anda yakin ingin melanjutkan menghapus sisanya?",
+    "mustBeEmptyProceed": "Folder <b>${folder}</b> harus kosong agar dapat dihapus. Apakah Anda yakin ingin melanjutkan penghapusan item ini?",
+    "cannotBeDeleted": "Folder <b>${folder}</b> tidak dapat dihapus karena item di dalamnya tidak dapat dihapus."
+  },
+  "deletes": {
+    "single": "Menghapus dalam ${days} hari",
+    "multiple": "Menghapus dalam ${days} hari",
+    "unknown": "Hari sampai dihapus: ${days}"
+  },
+  "deleteOverride": {
+    "single": "Apakah Anda yakin ingin menghapus item ini secara permanen? Tindakan ini tidak dapat diurungkan.",
+    "multiple": "Apakah Anda yakin ingin menghapus item ini secara permanen? Tindakan ini tidak dapat diurungkan."
+  },
+  "restore": {
+    "restore": "Pulihkan",
+    "restoreTo": "Pulihkan ke",
+    "restoreItem": "Kembalikan Item",
+    "restoreItems": "Kembalikan Item",
+    "noticeMessage": "Item yang dipulihkan tidak akan dibagikan. Harap tinjau konten Anda sebelum membagikannya lagi.",
+    "cannotBulkRestoreXItems": "Tidak dapat memulihkan secara massal lebih dari ${number} item, harap batalkan pilihan beberapa item.",
+    "cannotBulkRestoreMultipleOwners": "Tidak dapat memulihkan secara massal item milik pemilik yang berbeda. Pilih item dari satu pemilik untuk dipulihkan secara massal.",
+    "toRestore": {
+      "single": "Item yang akan Dipulihkan:",
+      "multiple": "Item yang akan Dipulihkan:"
+    },
+    "cannotRestore": "Tidak dapat memulihkan:",
+    "dependentItems": {
+      "single": "Item ini tidak dapat dipulihkan karena terkait dengan <b>${parent}</b>. Kembalikan semuanya secara bersamaan.",
+      "multiple": "Item ini tidak dapat dipulihkan karena terkait dengan item lain di tempat sampah. Pulihkan semuanya secara bersamaan: "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "Apakah perlu memulihkan item yang tidak sengaja terhapus? Lihat tempat sampah baru!",
+    "takeALook": "Lihat tempat sampah baru!",
+    "learnMore": "Pelajari selengkapnya tentang memulihkan item yang dihapus",
+    "heldInRecycleBin": "Item di tempat sampah disimpan hingga ${days} hari.",
+    "goToUserRecycleBin": "Buka ${linkStart}tempat sampah${linkEnd} Anda untuk memulihkan atau menghapus item secara permanen.",
+    "goToOrgRecycleBin": "Buka ${linkStart}tempat sampah organisasi${linkEnd} Anda untuk memulihkan atau menghapus item secara permanen. Konten di tempat sampah tetap menggunakan kredit."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "${start} - ${end} dari ${total} (${size}) di tempat sampah",
+    "other": "${start} - ${end}, total: ${total} (${size}) di tempat sampah"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "${start} - ${end} dari ${total} (>${size}) di tempat sampah",
+    "other": "${start} - ${end}, total: ${total} (>${size}) di tempat sampah"
+  }
+}

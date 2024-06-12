@@ -1,0 +1,14 @@
+{
+  "general": {
+    "learnMore": "Meer informatie",
+    "title": "Nieuwe functies in ArcGIS Online",
+    "description": "De update van februari 2024 bevat nieuwe mogelijkheden en verbeteringen voor de hele ArcGIS Online-website."
+  },
+  "pipelines": {
+    "learnMore": "Meer informatie",
+    "title": "U kunt gegevens importeren, opschonen en transformeren zonder programmacode te gebruiken.",
+    "description": "Visuele tools voor slepen en neerzetten voor het opnemen van gegevens uit Amazon S3, Google, BigQuery en meer.",
+    "link": "Probeer nu ArcGIS Data Pipelines"
+  },
+  "title": "Nieuw in ArcGIS Online"
+}

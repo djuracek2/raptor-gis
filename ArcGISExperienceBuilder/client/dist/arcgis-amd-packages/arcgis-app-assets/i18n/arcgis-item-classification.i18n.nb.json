@@ -1,0 +1,16 @@
+{
+  "cancel": "Avbryt",
+  "reset": "Tilbakestill",
+  "resetting": "Tilbakestiller...",
+  "save": "Lagre",
+  "saving": "Lagrer ...",
+  "itemClassificationLabel": "Klassifisering",
+  "itemClassificationCategoryLabel": "Etikett for elementklassifiseringskategori",
+  "itemClassificationEditLabel": "Rediger klassifisering",
+  "itemClassificationValidateError": "Valideringen mislyktes. Klassifiseringsverdien fylles ikke ut for elementet. Rediger og lagre en ny.",
+  "classificationValueSaved": "Klassifiseringsverdien er lagret",
+  "classificationNotificationHandler": "Klassifiseringsvarselbehandler",
+  "openModal": "Åpne modal",
+  "currentSelections": "Gjeldende utvalg",
+  "searchForCategory": "Søk etter kategori"
+}

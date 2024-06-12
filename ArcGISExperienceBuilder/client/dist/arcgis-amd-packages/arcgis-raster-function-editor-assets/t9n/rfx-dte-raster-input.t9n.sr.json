@@ -1,0 +1,10 @@
+{
+  "outputRaster": "OutputRaster",
+  "rfxVariable": "RasterFunctionVariable",
+  "selectLayer": "Izaberite sloj",
+  "allowScalar": "Odaberite sloj ili unesite konstantu",
+  "browseLayer": "Pretraži slojeve",
+  "loading": "Učitavanje...",
+  "layerMissing": "Jedan ili više slojeva sa mape nisu navedeni ovde jer ne dozvoljavaju analizu. Saznajte više.",
+  "layerFailedToLoad": "Učitavanje sloja nije uspelo."
+}

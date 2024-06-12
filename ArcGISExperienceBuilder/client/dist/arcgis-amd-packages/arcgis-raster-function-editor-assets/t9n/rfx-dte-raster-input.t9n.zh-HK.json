@@ -1,0 +1,10 @@
+{
+  "outputRaster": "OutputRaster",
+  "rfxVariable": "RasterFunctionVariable",
+  "selectLayer": "選擇圖層",
+  "allowScalar": "選擇圖層或輸入常數",
+  "browseLayer": "瀏覽圖層",
+  "loading": "正在載入...",
+  "layerMissing": "此處未列出地圖中的一或多個圖層，因為它們不允許分析。 瞭解詳細資訊。",
+  "layerFailedToLoad": "無法載入圖層。"
+}

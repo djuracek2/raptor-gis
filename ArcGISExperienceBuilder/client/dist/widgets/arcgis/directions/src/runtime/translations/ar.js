@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"الاتجاهات",_action_DirectionsFrom_label:"الاتجاهات من",_action_DirectionsTo_label:"الاتجاهات إلى",outOfCredit:"لا يمكن تحميل خدمة المسار. قد يحدث ذلك بسبب عدم القدرة على الوصول إلى الخدمة.",namedInvalidUtilMsg:"{label} غير متوفر.",namedNeedLoginUtilMsg:"عذرًا، ليس لديك إذن للوصول.{label}"})}}}));

@@ -1,0 +1,149 @@
+{
+  "deleteItem": "Eliminar o item",
+  "deleteItems": "Eliminar itens",
+  "deleteFolder": "Eliminar pasta",
+  "recycleBin": "Reciclagem",
+  "delete": "Eliminar",
+  "permanentlyDelete": "Eliminar permanentemente",
+  "back": "Retroceder",
+  "cancel": "Cancelar",
+  "item": "item",
+  "items": "itens",
+  "cantDelete": "Os seguintes itens não podem ser eliminados porque estão protegidos contra eliminação ou porque possuem itens dependentes.",
+  "proceed": "Eliminar os restantes itens?",
+  "moreOptions": "Mais opções",
+  "hideOptions": "Ocultar opções",
+  "deletePermanently": "Eliminar permanentemente (esta ação não pode ser anulada)",
+  "learnMore": "Saiba mais",
+  "summary": {
+    "select": "Selecionar",
+    "deselect": "Desselecionar",
+    "selectedItems": "Itens selecionados:",
+    "permanentlyDelete": "Eliminar permanentemente:",
+    "permanentDelete": {
+      "notSupported": {
+        "single": "Este item não é suportado pela reciclagem.",
+        "multiple": "Estes itens não são suportados pela reciclagem."
+      },
+      "unsynchronized": "As edições não sincronizadas efetuadas a camadas de elementos num grupo de colaboração distribuído serão perdidas.",
+      "notSupportedAndUnsynchronized": "Alguns tipos de itens não são suportados. As edições não sincronizadas efetuadas a camadas de elementos num grupo de colaboração distribuído serão perdidas.",
+      "group": {
+        "notSupported": "Não suportado",
+        "distributedCollaboration": "Parte da colaboração distribuída"
+      }
+    },
+    "canBeRecovered": {
+      "single": "Este item pode ser recuperado até ${days} dias.",
+      "multiple": "Estes itens podem ser recuperados durante ${days} dias.",
+      "unknown": "Estes itens podem ser recuperados durante ${days} dias."
+    },
+    "willBeRecycled": "Enviar para a reciclagem:",
+    "cannotBeDeleted": "Não é possível eliminar:",
+    "deleteDiscouraged": "Não se recomenda a eliminação:",
+    "hasDependentItems": "Tem itens dependentes:",
+    "someActionsMayNoLongerWork": {
+      "single": "Se enviar este item para a reciclagem, algumas ações que requerem acesso ao item de origem podem deixar de funcionar como esperado.",
+      "multiple": "Se enviar estes itens para a reciclagem, algumas ações que requerem acesso aos itens de origem podem deixar de funcionar como esperado."
+    },
+    "cannotDelete": {
+      "all": "Os itens que estão protegidos contra eliminação, que fazem parte de um grupo de colaboração distribuído ou que têm itens dependentes, não podem ser eliminados.",
+      "protectedAndCollaboration": "Os itens que estão protegidos contra eliminação ou que fazem parte de um grupo de colaboração distribuído não podem ser eliminados.",
+      "protectedAndDependent": "Os itens que estão protegidos contra eliminação ou que têm itens dependentes não podem ser eliminados.",
+      "collaborationAndDependent": "Os itens que fazem parte de um grupo de colaboração distribuído ou que têm itens dependentes, não podem ser eliminados."
+    },
+    "deletePermanently": "Eliminar permanentemente: ${count} (esta ação não pode ser anulada)",
+    "deleteAllPermanently": "Eliminar todos os itens permanentemente: ${count} (esta ação não pode ser anulada)",
+    "deleteXPermanently": "Eliminar ${subset} de ${total} permanentemente: (esta ação não pode ser anulada)",
+    "protectedGroup": {
+      "deleteProtected": "Proteção contra eliminação",
+      "deleteProtectedDescription": "Os itens que estão protegidos contra eliminação não podem ser eliminados.",
+      "hasDependentItems": "Tem itens dependentes",
+      "itemUsedBy": "Este item foi utilizado por:",
+      "hasDependentItemsDescription": {
+        "single": "Este item tem um item dependente. Têm de ser eliminados em conjunto.",
+        "multiple": "Estes itens possuem outros itens dependentes. Têm de ser eliminados em conjunto."
+      },
+      "distributedCollaboration": "Parte da colaboração distribuída",
+      "distributedCollaborationDescription": "Os itens que fazem parte de um grupo de colaboração distribuído não podem ser eliminados.",
+      "deleteDiscouraged": "Não se recomenda a eliminação",
+      "deleteDiscouragedDescription": {
+        "single": "Se este item for eliminado, os itens dependentes podem perder alguma funcionalidade. Pode eliminar este item a partir da página de detalhes do item.",
+        "multiple": "Se estes itens forem eliminados, os itens dependentes podem perder alguma funcionalidade. Pode eliminar estes itens individualmente a partir da página de detalhes do item."
+      }
+    }
+  },
+  "willBePermanentlyDeleted": {
+    "single": "Este item será permanentemente eliminado porque não é suportado pela reciclagem.",
+    "multiple": "Estes itens serão permanentemente eliminados porque não são suportados pela reciclagem.",
+    "unknown": "Estes itens serão permanentemente eliminados porque não são suportados pela reciclagem."
+  },
+  "willBePermanentlyDeletedCollaboration": {
+    "single": "O item selecionado pertence a um grupo de colaboração distribuído e não pode ser movido para a reciclagem. Será permanentemente eliminado.",
+    "multiple": "Os itens selecionados pertencem a um grupo de colaboração distribuído e não podem ser movidos para a reciclagem. Serão permanentemente eliminados.",
+    "unknown": "Os itens selecionados pertencem a um grupo de colaboração distribuído e não podem ser movidos para a reciclagem. Serão permanentemente eliminados."
+  },
+  "areYouSure": {
+    "single": "Tem a certeza de que pretende eliminar este item?",
+    "multiple": "Tem a certeza de que pretende eliminar estes itens?",
+    "unknown": "Tem a certeza de que pretende eliminar estes itens?"
+  },
+  "areYouSureRecycle": {
+    "single": "Este item será mantido na reciclagem durante ${days} dias antes de ser permanentemente eliminado.",
+    "multiple": "Estes itens serão mantidos na reciclagem durante ${days} dias antes de serem permanentemente eliminados.",
+    "unknown": "Estes itens serão mantidos na reciclagem durante ${days} dias antes de serem permanentemente eliminados."
+  },
+  "areYouSurePermanent": {
+    "single": "Tem a certeza de que pretende eliminar permanentemente este item ${number}? Este item ${carrot} não pode ser recuperado depois de ter sido eliminado permanentemente.",
+    "multiple": "Tem a certeza de que pretende eliminar permanentemente estes itens? Estes itens não podem ser recuperados depois de terem sido eliminados permanentemente.",
+    "unknown": "Tem a certeza de que pretende eliminar permanentemente estes itens? Estes itens não podem ser recuperados depois de terem sido eliminados permanentemente."
+  },
+  "folder": {
+    "mustBeEmpty": "A pasta <b>${folder}</b> deve estar vazia para ser eliminada.",
+    "aFewCannotBeDeleted": "Alguns itens não podem ser eliminados. Tem a certeza de que pretende continuar a eliminar o resto?",
+    "mustBeEmptyProceed": "A pasta <b>${folder}</b> deve estar vazia para ser eliminada. Tem a certeza de que pretende continuar a eliminar estes itens?",
+    "cannotBeDeleted": "A pasta <b>${folder}</b> não pode ser eliminada porque os respetivos itens não podem ser eliminados."
+  },
+  "deletes": {
+    "single": "Elimina em ${days} dias",
+    "multiple": "Elimina em ${days} dias",
+    "unknown": "Dias restantes até à eliminação: ${days}"
+  },
+  "deleteOverride": {
+    "single": "Tem a certeza de que pretende eliminar permanentemente este item em alternativa? Não é possível anular esta ação.",
+    "multiple": "Tem a certeza de que pretende eliminar permanentemente estes itens em alternativa? Não é possível anular esta ação."
+  },
+  "restore": {
+    "restore": "Restaurar",
+    "restoreTo": "Restaurar para",
+    "restoreItem": "Restaurar Item",
+    "restoreItems": "Restaurar Itens",
+    "noticeMessage": "Os itens restaurados deixarão de ser partilhados. Reveja o seu conteúdo antes de o partilhar novamente.",
+    "cannotBulkRestoreXItems": "Não é possível restaurar em massa mais do que ${number} itens. Anule a seleção de alguns itens.",
+    "cannotBulkRestoreMultipleOwners": "Não é possível restaurar em massa itens pertencentes a diferentes proprietários. Selecione itens de um único proprietário para restaurar em massa.",
+    "toRestore": {
+      "single": "Item a Restaurar:",
+      "multiple": "Itens a Restaurar:"
+    },
+    "cannotRestore": "Não é possível restaurar:",
+    "dependentItems": {
+      "single": "Este item não pode ser restaurado porque é dependente de <b>${parent}</b>. Restaure-os em conjunto.",
+      "multiple": "Estes itens não podem ser restaurados porque dependem de outros itens na reciclagem. Restaure-os em conjunto: "
+    }
+  },
+  "onboarding": {
+    "checkItOut": "Precisa de recuperar aquele item eliminado acidentalmente? Veja a nova reciclagem!",
+    "takeALook": "Dê uma olhadela à nova reciclagem!",
+    "learnMore": "Saiba mais sobre como restaurar itens eliminados",
+    "heldInRecycleBin": "Os objetos na reciclagem são mantidos até ${days} dias.",
+    "goToUserRecycleBin": "Aceda à sua ${linkStart}reciclagem${linkEnd} para restaurar ou para eliminar itens permanentemente.",
+    "goToOrgRecycleBin": "Aceda à ${linkStart}reciclagem da sua organização${linkEnd} para restaurar itens ou eliminar itens permanentemente. Os conteúdos na reciclagem continuam a consumir créditos."
+  },
+  "pageRangeWithTotalRecycleBinSize": {
+    "en": "${start} - ${end} de ${total} (${size}) na reciclagem",
+    "other": "${start} - ${end}, total: ${total} (${size}) na reciclagem"
+  },
+  "pageRangeWithGreaterThanTotalRecycleBinSize": {
+    "en": "${start} - ${end} de ${total} (>${size}) na reciclagem",
+    "other": "${start} - ${end}, total: ${total} (>${size}) na reciclagem"
+  }
+}

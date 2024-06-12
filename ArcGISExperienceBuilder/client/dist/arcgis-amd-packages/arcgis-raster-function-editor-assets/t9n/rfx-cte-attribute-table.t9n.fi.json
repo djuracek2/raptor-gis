@@ -1,0 +1,12 @@
+{
+  "value": "Arvo",
+  "classname": "LuokanNimi",
+  "color": "Väri",
+  "raster": "Rasteri",
+  "generate": "Luo taulu",
+  "minValue": "Vähimmäisarvo",
+  "maxValue": "Enimmäisarvo",
+  "classBaseName": "Luokan perusnimi",
+  "colorscheme": "Värimalli",
+  "defaultClassName": "Selite_"
+}

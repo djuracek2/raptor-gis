@@ -1,0 +1,16 @@
+{
+  "cancel": "Atcelt",
+  "reset": "Atiestatīt",
+  "resetting": "Atiestatīšana...",
+  "save": "Saglabāt",
+  "saving": "Notiek saglabāšana...",
+  "itemClassificationLabel": "Klasifikācija",
+  "itemClassificationCategoryLabel": "Vienību klasifikācijas kategorijas apzīmējums",
+  "itemClassificationEditLabel": "Rediģēt klasifikāciju",
+  "itemClassificationValidateError": "Validācija neizdevās, vienības klasifikācijas vērtība netiks aizpildīta! Lūdzu, rediģējiet un saglabājiet jaunu.",
+  "classificationValueSaved": "Klasifikācijas vērtība ir saglabāta",
+  "classificationNotificationHandler": "Klasifikācijas paziņojumu apstrādātājs",
+  "openModal": "Atvērt modālu",
+  "currentSelections": "Pašreizējās izvēles",
+  "searchForCategory": "Meklēt kategoriju"
+}

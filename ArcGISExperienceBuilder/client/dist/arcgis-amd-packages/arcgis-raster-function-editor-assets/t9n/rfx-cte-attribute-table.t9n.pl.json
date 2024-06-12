@@ -1,0 +1,12 @@
+{
+  "value": "Wartość",
+  "classname": "ClassName",
+  "color": "Kolor",
+  "raster": "Raster",
+  "generate": "Generuj tabelę",
+  "minValue": "Wartość minimalna",
+  "maxValue": "Wartość maksymalna",
+  "classBaseName": "Nazwa podstawowa klasy",
+  "colorscheme": "Schemat kolorów",
+  "defaultClassName": "Etykieta_"
+}

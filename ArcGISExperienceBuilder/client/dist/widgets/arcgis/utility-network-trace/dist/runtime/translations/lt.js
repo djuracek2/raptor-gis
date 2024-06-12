@@ -1,0 +1,1 @@
+System.register([],(function(i){return{execute:function(){i({_widgetLabel:"Komunalinių paslaugų tinklo trasavimas",_widgetDescription:"Valdiklis, leidžiantis sekti ArcGIS Utility Network",_action_filter_label:"Filtruoti"})}}}));

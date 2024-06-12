@@ -1,0 +1,12 @@
+{
+  "value": "Значение",
+  "classname": "ClassName",
+  "color": "Цвет",
+  "raster": "Растр",
+  "generate": "Построить таблицу",
+  "minValue": "Минимальное значение",
+  "maxValue": "Максимальное значение",
+  "classBaseName": "Базовое имя класса",
+  "colorscheme": "Цветовая схема",
+  "defaultClassName": "Надпись_"
+}

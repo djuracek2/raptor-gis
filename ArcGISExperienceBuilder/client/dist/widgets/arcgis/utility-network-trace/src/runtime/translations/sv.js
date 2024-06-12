@@ -1,0 +1,1 @@
+System.register([],(function(t){return{execute:function(){t({_widgetLabel:"Spårning av infrastruktursnätverk",_widgetDescription:"En widget för att spåra ett ArcGIS Utility Network",_action_filter_label:"Filter"})}}}));

@@ -1,0 +1,16 @@
+{
+  "cancel": "ביטול",
+  "reset": "איפוס",
+  "resetting": "מאפס...",
+  "save": "שמור",
+  "saving": "שומר...",
+  "itemClassificationLabel": "סיווג",
+  "itemClassificationCategoryLabel": "תווית קטגוריה של סיווג פריט",
+  "itemClassificationEditLabel": "ערוך סיווג",
+  "itemClassificationValidateError": "האימות נכשל, ערך הסיווג של הפריט לא יאוכלס! ערוך אחד חדש ושמור אותו.",
+  "classificationValueSaved": "ערך הסיווג נשמר",
+  "classificationNotificationHandler": "הליך טיפול בהודעת סיווג",
+  "openModal": "פתח מודאל",
+  "currentSelections": "הבחירות הנוכחיות",
+  "searchForCategory": "חפש קטגוריה"
+}

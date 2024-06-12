@@ -1,0 +1,1 @@
+System.register([],(function(t){return{execute:function(){t({_widgetLabel:"Theo dõi Utility Network",_widgetDescription:"Một tiện ích dùng để theo dõi ArcGIS Utility Network",_action_filter_label:"Bộ lọc"})}}}));

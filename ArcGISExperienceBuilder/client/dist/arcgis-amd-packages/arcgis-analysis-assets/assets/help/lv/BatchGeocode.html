@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>Rīks Ģeokodēt atra&scaron;anās vietas no tabulas pārvēr&scaron; adreses vai vietas no ievades tabulas vai faila par koordinātām.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputType">
+        <div>
+            <p>Norāda, vai ievade būs tabulas vienība (<b>viesota tabula</b>) vai <code>.csv</code> vai Excelfails vai&nbsp;(<b>CSV/Excel</b>).
+            </p>
+        </div>
+    </div>
+    <div id="inputFileItem">
+        <div>
+            <p>Ievades fails ar ģeokodējamām adresēm vai vietām. Ievadei jābūt viesotam  <code>.csv</code> vai Excel failam. </p>
+        </div>
+    </div>
+    <div id="inputTable">
+        <div>
+            <p>Ievades tabula ar ģeokodējamām adresēm vai vietām. Ievadei jābūt viesotai tabulas vienībai.
+            </p>
+        </div>
+    </div>
+    <div id="geocodeServiceURL">
+        <div>
+            <p>Meklētāja pakalpojums, kas tiks izmantots ģeokodē&scaron;anai. Ja meklētāja pakalpojums, kuru vēlaties izmantot, nav nolaižamajā izvēlnē, sazinieties ar administratoru, lai meklētāja pakalpojums tiktu pievienots kā utilītpakalpojums.
+            </p>
+        </div>
+    </div>
+    <div id="singleOrMultiFieldSwitch">
+        <div>
+            <p>Norāda, vai ievades dati ir vienā vai vairākos laukos.
+            </p>
+        </div>
+    </div>
+    <div id="geocodeParameters">
+        <div>
+            <p>Lauki, kurus meklētājs izmantos, lai noteiktu datu atra&scaron;anās vietas. Tiek pieņemts, ka noteikti lauki atrodas datos, piemēram, adrese, pilsēta, apgabals un pasta indekss.
+            </p>
+        </div>
+    </div>
+    <div id="sourceCountry">
+        <div>
+            <p>Valsts, kurā atrodas dati. Ja visas adreses ir no vienas valsts, atlasiet &scaron;īs valsts nosaukumu, lai nodro&scaron;inātu precīzākos rezultātus. Pretējā gadījumā &scaron;o parametru atstājiet tuk&scaron;u.
+            </p>
+        </div>
+    </div>
+    <div id="outputFields">
+        <div>
+            <p>Norāda laukus, kas tiks iekļauti izvades datu kopā. Opcijas ir &scaron;ādas:
+            </p>
+            <ul>
+                <li> <b>Visi</b>&mdash;ģeokodē&scaron;anas rezultātos tiks iekļauti visi pieejamie meklētāja izvades lauki.
+                </li>
+                <li> <b>Minimāli</b>&mdash;rezultātos tiks iekļauta meklētāja lauku apak&scaron;kopa, kā arī ievades tabulas lauki.
+                </li>
+                <li> <b>Tikai novietojums</b>&mdash;rezultātos tiks iekļauts meklētāja <i>Shape</i> lauks, kā arī ievades tabulas lauki.
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+    <div id="outputType">
+        <div>
+            <p>Izveidotās izvades veids. Izvade var būt elementu pakalpojums,  <code>.csv</code> fails vai <code>.xls</code> fails.
+            </p>
+        </div>
+    </div>
+    <div id="outputName">
+        <div>
+            <p>Tā slāņa vai faila nosaukums, kas tiks izveidots sadaļā  <b>Mans saturs</b>.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>Mapes nosaukums sadaļā  <b>Mans saturs</b>, kurā tiks saglabāts rezultāts.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

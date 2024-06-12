@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Upute za vožnju",_action_DirectionsFrom_label:"Upute od",_action_DirectionsTo_label:"Upute do",outOfCredit:"Ne može se učitati usluga rute. To je možda zbog nedostupnosti usluge.",namedInvalidUtilMsg:"{label} nije dostupno.",namedNeedLoginUtilMsg:"Nažalost, nemate dozvolu za pristup u {label}."})}}}));

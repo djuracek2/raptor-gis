@@ -1,0 +1,19 @@
+{
+  "backLabel": "Takaisin",
+  "cannotReopenTool": "Työkalua ei voitu avata uudelleen. Työkalun parametrit on palautettu oletusarvoihin.",
+  "cannotReopenWebTool": "Verkkotyökalun avaus epäonnistui. <calcite-link target='_blank' href='${ docLink }'>Lisätietoja</calcite-link>",
+  "creditThresholdModal": {
+    "cancelRun": "Peruuta",
+    "confirmationPrompt": "Haluatko jatkaa?",
+    "continueRun": "Jatka",
+    "creditEstimate": "Arvioidut krediitit: ${cost}",
+    "creditThreshold": "Krediitin kynnysarvo: ${threshold}",
+    "heading": "Krediitin kynnysarvo saavutettu",
+    "learnMore": "Lisätietoja",
+    "thresholdExceeded": "Tämän analyysin arvioitu kustannus on suurempi kuin krediittisi kynnysarvo."
+  },
+  "failedToExecuteEstimate": "Lähettäminen epäonnistui. Rasterianalyysin kustannusarvion suorittaminen epäonnistui",
+  "missingPermissionForWebTool": "Tätä työkalua ei voi käyttää. Varmista, että työkalu on edelleen olemassa ja että käyttäjällä on sen käyttöoikeudet.",
+  "runAnalysisLabel": "Suorita",
+  "webToolJSONChanged": "Vähintään yksi parametri on päivitetty. Joitain parametreja ei voi täyttää uudelleen historiasta."
+}

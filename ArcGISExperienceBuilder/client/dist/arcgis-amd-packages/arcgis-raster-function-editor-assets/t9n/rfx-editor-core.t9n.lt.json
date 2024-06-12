@@ -1,0 +1,11 @@
+{
+  "addRaster": "Pridėti rastro kintamąjį",
+  "addScalar": "Pridėti konstantą",
+  "raster": "Rastras",
+  "scalar": "Skaliaras",
+  "defaultModelName": "Rastrų funkcijos šablonas",
+  "defaultRasterName": "Rastras",
+  "invalidRFTMessage": "Rastrų funkcijos šablonas netinkamas.",
+  "deprecated": "Nebenaudojamas",
+  "deprecatedHoverText": "Ši rastro funkcija nebenaudojama ir bus pašalinta būsimame leidime."
+}

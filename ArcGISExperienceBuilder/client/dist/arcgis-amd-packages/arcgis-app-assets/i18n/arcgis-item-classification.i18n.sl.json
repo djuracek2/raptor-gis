@@ -1,0 +1,16 @@
+{
+  "cancel": "Prekliči",
+  "reset": "Ponastavite",
+  "resetting": "Ponastavljanje ...",
+  "save": "Shrani",
+  "saving": "Shranjevanje ...",
+  "itemClassificationLabel": "Klasificiranje",
+  "itemClassificationCategoryLabel": "Oznaka kategorije klasificiranja elementa",
+  "itemClassificationEditLabel": "Uredi klasificiranje",
+  "itemClassificationValidateError": "Preverjanje ni uspelo, vrednost klasificiranja elementa se ne vnese! Uredite in shranite novo.",
+  "classificationValueSaved": "Vrednost klasificiranja je shranjena",
+  "classificationNotificationHandler": "Upravljavec obvestil o klasificiranju",
+  "openModal": "Odpri modalno okno",
+  "currentSelections": "Trenutne izbire",
+  "searchForCategory": "Išči kategorijo"
+}

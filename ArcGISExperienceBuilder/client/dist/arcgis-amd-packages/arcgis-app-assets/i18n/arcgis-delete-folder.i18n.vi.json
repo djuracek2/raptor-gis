@@ -1,0 +1,21 @@
+{
+  "deleteFolder": "Xóa thư mục",
+  "delete": "Xóa",
+  "permanentlyDelete": "Xoá vĩnh viễn",
+  "back": "Quay lại",
+  "cancel": "Hủy",
+  "success": "Đã xóa thành công thư mục '${title}'",
+  "deleteProtectedItemsInFolder": "Không thể xoá thư mục do một số mục được bảo vệ để không bị xoá hoặc có mục phụ thuộc.",
+  "message": {
+    "empty": "Bạn có chắc chắn muốn xóa thư mục này, <strong style='font-weight: 500'>${title}</strong> không?",
+    "mustBeEmpty": "Phải để trống thư mục <strong style='font-weight: 500'></strong>${title} trước khi xóa.",
+    "aFewCannotBeDeleted": "Không thể xóa một số mục. Bạn có chắc chắn muốn tiếp tục xóa phần còn lại không?",
+    "mustBeEmptyProceed": "Phải để trống thư mục <strong style='font-weight: 500'></strong>${title} trước khi xóa. Bạn có chắc chắn muốn tiếp tục xóa các mục này không?",
+    "cannotBeDeleted": "Không thể xóa thư mục <strong style='font-weight: 500'>${title}</strong> vì không thể xóa các mục trong thư mục đó."
+  },
+  "disabledMessage": {
+    "single": "Có <span style='color:red'>1 mục</span> trong thư mục này, ${label}.<br/></br/>Bạn có chắc chắn muốn xoá thư mục và mục trong đó không?",
+    "multiple": "Có <span style='color:red'>${number} mục</span> trong thư mục này, ${label}.<br/></br/>Bạn có chắc chắn muốn xoá thư mục và mục trong đó không?",
+    "unknown": "Bạn có chắc chắn muốn xóa thư mục này, ${label} không?"
+  }
+}

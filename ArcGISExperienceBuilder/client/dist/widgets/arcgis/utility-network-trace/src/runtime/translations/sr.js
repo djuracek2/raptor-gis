@@ -1,0 +1,1 @@
+System.register([],(function(e){return{execute:function(){e({_widgetLabel:"Praćenje za Utility Network",_widgetDescription:"Vidžet za praćenje ArcGIS Utility Network",_action_filter_label:"Filter"})}}}));

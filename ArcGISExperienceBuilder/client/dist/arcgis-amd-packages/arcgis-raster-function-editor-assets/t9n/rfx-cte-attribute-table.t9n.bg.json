@@ -1,0 +1,12 @@
+{
+  "value": "Стойност",
+  "classname": "Име на клас",
+  "color": "Цвят",
+  "raster": "Растер",
+  "generate": "Генериране на таблица",
+  "minValue": "Минимална стойност",
+  "maxValue": "Максимална стойност",
+  "classBaseName": "Базово име на клас",
+  "colorscheme": "Цветова схема",
+  "defaultClassName": "Надпис_"
+}

@@ -1,0 +1,1 @@
+System.register([],(function(t){return{execute:function(){t({routeSettings:"إعدادات المسار",searchSettings:"إعدادات البحث",routeUrl:"عنوان URL للمسار",outputStops:"محطات",outputRoute:"المسار",outputDirectionPoints:"نقاط الاتجاه",outputDirectionLines:"خطوط الاتجاه"})}}}));

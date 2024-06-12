@@ -1,0 +1,11 @@
+{
+  "addRaster": "ラスター変数の追加",
+  "addScalar": "定数の追加",
+  "raster": "ラスター",
+  "scalar": "スカラ",
+  "defaultModelName": "ラスター関数テンプレート",
+  "defaultRasterName": "ラスター",
+  "invalidRFTMessage": "ラスター関数テンプレートは有効ではありません。",
+  "deprecated": "非推奨",
+  "deprecatedHoverText": "このラスター関数は非推奨であり、今後のリリースで削除される予定です。"
+}

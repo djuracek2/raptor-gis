@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="Stylesheet" href="../css/analysis.css" />
+    <script type="text/javascript">
+        function init() {
+            if (window.location.hash) {
+                var parentDiv, nodes, i, helpInfo, helpId, helpInfoArr, helpEnvFilter, envContent, hideEnvClass, hideNodes;
+                helpInfo = window.location.hash.substring(1);
+                    if(helpInfo.indexOf("-")) {
+                        helpInfoArr = helpInfo.split("-");
+                        helpId = helpInfoArr[0];
+                        helpEnvFilter = helpInfoArr[1];
+                    }
+                    else {
+                        helpId = helpInfo;
+                    }
+                parentDiv = document.getElementById("topics");
+                nodes = parentDiv.children;
+                    hideEnvClass = (helpEnvFilter === "OnlineOnly"? "PortalOnly": "OnlineOnly");
+                    if(document.getElementsByClassName) {
+                        hideNodes = document.getElementsByClassName(hideEnvClass);
+                    }
+                    else {
+                        hideNodes = document.querySelectorAll(hideEnvClass);
+                    }
+                for(i=0; i < nodes.length; i++) {
+                    if(nodes[i].id !== helpId) {
+                        nodes[i].style.display ="none";
+                    }
+                    }
+                    for(i=0; i < hideNodes.length; i++) {
+                        hideNodes[i].style.display ="none";
+                    }
+                }
+            }
+    </script>
+</head>
+<body onload="init()">
+<div id="topics">
+    <div id="toolDescription" class="smallsize">
+    <p>Instrumentul Derivare curs ca linie generează o linie de curs dintr-o linie de suprafață de intrare fără să fie necesară scufundarea sau umplerea depresiunilor.
+    </p>
+    </div>
+    <!--Parameter divs for each param-->
+    <div id="inputSurfaceRaster">
+        <div>
+            <p>Rasterul de elevație care va fi folosit pentru calcul.
+            </p>
+        </div>
+    </div>
+    <div id="inputDepressionsData">
+        <div>
+            <p>Intrarea care definește locațiile depresiunilor sau dolinelor reale, &icirc;n care apa poate curge, dar din care nu poate ieși.
+            </p>
+        </div>
+    </div>
+    <div id="inputWeightRaster">
+        <div>
+            <p>Stratul tematic de raster care definește fracțiunea de curgere care contribuie la acumularea debitului &icirc;n fiecare celulă.
+            </p>
+        </div>
+    </div>
+    <div id="accumulationThreshold">
+        <div>
+            <p>Pragul pentru care se stabilește dacă o anumită celulă face parte dintr-un curs &icirc;n ceea ce privește suprafața totală care curge &icirc;ntr-o astfel de celulă.
+            </p>
+        </div>
+    </div>
+    <div id="streamDesignationMethod">
+        <div>
+            <p>Specifică dacă segmentele de curs din ieșire vor avea o valoare constantă, valori unice sau sunt ordonate.
+            </p>
+        </div>
+    </div>
+    <div id="simplify">
+        <div>
+            <p>Specifică dacă liniile cursului de ieșire vor fi netezite &icirc;n forme mai simple.
+            </p>
+            <p>Dacă este selectat, obiectele spațiale de linii de curs vor fi simplificate folosind algoritmul Douglas-Peucker cu o toleranță a dimensiunii celulei de sqrt(0,5) *. Aceasta este acţiunea implicită. Dacă nu este selectat, obiectele spațiale de linie de curs nu vor fi netezite.
+            </p>
+        </div>
+    </div>
+    <div id="outputStreamFeaturesName">
+        <div>
+            <p>Numele stratului tematic de obiecte spațiale de linie de curs care va fi creat și adăugat pe hartă.
+            </p>
+        </div>
+    </div>
+    <div id="saveResultIn">
+        <div>
+            <p>Numele folderului din  <b>Resursele mele</b> &icirc;n care va fi salvat rezultatul.
+            </p>
+        </div>
+    </div>
+</div>
+</html>

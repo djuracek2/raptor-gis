@@ -1,0 +1,10 @@
+{
+  "select": "Elem kijelölése: ${title}",
+  "lastUpdated": "Elem frissítve: ${date}",
+  "viewItemDetails": "További részletek megtekintése erről: ${title}",
+  "preview": "További részletek",
+  "hidePreview": "Kevesebb részlet",
+  "closeDetails": "Elem részleteit tartalmazó panel bezárása",
+  "openDetails": "Elem részleteit tartalmazó panel megnyitása",
+  "moreOptions": "További lehetőségek"
+}

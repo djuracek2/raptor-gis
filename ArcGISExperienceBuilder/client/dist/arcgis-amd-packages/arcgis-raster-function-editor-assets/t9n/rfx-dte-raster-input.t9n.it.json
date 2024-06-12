@@ -1,0 +1,10 @@
+{
+  "outputRaster": "Raster di Output",
+  "rfxVariable": "RasterFunctionVariable",
+  "selectLayer": "Seleziona layer",
+  "allowScalar": "Selezionare un layer o inserire una costante",
+  "browseLayer": "Sfoglia layer",
+  "loading": "Caricamento in corso...",
+  "layerMissing": "Uno o più layer della mappa non sono elencati qui perché non consentono l'analisi. Ulteriori informazioni.",
+  "layerFailedToLoad": "Impossibile caricare il layer."
+}

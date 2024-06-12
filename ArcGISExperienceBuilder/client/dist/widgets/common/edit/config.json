@@ -1,0 +1,12 @@
+{
+  "layersConfig": [],
+  "editMode": "GEOMETRY",
+  "selfSnapping": false,
+  "featureSnapping": false,
+  "defaultSelfEnabled": false,
+  "defaultFeatureEnabled": false,
+  "defaultSnapLayers": [],
+  "description": "",
+  "noDataMessage": "",
+  "snapSettingMode": "FLEXIBLE"
+}

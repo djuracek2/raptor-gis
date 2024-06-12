@@ -1,0 +1,455 @@
+{
+  "rolePrivileges": "Privilegiile rolului",
+  "setFromExisting": "Setare din rolul existent",
+  "expandAll": "Extindere toate",
+  "generalPrivileges": "Privilegii generale",
+  "adminPrivileges": "Privilegii de administrator",
+  "enabledLabel": "Activat:",
+  "enableAll": "Activare toate",
+  "disableAll": "Dezactivare toate",
+  "members": "Membri",
+  "groups": "Grupuri",
+  "content": "Conţinut",
+  "sharing": "Partajare",
+  "premiumContent": "Conținut premium",
+  "features": "Obiecte spațiale",
+  "versionMgmt": "Gestionarea versiunii",
+  "webhooks": "Webhook-uri",
+  "marketplaceSubscriptions": "Abonamente ArcGIS Marketplace",
+  "orgSettings": "Setări organizație",
+  "learnMore": "Aflați mai multe",
+  "searchPrivileges": "Privilegii de căutare",
+  "notebooks": "Notebook-uri",
+  "analysis": "Analiză",
+  "networkAnalysis": "Analiză de rețea",
+  "privileges": {
+    "portal:user:viewOrgUsers": {
+      "label": "Vizualizare",
+      "description": "Permiteți membrului să vizualizeze membrii organizației.",
+      "descriptionPortal": "Permiteți membrului să vizualizeze membrii portalului."
+    },
+    "portal:user:createGroup": {
+      "label": "Creare, actualizare şi ştergere",
+      "description": "Permiteți membrului să creeze, să editeze și să șteargă propriile grupuri."
+    },
+    "portal:user:joinGroup": {
+      "label": "Înscrierea în grupuri din organizaţie.",
+      "description": "Permiteți membrului să se alăture grupurilor din organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să se alăture grupurilor din portalul dvs."
+    },
+    "portal:user:joinNonOrgGroup": {
+      "label": "Înscriere în grupuri externe",
+      "description": "Permiteți membrului să se alăture grupurilor care nu aparțin organizației dvs.",
+      "descriptionPortal": "Permiteți membrului să se alăture grupurilor care nu aparțin portalului dvs."
+    },
+    "portal:user:viewOrgGroups": {
+      "label": "Vizualizare grupuri partajate cu organizaţia",
+      "description": "Permiteți membrului să vizualizeze grupurile partajate cu organizația.",
+      "descriptionPortal": "Permiteți membrului să vizualizeze membrii partajați cu portalul."
+    },
+    "portal:user:invitePartneredCollaborationMembers": {
+      "label": "Invitați membrii organizațiilor partenere",
+      "description": "Permiteți membrului să invite membri din organizații de colaborare partenere să se alăture grupurilor."
+    },
+    "portal:user:addExternalMembersToGroup": {
+      "label": "Adăugați membri din alte organizații",
+      "description": "Permiteți membrului să creeze grupuri care permit membrilor din alte organizații, dar și să invite membri externi să se alăture grupurilor."
+    },
+    "portal:user:createItem": {
+      "label": "Creare, actualizare şi ştergere",
+      "description": "Permiteți membrului să creeze, să editeze și să șteargă propriul conținut."
+    },
+    "portal:publisher:publishFeatures": {
+      "label": "Publicare straturi tematice de obiecte spaţiale găzduite",
+      "description": "Permiteți membrului să publice straturi tematice găzduite din fișiere shapefile, CSV etc."
+    },
+    "portal:publisher:publishTiles": {
+      "label": "Publicare straturi tematice optimizate găzduite",
+      "description": "Permiteți membrului să publice straturi tematice de segmente tile găzduite din pachete de segmente tile, obiecte spațiale etc."
+    },
+    "portal:publisher:publishScenes": {
+      "label": "Publicare straturi tematice de scene găzduite",
+      "description": "Permiteți membrului să publice straturi tematice de scene găzduite."
+    },
+    "portal:publisher:publishTiledImagery": {
+      "label": "Publicarea straturilor tematice de imagini satelitare optimizate găzduite",
+      "description": "Permiteți membrului să publice straturi tematice de imagini satelitare optimizate găzduite dintr-o singură imagine sau colecție de imagini. Necesită o extensie de tip utilizator ArcGIS Image for ArcGIS Online.",
+      "descriptionPortal": "Permiteți membrului să publice straturi tematice de imagini satelitare optimizate găzduite dintr-o singură imagine sau colecție de imagini."
+    },
+    "portal:publisher:publishDynamicImagery": {
+      "label": "Publicarea straturilor tematice de imagini satelitare dinamice găzduite",
+      "description": "Permiteți membrului să publice straturi tematice de imagini satelitare dinamice găzduite dintr-o singură imagine sau colecție de imagini."
+    },
+    "portal:publisher:publishServerServices": {
+      "label": "Publicare straturi tematice bazate pe server",
+      "description": "Acest privilegiu acordă permisiunea de a publica straturi tematice de către servicii din amplasamente de servere federalizate. Aceste servicii fac adesea referire la date înregistrate din baze de date geografice sau surse de date pe bază de fișier."
+    },
+    "portal:publisher:publishKnowledgeGraph": {
+      "label": "Publicarea graficelor de cunoștințe găzduite",
+      "description": "Permiteți membrului să publice grafice de cunoștințe găzduite."
+    },
+    "portal:user:viewOrgItems": {
+      "label": "Vizualizați conținutul partajat cu organizația",
+      "description": "Permiteți membrului să vizualizeze conținutul partajat cu organizația.",
+      "descriptionPortal": "Permiteți membrului să vizualizeze conținutul partajat cu portalul."
+    },
+    "premium:publisher:createNotebooks": {
+      "label": "Creați și editați agende",
+      "description": "Permiteți membrului să creeze și să editeze agende interactive."
+    },
+    "premium:publisher:scheduleNotebooks": {
+      "label": "Programați agende",
+      "description": "Permiteți membrului să programeze funcționări viitoare automate ale unei agende."
+    },
+    "portal:publisher:bulkPublishFromDataStores": {
+      "label": "Creați straturi tematice în volum mare dintr-un depozit de date",
+      "description": "Acest privilegiu vă acordă capacitatea de a publica straturi tematice web dintr-un depozit de date înregistrat."
+    },
+    "portal:publisher:registerDataStores": {
+      "label": "Înregistrare depozite de date",
+      "description": "Acest privilegiu acordă capacitatea de a înregistra depozite de date pe portal."
+    },
+    "portal:user:viewTracks": {
+      "label": "Vizualizare urmărire locaţie",
+      "description": "Permiteți membrului să vizualizeze urmărirea locațiilor membrilor prin intermediul vizualizărilor partajate a urmăririlor atunci când este activată partajarea locației."
+    },
+    "portal:user:reassignItems": {
+      "label": "Reatribuire conținut",
+      "description": "Permiteți membrilor să realoce doar conținutul lor unui alt membru cu privilegiul de a primi conținut."
+    },
+    "portal:user:receiveItems": {
+      "label": "Primiți conținut",
+      "description": "Permiteți membrilor primirea de conținut care le este realocat de un alt membri cu privilegiul de realocare a conținutului."
+    },
+    "portal:publisher:publishFeeds": {
+      "label": "Publicare fluxuri",
+      "description": "Acest privilegiu oferă posibilitatea de publicare a fluxurilor, pentru introducerea și afișarea datelor în timp real utilizând ArcGIS Velocity."
+    },
+    "portal:publisher:publishRealTimeAnalytics": {
+      "label": "Publicare analize în timp real",
+      "description": "Acest privilegiu oferă posibilitatea de publicare a analizelor în timp real, pentru analizarea și prelucrarea datelor în timp real utilizând ArcGIS Velocity."
+    },
+    "portal:publisher:publishBigDataAnalytics": {
+      "label": "Publicare analize de tip big data",
+      "description": "Acest privilegiu oferă posibilitatea de publicare a analizelor de tip big data, pentru analizarea datelor de observare istorică utilizând ArcGIS Velocity."
+    },
+    "portal:publisher:createDataPipelines": {
+      "label": "Creați și executați conducte de date",
+      "description": "Permiteți membrului să creeze, editeze și execute conducte de date."
+    },
+    "portal:publisher:publishLivestreamVideo": {
+      "label": "Publicați un videoclip de transmisie în direct",
+      "description": "Permiteți membrilor să publice straturi video găzduite de transmisia în direct, provenite din transmisiuni și fluxuri video în rețea."
+    },
+    "portal:publisher:publishVideo": {
+      "label": "Publicați videoclipul",
+      "description": "Permiteți membrului să publice straturi tematice video găzduite din fișierul video și fișiere de metadate video acceptate."
+    },
+    "portal:user:shareToGroup": {
+      "label": "Partajare cu grupuri",
+      "description": "Permiteți membrului să partajeze conținut cu grupurile."
+    },
+    "portal:user:shareToOrg": {
+      "label": "Partajare cu organizaţia",
+      "labelPortal": "Partajare cu portalul",
+      "description": "Permiteți membrului să partajeze conținut cu organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să partajeze conținut cu portalul dvs."
+    },
+    "portal:user:shareToPublic": {
+      "label": "Partajare publică",
+      "description": "Permiteți membrului să partajeze public conținutul tăi dacă acest lucru este permis de politica de partajare publică a organizației.",
+      "tooltip": "Dacă organizația nu le permite membrilor să partajeze public conținut, membrii vor avea nevoie de privilegii administrative pentru a partaja conținutul membrilor cu publicul."
+    },
+    "portal:user:shareGroupToOrg": {
+      "label": "Partajare cu portalul",
+      "description": "Permiteți membrului să partajeze conținut cu organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să partajeze conținut cu portalul dvs."
+    },
+    "portal:user:shareGroupToPublic": {
+      "label": "Setare grupuri drept vizibile pentru public",
+      "description": "Permiteți membrului să facă grupurile vizibile public."
+    },
+    "opendata:user:designateGroup": {
+      "label": "Punere grupuri la dispoziţie pentru Open Data",
+      "description": "Permiteți membrului să desemneze grupuri ca fiind disponibile pentru utilizare în Open Data."
+    },
+    "premium:user:elevation": {
+      "label": "Elevaţie",
+      "description": "Descriere"
+    },
+    "premium:user:geocode": {
+      "label": "Geocodificare",
+      "description": "Permiteți membrului să efectueze sarcini de geocodificare care consumă credite utilizând serviciul de geocodificare globală ArcGIS World (sau o imagine a acestui localizator)."
+    },
+    "premium:user:geocode:stored": {
+      "label": "Geocodificare stocată",
+      "description": "Descriere"
+    },
+    "premium:user:geocode:temporary": {
+      "label": "Geocodificare temporară",
+      "description": "Descriere"
+    },
+    "premium:user:networkanalysis": {
+      "label": "Analiză în reţea",
+      "description": "Permiteți membrului să efectueze operații de analiză în rețea, cum ar fi crearea rutelor și a zonelor pentru timpul de deplasare auto."
+    },
+    "premium:user:networkanalysis:closestfacility": {
+      "label": "Cel mai apropiat punct de analiză",
+      "description": "Descriere"
+    },
+    "premium:user:networkanalysis:locationallocation": {
+      "label": "Analiza alocării locației",
+      "description": "Descriere"
+    },
+    "premium:user:networkanalysis:routing": {
+      "label": "Rutare de bază",
+      "description": "Descriere"
+    },
+    "premium:user:networkanalysis:optimizedrouting": {
+      "label": "Rutare optimizată",
+      "description": "Descriere"
+    },
+    "premium:user:networkanalysis:vehiclerouting": {
+      "label": "Rutare vehicul",
+      "description": "Descriere"
+    },
+    "premium:user:networkanalysis:origindestinationcostmatrix": {
+      "label": "Matrice de origine/destinație",
+      "description": "Descriere"
+    },
+    "premium:user:networkanalysis:servicearea": {
+      "label": "Zonă servicii",
+      "description": "Descriere"
+    },
+    "premium:user:places": {
+      "label": "Locuri",
+      "description": "Descriere"
+    },
+    "premium:user:spatialanalysis": {
+      "label": "Analiză spaţială",
+      "labelPortal": "Analiză obiect spaţial standard",
+      "description": "Permiteți membrului să efectueze operații de analiză spațială.",
+      "descriptionPortal": "Acest privilegiu oferă capacitatea de a efectua operaţii de analiză obiect spaţial standard."
+    },
+    "premium:user:geoenrichment": {
+      "label": "GeoEnrichment",
+      "description": "Permiteți membrului să îmbogățească geografic obiectele spațiale."
+    },
+    "premium:user:demographics": {
+      "label": "Demografie",
+      "description": "Permiteți membrului să utilizeze date demografice premium."
+    },
+    "premium:publisher:geoanalytics": {
+      "label": "Analiza GeoAnalytics a obiectelor spaţiale",
+      "description": "Acest privilegiu oferă capacitatea de a efectua operaţii GeoAnalytics."
+    },
+    "premium:publisher:rasteranalysis": {
+      "label": "Analiza imaginilor",
+      "description": "Permiteți membrilor să efectueze sarcini de analiză a imaginilor. Necesită o extensie de tip utilizator ArcGIS Image for ArcGIS Online.",
+      "descriptionPortal": "Permiteți membrilor să efectueze sarcini de analiză a imaginilor."
+    },
+    "premium:publisher:createAdvancedNotebooks": {
+      "label": "Agende avansate",
+      "description": "Permiteți membrului să importe și să folosească module ArcPy în agende."
+    },
+    "portal:user:runWebTool": {
+      "label": "Executați instrumentele web",
+      "description": "Permiteți membrului să execute instrumentele web publicate din notebookuri."
+    },
+    "premium:user:featurereport": {
+      "label": "Raport obiecte spațiale",
+      "description": "Permiteți membrului să creeze rapoarte de obiecte spațiale în Survey123."
+    },
+    "features:user:edit": {
+      "label": "Editare",
+      "description": "Permiteți membrului să editeze obiecte spațiale în straturi tematice care nu sunt publice, în funcție de opțiunile de editare activate pe stratul tematic."
+    },
+    "features:user:fullEdit": {
+      "label": "Editare cu control complet",
+      "description": "Permiteți membrului să adauge, să șteargă și să actualizeze obiecte spațiale într-un strat tematic de obiecte spațiale editabil, găzduit, indiferent de opțiunile de editare activate pe stratul tematic."
+    },
+    "features:user:manageVersions": {
+      "label": "Gestionați tot",
+      "description": "Permiteți membrilor să gestioneze blocările de versiuni și să vizualizeze, să modifice, să șteargă, să editeze, să reconcilieze și să posteze în toate versiunile ramificate, accesate prin intermediul straturilor tematice de obiecte spațiale ArcGIS Server."
+    },
+    "portal:publisher:createFeatureWebhook": {
+      "label": "Strat tematic",
+      "description": "Permiteți membrului să creeze, să editeze și să șteargă propriile webhook-uri de strat tematic de obiect spațial."
+    },
+    "portal:admin:viewUsers": {
+      "label": "Vizualizare toate",
+      "description": "Permiteți membrului să vizualizeze informațiile complete privind conturile membrilor din organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să vizualizeze informațiile complete privind conturile membrilor din portalul dvs."
+    },
+    "portal:admin:updateUsers": {
+      "label": "Actualizare",
+      "description": "Permiteți membrului să reseteze parolele, să actualizeze informațiile conturilor membrilor și să actualizeze categoriile membrilor din organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să reseteze parolele, să actualizeze informațiile conturilor membrilor și să actualizeze categoriile membrilor din portalul dvs."
+    },
+    "portal:admin:deleteUsers": {
+      "label": "Ștergere",
+      "description": "Permiteți membrului să șteargă conturi ale membrilor din organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să șteargă conturi ale membrilor din portalul dvs."
+    },
+    "portal:admin:inviteUsers": {
+      "label": "Adăugare",
+      "labelPortal": "Invitare",
+      "description": "Permiteți membrului să invite membri în organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să invite membri pe portalul dvs."
+    },
+    "portal:admin:disableUsers": {
+      "label": "Dezactivare",
+      "description": "Permiteți membrului să activeze și să dezactiveze conturi ale membrilor din organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să activeze și să dezactiveze conturi ale membrilor din portalul dvs."
+    },
+    "portal:admin:changeUserRoles": {
+      "label": "Schimbare roluri",
+      "description": "Permiteți membrului să schimbe rolul alocat unui cont de membru. Rețineți că doar membrii cu rol de administrator pot aloca sau anula alocarea rolului de administrator pentru alte conturi.",
+      "descriptionPortal": "Permiteți membrului să schimbe rolul alocat unui cont de membru. Rețineți că doar membrii cu rol de administrator pot aloca sau anula alocarea rolului de administrator pentru alte conturi."
+    },
+    "portal:admin:manageLicenses": {
+      "label": "Administrare licenţe",
+      "description": "Permiteți membrului să aloce licențe membrilor din organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să aloce licențe membrilor din portalul dvs."
+    },
+    "portal:admin:updateMemberCategorySchema": {
+      "label": "Administrarea categoriilor",
+      "description": "Permiteți membrului să configureze categoriile de membrii ai organizației.",
+      "descriptionPortal": "Permiteți membrului să configureze categoriile de membrii ai portalului."
+    },
+    "portal:admin:viewGroups": {
+      "label": "Vizualizare toate",
+      "description": "Permiteți membrului să vizualizeze toate grupurile din organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să vizualizeze toate grupurile din portalul dvs."
+    },
+    "portal:admin:updateGroups": {
+      "label": "Actualizare",
+      "description": "Permiteți membrului să actualizeze grupurile din organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să actualizeze grupurile din portalul dvs."
+    },
+    "portal:admin:deleteGroups": {
+      "label": "Ștergere",
+      "description": "Permiteți membrului să șteargă grupurile din organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să șteargă grupurile din portalul dvs."
+    },
+    "portal:admin:reassignGroups": {
+      "label": "Reatribuire proprietate",
+      "description": "Permiteți membrului să realoce grupuri altor membri din organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să realoce grupuri altor membri din portalul dvs."
+    },
+    "portal:admin:assignToGroups": {
+      "label": "Atribuire membri",
+      "description": "Permiteți membrului să aloce membri, să actualizeze rolul în grup al membrilor și să elimine membri din grupurile organizației dvs.",
+      "descriptionPortal": "Permiteți membrului să aloce membri, să actualizeze rolul în grup al membrilor și să elimine membri din grupurile portalului dvs."
+    },
+    "portal:admin:manageEnterpriseGroups": {
+      "label": "Link către grupul specific organizației",
+      "description": "Permiteți membrului să asocieze apartenența de membru al unui grup la un grup specific al organizației."
+    },
+    "portal:admin:createUpdateCapableGroup": {
+      "label": "Creare cu capabilităţi de actualizare",
+      "description": "Permiteți membrului să creeze grupuri cu capabilități de actualizare."
+    },
+    "portal:admin:createLeavingDisallowedGroup": {
+      "label": "Creare cu părăsire nepermisă",
+      "description": "Permiteți membrilor să creeze și să dețină grupuri care nu le permit membrilor să le părăsească (grupuri administrative)."
+    },
+    "portal:admin:viewItems": {
+      "label": "Vizualizare toate",
+      "description": "Permiteți membrului să vizualizeze tot conținutul din organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să vizualizeze tot conținutul din portalul dvs."
+    },
+    "portal:admin:updateItems": {
+      "label": "Actualizare",
+      "description": "Permiteți membrului să actualizeze și să clasifice conținutul și straturile tematice de obiecte spațiale găzduite din organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să actualizeze și să clasifice conținutul și straturile tematice de obiecte spațiale găzduite din portalul dvs."
+    },
+    "portal:admin:deleteItems": {
+      "label": "Ștergere",
+      "description": "Permiteți membrului să șteargă conținutul din organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să șteargă conținutul din portalul dvs."
+    },
+    "portal:admin:reassignItems": {
+      "label": "Reatribuire proprietate",
+      "description": "Permiteți membrului să realoce conținut altor membri din organizația dvs.",
+      "descriptionPortal": "Permiteți membrului să realoce conținut altor membri din portalul dvs."
+    },
+    "portal:admin:updateItemCategorySchema": {
+      "label": "Administrarea categoriilor",
+      "description": "Permiteți membrului să configureze categoriile de conținut ale organizației.",
+      "descriptionPortal": "Permiteți membrului să configureze categoriile de conținut ale portalului."
+    },
+    "portal:publisher:publishServerGPServices": {
+      "label": "Publicare instrumente web",
+      "description": "Acest privilegiu acordă permisiunea de a publica instrumentele web sprijinite de serviciile de geoprocesare din partea amplasamentelor de server federalizat."
+    },
+    "portal:admin:shareToOrg": {
+      "label": "Partajați conținutul membrilor cu organizația",
+      "description": "Permiteți membrului să partajeze conținut deținut de alți membri din organizația dvs. cu organizația.",
+      "descriptionPortal": "Permiteți membrului să partajeze conținut deținut de alți membri din portalul dvs. cu portalul."
+    },
+    "portal:admin:shareToPublic": {
+      "label": "Partajați conținutul membrilor cu publicul",
+      "description": "Permiteți membrului să partajeze conținut deținut de alți membri din organizația dvs. cu publicul.",
+      "descriptionPortal": "Permiteți membrului să partajeze conținut deținut de alți membri din portalul dvs. cu publicul."
+    },
+    "portal:admin:createReports": {
+      "label": "Crearea și gestionarea rapoartelor administrative",
+      "description": "Permiteți membrilor să creeze și să gestionez rapoarte administrative pentru organizația dvs.",
+      "descriptionPortal": "Permiteți membrilor să creeze și să gestioneze rapoarte administrative pentru portalul dvs."
+    },
+    "marketplace:admin:manage": {
+      "label": "Creare și gestionare",
+      "description": "Permiteți membrului să creeze listări, să listeze elemente, să gestioneze abonamente în cadrul ArcGIS Marketplace, precum și să gestioneze achizitori și informații de contact pentru organizația dvs. Utilizarea acestui privilegiu depinde de dobândirea de către organizația dvs. a accesului la listare și piublicare în ArcGIS Marketplace."
+    },
+    "marketplace:admin:purchase": {
+      "label": "Achiziționați și obțineți produse gratuite",
+      "description": "Permiteți membrilor să transmită solicitări de achiziție și accesați produse gratuite de la furnizori pe ArcGIS Marketplace. Pentru a permite membrilor să achiziționeze produse cu cardul de credit, trebuie să îi desemnați în calitate de achizitori Marketplace."
+    },
+    "marketplace:admin:startTrial": {
+      "label": "Iniţiere evaluări",
+      "description": "Permiteți membrului să înceapă abonamentul de evaluare în ArcGIS Marketplace."
+    },
+    "portal:admin:manageSecurity": {
+      "label": "Securitate și infrastructură",
+      "description": "Permiteți membrului să gestioneze setările de infrastructură și securitate ale organizației.",
+      "descriptionPortal": "Permiteți membrului să gestioneze setările de infrastructură și securitate ale portalului."
+    },
+    "portal:admin:manageWebsite": {
+      "label": "Site-ul web al organizației",
+      "description": "Permiteți membrului să gestioneze setările site-ului organizației.",
+      "descriptionPortal": "Permiteți membrului să gestioneze setările site-ului portalului."
+    },
+    "portal:admin:manageCollaborations": {
+      "label": "Colaborări",
+      "description": "Permiteți membrului să gestioneze colaborările organizației.",
+      "descriptionPortal": "Permiteți membrului să gestioneze colaborările portalului."
+    },
+    "portal:admin:manageCredits": {
+      "label": "Credite",
+      "description": "Permiteți membrului să gestioneze setările de finanțare a creditelor pentru organizație."
+    },
+    "portal:admin:manageRoles": {
+      "label": "Rolurile membrilor",
+      "description": "Permiteți membrului să gestioneze rolurile membrilor organizației.",
+      "descriptionPortal": "Permiteți membrului să gestioneze rolurile membrilor portalului."
+    },
+    "portal:admin:manageServers": {
+      "label": "Servere",
+      "description": "Acest privilegiu permite gestionarea setărilor serverului portalului."
+    },
+    "portal:admin:manageUtilityServices": {
+      "label": "Servicii utilitare",
+      "description": "Permiteți membrului să gestioneze setările privind serviciile utilitare ale organizației.",
+      "descriptionPortal": "Permiteți membrului să gestioneze setările privind serviciile utilitare ale portalului."
+    },
+    "portal:admin:manageWebhooks": {
+      "label": "Organizare webhook-uri",
+      "description": "Permiteți membrului să creeze, editeze și șteargă webhook-uri organizaționale și să gestioneze toate webhook-urile din portal."
+    },
+    "portal:admin:createGPWebhook": {
+      "label": "Geoprocesare",
+      "description": "Permiteți membrului să creeze, să editeze și să șteargă propriile webhook-uri de geoprocesare."
+    }
+  }
+}
